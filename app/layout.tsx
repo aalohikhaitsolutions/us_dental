@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import FloatingButtons from "./components/FloatingButtons";
+import ScrollToTop from "./components/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "Dallas Smiles",
@@ -21,6 +22,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <FloatingButtons />
+        <ScrollToTop />
       </body>
     </html>
   );

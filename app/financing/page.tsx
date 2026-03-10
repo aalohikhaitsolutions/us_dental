@@ -57,10 +57,10 @@ export default function FinancingPage() {
             </div>
 
             {/* Cherry Logo */}
-            <div className="absolute bottom-4 right-4 w-28 bg-white p-3 rounded-xl shadow">
-              <div className="relative w-full h-10">
+            <div className="absolute bottom-4 right-4 w-40 bg-white p-3 rounded-xl shadow">
+              <div className="relative w-full h-20">
                 <Image
-                  src="/download-1.jpeg"
+                  src="/cherry.png"
                   alt="Cherry Financing"
                   fill
                   className="object-contain"

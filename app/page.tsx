@@ -222,7 +222,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
                   .getElementById("contact")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
-              className="flex items-center justify-center gap-2
+              className="flex items-center justify-center gap-0
               px-6 py-3 rounded-full
               bg-[#0A2540] text-white text-sm font-semibold
               hover:bg-[#163a63] hover:-translate-y-0.5
@@ -234,12 +234,13 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
 
             {/* Explore Services */}
             <button
+            
               onClick={() =>
                 document
                   .getElementById("services")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
-              className="flex items-center justify-center gap-2
+              className="flex items-center justify-center gap-0
               px-6 py-3 rounded-full
               border border-white/50 text-white text-sm font-semibold
               hover:bg-white hover:text-[#0A2540]
@@ -250,16 +251,22 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
             </button>
 
             {/* Financing */}
-            <button
-              onClick={() => router.push("/financing")}
-              className="flex items-center justify-center gap-2
-              px-6 py-3 rounded-full
-              border border-white/50 text-white text-sm font-semibold
-              hover:bg-white hover:text-[#0A2540]
-              hover:-translate-y-0.5 transition-all duration-300"
-            >
-              💳 Financial Partner
-            </button>
+            {/* Financing */}
+<button
+  onClick={() => router.push("/financing")}
+  className="flex items-center justify-center gap-0
+  px-6 py-3 rounded-full text-lg font-semibold
+  border border-white/50 text-white text-sm font-semibold
+  hover:bg-white hover:text-[#0A2540]
+  hover:-translate-y-0.5 transition-all duration-300"
+>
+  <img 
+    src="/cherrylogo.png" 
+    alt="Cherry Financing"
+    className="w-15 h-15"
+  />
+Financial Partner - Cherry
+</button>
 
           </div>
 
@@ -711,6 +718,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
 
         {/* CTA */}
         <button
+
           onClick={() =>
             document
               .getElementById("contact")
