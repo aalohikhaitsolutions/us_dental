@@ -156,7 +156,6 @@ useEffect(() => {
 
           {/* LOGO */}
           <button
-
             onClick={() => router.push("/")}
             className="flex items-center gap-2"
           >
