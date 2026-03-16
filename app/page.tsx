@@ -86,11 +86,11 @@ const services: Service[] = [
     link: "/services/gingivectomy",
   },
   {
-    title: "Teeth Whitening",
-    desc: "Brighten your smile safely with professional in-office and take-home whitening options.",
-    icon: "/12.gif",
-    link: "/services/teeth-whitening",
-  },
+  title: "Orthodontics",
+  desc: "Invisalign & Braces treatments are coming soon. Stay tuned for advanced smile alignment solutions.",
+  icon: "/orthodontics.gif",
+  link: "/services/orthodontics",
+},
 ];
 
 interface Logo {
@@ -470,6 +470,79 @@ Financial Partner - Cherry
     </div>
 
   </div>
+</section>
+
+{/* ================= INVISALIGN SECTION ================= */}
+<section className="w-full bg-white py-20 px-6">
+
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+      {/* LEFT IMAGE */}
+
+      <div>
+
+        <p className="text-blue-600 font-bold text-xl mb-2">
+          Invisalign Provider
+        </p>
+
+        <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-5">
+          Straighten Your Smile with Invisalign
+        </h2>
+
+        <p className="text-gray-600 leading-relaxed mb-6">
+          At <strong>Dallas Smiles</strong> Dental & Orthodontics, <span className="font-bold">Dr. Sandeep Bariki is an 
+          Official Invisalign® Provider</span> offering advanced clear aligner 
+          treatments designed to straighten teeth comfortably and discreetly.
+        </p>
+
+        <p className="text-gray-600 leading-relaxed mb-8">
+          Invisalign aligners are custom-made, removable, and nearly invisible. 
+          They gradually move your teeth into perfect alignment without the 
+          need for traditional metal braces, allowing you to smile with confidence 
+          throughout your treatment.
+        </p>
+
+        <button
+          onClick={() => {
+            router.push("/services/invisalign");
+            window.scrollTo({ top: 0, behavior: "instant" });
+          }}
+          className="
+            inline-flex items-center gap-2
+            bg-blue-600
+            text-white
+            px-7 py-3
+            rounded-full
+            font-semibold
+            transition-all
+            hover:bg-blue-700
+          "
+        >
+          Learn More
+          <span>→</span>
+        </button>
+
+      </div>
+
+
+      {/* RIGHT CONTENT */}
+      <div className="relative w-full h-[320px] md:h-[380px]">
+
+        <Image
+          src="/invisalign.webp"
+          alt="Invisalign Clear Aligners"
+          fill
+          className="object-contain"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+
 </section>
 
 

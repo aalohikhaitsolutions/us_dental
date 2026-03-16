@@ -135,7 +135,7 @@ useEffect(() => {
 
               <div className="flex items-center gap-2">
                 <ClockIcon className="w-5 h-5 text-sky-300" />
-                <span>Mon, Tue and Fri - 9:00 AM to 6:00 PM</span>
+                <span>Monday to Friday 9-6 PM and Saturday by Appointment only</span>
               </div>
             </div>
 
@@ -156,6 +156,7 @@ useEffect(() => {
 
           {/* LOGO */}
           <button
+          
             onClick={() => router.push("/")}
             className="flex items-center gap-2"
           >
