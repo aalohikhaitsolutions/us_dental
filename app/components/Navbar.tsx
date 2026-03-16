@@ -71,7 +71,7 @@ useEffect(() => {
   };
 
   const services = [
-    { name: "Braces", path: "/services/braces" },
+    { name: "Orthodontics split into Invisalign", path: "/services/invisalign" },
     { name: "Crowns", path: "/services/crowns" },
     { name: "Deep Cleaning", path: "/services/deep-cleaning" },
     { name: "Extractions", path: "/services/extractions" },
@@ -81,7 +81,7 @@ useEffect(() => {
     { name: "Restoration", path: "/services/restoration" },
     { name: "Root Canal", path: "/services/root-canal" },
     { name: "Teeth Cleaning", path: "/services/teeth-cleaning" },
-    { name: "Teeth Whitening", path: "/services/teeth-whitening" },
+    { name: "Dentures", path: "/services/dentures" },
     { name: "Wisdom Teeth", path: "/services/wisdom-teeth" },
   ];
 

@@ -98,7 +98,7 @@ Cherry helps patients move forward with their treatment confidently.
 </p>
 
 <button
-onClick={() => window.open("https://withcherry.com/dental", "_blank")}
+onClick={() => window.open("https://pay.withcherry.com/dallas-smiles-dental-orthodontics?utm_source=practice&m=78410", "_blank")}
 className="bg-[#0A2540] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#123a63] transition"
 >
 Learn More About Cherry

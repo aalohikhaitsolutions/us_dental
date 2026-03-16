@@ -69,6 +69,7 @@ export default function FloatingButtons() {
 
       {/* Book Appointment */}
       <button
+      
         onClick={scrollToContact}
         className="flex items-center gap-2 px-5 py-3 
                    rounded-full bg-[#0A2540] text-white 

@@ -23,7 +23,7 @@ const services: Service[] = [
   title: "Orthodontics split into Invisalign",
   desc: "Invisalign & Braces treatments are coming soon. Stay tuned for smile alignment solutions.",
   icon: "/orthodontics.gif",
-  link: "/services/orthodontics",
+  link: "/services/invisalign",
 },
   // {
   //   title: "Dental Braces",
@@ -154,7 +154,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
     <>
     <section
       id="home"
-      className="relative w-full min-h-[90svh] md:h-[90vh] overflow-hidden"
+      className="relative w-full min-h-[90svh] md:h-[90vh] overflow-hidden pt-5 pb-5 px-3"
     >
       {/* Image Slider */}
       <HeroSlider />
@@ -381,7 +381,7 @@ Financial Partner - Cherry
 </section>
 
 {/* ================= ABOUT US SECTION ================= */}
-<section id="about" className="w-full bg-white py-16">
+<section id="about" className="w-full bg-[#f1f6fd] pt-10 pb-10">
   <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
     {/* LEFT SIDE - IMAGE GRID */}
@@ -479,7 +479,7 @@ Financial Partner - Cherry
 </section>
 
 {/* ================= INVISALIGN SECTION ================= */}
-<section className="w-full bg-white py-20 px-6">
+<section className="w-full bg-white pt-10 pb-20 px-6">
 
   <div className="max-w-7xl mx-auto px-6">
 
@@ -640,7 +640,7 @@ Financial Partner - Cherry
           {/* Learn More Button */}
           <div className="mt-6">
             <button
-            
+
               type="button"
               onClick={() => {
                 router.push(service.link);

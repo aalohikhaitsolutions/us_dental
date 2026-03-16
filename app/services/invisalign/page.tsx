@@ -44,7 +44,7 @@ braces simply cannot offer.
 </p>
 
 <button
-onClick={() => router.push("/contact")}
+onClick={() => router.push("/#contact")}
 className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition"
 >
 Book Free Consultation
@@ -91,32 +91,75 @@ to look before treatment begins.
 
 
 {/* ================= CONDITIONS TREATED ================= */}
-<section className="bg-[#f1f6fd] pt-10 pb-20">
-<div className="max-w-7xl mx-auto px-6 text-center">
+<section className="bg-[#f1f6fd] py-20">
+  <div className="max-w-7xl mx-auto px-6 text-center">
 
-<h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-10">
-Invisalign Can Treat
-</h2>
+    <h2 className="text-3xl md:text-4xl font-semibold text-[#0A2540] mb-4">
+      Invisalign Can Treat
+    </h2>
 
-<div className="grid md:grid-cols-3 gap-6 text-gray-700 text-lg">
+    <p className="text-gray-600 max-w-2xl mx-auto mb-14">
+      Invisalign aligners are designed to treat many common orthodontic
+      problems comfortably and discreetly.
+    </p>
 
-<p>• Crowded teeth</p>
-<p>• Spacing issues</p>
-<p>• Overbite</p>
-<p>• Underbite</p>
-<p>• Crossbite</p>
-<p>• Mild to moderate alignment concerns</p>
+    {/* Cards */}
+    <div className="grid md:grid-cols-3 gap-8">
 
-</div>
+      <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-lg font-semibold text-[#0A2540]">Crowded Teeth</h3>
+        <p className="text-gray-600 mt-2 text-sm">
+          Teeth overlap because there isn't enough room in the jaw.
+        </p>
+      </div>
 
-<p className="text-gray-600 max-w-3xl mx-auto mt-8">
-Whether you're a busy professional, a teen involved in activities, or an adult who never
-had braces growing up, Invisalign allows you to improve your smile discreetly and comfortably.
-</p>
+      <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-lg font-semibold text-[#0A2540]">Spacing Issues</h3>
+        <p className="text-gray-600 mt-2 text-sm">
+          Gaps between teeth caused by missing teeth or jaw size.
+        </p>
+      </div>
 
-</div>
+      <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-lg font-semibold text-[#0A2540]">Overbite</h3>
+        <p className="text-gray-600 mt-2 text-sm">
+          Upper teeth overlap too much over the lower teeth.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-lg font-semibold text-[#0A2540]">Underbite</h3>
+        <p className="text-gray-600 mt-2 text-sm">
+          Lower teeth extend past the upper teeth when biting.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-lg font-semibold text-[#0A2540]">Crossbite</h3>
+        <p className="text-gray-600 mt-2 text-sm">
+          Some upper teeth sit inside the lower teeth instead of outside.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+        <h3 className="text-lg font-semibold text-[#0A2540]">
+          Alignment Concerns
+        </h3>
+        <p className="text-gray-600 mt-2 text-sm">
+          Invisalign can treat mild to moderate alignment issues.
+        </p>
+      </div>
+
+    </div>
+
+    <p className="text-gray-600 max-w-3xl mx-auto mt-12">
+      Whether you're a busy professional, a teen involved in activities, or an
+      adult who never had braces growing up, Invisalign allows you to improve
+      your smile discreetly and comfortably.
+    </p>
+
+  </div>
 </section>
-
 
 
 {/* ================= KIDS & TEENS ================= */}
@@ -344,12 +387,14 @@ in just minutes. Our team will guide you through every step to ensure
 a smooth experience.
 </p>
 
-<button
-onClick={() => router.push("/contact")}
-className="mt-6 bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition"
+<a
+  href="https://pay.withcherry.com/dallas-smiles-dental-orthodontics?utm_source=practice&m=78410"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-6 bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition"
 >
-Schedule Free Consultation
-</button>
+Apply for Financing
+</a>
 
 </div>
 
@@ -377,7 +422,7 @@ offering fast applications, quick approval decisions, and convenient monthly pay
 </p>
 
 <button
-onClick={() => router.push("/contact")}
+onClick={() => router.push("/#contact")}
 className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition"
 >
 Schedule Free Consultation
