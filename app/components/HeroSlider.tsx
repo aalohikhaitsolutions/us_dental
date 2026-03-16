@@ -7,7 +7,7 @@ export default function HeroSlider() {
   const images: string[] = [
     "/hero-5.png",
     "/hero2.jpeg",
-    "/hero-3.png",
+    "/hero-111.jpg",
     "/hero4.jpeg",
   ];
 

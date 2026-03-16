@@ -20,11 +20,17 @@ export default function HomeHero() {
 
 const services: Service[] = [
   {
-    title: "Dental Braces",
-    desc: "Improve bite and alignment with low-cost braces designed for every age.",
-    icon: "/1.gif",
-    link: "/services/braces",
-  },
+  title: "Orthodontics split into Invisalign",
+  desc: "Invisalign & Braces treatments are coming soon. Stay tuned for smile alignment solutions.",
+  icon: "/orthodontics.gif",
+  link: "/services/orthodontics",
+},
+  // {
+  //   title: "Dental Braces",
+  //   desc: "Improve bite and alignment with low-cost braces designed for every age.",
+  //   icon: "/1.gif",
+  //   link: "/services/braces",
+  // },
   {
     title: "Dental Crowns",
     desc: "Protect and strengthen weak teeth with custom-made dental crowns.",
@@ -86,11 +92,11 @@ const services: Service[] = [
     link: "/services/gingivectomy",
   },
   {
-  title: "Orthodontics",
-  desc: "Invisalign & Braces treatments are coming soon. Stay tuned for advanced smile alignment solutions.",
-  icon: "/orthodontics.gif",
-  link: "/services/orthodontics",
-},
+    title: "Dentures",
+    desc: "Replace missing teeth with comfortable, natural-looking dentures.",
+    icon: "/12.gif",
+    link: "/services/dentures",
+  },
 ];
 
 interface Logo {
@@ -634,6 +640,7 @@ Financial Partner - Cherry
           {/* Learn More Button */}
           <div className="mt-6">
             <button
+            
               type="button"
               onClick={() => {
                 router.push(service.link);

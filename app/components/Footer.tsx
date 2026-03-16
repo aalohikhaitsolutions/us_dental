@@ -60,7 +60,7 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="mt-6 flex gap-3">
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/people/Dallas-Smiles-Dental-Orthodontics/61588607086599/?mibextid=wwXIfr&rdid=k6BcRicb9yPqfPWP&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17V6hpqaiK%2F%3Fmibextid%3DwwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
