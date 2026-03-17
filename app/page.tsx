@@ -20,7 +20,7 @@ export default function HomeHero() {
 
 const services: Service[] = [
   {
-  title: "Orthodontics split into Invisalign",
+  title: " Invisalign/ Clear Aligners",
   desc: "Invisalign & Braces treatments are coming soon. Stay tuned for smile alignment solutions.",
   icon: "/orthodontics.gif",
   link: "/services/invisalign",
@@ -52,25 +52,25 @@ const services: Service[] = [
   {
     title: "Root Canal",
     desc: "Painless root canals to treat infection and preserve your natural smile.",
-    icon: "/5.gif",
+    icon: "/design8.gif",
     link: "/services/root-canal",
   },
   {
     title: "Teeth Cleaning",
     desc: "Remove plaque and stains with a quick and affordable teeth cleaning.",
-    icon: "/6.gif",
+    icon: "/6666.gif",
     link: "/services/teeth-cleaning",
   },
   {
     title: "Deep Teeth Cleaning",
     desc: "Stop gum issues early with thorough and effective deep cleanings.",
-    icon: "/7.gif",
+    icon: "/7777.gif",
     link: "/services/deep-cleaning",
   },
   {
     title: "Simple Filling",
     desc: "Restore small tooth damage with quick, painless dental fillings.",
-    icon: "/8.gif",
+    icon: "/design7.gif",
     link: "/services/fillings",
   },
   {
@@ -82,19 +82,19 @@ const services: Service[] = [
   {
     title: "Dental Restoration",
     desc: "Durable, natural-looking options for broken or lost teeth.",
-    icon: "/10.gif",
+    icon: "/design6.gif",
     link: "/services/restoration",
   },
   {
     title: "Gingivectomy",
     desc: "Reshape your gum line for a healthier, more even smile.",
-    icon: "/11.gif",
+    icon: "/design11.gif",
     link: "/services/gingivectomy",
   },
   {
     title: "Dentures",
     desc: "Replace missing teeth with comfortable, natural-looking dentures.",
-    icon: "/12.gif",
+    icon: "/den 2.gif",
     link: "/services/dentures",
   },
 ];
@@ -798,7 +798,6 @@ Financial Partner - Cherry
 
         {/* CTA */}
         <button
-
           onClick={() =>
             document
               .getElementById("contact")
