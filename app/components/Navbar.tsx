@@ -123,32 +123,43 @@ useEffect(() => {
       }`}
     >
       {/* ================= TOP BAR ================= */}
-      <div className="w-full bg-[#0A2540] text-white">
-        <div className="max-w-7xl mx-auto px-4 md:px-6">
-          <div className="flex items-center justify-between h-12 text-sm font-medium">
+     <div className="w-full bg-[#0A2540] text-white">
+  <div className="max-w-7xl mx-auto px-4 md:px-6">
+    <div className="flex items-center justify-between py-2 md:h-12 text-xs md:text-sm font-medium">
 
-            <div className="hidden md:flex items-center gap-8">
-              <div className="flex items-center gap-2">
-                <MapPinIcon className="w-5 h-5 text-sky-300" />
-                <span>3234 Forest Lane, Dallas, TX 75234</span>
-              </div>
+      {/* Left: Address + Hours */}
+      <div className="flex items-center gap-4 md:gap-8">
 
-              <div className="flex items-center gap-2">
-                <ClockIcon className="w-5 h-5 text-sky-300" />
-                <span>Monday to Friday 9-6 PM and Saturday by Appointment only</span>
-              </div>
-            </div>
-
-            <a
-              href="tel:+19724845400"
-              className="flex items-center gap-2 font-semibold hover:text-sky-300 transition"
-            >
-              <PhoneIcon className="w-5 h-5 text-sky-300" />
-              <span>(972) 484-5400</span>
-            </a>
-          </div>
+        {/* Address (always visible) */}
+        <div className="flex items-center gap-2">
+          <MapPinIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
+          <span className="truncate">
+            3234 Forest Lane, Dallas, TX 75234
+          </span>
         </div>
+
+        {/* Hours (ONLY desktop) */}
+        <div className="hidden md:flex items-center gap-2">
+          <ClockIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
+          <span>
+            Mon–Fri 9–6 PM | Sat by Appointment
+          </span>
+        </div>
+
       </div>
+
+      {/* Phone (always visible) */}
+      <a
+        href="tel:+19724845400"
+        className="flex items-center gap-2 font-semibold hover:text-sky-300 transition whitespace-nowrap"
+      >
+        <PhoneIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
+        <span>(972) 484-5400</span>
+      </a>
+
+    </div>
+  </div>
+</div>
 
       {/* ================= MAIN NAV ================= */}
       <div className="max-w-7xl mx-auto px-4">

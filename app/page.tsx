@@ -64,7 +64,7 @@ const services: Service[] = [
   {
     title: "Deep Teeth Cleaning",
     desc: "Stop gum issues early with thorough and effective deep cleanings.",
-    icon: "/7777.gif",
+    icon: "/deepcleaning.gif",
     link: "/services/deep-cleaning",
   },
   {
@@ -576,6 +576,7 @@ Financial Partner - Cherry
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
       {services.map((service: Service, index: number) => (
+
         <div
           key={index}
           className="
