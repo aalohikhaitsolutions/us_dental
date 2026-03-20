@@ -94,7 +94,7 @@ const services: Service[] = [
   {
     title: "Dentures",
     desc: "Replace missing teeth with comfortable, natural-looking dentures.",
-    icon: "/den 2.gif",
+    icon: "/dentures7.gif",
     link: "/services/dentures",
   },
 ];
@@ -553,7 +553,7 @@ Financial Partner - Cherry
 
 
 {/* ================= OUR SERVICES ================= */}
-<section id="services" className="pt-10 pb-20 bg-[#f1f6fd]">
+<section id="services" className="pt-10 pb-20 bg-[#f1f6fd] relative z-40">
   <div className="max-w-7xl mx-auto px-6">
 
     {/* Header */}
@@ -580,15 +580,16 @@ Financial Partner - Cherry
         <div
           key={index}
           className="
-            relative bg-white rounded-3xl p-7
-            border border-gray-100
-            shadow-md
-            transition-all duration-300 ease-out
-            hover:-translate-y-4 hover:rotate-3
-            hover:shadow-[0_25px_50px_rgba(37,99,235,0.35)]
-            hover:bg-blue-600
-            group cursor-pointer
-          "
+  relative
+  bg-white rounded-3xl p-7
+  border border-gray-100
+  shadow-md
+  transition duration-300 ease-out
+  hover:-translate-y-3 hover:scale-105
+  hover:shadow-xl
+  hover:bg-blue-600
+  group cursor-pointer
+"
         >
 
           {/* Icon Box */}
@@ -641,7 +642,6 @@ Financial Partner - Cherry
           {/* Learn More Button */}
           <div className="mt-6">
             <button
-
               type="button"
               onClick={() => {
                 router.push(service.link);
@@ -799,7 +799,6 @@ Financial Partner - Cherry
 
         {/* CTA */}
         <button
-        
           onClick={() =>
             document
               .getElementById("contact")

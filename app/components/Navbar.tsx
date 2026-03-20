@@ -34,7 +34,9 @@ import {
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const router = useRouter();
   const pathname = usePathname();
@@ -44,6 +46,8 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  
 useEffect(() => {
   const handleClickOutside = (event: MouseEvent) => {
     if (
@@ -59,6 +63,21 @@ useEffect(() => {
     document.removeEventListener("mousedown", handleClickOutside);
   };
 }, []);
+
+useEffect(() => {
+  document.body.style.overflow = isMobileMenuOpen ? "hidden" : "auto";
+
+  return () => {
+    document.body.style.overflow = "auto";
+  };
+}, [isMobileMenuOpen]);
+
+useEffect(() => {
+  if (!isMobileMenuOpen) {
+    setIsMobileServicesOpen(false);
+  }
+}, [isMobileMenuOpen]);
+
   const handleNavClick = (id: string) => {
     if (pathname !== "/") {
       router.push("/");
@@ -116,6 +135,8 @@ useEffect(() => {
     }
   };
 
+
+
   return (
     <header
       className={`w-full sticky top-0 z-50 bg-white transition-all duration-300 ${
@@ -167,7 +188,6 @@ useEffect(() => {
 
           {/* LOGO */}
           <button
-          
             onClick={() => router.push("/")}
             className="flex items-center gap-2"
           >
@@ -186,6 +206,12 @@ useEffect(() => {
               </p>
             </div>
           </button>
+
+          <div className="ml-auto md:hidden text-gray-900">
+  <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+    ☰
+  </button>
+          </div>
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex items-center ml-auto gap-8">
@@ -280,8 +306,101 @@ useEffect(() => {
             </button>
 
           </nav>
+
+
         </div>
       </div>
+      
+      {isMobileMenuOpen && (
+  <div
+    className="
+      md:hidden
+      bg-white/95 backdrop-blur-md text-gray-900
+      shadow-lg px-6 py-4
+      rounded-b-2xl
+      max-h-[80vh] overflow-y-auto
+    "
+  >
+
+    {/* Home */}
+    <button
+      onClick={() => {
+        handleNavClick("home");
+        setIsMobileMenuOpen(false);
+      }}
+      className="block w-full text-left py-3"
+    >
+      Home
+    </button>
+
+    {/* About */}
+    <button
+      onClick={() => {
+        handleNavClick("about");
+        setIsMobileMenuOpen(false);
+      }}
+      className="block w-full text-left py-3"
+    >
+      About
+    </button>
+
+    {/* SERVICES */}
+    <div>
+  <button
+    onClick={() => setIsMobileServicesOpen((prev) => !prev)}
+    className="flex justify-between items-center w-full py-3"
+  >
+    Our Services
+    <ChevronDownIcon
+      className={`w-5 h-5 transition-transform duration-300 ${
+        isMobileServicesOpen ? "rotate-180" : ""
+      }`}
+    />
+  </button>
+
+  {isMobileServicesOpen && (
+    <div className="pl-4 flex flex-col gap-3 mt-2">
+      {services.map((service) => (
+        <Link
+          key={service.name}
+          href={service.path}
+          onClick={() => {
+            setIsMobileMenuOpen(false);
+            setIsMobileServicesOpen(false);
+          }}
+          className="block text-gray-700 hover:text-blue-600"
+        >
+          {service.name}
+        </Link>
+      ))}
+    </div>
+  )}
+</div>
+
+    {/* Why */}
+    <button
+      onClick={() => {
+        handleNavClick("why");
+        setIsMobileMenuOpen(false);
+      }}
+      className="block w-full text-left py-3"
+    >
+      Why Choose Us
+    </button>
+
+    {/* Contact */}
+    <button
+      onClick={() => {
+        handleNavClick("contact");
+        setIsMobileMenuOpen(false);
+      }}
+      className="block w-full text-left py-3"
+    >
+      Contact
+    </button>
+
+  </div>
+)}
     </header>
   );
 }

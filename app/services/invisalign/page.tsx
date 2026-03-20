@@ -55,7 +55,7 @@ Book Free Consultation
 
 
 {/* ================= DR BARIKI ================= */}
-<section className="pt-10 pb-20">
+<section className="pt-10 pb-20 bg-[#f1f6fd]">
 <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
 <div className="relative h-[420px] rounded-3xl overflow-hidden">
@@ -91,7 +91,7 @@ to look before treatment begins.
 
 
 {/* ================= CONDITIONS TREATED ================= */}
-<section className="bg-[#f1f6fd] py-20">
+<section className="bg-white pt-10 pb-10">
   <div className="max-w-7xl mx-auto px-6 text-center">
 
     <h2 className="text-3xl md:text-4xl font-semibold text-[#0A2540] mb-4">
@@ -163,7 +163,7 @@ to look before treatment begins.
 
 
 {/* ================= KIDS & TEENS ================= */}
-<section className="pt-10 pb-20">
+<section className="pt-10 pb-20 bg-[#f1f6fd]">
 
 <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
@@ -210,6 +210,63 @@ className="object-cover"
 
 </div>
 
+</section>
+
+<section className="pt-10 pb-20 bg-white">
+  <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+    {/* RIGHT CONTENT */}
+    <div>
+
+      <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">
+        Advanced Dental Braces for a Perfect Smile
+      </h2>
+
+      <p className="text-gray-600 leading-relaxed mb-6">
+        Dental braces are a highly effective solution for correcting misaligned teeth,
+        bite issues, and overcrowding. Our customized orthodontic treatments are designed
+        to gradually move your teeth into the ideal position for a healthier and more
+        confident smile.
+      </p>
+
+      <p className="text-gray-600 leading-relaxed mb-6">
+        We offer modern braces options that are comfortable, efficient, and suitable
+        for both teens and adults. Our expert team ensures precise adjustments and
+        continuous monitoring throughout your treatment journey.
+      </p>
+
+      {/* OPTIONAL BULLETS */}
+      <ul className="space-y-3 text-gray-700 mb-6">
+        <li>✔ Corrects crooked and crowded teeth</li>
+        <li>✔ Improves bite alignment</li>
+        <li>✔ Enhances facial aesthetics</li>
+        <li>✔ Long-lasting results</li>
+      </ul>
+
+      {/* CTA BUTTON */}
+      <button
+        className="
+          bg-[#0A2540] hover:bg-[#163a63]
+          text-white px-6 py-3 rounded-full
+          font-semibold transition
+        "
+      >
+        Book Consultation
+      </button>
+
+    </div>
+
+    {/* LEFT IMAGE */}
+    <div className="relative h-[420px] rounded-3xl overflow-hidden">
+      <Image
+        src="/dentalbraces11.jpg"   // 👉 replace with your image
+        alt="Dental Braces Treatment"
+        fill
+        className="object-cover"
+      />
+    </div>
+
+  </div>
 </section>
 
 
@@ -283,7 +340,7 @@ Every Invisalign plan is tailored to your facial structure and dental health.
 
 
 {/* ================= WHY TRUST DALLAS SMILES ================= */}
-<section className="pt-10 pb-20">
+<section className="pt-10 pb-20 bg-white">
 
 <div className="max-w-5xl mx-auto px-6 text-center">
 
