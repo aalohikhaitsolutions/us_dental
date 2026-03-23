@@ -137,7 +137,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
       "service_xl6x2ze",
       "template_vx8i16p",
       form.current,
-      "YOUR_PUBLIC_KEY"
+      "PzEF79UaLwmDin7Sw"
     );
 
     setSuccess(true);
