@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import { FaHeart, FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 import logo from "../../public/dentallogo.png";
 import { useRouter, usePathname } from "next/navigation";
+import { MapPinIcon } from "@heroicons/react/24/outline";
+import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 
 export default function Footer() {
   const [isVisible, setIsVisible] = useState(false);
@@ -60,7 +62,7 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="mt-6 flex gap-3">
               <a
-                href="https://www.facebook.com/people/Dallas-Smiles-Dental-Orthodontics/61588607086599/?mibextid=wwXIfr&rdid=k6BcRicb9yPqfPWP&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17V6hpqaiK%2F%3Fmibextid%3DwwXIfr"
+                href="https://www.facebook.com/share/17V6hpqaiK/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -144,13 +146,31 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-5">Contact Us</h4>
             <div className="space-y-4 text-white/80 text-sm">
-              <p>
-                3234 Forest Lane
-                <br />
-                Dallas, TX 75234
-              </p>
-              <p>(972) 484-5400</p>
-              <p>info@dallassmiles.com</p>
+              <a
+  href="https://maps.app.goo.gl/c7LAa7PWotVtkvii7"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 hover:text-sky-300 transition"
+>
+  <MapPinIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
+  <span className="truncate">
+    3234 Forest Lane, Dallas, TX 75234
+  </span>
+</a>
+              <a
+        href="tel:+19724845400"
+        className="flex items-center gap-2 font-semibold hover:text-sky-300 transition whitespace-nowrap"
+      >
+        <PhoneIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
+        <span>+1 (972) 484-5400</span>
+      </a>
+              <a
+  href="mailto:Info@dallassmilesco.com"
+  className="flex items-center gap-2 font-semibold hover:text-sky-300 transition whitespace-nowrap"
+>
+  <EnvelopeIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
+  <span>Info@dallassmilesco.com</span>
+</a>
             </div>
           </div>
         </div>

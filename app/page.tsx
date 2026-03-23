@@ -20,7 +20,7 @@ export default function HomeHero() {
 
 const services: Service[] = [
   {
-  title: " Invisalign/ Clear Aligners",
+  title: " Invisalign",
   desc: "Invisalign & Braces treatments are coming soon. Stay tuned for smile alignment solutions.",
   icon: "/orthodontics.gif",
   link: "/services/invisalign",
@@ -118,7 +118,7 @@ const logos: Logo[] = [
   { src: "/insurance12.webp" },
   { src: "/insurance13.jpg" },
   { src: "/insurance14.png" },
-  { src: "/insurance15.png" },
+  // { src: "/insurance15.png" },
   { src: "/insurance16.png" },
 ];
 
@@ -581,14 +581,21 @@ Financial Partner - Cherry
           key={index}
           className="
   relative
-  bg-white rounded-3xl p-7
-  border border-gray-100
-  shadow-md
-  transition duration-300 ease-out
-  hover:-translate-y-3 hover:scale-105
-  hover:shadow-xl
-  hover:bg-blue-600
-  group cursor-pointer
+bg-white rounded-3xl p-7
+border border-gray-100
+shadow-md
+transition-all duration-300 ease-out
+
+transform-gpu perspective-[1000px]
+
+hover:-translate-y-3
+hover:scale-105
+hover:rotate-3
+
+hover:shadow-2xl
+hover:bg-blue-600
+
+group cursor-pointer
 "
         >
 
@@ -689,7 +696,7 @@ Financial Partner - Cherry
   {/* Overlay */}
   <div className="absolute inset-0 bg-black/20 z-0" />
 
-  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6">
+  <div className="relative z-10 w-full px-2">
 
     {/* Heading */}
     <div className="text-center mb-10 sm:mb-14">
@@ -940,7 +947,7 @@ Financial Partner - Cherry
               disabled={loading}
               className="bg-[#0A2540] text-white px-8 py-3 rounded-xl font-semibold hover:bg-[#163a63] transition disabled:opacity-50"
             >
-              {loading ? "Sending..." : "Submit Enquiry"}
+              {loading ? "Sending..." : "Send Message"}
             </button>
 
           </div>

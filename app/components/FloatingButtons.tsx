@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { FaArrowUp, FaWhatsapp, FaTooth } from "react-icons/fa";
+import { FaArrowUp, FaWhatsapp, FaTooth, FaFacebookF, FaPhoneAlt } from "react-icons/fa";
 import { useRouter, usePathname } from "next/navigation";
 
 export default function FloatingButtons() {
@@ -55,7 +55,7 @@ export default function FloatingButtons() {
       )}
 
       {/* WhatsApp */}
-      <a
+      {/* <a
         href="https://wa.me/919032035039"
         target="_blank"
         rel="noopener noreferrer"
@@ -65,11 +65,32 @@ export default function FloatingButtons() {
         aria-label="WhatsApp"
       >
         <FaWhatsapp size={22} />
-      </a>
+      </a> */}
+
+      {/* Facebook
+<a
+  href="https://www.facebook.com/share/17V6hpqaiK/?mibextid=wwXIfr"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-12 h-12 rounded-full bg-[#1877F2] text-white 
+             flex items-center justify-center shadow-lg 
+             hover:scale-105 transition"
+  aria-label="Facebook"
+>
+  <FaFacebookF size={20} />
+</a> */}
+<a
+  href="tel:+19724845400"
+  className="w-12 h-12 rounded-full bg-[#22C55E] text-white 
+             flex items-center justify-center shadow-lg 
+             hover:scale-105 transition"
+  aria-label="Call"
+>
+  <FaPhoneAlt size={18} />
+</a>
 
       {/* Book Appointment */}
       <button
-      
         onClick={scrollToContact}
         className="flex items-center gap-2 px-5 py-3 
                    rounded-full bg-[#0A2540] text-white 

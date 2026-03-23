@@ -14,6 +14,7 @@ import {
   SparklesIcon,
   StarIcon,
   ChevronDownIcon,
+  BriefcaseIcon,
 } from "@heroicons/react/24/outline";
 
 import {
@@ -90,7 +91,7 @@ useEffect(() => {
   };
 
   const services = [
-    { name: "Orthodontics split into Invisalign", path: "/services/invisalign" },
+    { name: "Invisalign", path: "/services/invisalign" },
     { name: "Crowns", path: "/services/crowns" },
     { name: "Deep Cleaning", path: "/services/deep-cleaning" },
     { name: "Extractions", path: "/services/extractions" },
@@ -152,12 +153,17 @@ useEffect(() => {
       <div className="flex items-center gap-4 md:gap-8">
 
         {/* Address (always visible) */}
-        <div className="flex items-center gap-2">
-          <MapPinIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
-          <span className="truncate">
-            3234 Forest Lane, Dallas, TX 75234
-          </span>
-        </div>
+        <a
+  href="https://maps.app.goo.gl/c7LAa7PWotVtkvii7"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 hover:text-sky-300 transition"
+>
+  <MapPinIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
+  <span className="truncate">
+    3234 Forest Lane, Dallas, TX 75234
+  </span>
+</a>
 
         {/* Hours (ONLY desktop) */}
         <div className="hidden md:flex items-center gap-2">
@@ -209,12 +215,13 @@ useEffect(() => {
 
           <div className="ml-auto md:hidden text-gray-900">
   <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+
     ☰
   </button>
           </div>
 
           {/* DESKTOP NAV */}
-          <nav className="hidden md:flex items-center ml-auto gap-8">
+          <nav className="hidden md:flex items-center ml-auto gap-3">
 
             <button
               onClick={() => handleNavClick("home")}
@@ -289,6 +296,14 @@ useEffect(() => {
               <StarIcon className="w-5 h-5" />
               Why Choose Us
             </button>
+
+            <button
+ onClick={() => router.push("/careers")}
+  className="nav-link group"
+>
+  <BriefcaseIcon className="w-5 h-5" />
+  Careers
+</button>
 
             <button
               onClick={() => handleNavClick("contact")}
@@ -387,6 +402,16 @@ useEffect(() => {
     >
       Why Choose Us
     </button>
+    {/* Careers */}
+<button
+  onClick={() => {
+    router.push("/careers"); 
+    setIsMobileMenuOpen(false);
+  }}
+  className="block w-full text-left py-3"
+>
+  Careers
+</button>
 
     {/* Contact */}
     <button

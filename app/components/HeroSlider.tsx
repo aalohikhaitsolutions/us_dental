@@ -27,26 +27,21 @@ export default function HeroSlider() {
       {/* Images */}
       {images.map((img, index) => (
         <Image
-          key={index}
-          src={img}
-          alt="Dental Hero"
-          fill
-          priority={index === 0}
-          sizes="100vw"
-          className={`
-            absolute inset-0
-            object-cover
-            transition-opacity duration-700 ease-in-out
-
-            /* Mobile positioning */
-            object-center
-
-            /* Desktop positioning */
-            md:object-right-top
-
-            ${index === current ? "opacity-100" : "opacity-0"}
-          `}
-        />
+  key={index}
+  src={img}
+  alt="Dental Hero"
+  fill
+  priority={index === 0}
+  sizes="100vw"
+  className={`
+    absolute inset-0
+    object-cover
+    transition-opacity duration-700 ease-in-out
+    object-[70%_center] scale-100
+    md:object-right-top md:scale-100
+    ${index === current ? "opacity-100" : "opacity-0"}
+  `}
+/>
       ))}
 
       {/* Overlay (important for text readability) */}
