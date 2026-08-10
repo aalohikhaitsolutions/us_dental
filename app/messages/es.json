@@ -10,7 +10,26 @@
       "cta2": "Explorar servicios",
       "cta3": "Socio financiero - Cherry"
     },
-     "founder": {
+     "consultation": {
+      "tag": "Consulta Gratis",
+      "title": "Programa tu Consulta Gratuita para Implantes Dentales",
+      "desc": "Si estás listo para reemplazar dientes perdidos con una solución que se vea natural, se sienta segura y esté diseñada para durar, nuestro equipo en Dallas Smiles Dental & Orthodontics está aquí para ayudarte.",
+      "body": "Con formación avanzada, tecnología premium de Hiossen, planificación personalizada y un compromiso con la atención excepcional, estamos orgullosos de ayudar a pacientes a recuperar sonrisas saludables y seguras que duran por muchos años.",
+      "cta": "Llámanos Hoy",
+      "secondary": "Conoce Más",
+      "cardTitle": "Durante tu Consulta, Nosotros:",
+      "items": {
+        "1": "Evaluaremos tu sonrisa y salud oral",
+        "2": "Discutiremos tus metas y opciones de tratamiento",
+        "3": "Determinaremos si eres candidato para implantes dentales",
+        "4": "Revisaremos tus imágenes CBCT si es necesario",
+        "5": "Explicaremos el proceso de implantes paso a paso",
+        "6": "Verificaremos tus beneficios de seguro cuando aplique",
+        "7": "Proporcionaremos un plan de tratamiento personalizado y un estimado de costos transparente",
+        "8": "Revisaremos opciones de financiamiento y pago disponibles para ti"
+      }
+    },
+    "founder": {
     "tag": "Sobre el fundador",
     "title": "Conoce al Dr. Sandeep Bariki",
     "desc1": "En nuestra clínica privada, el Dr. Sandeep Bariki se compromete a brindar atención dental personalizada adaptada a las necesidades únicas de cada paciente.",
@@ -153,6 +172,20 @@
     "Equipo cálido y atento"
   ],
   "cta": "Conoce a Nuestro Equipo"
+},
+"faq": {
+  "tag": "Preguntas frecuentes",
+  "title": "Respuestas a preguntas comunes",
+  "q1": "¿Qué hace diferente a su clínica dental?",
+  "a1": "Ofrecemos atención dental personalizada con tecnología avanzada, tratamiento suave y soporte bilingüe para que cada visita sea cómoda.",
+  "q2": "¿Aceptan nuevos pacientes?",
+  "a2": "Sí, damos la bienvenida a nuevos pacientes de todas las edades y brindamos atención para familias, niños y adultos.",
+  "q3": "¿Cómo agendo una cita?",
+  "a3": "Puedes agendar una cita en línea, por teléfono o usando nuestro formulario de contacto en la sección de abajo.",
+  "q4": "¿Ofrecen opciones de financiamiento?",
+  "a4": "Sí, trabajamos con Cherry y otros socios de financiamiento para hacer la atención dental más accesible.",
+  "q5": "¿Ofrecen atención dental de emergencia?",
+  "a5": "Sí, brindamos atención rápida para dolor de muelas, dientes rotos y otras urgencias dentales."
 },
 "contact": {
   "tag": "Reservar Cita",
@@ -626,29 +659,56 @@
 "implants": {
   "hero": {
     "tag": "Implantes Dentales",
-    "title1": "Implantes",
-    "title2": "Dentales Permanentes",
-    "desc": "Reemplaza dientes perdidos con implantes duraderos que se ven y funcionan como dientes naturales."
+    "title1": "Implantes Dentales Asequibles",
+    "title2": "con Financiamiento Flexible",
+    "desc": "En Dallas Smiles Dental & Orthodontics creemos que todos merecen acceso a reemplazos dentales de alta calidad. Nos esforzamos por hacer que los implantes dentales sean lo más asequibles y accesibles posible."
   },
 
-  "section2": {
-    "tag": "Duradero y Natural",
-    "title": "Restaura tu Sonrisa con Implantes",
-    "desc": "Los implantes dentales ofrecen una solución permanente que se siente y luce natural.",
-    "b1": "Solución fuerte y duradera",
-    "b2": "Preserva la estructura ósea",
-    "b3": "Apariencia natural"
+  "intro": {
+    "tag": "Cuidado Asequible",
+    "title": "Implantes Dentales Asequibles con Financiamiento Flexible",
+    "desc": "En Dallas Smiles Dental & Orthodontics creemos que todos merecen acceso a reemplazos dentales de alta calidad. Nos esforzamos por hacer que los implantes dentales sean lo más asequibles y accesibles posible.",
+    "l1": "Implantes de alta calidad con aspecto natural",
+    "l2": "Orientación clara y transparente sobre los costos",
+    "l3": "Atención personalizada desde la planificación hasta la restauración",
+    "l4": "Opciones de financiamiento que reducen el estrés financiero"
   },
 
-  "section3": {
-    "tag": "Beneficios de los Implantes",
-    "title": "Sonríe con Confianza",
-    "desc": "Los implantes fortalecen el hueso y previenen el deterioro.",
-    "l1": "Mejor masticación",
-    "l2": "Salud ósea",
-    "l3": "Durabilidad",
-    "l4": "Más confianza",
-    "l5": "Estética natural"
+  "insurance": {
+    "tag": "Apoyo con el Seguro",
+    "title": "Trabajamos con tu Seguro",
+    "desc": "Nuestro equipo trabaja con la mayoría de los planes dentales y te ayudará a determinar si tu plan incluye beneficios para implantes. Para los pacientes que califican, maximizaremos tus beneficios y te explicaremos los costos de bolsillo estimados antes de comenzar el tratamiento, sin sorpresas.",
+    "l1": "Ayuda con la mayoría de los planes dentales",
+    "l2": "Determinar si el seguro cubre implantes",
+    "l3": "Maximizar la cobertura elegible",
+    "l4": "Costos claros antes de comenzar el tratamiento"
+  },
+
+  "financing": {
+    "tag": "Opciones de Pago",
+    "title": "Financiamiento Flexible",
+    "desc": "Para pacientes sin seguro o que buscan mayor flexibilidad, ofrecemos precios accesibles junto con opciones de financiamiento convenientes a través de nuestros socios financieros. Los pacientes calificados pueden ser elegibles para financiamiento con 0% APR (según aprobación y términos), lo que permite distribuir el costo en pagos mensuales manejables.",
+    "l1": "Planes de pago accesibles para pacientes calificados",
+    "l2": "0% APR disponible con aprobación",
+    "l3": "Pagos mensuales adaptados a tu presupuesto"
+  },
+
+  "whyChoose": {
+    "tag": "¿Por qué elegir Dallas Smiles Dental & Orthodontics?",
+    "title": "Cuidado de implantes confiable con un enfoque centrado en el paciente",
+    "desc": "Cuando eliges Dallas Smiles Dental & Orthodontics, eliges un equipo comprometido con la excelencia clínica, la comodidad del paciente y resultados duraderos.",
+    "l1": "Capacitación avanzada a través de Implant Pathway",
+    "l2": "Más de dos años de experiencia en implantes dentales con el Dr. Sandeep Bariki",
+    "l3": "Sistema de implantes Hiossen Premium para resultados duraderos",
+    "l4": "Planes de tratamiento personalizados con tecnología digital avanzada",
+    "l5": "Oficina compatible con seguros que ayuda a maximizar beneficios elegibles",
+    "l6": "Precios asequibles con financiamiento flexible, incluyendo opciones 0% APR para pacientes calificados",
+    "l7": "CONSULTA de implantes dentales GRATUITA para nuevos pacientes"
+  },
+
+  "cta": {
+    "title": "Restaura tu sonrisa con confianza",
+    "desc": "Ya sea que te falte un diente, varios dientes o necesites una restauración completa, estamos aquí para ayudarte a recuperar tu sonrisa con seguridad."
   },
 
   "sidebar": {

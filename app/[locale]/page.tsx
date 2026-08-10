@@ -21,7 +21,9 @@ export default function HomeHero() {
   const ts = useTranslations("home.services");
   const tin = useTranslations("home.insurance");
   const tw = useTranslations("home.why");
+  const tq = useTranslations("home.faq");
   const tc = useTranslations("home.contact");
+  const tConsultation = useTranslations("home.consultation");
   const { navigate } = useLocaleRouter();
   const services = ts.raw("list");
   const logos = tin.raw("logos");
@@ -332,6 +334,70 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
             </div>
           </div>
         </div>
+</section>
+
+{/* ================= FREE CONSULTATION ================= */}
+<section id="consultation" className="py-16 md:py-20 bg-white">
+  <div className="max-w-7xl mx-auto px-6 md:px-10">
+    <div className="rounded-[2rem] border border-slate-200 bg-[#f3f8fd] p-8 md:p-10 lg:p-12 shadow-sm">
+      <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-10 lg:gap-14 items-start">
+        <div>
+          <span className="inline-block mb-4 px-4 py-1 rounded-full bg-sky-200 text-[#0A2540] text-sm">
+            {tConsultation("tag")}
+          </span>
+          <h2 className="text-3xl md:text-4xl font-semibold text-[#0A2540] leading-tight">
+            {tConsultation("title")}
+          </h2>
+          <p className="mt-6 text-gray-700 leading-8">
+            {tConsultation("desc")}
+          </p>
+          <p className="mt-6 text-gray-700 leading-8">
+            {tConsultation("body")}
+          </p>
+
+          <div className="mt-8 flex flex-wrap gap-4">
+            <a
+              href="tel:+19724845400"
+              className="inline-flex items-center justify-center rounded-full bg-[#0A2540] px-6 py-3 text-sm font-semibold text-white transition hover:bg-sky-700"
+            >
+              {tConsultation("cta")}
+            </a>
+            <button
+              onClick={() =>
+                document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
+              }
+              className="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-[#0A2540] transition hover:border-sky-300 hover:text-sky-700"
+            >
+              {tConsultation("secondary")}
+            </button>
+          </div>
+        </div>
+
+        <div className="rounded-3xl bg-[#0A2540] p-8 md:p-10 text-white shadow-xl">
+          <h3 className="text-2xl font-semibold">
+            {tConsultation("cardTitle")}
+          </h3>
+          <ul className="mt-6 space-y-4 text-sm sm:text-base text-sky-50/90">
+            {[
+              tConsultation("items.1"),
+              tConsultation("items.2"),
+              tConsultation("items.3"),
+              tConsultation("items.4"),
+              tConsultation("items.5"),
+              tConsultation("items.6"),
+              tConsultation("items.7"),
+              tConsultation("items.8"),
+            ].map((item, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <span className="mt-2 h-2.5 w-2.5 rounded-full bg-sky-300 shrink-0" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 {/* ================= FOUNDER INTRO ================= */}
@@ -781,6 +847,35 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
         </button>
 
       </div>
+    </div>
+  </div>
+</section>
+
+{/* ================= FAQ ================= */}
+<section className="py-20 bg-[#f1f6fd]">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="text-center mb-12">
+      <span className="inline-block mb-4 px-4 py-1 rounded-full bg-sky-200 text-[#0A2540] text-sm">
+        {tq("tag")}
+      </span>
+      <h2 className="text-3xl md:text-4xl font-semibold text-[#0A2540]">
+        {tq("title")}
+      </h2>
+    </div>
+
+    <div className="grid gap-6 xl:grid-cols-2">
+      {[
+        { q: tq("q1"), a: tq("a1") },
+        { q: tq("q2"), a: tq("a2") },
+        { q: tq("q3"), a: tq("a3") },
+        { q: tq("q4"), a: tq("a4") },
+        { q: tq("q5"), a: tq("a5") },
+      ].map((item, index) => (
+        <div key={index} className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+          <h3 className="text-xl font-semibold text-[#0A2540]">{item.q}</h3>
+          <p className="mt-4 text-gray-600 leading-7">{item.a}</p>
+        </div>
+      ))}
     </div>
   </div>
 </section>

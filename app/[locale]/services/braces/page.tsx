@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import MoreServicesSidebar from "../../components/MoreServicesSidebar";
 
 export const metadata = {
   title: "Affordable Braces in Dallas | Dallas Smiles",
@@ -112,29 +112,7 @@ export default function BracesPage() {
           </div>
 
           {/* Sidebar */}
-          <div className="bg-[#0A2540] rounded-3xl p-8 text-white">
-            <h3 className="text-xl font-semibold mb-6">
-              More Services
-            </h3>
-
-            <ul className="space-y-4">
-              <li className="bg-white/15 px-4 py-3 rounded-xl">
-                Braces
-              </li>
-
-              <li className="bg-white/15 px-4 py-3 rounded-xl">
-                <Link href="/services/crowns">Dental Crowns</Link>
-              </li>
-
-              <li className="bg-white/15 px-4 py-3 rounded-xl">
-                <Link href="/services/root-canal">Root Canal</Link>
-              </li>
-
-              <li className="bg-white/15 px-4 py-3 rounded-xl">
-                <Link href="/services/teeth-cleaning">Teeth Cleaning</Link>
-              </li>
-            </ul>
-          </div>
+          <MoreServicesSidebar />
 
         </div>
       </section>

@@ -1,11 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
+import MoreServicesSidebar from "../../components/MoreServicesSidebar";
 
 export default function CrownsPage() {
   const t = useTranslations("crowns");
+  const params = useParams<{ locale?: string }>();
+  const locale = params?.locale === "es" ? "es" : "en";
+  const localePrefix = locale === "es" ? "/es" : "/en";
+  const getServiceHref = (slug: string) => `${localePrefix}/services/${slug}`;
 
   return (
     <>
@@ -111,29 +116,7 @@ export default function CrownsPage() {
           </div>
 
           {/* Sidebar */}
-          <div className="bg-[#0A2540] rounded-3xl p-8 text-white">
-            <h3 className="text-xl font-semibold mb-6">
-              {t("sidebar.title")}
-            </h3>
-
-            <ul className="space-y-4">
-              <li className="bg-white/15 px-4 py-3 rounded-xl">
-                <Link href="/services/braces">{t("sidebar.braces")}</Link>
-              </li>
-
-              <li className="bg-white/15 px-4 py-3 rounded-xl">
-                {t("sidebar.current")}
-              </li>
-
-              <li className="bg-white/15 px-4 py-3 rounded-xl">
-                <Link href="/services/root-canal">{t("sidebar.rootcanal")}</Link>
-              </li>
-
-              <li className="bg-white/15 px-4 py-3 rounded-xl">
-                <Link href="/services/teeth-cleaning">{t("sidebar.cleaning")}</Link>
-              </li>
-            </ul>
-          </div>
+          <MoreServicesSidebar title={t("sidebar.title")} />
 
         </div>
       </section>

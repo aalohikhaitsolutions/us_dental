@@ -10,6 +10,25 @@
       "cta2": "Explore Our Services",
       "cta3": "Financial Partner - Cherry"
     },
+    "consultation": {
+      "tag": "Free Consultation",
+      "title": "Schedule Your Free Dental Implant Consultation",
+      "desc": "If you're ready to replace missing teeth with a solution that looks natural, feels secure, and is built to last, our team at Dallas Smiles Dental & Orthodontics is here to help.",
+      "body": "With advanced training, premium Hiossen Implant technology, personalized treatment planning, and a commitment to exceptional patient care, we're proud to help patients restore healthy, confident smiles that last for years to come.",
+      "cta": "Call Us Today",
+      "secondary": "Learn More",
+      "cardTitle": "During Your Consultation, We Will:",
+      "items": {
+        "1": "Evaluate your smile and oral health",
+        "2": "Discuss your goals and treatment options",
+        "3": "Determine if you're a candidate for dental implants",
+        "4": "Review your CBCT imaging if needed",
+        "5": "Explain the implant process step by step",
+        "6": "Verify your insurance benefits when applicable",
+        "7": "Provide a personalized treatment plan and transparent cost estimate",
+        "8": "Review financing and payment options available to you"
+      }
+    },
     "founder": {
       "tag": "About the Founder",
       "title": "Meet Dr. Sandeep Bariki",
@@ -153,6 +172,20 @@
     "Warm, caring team focused on you"
   ],
   "cta": "Meet Our Team"
+},
+"faq": {
+  "tag": "Frequently Asked Questions",
+  "title": "Answers to common questions",
+  "q1": "What makes your dental practice different?",
+  "a1": "We offer personalized dental care with advanced technology, gentle treatment, and bilingual support to make every visit comfortable.",
+  "q2": "Do you accept new patients?",
+  "a2": "Yes, we welcome new patients of all ages and provide care for families, children, and adults.",
+  "q3": "How do I schedule an appointment?",
+  "a3": "You can schedule an appointment online, by phone, or by using our contact form in the section below.",
+  "q4": "Do you offer financing options?",
+  "a4": "Yes, we work with Cherry and other financing partners to make dental care more affordable.",
+  "q5": "Do you provide emergency dental care?",
+  "a5": "Yes, we offer prompt care for tooth pain, broken teeth, and other urgent dental concerns."
 },
 "contact": {
   "tag": "Book Appointment",
@@ -626,29 +659,56 @@
 "implants": {
   "hero": {
     "tag": "Dental Implants",
-    "title1": "Permanent",
-    "title2": "Dental Implants",
-    "desc": "Replace missing teeth with durable implants designed to look, feel, and function like natural teeth."
+    "title1": "Affordable Dental Implants",
+    "title2": "with Flexible Financing",
+    "desc": "At Dallas Smiles Dental & Orthodontics, we believe everyone deserves access to high-quality tooth replacement. We strive to make dental implants as affordable and accessible as possible."
   },
 
-  "section2": {
-    "tag": "Long-Lasting & Natural",
-    "title": "Restore Your Smile with Dental Implants",
-    "desc": "Dental implants provide a permanent solution for missing teeth that feels, functions, and looks like your natural smile.",
-    "b1": "Strong and durable replacement option",
-    "b2": "Preserves bone density and facial structure",
-    "b3": "Natural appearance and function"
+  "intro": {
+    "tag": "Accessible Care",
+    "title": "Affordable Dental Implants with Flexible Financing",
+    "desc": "At Dallas Smiles Dental & Orthodontics, we believe everyone deserves access to high-quality tooth replacement. We strive to make dental implants as affordable and accessible as possible.",
+    "l1": "High-quality implants designed for natural look and function",
+    "l2": "Clear, upfront guidance on cost and treatment",
+    "l3": "Personalized care from planning through restoration",
+    "l4": "Financing options that help reduce financial stress"
   },
 
-  "section3": {
-    "tag": "Benefits of Dental Implants",
-    "title": "Smile with Confidence & Strength",
-    "desc": "Dental implants offer a superior solution by strengthening the jawbone and preventing deterioration.",
-    "l1": "Improved chewing & speech",
-    "l2": "Preserves jawbone health",
-    "l3": "Long-term durability",
-    "l4": "Boosts confidence",
-    "l5": "Natural appearance"
+  "insurance": {
+    "tag": "Insurance Support",
+    "title": "We Work with Your Insurance",
+    "desc": "Our knowledgeable team works with most major dental insurance plans and will help determine whether your plan includes implant benefits. For patients who qualify for coverage, we’ll maximize your insurance benefits and explain your estimated out-of-pocket costs before treatment begins—so there are no surprises.",
+    "l1": "Help with most major dental insurance plans",
+    "l2": "Determine whether implant benefits are included",
+    "l3": "Maximize your eligible coverage",
+    "l4": "Clear cost estimates before treatment begins"
+  },
+
+  "financing": {
+    "tag": "Payment Options",
+    "title": "Flexible Payment Options",
+    "desc": "For patients without insurance or those seeking additional payment flexibility, we offer affordable pricing along with convenient financing options through our trusted financial partners. Qualified patients may be eligible for 0% APR financing (subject to approval and the financing partner's terms and conditions), allowing you to spread the cost of treatment into manageable monthly payments.",
+    "l1": "Affordable payment plans for qualified patients",
+    "l2": "0% APR financing available with approval",
+    "l3": "Manageable monthly payments aligned with your budget"
+  },
+
+  "whyChoose": {
+    "tag": "Why Choose Dallas Smiles Dental & Orthodontics?",
+    "title": "Trusted Implant Care with a Patient-First Approach",
+    "desc": "When you choose Dallas Smiles Dental & Orthodontics, you’re choosing a team committed to clinical excellence, patient comfort, and long-term results.",
+    "l1": "Advanced training through Implant Pathway",
+    "l2": "More than two years of dental implant experience by Dr. Sandeep Bariki",
+    "l3": "Premium Hiossen Implant System for dependable, long-lasting results",
+    "l4": "Personalized treatment plans using advanced digital technology",
+    "l5": "Insurance-friendly office that helps maximize eligible benefits",
+    "l6": "Affordable pricing with flexible financing, including 0% APR options for qualified patients",
+    "l7": "FREE dental implant consultation for new implant patients"
+  },
+
+  "cta": {
+    "title": "Restore your smile with confidence",
+    "desc": "Whether you’re missing one tooth, several teeth, or need a full-mouth restoration, we’re here to help you restore your smile with confidence."
   },
 
   "sidebar": {
