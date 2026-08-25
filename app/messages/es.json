@@ -659,10 +659,21 @@
 "implants": {
   "hero": {
     "tag": "Implantes Dentales",
-    "title1": "Implantes Dentales Asequibles",
-    "title2": "con Financiamiento Flexible",
-    "desc": "En Dallas Smiles Dental & Orthodontics creemos que todos merecen acceso a reemplazos dentales de alta calidad. Nos esforzamos por hacer que los implantes dentales sean lo más asequibles y accesibles posible."
+    "title": "Restaura tu sonrisa con fuerza, función y confianza",
+    "title1": "Restaura tu sonrisa con",
+    "title2": "fuerza y confianza",
+    "desc": "Reemplaza dientes perdidos con implantes duraderos y de aspecto natural, planificados según tu salud, objetivos y presupuesto.",
+    "imageAlt": "Paciente recibiendo atención dental"
   },
+
+  "what": { "tag": "¿Qué son los implantes dentales?", "title": "Una base segura para una sonrisa completa", "desc": "Los implantes dentales son pequeños postes de titanio que se colocan en el hueso maxilar para funcionar como raíces artificiales. Después de integrarse con el hueso, se fija una corona, puente o dentadura personalizada que se ve, se siente y funciona como un diente natural. A diferencia de las dentaduras removibles, los implantes permanecen fijos y ayudan a conservar el hueso maxilar.", "imageAlt": "Profesional dental consultando con un paciente" },
+  "benefits": { "tag": "Beneficios de los Implantes", "title": "Más que un diente de reemplazo", "desc": "Los implantes están diseñados para recuperar la función diaria y mantener una sonrisa natural.", "l1": "Aspecto y sensación naturales", "l2": "Recuperan la capacidad de masticar y hablar", "l3": "Ayudan a prevenir la pérdida ósea", "l4": "Preservan los dientes sanos cercanos", "l5": "Mejoran el soporte y la apariencia facial", "l6": "Son estables y no se mueven", "l7": "Duran mucho tiempo con buenos cuidados", "l8": "Se cuidan como los dientes naturales" },
+  "solutions": { "tag": "Soluciones de Implantes", "title": "Tratamientos según tus necesidades", "single": { "title": "Implante de un Solo Diente", "desc": "Reemplaza un diente perdido con un implante y corona personalizados sin afectar los dientes vecinos." }, "bridge": { "title": "Puentes sobre Implantes", "desc": "Reemplaza varios dientes perdidos con implantes estratégicamente colocados en lugar de usar dientes naturales como soporte." }, "denture": { "title": "Dentaduras con Implantes", "desc": "Disfruta una alternativa más estable a las dentaduras tradicionales, con mejor comodidad al masticar y más confianza." }, "fullArch": { "title": "Restauraciones de Arcada Completa", "desc": "Restaura la mayoría o todos los dientes perdidos con una sonrisa completa sostenida por implantes estratégicos." } },
+  "process": { "tag": "Nuestro Proceso", "title": "Un plan claro desde la consulta hasta tu nueva sonrisa", "imageAlt": "Consulta dental y planificación del tratamiento", "step1": { "title": "Consulta Integral", "desc": "Examinamos tu sonrisa y usamos radiografías digitales e imágenes CBCT 3D para evaluar tu estructura ósea." }, "step2": { "title": "Plan Personalizado", "desc": "Creamos un plan basado en tu salud oral, objetivos, tiempo y presupuesto." }, "step3": { "title": "Colocación del Implante", "desc": "El implante de titanio se coloca cuidadosamente con técnicas quirúrgicas precisas." }, "step4": { "title": "Cicatrización e Integración", "desc": "Durante los meses siguientes, el implante se fusiona naturalmente con el hueso mediante la osteointegración." }, "step5": { "title": "Restauración Final", "desc": "Cuando la cicatrización termina, colocamos tu corona, puente o dentadura personalizada." } },
+  "candidate": { "tag": "¿Eres Candidato?", "title": "Los implantes pueden ser adecuados para ti si", "desc": "Una consulta es la mejor manera de conocer tus opciones. Un injerto óseo puede ayudar a quienes necesitan soporte adicional.", "l1": "Tienes uno o más dientes perdidos", "l2": "Quieres un reemplazo permanente", "l3": "Tienes encías saludables", "l4": "Tienes suficiente hueso o puedes recibir un injerto", "l5": "Gozas de buena salud general" },
+  "technology": { "tag": "Tecnología Avanzada", "title": "Precisión basada en tu anatomía", "desc": "Los diagnósticos digitales y las imágenes 3D nos ayudan a evaluar el hueso, planificar la colocación y adaptar el tratamiento para mayor precisión, eficiencia y comodidad." },
+  "affordability": { "tag": "Atención Accesible", "title": "Financiamiento flexible para tu nueva sonrisa", "desc": "Creemos que el reemplazo dental de alta calidad debe ser accesible. Explicamos los costos con claridad y trabajamos contigo en un plan realista.", "insuranceTitle": "Trabajamos con tu seguro", "insuranceDesc": "Trabajamos con la mayoría de los planes dentales, ayudamos a determinar si aplican beneficios para implantes y maximizamos la cobertura elegible.", "financingTitle": "Opciones de pago flexibles", "financingDesc": "Los pacientes calificados pueden ser elegibles para financiamiento con 0% APR a través de socios confiables, sujeto a aprobación y términos del prestamista." },
+  "faq": { "tag": "Preguntas Frecuentes", "title": "Respuestas sobre implantes dentales", "q1": "¿Cuánto duran los implantes?", "a1": "Con buenos cuidados en casa y visitas dentales regulares, pueden durar décadas y muchas veces toda la vida.", "q2": "¿Duele colocar un implante?", "a2": "La mayoría de los pacientes reporta molestias mínimas. Se usa anestesia local y muchos vuelven a sus actividades en uno o dos días.", "q3": "¿Cuánto dura todo el proceso?", "a3": "El tiempo varía, pero la mayoría de los casos se completa en varios meses debido al tiempo de cicatrización.", "q4": "¿Pueden reemplazar varios dientes?", "a4": "Sí. Los implantes pueden sostener coronas individuales, puentes, dentaduras o restauraciones de arcada completa.", "q5": "¿Mi implante se verá natural?", "a5": "Sí. La restauración se fabrica a medida para combinar con el color, forma y tamaño de tus dientes cercanos." },
 
   "intro": {
     "tag": "Cuidado Asequible",
@@ -696,19 +707,29 @@
   "whyChoose": {
     "tag": "¿Por qué elegir Dallas Smiles Dental & Orthodontics?",
     "title": "Cuidado de implantes confiable con un enfoque centrado en el paciente",
-    "desc": "Cuando eliges Dallas Smiles Dental & Orthodontics, eliges un equipo comprometido con la excelencia clínica, la comodidad del paciente y resultados duraderos.",
+    "desc": "En Dallas Smiles Dental & Orthodontics, creemos que cada paciente merece atención de alta calidad respaldada por tecnología confiable y experiencia clínica.",
+    "partnerTitle": "Asociados con Hiossen Implants",
+    "partnerDesc": "Nos asociamos orgullosamente con Hiossen Implants, uno de los principales fabricantes de implantes dentales del mundo, reconocido por su ingeniería de precisión, investigación clínica y confiabilidad a largo plazo.",
+    "providerTitle": "Proveedor de Implantes con Experiencia",
+    "providerDesc": "El Dr. Sandeep Bariki completó capacitación avanzada en implantes a través del reconocido programa educativo Implant Pathway. Cuenta con más de dos años de experiencia colocando y restaurando implantes dentales.",
+    "focus": "Nuestro enfoque es brindar tratamientos seguros, cómodos y diseñados para el éxito a largo plazo.",
     "l1": "Capacitación avanzada a través de Implant Pathway",
     "l2": "Más de dos años de experiencia en implantes dentales con el Dr. Sandeep Bariki",
     "l3": "Sistema de implantes Hiossen Premium para resultados duraderos",
     "l4": "Planes de tratamiento personalizados con tecnología digital avanzada",
     "l5": "Oficina compatible con seguros que ayuda a maximizar beneficios elegibles",
     "l6": "Precios asequibles con financiamiento flexible, incluyendo opciones 0% APR para pacientes calificados",
-    "l7": "CONSULTA de implantes dentales GRATUITA para nuevos pacientes"
+    "l7": "CONSULTA de implantes dentales GRATUITA para nuevos pacientes",
+    "imageAlt": "Atención de implantes dentales en Dallas Smiles"
   },
 
   "cta": {
-    "title": "Restaura tu sonrisa con confianza",
-    "desc": "Ya sea que te falte un diente, varios dientes o necesites una restauración completa, estamos aquí para ayudarte a recuperar tu sonrisa con seguridad."
+    "tag": "Consulta Gratuita de Implantes Dentales",
+    "title": "Programa tu Consulta Gratuita para Implantes Dentales",
+    "desc": "Si estás listo para reemplazar dientes perdidos con una solución que se vea natural, se sienta segura y esté diseñada para durar, nuestro equipo en Dallas Smiles Dental & Orthodontics está aquí para ayudarte.",
+    "body": "Con formación avanzada, tecnología premium de Hiossen, planificación personalizada y un compromiso con la atención excepcional, estamos orgullosos de ayudar a pacientes a recuperar sonrisas saludables y seguras que duran por muchos años.",
+    "action": "Llama hoy a Dallas Smiles Dental & Orthodontics para programar tu consulta gratuita de implantes dentales y descubre si son adecuados para ti!",
+    "items": { "1": "Evaluaremos tu sonrisa y salud oral", "2": "Discutiremos tus metas y opciones de tratamiento", "3": "Determinaremos si eres candidato para implantes dentales", "4": "Revisaremos tus imágenes CBCT (si es necesario)", "5": "Explicaremos el proceso de implantes paso a paso", "6": "Verificaremos tus beneficios de seguro cuando aplique", "7": "Proporcionaremos un plan de tratamiento personalizado y un estimado de costos transparente", "8": "Revisaremos opciones de financiamiento y pago disponibles para ti" }
   },
 
   "sidebar": {

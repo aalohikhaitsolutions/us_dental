@@ -659,56 +659,56 @@
 "implants": {
   "hero": {
     "tag": "Dental Implants",
-    "title1": "Affordable Dental Implants",
-    "title2": "with Flexible Financing",
-    "desc": "At Dallas Smiles Dental & Orthodontics, we believe everyone deserves access to high-quality tooth replacement. We strive to make dental implants as affordable and accessible as possible."
+    "title1": "Restore Your Smile",
+    "title2": "with Strength, Function, and Confidence",
+    "desc": "Missing teeth can affect more than just your smile—they can impact your ability to chew, speak, and feel confident in everyday life. At Dallas Smiles Dental & Orthodontics, we offer advanced dental implant solutions designed to replace missing teeth with natural-looking, long-lasting results. Whether you're replacing a single tooth or restoring your entire smile, our team is committed to providing personalized care using proven techniques and premium implant systems.",
+    "imageAlt": "Patient receiving dental care"
   },
 
-  "intro": {
-    "tag": "Accessible Care",
-    "title": "Affordable Dental Implants with Flexible Financing",
-    "desc": "At Dallas Smiles Dental & Orthodontics, we believe everyone deserves access to high-quality tooth replacement. We strive to make dental implants as affordable and accessible as possible.",
-    "l1": "High-quality implants designed for natural look and function",
-    "l2": "Clear, upfront guidance on cost and treatment",
-    "l3": "Personalized care from planning through restoration",
-    "l4": "Financing options that help reduce financial stress"
-  },
-
-  "insurance": {
-    "tag": "Insurance Support",
-    "title": "We Work with Your Insurance",
-    "desc": "Our knowledgeable team works with most major dental insurance plans and will help determine whether your plan includes implant benefits. For patients who qualify for coverage, we’ll maximize your insurance benefits and explain your estimated out-of-pocket costs before treatment begins—so there are no surprises.",
-    "l1": "Help with most major dental insurance plans",
-    "l2": "Determine whether implant benefits are included",
-    "l3": "Maximize your eligible coverage",
-    "l4": "Clear cost estimates before treatment begins"
-  },
-
-  "financing": {
-    "tag": "Payment Options",
-    "title": "Flexible Payment Options",
-    "desc": "For patients without insurance or those seeking additional payment flexibility, we offer affordable pricing along with convenient financing options through our trusted financial partners. Qualified patients may be eligible for 0% APR financing (subject to approval and the financing partner's terms and conditions), allowing you to spread the cost of treatment into manageable monthly payments.",
-    "l1": "Affordable payment plans for qualified patients",
-    "l2": "0% APR financing available with approval",
-    "l3": "Manageable monthly payments aligned with your budget"
-  },
+  "what": { "tag": "What Are Dental Implants?", "title": "What Are Dental Implants?", "desc": "Dental implants are the gold standard for replacing missing teeth. They consist of a small titanium implant that is placed into the jawbone, where it functions as an artificial tooth root. Once the implant has integrated with the bone, a custom-made crown, bridge, or denture is securely attached, creating a restoration that looks, feels, and functions like a natural tooth. Unlike removable dentures, dental implants are fixed in place, providing exceptional stability and helping preserve the health of your jawbone.", "imageAlt": "Dental implant consultation" },
+  "benefits": { "tag": "Benefits of Dental Implants", "title": "Benefits of Dental Implants", "desc": "Dental implants offer numerous advantages over traditional tooth replacement options:", "l1": "Natural appearance and feel", "l2": "Restore normal chewing and speaking ability", "l3": "Prevent jawbone loss after tooth extraction", "l4": "Preserve neighboring healthy teeth", "l5": "Improve facial support and appearance", "l6": "Stable and secure—no slipping or movement", "l7": "Long-lasting solution with proper care", "l8": "Easy to maintain like natural teeth" },
+  "solutions": { "tag": "Implant Solutions We Offer", "title": "Implant Solutions We Offer", "single": { "title": "Single Tooth Implants", "desc": "Replace one missing tooth with a custom implant and crown without affecting neighboring teeth." }, "bridge": { "title": "Implant Bridges", "desc": "Replace several missing teeth using strategically placed implants instead of relying on natural teeth for support." }, "denture": { "title": "Implant-Supported Dentures", "desc": "Enjoy a more stable, comfortable alternative to traditional dentures. Implant-supported dentures reduce movement while improving chewing efficiency and confidence." }, "fullArch": { "title": "Full-Arch Implant Restorations", "desc": "For patients missing most or all of their teeth, full-arch implant solutions can restore an entire smile using a limited number of strategically placed implants." } },
+  "process": { "tag": "Our Implant Process", "title": "Our Implant Process", "imageAlt": "Dental implant treatment planning", "step1": { "title": "Comprehensive Consultation", "desc": "We begin with a thorough examination, digital X-rays, and a CBCT 3D scan to evaluate your bone structure and determine whether implants are the right solution for you." }, "step2": { "title": "Personalized Treatment Planning", "desc": "Every smile is unique. We create a customized treatment plan based on your oral health, goals, and budget." }, "step3": { "title": "Implant Placement", "desc": "The titanium implant is carefully placed into the jawbone using precise surgical techniques for optimal positioning and long-term stability." }, "step4": { "title": "Healing & Integration", "desc": "Over the next few months, the implant naturally fuses with the jawbone through a process called osseointegration." }, "step5": { "title": "Final Restoration", "desc": "Once healing is complete, we place your custom-designed crown, bridge, or denture, restoring your smile with beautiful, functional results." } },
+  "candidate": { "tag": "Are You a Candidate for Dental Implants?", "title": "Are You a Candidate for Dental Implants?", "desc": "You may be a good candidate if you:", "l1": "Have one or more missing teeth", "l2": "Want a permanent tooth replacement option", "l3": "Have healthy gums", "l4": "Have sufficient jawbone (or are a candidate for bone grafting)", "l5": "Are in good overall health" },
+  "technology": { "tag": "Advanced Technology for Predictable Results", "title": "Advanced Technology for Predictable Results", "desc": "At Dallas Smiles Dental & Orthodontics, we utilize modern digital technology to improve precision and treatment outcomes. Advanced diagnostics and 3D imaging allow us to carefully evaluate bone anatomy, plan implant placement, and create personalized treatment plans tailored to each patient's needs. Our commitment to continuing education and modern techniques helps ensure every implant procedure is performed with accuracy, efficiency, and patient comfort in mind." },
+  "affordability": { "tag": "Affordable Dental Implants with Flexible Financing", "title": "Affordable Dental Implants with Flexible Financing", "desc": "At Dallas Smiles Dental & Orthodontics, we believe everyone deserves access to high-quality tooth replacement. We strive to make dental implants as affordable and accessible as possible.", "insuranceTitle": "We Work with Your Insurance", "insuranceDesc": "Our knowledgeable team works with most major dental insurance plans and will help determine whether your plan includes implant benefits. For patients who qualify for coverage, we'll maximize your insurance benefits and explain your estimated out-of-pocket costs before treatment begins—so there are no surprises.", "financingTitle": "Flexible Payment Options", "financingDesc": "For patients without insurance or those seeking additional payment flexibility, we offer affordable pricing along with convenient financing options through our trusted financial partners. Qualified patients may be eligible for 0% APR financing (subject to approval and the financing partner's terms and conditions), allowing you to spread the cost of treatment into manageable monthly payments. Our goal is to help you receive the care you need without unnecessary financial stress." },
+  "faq": { "tag": "Frequently Asked Questions", "title": "Frequently Asked Questions", "q1": "How long do dental implants last?", "a1": "With proper home care and regular dental visits, dental implants can last for decades and often a lifetime.", "q2": "Is implant placement painful?", "a2": "Most patients report minimal discomfort. Local anesthesia is used during the procedure, and many patients return to normal activities within a day or two.", "q3": "How long does the entire process take?", "a3": "Treatment time varies depending on healing and individual needs, but most implant cases are completed over several months.", "q4": "Can implants replace multiple missing teeth?", "a4": "Yes. Implants can support individual crowns, bridges, or full-arch restorations depending on your needs.", "q5": "Will my implant look natural?", "a5": "Absolutely. Your restoration is custom-made to match the color, shape, and size of your surrounding teeth for a seamless appearance." },
 
   "whyChoose": {
     "tag": "Why Choose Dallas Smiles Dental & Orthodontics?",
-    "title": "Trusted Implant Care with a Patient-First Approach",
-    "desc": "When you choose Dallas Smiles Dental & Orthodontics, you’re choosing a team committed to clinical excellence, patient comfort, and long-term results.",
+    "title": "Why Choose Dallas Smiles Dental & Orthodontics?",
+    "desc": "At Dallas Smiles Dental & Orthodontics, we believe every patient deserves high-quality care backed by trusted technology and clinical experience.",
+    "partnerTitle": "Partnered with Hiossen Implants",
+    "partnerDesc": "We proudly partner with Hiossen Implants, one of the world's leading dental implant manufacturers known for precision engineering, outstanding clinical research, and long-term reliability. Using premium implant components allows us to deliver predictable outcomes and lasting results for our patients.",
+    "providerTitle": "Experienced Implant Provider",
+    "providerDesc": "Dr. Sandeep Bariki has completed advanced implant training through the renowned Implant Pathway education program. With more than two years of experience placing and restoring dental implants, Dr. Bariki combines continuing education, modern technology, and meticulous treatment planning to provide patients with dependable, high-quality implant care.",
+    "focus": "Our focus is on delivering treatment that is safe, comfortable, and designed for long-term success.",
     "l1": "Advanced training through Implant Pathway",
     "l2": "More than two years of dental implant experience by Dr. Sandeep Bariki",
     "l3": "Premium Hiossen Implant System for dependable, long-lasting results",
     "l4": "Personalized treatment plans using advanced digital technology",
     "l5": "Insurance-friendly office that helps maximize eligible benefits",
     "l6": "Affordable pricing with flexible financing, including 0% APR options for qualified patients",
-    "l7": "FREE dental implant consultation for new implant patients"
+    "l7": "FREE dental implant consultation for new implant patients",
+    "imageAlt": "Dental implant care at Dallas Smiles"
   },
 
   "cta": {
-    "title": "Restore your smile with confidence",
-    "desc": "Whether you’re missing one tooth, several teeth, or need a full-mouth restoration, we’re here to help you restore your smile with confidence."
+    "tag": "Free Dental Implant Consultation",
+    "title": "Schedule Your FREE Dental Implant Consultation",
+    "desc": "If you're ready to replace missing teeth with a solution that looks natural, feels secure, and is built to last, our team at Dallas Smiles Dental & Orthodontics is here to help.",
+    "action": "Call Dallas Smiles Dental & Orthodontics today to schedule your free dental implant consultation and discover whether dental implants are right for you!",
+    "body": "With advanced training, premium Hiossen Implant technology, personalized treatment planning, and a commitment to exceptional patient care, we're proud to help patients restore healthy, confident smiles that last for years to come.",
+    "items": {
+      "1": "Evaluate your smile and oral health",
+      "2": "Discuss your goals and treatment options",
+      "3": "Determine if you're a candidate for dental implants",
+      "4": "Review your CBCT imaging (if needed)",
+      "5": "Explain the implant process step-by-step",
+      "6": "Verify your insurance benefits when applicable",
+      "7": "Provide a personalized treatment plan and transparent cost estimate",
+      "8": "Review financing and payment options available to you"
+    }
   },
 
   "sidebar": {

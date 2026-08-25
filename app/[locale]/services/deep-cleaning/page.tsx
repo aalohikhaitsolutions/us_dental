@@ -57,8 +57,8 @@ export default function DeepCleaningPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero4.jpeg"   // ✅ FIXED
-              alt="Deep dental cleaning procedure"
+              src="/comprehensive-gum-care.jpg"
+              alt="Comprehensive gum care and deep dental cleaning"
               fill
               className="rounded-3xl shadow-lg object-cover"
             />
