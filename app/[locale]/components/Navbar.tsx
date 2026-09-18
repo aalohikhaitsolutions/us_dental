@@ -45,9 +45,9 @@ export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
   const { switchLocale, navigate, getLocale } = useLocaleRouter();
-const locale = getLocale();
+  const locale = getLocale();
 
-const scrollToSection = (id: string) => {
+  const scrollToSection = (id: string) => {
     navigate("");
     setTimeout(() => {
       document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -61,51 +61,51 @@ const scrollToSection = (id: string) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  
-useEffect(() => {
-  const handleClickOutside = (event: MouseEvent) => {
-    if (
-      dropdownRef.current &&
-      !dropdownRef.current.contains(event.target as Node)
-    ) {
-      setIsServicesOpen(false);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsServicesOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = isMobileMenuOpen ? "hidden" : "auto";
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isMobileMenuOpen]);
+
+  useEffect(() => {
+    if (!isMobileMenuOpen) {
+      setIsMobileServicesOpen(false);
+    }
+  }, [isMobileMenuOpen]);
+
+  const handleNavClick = (id: string) => {
+    const locale = getLocale();
+
+    const basePath = locale === "en" ? "/en" : "/es";
+
+    if (!pathname.startsWith(basePath)) {
+      router.push(basePath);
+      setTimeout(() => {
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    } else {
+      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     }
   };
-
-  document.addEventListener("mousedown", handleClickOutside);
-  return () => {
-    document.removeEventListener("mousedown", handleClickOutside);
-  };
-}, []);
-
-useEffect(() => {
-  document.body.style.overflow = isMobileMenuOpen ? "hidden" : "auto";
-
-  return () => {
-    document.body.style.overflow = "auto";
-  };
-}, [isMobileMenuOpen]);
-
-useEffect(() => {
-  if (!isMobileMenuOpen) {
-    setIsMobileServicesOpen(false);
-  }
-}, [isMobileMenuOpen]);
-
- const handleNavClick = (id: string) => {
-  const locale = getLocale();
-
-  const basePath = locale === "en" ? "/en" : "/es";
-
-  if (!pathname.startsWith(basePath)) {
-    router.push(basePath);
-    setTimeout(() => {
-      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-    }, 100);
-  } else {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-  }
-};
 
   const services = [
     { name: "Invisalign", path: "/services/invisalign" },
@@ -159,73 +159,70 @@ useEffect(() => {
 
   return (
     <header
-      className={`w-full sticky top-0 z-50 bg-white transition-all duration-300 ${
-        scrolled ? "shadow-md" : ""
-      }`}
+      className={`w-full sticky top-0 z-50 bg-white transition-all duration-300 ${scrolled ? "shadow-md" : ""
+        }`}
     >
       {/* ================= TOP BAR ================= */}
-     <div className="w-full bg-[#0A2540] text-white">
-  <div className="max-w-7xl mx-auto px-4 md:px-6">
-    <div className="flex items-center justify-between py-2 md:h-12 text-xs md:text-sm font-medium">
+      <div className="w-full bg-[#0A2540] text-white">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <div className="flex items-center justify-between py-2 md:h-12 text-xs md:text-sm font-medium">
 
-      {/* Left: Address + Hours */}
-      <div className="flex items-center gap-4 md:gap-8">
+            {/* Left: Address + Hours */}
+            <div className="flex items-center gap-4 md:gap-8">
 
-        {/* Address (always visible) */}
-        <a
-  href="https://maps.app.goo.gl/c7LAa7PWotVtkvii7"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="flex items-center gap-2 hover:text-sky-300 transition"
->
-  <MapPinIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
-  <span className="truncate">
-    3234 Forest Lane, Dallas, TX 75234
-  </span>
-</a>
+              {/* Address (always visible) */}
+              <a
+                href="https://maps.app.goo.gl/c7LAa7PWotVtkvii7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-sky-300 transition"
+              >
+                <MapPinIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
+                <span className="truncate">
+                  3234 Forest Lane, Dallas, TX 75234
+                </span>
+              </a>
 
-        {/* Hours (ONLY desktop) */}
-        <div className="hidden md:flex items-center gap-2">
-          <ClockIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
-          <span>
-            Mon–Fri 9–6 PM | Sat by Appointment
-          </span>
+              {/* Hours (ONLY desktop) */}
+              <div className="hidden md:flex items-center gap-2">
+                <ClockIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
+                <span>
+                  Mon–Fri 9–6 PM | Sat by Appointment
+                </span>
+              </div>
+
+            </div>
+
+            <div className="flex items-center gap-3 ml-4">
+              <button
+                onClick={() => switchLocale("en")}
+                className={`text-sm font-medium ${!pathname.startsWith("/es") ? "text-blue-400" : "text-white"
+                  }`}
+              >
+                EN
+              </button>
+
+              <button
+                onClick={() => switchLocale("es")}
+                className={`text-sm font-medium ${pathname.startsWith("/es") ? "text-blue-400" : "text-white"
+                  }`}
+              >
+                ES
+              </button>
+            </div>
+
+            {/* Phone (always visible) */}
+            <a
+              href="tel:+19724845400"
+              className="flex items-center gap-2 font-semibold hover:text-sky-300 transition whitespace-nowrap"
+            >
+              <PhoneIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
+              <span>(972) 484-5400</span>
+            </a>
+
+          </div>
         </div>
-
       </div>
-
-      <div className="flex items-center gap-3 ml-4">
-  <button
-  onClick={() => switchLocale("en")}
-  className={`text-sm font-medium ${
-    !pathname.startsWith("/es") ? "text-blue-400" : "text-white"
-  }`}
->
-  EN
-</button>
-
-<button
-  onClick={() => switchLocale("es")}
-  className={`text-sm font-medium ${
-    pathname.startsWith("/es") ? "text-blue-400" : "text-white"
-  }`}
->
-  ES
-</button>
-</div>
-
-      {/* Phone (always visible) */}
-      <a
-        href="tel:+19724845400"
-        className="flex items-center gap-2 font-semibold hover:text-sky-300 transition whitespace-nowrap"
-      >
-        <PhoneIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
-        <span>(972) 484-5400</span>
-      </a>
-
-    </div>
-  </div>
-</div>
 
       {/* ================= MAIN NAV ================= */}
       <div className="max-w-7xl mx-auto px-4">
@@ -253,16 +250,16 @@ useEffect(() => {
           </button>
 
           <div className="ml-auto md:hidden text-gray-900">
-  <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+            <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
 
-    ☰
-  </button>
+              ☰
+            </button>
           </div>
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex items-center ml-auto gap-3">
 
-            
+
 
             <button
               onClick={() => scrollToSection("home")}
@@ -281,57 +278,57 @@ useEffect(() => {
             </button>
 
             {/* SERVICES DROPDOWN */}
-<div ref={dropdownRef} className="relative">
+            <div ref={dropdownRef} className="relative">
 
-  <button
-    onClick={() => setIsServicesOpen(!isServicesOpen)}
-    className="nav-link group"
-  >
-    <SparklesIcon className="w-5 h-5" />
-    {t("services")}
-    <ChevronDownIcon
-      className={`w-4 h-4 transition-transform ${
-        isServicesOpen ? "rotate-180" : ""
-      }`}
-    />
-  </button>
+              <button
+                onClick={() => setIsServicesOpen(!isServicesOpen)}
+                className="nav-link group"
+              >
+                <SparklesIcon className="w-5 h-5" />
+                {t("services")}
+                <ChevronDownIcon
+                  className={`w-4 h-4 transition-transform ${isServicesOpen ? "rotate-180" : ""
+                    }`}
+                />
+              </button>
 
-  {isServicesOpen && (
-    <div className="absolute top-full left-0 mt-4 w-[520px] bg-white rounded-2xl shadow-2xl border p-6 z-50">
+              {isServicesOpen && (
+                <div className="absolute top-full left-0 mt-4 w-[520px] bg-white rounded-2xl shadow-2xl border p-6 z-50">
 
-      <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-2 gap-4">
 
-        {services.map((service) => (
-          <Link
-  key={service.name}
- href={`/${getLocale()}${service.path}`}
-  className="group flex items-center gap-3 w-full h-full px-4 py-3 rounded-xl
+                    {services.map((service) => (
+                      <Link
+                        key={service.name}
+                        href={`/${getLocale()}${service.path}`}
+                        onClick={() => setIsServicesOpen(false)}
+                        className="group flex items-center gap-3 w-full h-full px-4 py-3 rounded-xl
   text-sm font-medium text-gray-700
   hover:bg-[#0A2540] hover:text-white
   transition-all duration-200"
->
-  <div
-    className="w-9 h-9 flex items-center justify-center rounded-lg
+                      >
+                        <div
+                          className="w-9 h-9 flex items-center justify-center rounded-lg
     bg-blue-50 text-[#0A2540]
     transition-all duration-200
     group-hover:bg-white group-hover:text-blue-600"
-  >
-    {getServiceIcon(service.name)}
-  </div>
+                        >
+                          {getServiceIcon(service.name)}
+                        </div>
 
-  <span className="group-hover:text-white">
-    {service.name}
-  </span>
-</Link>
-        ))}
+                        <span className="group-hover:text-white">
+                          {service.name}
+                        </span>
+                      </Link>
+                    ))}
 
-      </div>
-    </div>
-  )}
-</div>
+                  </div>
+                </div>
+              )}
+            </div>
 
             <button
-             onClick={() => scrollToSection("why")}
+              onClick={() => scrollToSection("why")}
               className="nav-link group"
             >
               <StarIcon className="w-5 h-5" />
@@ -339,15 +336,15 @@ useEffect(() => {
             </button>
 
             <button
-  onClick={() => navigate("/careers")}
-  className="nav-link group"
->
-  <BriefcaseIcon className="w-5 h-5" />
-  {t("careers")}
-</button>
+              onClick={() => navigate("/careers")}
+              className="nav-link group"
+            >
+              <BriefcaseIcon className="w-5 h-5" />
+              {t("careers")}
+            </button>
 
             <button
-             onClick={() => scrollToSection("contact")}
+              onClick={() => scrollToSection("contact")}
               className="nav-link group"
             >
               <PhoneIcon className="w-5 h-5" />
@@ -366,131 +363,130 @@ useEffect(() => {
 
         </div>
       </div>
-      
+
       {isMobileMenuOpen && (
-  <div
-    className="
+        <div
+          className="
       md:hidden
       bg-white/95 backdrop-blur-md text-gray-900
       shadow-lg px-6 py-4
       rounded-b-2xl
       max-h-[80vh] overflow-y-auto
     "
-  >
+        >
 
-    {/* Home */}
-    <button
-      onClick={() => {
-        handleNavClick("home");
-        setIsMobileMenuOpen(false);
-      }}
-      className="block w-full text-left py-3"
-    >
-      Home
-    </button>
+          {/* Home */}
+          <button
+            onClick={() => {
+              handleNavClick("home");
+              setIsMobileMenuOpen(false);
+            }}
+            className="block w-full text-left py-3"
+          >
+            Home
+          </button>
 
-    {/* About */}
-    <button
-      onClick={() => {
-        handleNavClick("about");
-        setIsMobileMenuOpen(false);
-      }}
-      className="block w-full text-left py-3"
-    >
-      About
-    </button>
+          {/* About */}
+          <button
+            onClick={() => {
+              handleNavClick("about");
+              setIsMobileMenuOpen(false);
+            }}
+            className="block w-full text-left py-3"
+          >
+            About
+          </button>
 
-    {/* SERVICES */}
-    <div>
-  <button
-    onClick={() => setIsMobileServicesOpen((prev) => !prev)}
-    className="flex justify-between items-center w-full py-3"
-  >
-    Our Services
-    <ChevronDownIcon
-      className={`w-5 h-5 transition-transform duration-300 ${
-        isMobileServicesOpen ? "rotate-180" : ""
-      }`}
-    />
-  </button>
+          {/* SERVICES */}
+          <div>
+            <button
+              onClick={() => setIsMobileServicesOpen((prev) => !prev)}
+              className="flex justify-between items-center w-full py-3"
+            >
+              Our Services
+              <ChevronDownIcon
+                className={`w-5 h-5 transition-transform duration-300 ${isMobileServicesOpen ? "rotate-180" : ""
+                  }`}
+              />
+            </button>
 
-  {isMobileServicesOpen && (
-    <div className="pl-4 flex flex-col gap-3 mt-2">
-      {services.map((service) => (
-        <Link
-  key={service.name}
-  href={`/${getLocale()}${service.path}`}
-  onClick={() => {
-    setIsMobileMenuOpen(false);
-    setIsMobileServicesOpen(false);
-  }}
-  className="block text-gray-700 hover:text-blue-600"
->
-  {service.name}
-</Link>
-      ))}
-    </div>
-  )}
-</div>
+            {isMobileServicesOpen && (
+              <div className="pl-4 flex flex-col gap-3 mt-2">
+                {services.map((service) => (
+                  <Link
+                    key={service.name}
+                    href={`/${getLocale()}${service.path}`}
+                    onClick={() => {
+                      setIsMobileMenuOpen(false);
+                      setIsMobileServicesOpen(false);
+                    }}
+                    className="block text-gray-700 hover:text-blue-600"
+                  >
+                    {service.name}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
 
-    {/* Why */}
-    <button
-      onClick={() => {
-        handleNavClick("why");
-        setIsMobileMenuOpen(false);
-      }}
-      className="block w-full text-left py-3"
-    >
-      Why Choose Us
-    </button>
-    {/* Careers */}
-<button
-  onClick={() => {
-    navigate("/careers");
-    setIsMobileMenuOpen(false);
-  }}
-  className="block w-full text-left py-3"
->
-  {t("careers")}
-</button>
+          {/* Why */}
+          <button
+            onClick={() => {
+              handleNavClick("why");
+              setIsMobileMenuOpen(false);
+            }}
+            className="block w-full text-left py-3"
+          >
+            Why Choose Us
+          </button>
+          {/* Careers */}
+          <button
+            onClick={() => {
+              navigate("/careers");
+              setIsMobileMenuOpen(false);
+            }}
+            className="block w-full text-left py-3"
+          >
+            {t("careers")}
+          </button>
 
-    {/* Contact */}
-    <button
-      onClick={() => {
-        handleNavClick("contact");
-        setIsMobileMenuOpen(false);
-      }}
-      className="block w-full text-left py-3"
-    >
-      Contact
-    </button>
+          {/* Contact */}
+          <button
+            onClick={() => {
+              handleNavClick("contact");
+              setIsMobileMenuOpen(false);
+            }}
+            className="block w-full text-left py-3"
+          >
+            Contact
+          </button>
 
-    <div className="flex gap-3 mt-4">
+          <div className="flex gap-3 mt-4">
 
-  <button
-    onClick={() => {
-      switchLocale("en");
-      setIsMobileMenuOpen(false);
-    }}
-    className="text-sm font-semibold"
-  >
-    EN
-  </button>
+            <button
+              onClick={() => {
+                switchLocale("en");
+                setIsMobileMenuOpen(false);
+              }}
+              className="text-sm font-semibold"
+            >
+              EN
+            </button>
 
-  <button
-    onClick={() => {
-      switchLocale("es");
-      setIsMobileMenuOpen(false);
-    }}
-    className="text-sm font-semibold"
-  >
-    ES
-  </button>
+            <button
+              onClick={() => {
+                switchLocale("es");
+                setIsMobileMenuOpen(false);
+              }}
+              className="text-sm font-semibold"
+            >
+              ES
+            </button>
 
-</div>
+          </div>
 
-  </div>
-)}
+        </div>
+      )}
     </header>
   );
 }
