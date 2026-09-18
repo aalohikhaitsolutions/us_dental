@@ -398,7 +398,8 @@
     "b3": "Flexible monthly payment plans",
     "b4": "Options for qualifying patients, including promotional plans",
 
-    "p2": "The application process is straightforward and can often be completed in just minutes. Our team will guide you through every step to ensure a smooth experience."
+    "p2": "The application process is straightforward and can often be completed in just minutes. Our team will guide you through every step to ensure a smooth experience.",
+    "cta": "Learn More About Cherry"
   },
 
   "final": {
@@ -503,7 +504,8 @@
     "l1": "Expert evaluations and personalized treatment plans",
     "l2": "Local anesthesia and sedation options",
     "l3": "After-care instructions for faster healing",
-    "l4": "Friendly and supportive dental team"
+    "l4": "Friendly and supportive dental team",
+    "l5": "Clear recovery guidance and support"
   },
 
   "sidebar": {
@@ -588,32 +590,64 @@
 },
 "deepcleaning": {
   "hero": {
-    "tag": "Periodontal Care",
-    "title1": "Deep",
-    "title2": "Teeth Cleaning",
-    "desc": "Thorough cleaning below the gumline for healthier gums and lasting oral health."
+    "tag": "Periodontal care",
+    "title": "Gentle, effective treatment for gum disease",
+    "desc": "Deep teeth cleaning, also called scaling and root planing, removes harmful bacteria, plaque, and tartar from beneath the gumline so your gums can heal and your smile can stay healthy.",
+    "cta": "Schedule a consultation",
+    "call": "Call our team",
+    "imageAlt": "Dental professional providing gum care",
+    "badge": "Comfort-first care",
+    "badgeText": "A healthier foundation for your smile",
+    "stat1": "Non-surgical periodontal treatment",
+    "stat2": "Targets buildup below the gumline",
+    "stat3": "Personalized to your gum health"
   },
-
-  "section2": {
-    "tag": "Comprehensive Gum Care",
-    "title": "A Cleaner Mouth from Gums to Teeth",
-    "desc": "Deep cleaning treatments remove plaque and tartar buildup below the gumline to protect your gums and improve overall oral health.",
-    "b1": "Removes built-up plaque & tartar",
-    "b2": "Helps fight gum disease",
-    "b3": "Promotes long-term oral health"
+  "intro": {
+    "tag": "What is deep teeth cleaning?",
+    "title": "Treat the cause, not just the symptoms",
+    "desc": "When plaque hardens into tartar and spreads below the gums, it can cause inflammation, bleeding, gum recession, and even bone loss. Scaling and root planing removes these deposits and gives your gums the clean surface they need to heal and reattach to your teeth.",
+    "note": "Unlike a routine cleaning, this treatment reaches below the gumline and is designed for patients with signs of gum disease."
   },
-
-  "section3": {
-    "tag": "Benefits of Deep Cleaning",
-    "title": "Protect Your Gums and Prevent Disease",
-    "desc": "Deep cleanings help reduce gum inflammation and prevent the progression of periodontal disease.",
-    "l1": "Reduces gum swelling and bleeding",
-    "l2": "Helps stop periodontal disease progression",
-    "l3": "Freshens breath",
-    "l4": "Improves oral health",
-    "l5": "Supports strong healthy gums"
+  "steps": {
+    "tag": "How treatment works",
+    "title": "Two careful steps",
+    "desc": "Your dentist will evaluate your gums and create a plan based on the areas that need attention.",
+    "scaling": { "title": "Scaling", "desc": "We carefully remove plaque and tartar from above and below the gumline, including deep pockets around the teeth." },
+    "planing": { "title": "Root planing", "desc": "We smooth the root surfaces to help prevent bacteria from reattaching and support healthy gum healing." }
   },
-
+  "signs": {
+    "tag": "Know the signs",
+    "title": "When might you need a deep cleaning?",
+    "desc": "These common symptoms can signal gum disease. An early evaluation can help prevent the infection from progressing.",
+    "items": { "bleeding": "Bleeding when brushing or flossing", "breath": "Persistent bad breath", "recession": "Gum recession or sensitivity", "loose": "Loose or changing teeth", "swollen": "Swollen, red, or tender gums" }
+  },
+  "visit": {
+    "tag": "What to expect",
+    "title": "Comfortable care, planned around you",
+    "desc": "Your comfort is our priority. Most patients experience minimal discomfort, and recovery is typically quick with mild sensitivity afterward.",
+    "imageAlt": "Deep teeth cleaning treatment",
+    "items": { "anesthesia": "Local anesthesia may be used to numb the area.", "tools": "Advanced tools remove buildup beneath the gums.", "visits": "Treatment may be completed in one or multiple visits.", "antibiotics": "Antibiotics may be recommended when clinically appropriate.", "comfort": "We explain each step and check in throughout your visit." }
+  },
+  "benefits": {
+    "tag": "Benefits of treatment",
+    "title": "Protect your gums and your long-term health",
+    "items": { "stops": "Stops or slows the progression of gum disease", "reduces": "Reduces gum inflammation and bleeding", "prevents": "Helps prevent tooth loss", "eliminates": "Eliminates bacteria that contribute to bad breath", "supports": "Supports overall health by reducing harmful oral bacteria" }
+  },
+  "compare": {
+    "tag": "The difference matters",
+    "title": "Deep cleaning vs. regular cleaning",
+    "regular": "Regular cleaning",
+    "deep": "Deep cleaning",
+    "rows": { "area": { "regular": "Above the gumline", "deep": "Above and below the gumline" }, "purpose": { "regular": "Preventive care", "deep": "Treats gum disease" }, "anesthesia": { "regular": "Usually not needed", "deep": "May be recommended" }, "frequency": { "regular": "Routine maintenance", "deep": "Therapeutic treatment" } }
+  },
+  "aftercare": {
+    "tag": "Aftercare & recovery",
+    "title": "Help your gums heal well",
+    "desc": "With consistent home care and maintenance visits, many patients need this treatment only once before moving into a periodontal maintenance schedule.",
+    "items": { "brush": "Brush and floss gently but consistently.", "rinse": "Use prescribed mouthwash if recommended.", "avoid": "Avoid very hot or cold foods temporarily.", "followup": "Attend follow-up visits so we can monitor healing." }
+  },
+  "early": { "tag": "Why early treatment matters", "title": "Gum disease is treatable when caught early", "desc": "Gum disease is one of the leading causes of tooth loss, but it is highly treatable. Deep cleaning can help stop infection before it causes permanent damage to your gums and supporting bone." },
+  "cta": { "tag": "Take the next step", "title": "Ready for healthier gums?", "desc": "Book a consultation and let our experienced team create a gentle, effective plan for your smile.", "button": "Book your consultation" },
   "sidebar": {
     "title": "More Services",
     "braces": "Braces",

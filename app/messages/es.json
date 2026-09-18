@@ -398,7 +398,8 @@
     "b3": "Pagos mensuales flexibles",
     "b4": "Opciones promocionales para pacientes elegibles",
 
-    "p2": "El proceso es simple y puede completarse en minutos. Nuestro equipo te guiará en cada paso."
+    "p2": "El proceso es simple y puede completarse en minutos. Nuestro equipo te guiará en cada paso.",
+    "cta": "Conoce Más Sobre Cherry"
   },
 
   "final": {
@@ -503,7 +504,8 @@
     "l1": "Evaluaciones expertas y planes personalizados",
     "l2": "Opciones de anestesia y sedación",
     "l3": "Instrucciones para una recuperación rápida",
-    "l4": "Equipo dental amable y profesional"
+    "l4": "Equipo dental amable y profesional",
+    "l5": "Guía clara y apoyo durante la recuperación"
   },
 
   "sidebar": {
@@ -588,32 +590,64 @@
 },
 "deepcleaning": {
   "hero": {
-    "tag": "Cuidado Periodontal",
-    "title1": "Limpieza",
-    "title2": "Dental Profunda",
-    "desc": "Limpieza profunda debajo de las encías para una mejor salud oral."
+    "tag": "Cuidado periodontal",
+    "title": "Tratamiento suave y efectivo para la enfermedad de las encías",
+    "desc": "La limpieza dental profunda, también llamada raspado y alisado radicular, elimina bacterias, placa y sarro debajo de la línea de las encías para ayudar a que sanen y proteger tu sonrisa.",
+    "cta": "Programa una consulta",
+    "call": "Llama a nuestro equipo",
+    "imageAlt": "Profesional dental brindando cuidado de encías",
+    "badge": "Atención con comodidad",
+    "badgeText": "Una base más saludable para tu sonrisa",
+    "stat1": "Tratamiento periodontal no quirúrgico",
+    "stat2": "Elimina acumulación debajo de las encías",
+    "stat3": "Personalizado para la salud de tus encías"
   },
-
-  "section2": {
-    "tag": "Cuidado Completo de Encías",
-    "title": "Una Limpieza Completa de Encías y Dientes",
-    "desc": "La limpieza profunda elimina placa y sarro debajo de la línea de las encías.",
-    "b1": "Elimina placa y sarro acumulado",
-    "b2": "Combate enfermedades de las encías",
-    "b3": "Promueve salud oral a largo plazo"
+  "intro": {
+    "tag": "¿Qué es una limpieza dental profunda?",
+    "title": "Trata la causa, no solo los síntomas",
+    "desc": "Cuando la placa se endurece y se convierte en sarro debajo de las encías, puede causar inflamación, sangrado, recesión e incluso pérdida de hueso. El raspado y alisado radicular elimina estos depósitos y brinda a las encías una superficie limpia para sanar y volver a adherirse a los dientes.",
+    "note": "A diferencia de una limpieza rutinaria, este tratamiento llega debajo de la línea de las encías y está diseñado para pacientes con señales de enfermedad periodontal."
   },
-
-  "section3": {
-    "tag": "Beneficios de la Limpieza Profunda",
-    "title": "Protege tus Encías y Previene Enfermedades",
-    "desc": "Las limpiezas profundas ayudan a reducir la inflamación y prevenir enfermedades.",
-    "l1": "Reduce inflamación y sangrado",
-    "l2": "Detiene enfermedad periodontal",
-    "l3": "Mejora el aliento",
-    "l4": "Mejora la salud oral",
-    "l5": "Fortalece las encías"
+  "steps": {
+    "tag": "Cómo funciona el tratamiento",
+    "title": "Dos pasos cuidadosos",
+    "desc": "Tu dentista evaluará tus encías y creará un plan según las áreas que necesiten atención.",
+    "scaling": { "title": "Raspado", "desc": "Eliminamos cuidadosamente la placa y el sarro por encima y debajo de la línea de las encías, incluyendo los bolsillos profundos alrededor de los dientes." },
+    "planing": { "title": "Alisado radicular", "desc": "Suavizamos las superficies de las raíces para ayudar a evitar que las bacterias se adhieran y favorecer la recuperación de las encías." }
   },
-
+  "signs": {
+    "tag": "Conoce las señales",
+    "title": "¿Cuándo podrías necesitar una limpieza profunda?",
+    "desc": "Estos síntomas comunes pueden indicar enfermedad de las encías. Una evaluación temprana puede ayudar a evitar que avance.",
+    "items": { "bleeding": "Sangrado al cepillarte o usar hilo dental", "breath": "Mal aliento persistente", "recession": "Recesión o sensibilidad de las encías", "loose": "Dientes flojos o que han cambiado", "swollen": "Encías inflamadas, rojas o sensibles" }
+  },
+  "visit": {
+    "tag": "Qué puedes esperar",
+    "title": "Atención cómoda, pensada para ti",
+    "desc": "Tu comodidad es nuestra prioridad. La mayoría de los pacientes siente molestias mínimas y la recuperación suele ser rápida, con sensibilidad leve después.",
+    "imageAlt": "Tratamiento de limpieza dental profunda",
+    "items": { "anesthesia": "Podemos usar anestesia local para adormecer el área.", "tools": "Usamos herramientas avanzadas para eliminar la acumulación bajo las encías.", "visits": "El tratamiento puede completarse en una o varias visitas.", "antibiotics": "Podemos recomendar antibióticos cuando sea clínicamente apropiado.", "comfort": "Explicamos cada paso y revisamos tu comodidad durante la visita." }
+  },
+  "benefits": {
+    "tag": "Beneficios del tratamiento",
+    "title": "Protege tus encías y tu salud a largo plazo",
+    "items": { "stops": "Detiene o ralentiza el avance de la enfermedad de las encías", "reduces": "Reduce la inflamación y el sangrado", "prevents": "Ayuda a prevenir la pérdida de dientes", "eliminates": "Elimina bacterias que contribuyen al mal aliento", "supports": "Apoya la salud general al reducir bacterias orales dañinas" }
+  },
+  "compare": {
+    "tag": "La diferencia importa",
+    "title": "Limpieza regular vs. limpieza profunda",
+    "regular": "Limpieza regular",
+    "deep": "Limpieza profunda",
+    "rows": { "area": { "regular": "Sobre la línea de las encías", "deep": "Sobre y debajo de la línea de las encías" }, "purpose": { "regular": "Cuidado preventivo", "deep": "Trata la enfermedad de las encías" }, "anesthesia": { "regular": "Generalmente no se necesita", "deep": "Puede recomendarse" }, "frequency": { "regular": "Mantenimiento rutinario", "deep": "Tratamiento terapéutico" } }
+  },
+  "aftercare": {
+    "tag": "Cuidados y recuperación",
+    "title": "Ayuda a tus encías a sanar",
+    "desc": "Con cuidados constantes en casa y visitas de mantenimiento, muchos pacientes solo necesitan este tratamiento una vez antes de pasar a un programa periodontal de mantenimiento.",
+    "items": { "brush": "Cepíllate y usa hilo dental con suavidad y constancia.", "rinse": "Usa el enjuague recetado si te lo recomendamos.", "avoid": "Evita temporalmente los alimentos muy calientes o fríos.", "followup": "Asiste a las visitas de seguimiento para revisar la recuperación." }
+  },
+  "early": { "tag": "Por qué importa tratarse temprano", "title": "La enfermedad de las encías puede tratarse a tiempo", "desc": "La enfermedad de las encías es una de las principales causas de pérdida dental, pero puede tratarse. La limpieza profunda puede ayudar a detener la infección antes de que cause daño permanente en las encías y el hueso de soporte." },
+  "cta": { "tag": "Da el siguiente paso", "title": "¿Listo para tener encías más saludables?", "desc": "Programa una consulta y deja que nuestro equipo cree un plan suave y efectivo para tu sonrisa.", "button": "Programa tu consulta" },
   "sidebar": {
     "title": "Más Servicios",
     "braces": "Brackets",

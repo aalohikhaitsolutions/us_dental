@@ -45,7 +45,6 @@ export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
   const { switchLocale, navigate, getLocale } = useLocaleRouter();
-  const locale = getLocale();
 
   const scrollToSection = (id: string) => {
     navigate("");
@@ -84,12 +83,6 @@ export default function Navbar() {
     return () => {
       document.body.style.overflow = "auto";
     };
-  }, [isMobileMenuOpen]);
-
-  useEffect(() => {
-    if (!isMobileMenuOpen) {
-      setIsMobileServicesOpen(false);
-    }
   }, [isMobileMenuOpen]);
 
   const handleNavClick = (id: string) => {
@@ -250,7 +243,10 @@ export default function Navbar() {
           </button>
 
           <div className="ml-auto md:hidden text-gray-900">
-            <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+            <button onClick={() => {
+              setIsMobileMenuOpen((open) => !open);
+              setIsMobileServicesOpen(false);
+            }}>
 
               ☰
             </button>

@@ -1,8 +1,10 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
+import { FaCalendarCheck, FaCheckCircle } from "react-icons/fa";
 import MoreServicesSidebar from "../../components/MoreServicesSidebar";
 
 export default function ImplantsPage() {
@@ -10,7 +12,6 @@ export default function ImplantsPage() {
   const params = useParams<{ locale?: string }>();
   const locale = params?.locale === "es" ? "es" : "en";
   const localePrefix = locale === "es" ? "/es" : "/en";
-  const getServiceHref = (slug: string) => `${localePrefix}/services/${slug}`;
   const benefits = ["l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8"];
   const solutions = ["single", "bridge", "denture", "fullArch"];
   const processSteps = ["step1", "step2", "step3", "step4", "step5"];
@@ -20,41 +21,43 @@ export default function ImplantsPage() {
   return (
     <>
       {/* ================= HERO ================= */}
-      <section className="bg-[#0A2540] text-white py-20">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <section className="relative bg-[#0A2540] text-white py-16 md:py-24">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 md:grid-cols-[1.05fr_.95fr] md:px-10">
           <div>
-            <span className="inline-block mb-4 px-4 py-1 rounded-full bg-white/20 text-sm">
+            <p className="mb-5 inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.18em] text-sky-200"><span className="h-2 w-2 rounded-full bg-sky-300" />
               {t("hero.tag")}
-            </span>
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              {t("hero.title1")} <br />
-              <span className="text-sky-300">{t("hero.title2")}</span>
+            </p>
+            <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] tracking-tight md:text-6xl">
+              {t("hero.title1")} <span className="block text-sky-300">{t("hero.title2")}</span>
             </h1>
-            <p className="mt-6 text-white/90 max-w-2xl leading-8">
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-white/90">
               {t("hero.desc")}
             </p>
+            <Link href={`${localePrefix}/#contact`} className="mt-8 inline-flex items-center gap-3 rounded-full bg-sky-300 px-7 py-3.5 font-bold text-[#0A2540] transition hover:bg-white"><FaCalendarCheck /> {locale === "es" ? "Programa una consulta" : "Schedule a consultation"}</Link>
           </div>
 
-          <div className="relative w-full aspect-[4/3]">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] border-8 border-white/10 shadow-2xl">
             <Image
               src="/hero3.jpeg"
               alt={t("hero.imageAlt")}
               fill
-              className="rounded-3xl shadow-xl object-cover"
+              className="object-cover"
               priority
             />
           </div>
         </div>
       </section>
 
+      <section className="border-b border-blue-100 bg-[#f1f6fd] py-7"><div className="mx-auto grid max-w-7xl gap-5 px-6 sm:grid-cols-3 md:px-10">{["what.title", "benefits.title", "process.title"].map((key) => <div key={key} className="flex items-center gap-3 text-sm font-semibold text-[#0A2540]"><FaCheckCircle className="shrink-0 text-blue-600" /> {t(key)}</div>)}</div></section>
+
       {/* ================= WHAT ARE IMPLANTS ================= */}
-      <section className="py-20 bg-[#f1f6fd]">
+      <section className="py-20 bg-[#f1f6fd] md:py-28">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
           <div>
-            <span className="inline-block mb-4 px-4 py-1 rounded-full bg-sky-200 text-[#0A2540] text-sm">
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-blue-600">
               {t("what.tag")}
-            </span>
-            <h2 className="text-3xl md:text-4xl font-semibold text-[#0A2540]">
+            </p>
+            <h2 className="text-3xl font-bold text-[#0A2540] md:text-5xl">
               {t("what.title")}
             </h2>
             <p className="mt-6 text-gray-700 leading-8 max-w-2xl">
@@ -74,13 +77,13 @@ export default function ImplantsPage() {
       </section>
 
       {/* ================= BENEFITS ================= */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white md:py-28">
         <div className="max-w-7xl mx-auto px-6">
-          <span className="inline-block mb-4 px-4 py-1 rounded-full bg-sky-200 text-[#0A2540] text-sm">{t("benefits.tag")}</span>
-          <h2 className="text-3xl md:text-4xl font-semibold text-[#0A2540]">{t("benefits.title")}</h2>
+          <p className="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-blue-600">{t("benefits.tag")}</p>
+          <h2 className="text-3xl font-bold text-[#0A2540] md:text-5xl">{t("benefits.title")}</h2>
           <p className="mt-4 text-gray-700 leading-8 max-w-3xl">{t("benefits.desc")}</p>
           <ul className="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {benefits.map((key) => <li key={key} className="border border-sky-100 bg-[#f1f6fd] p-5 rounded-2xl text-gray-700">{t(`benefits.${key}`)}</li>)}
+            {benefits.map((key) => <li key={key} className="flex gap-3 rounded-2xl border border-blue-100 bg-[#f1f6fd] p-5 text-gray-700"><FaCheckCircle className="mt-1 shrink-0 text-blue-600" />{t(`benefits.${key}`)}</li>)}
           </ul>
         </div>
       </section>
