@@ -2,15 +2,13 @@
 
 import { useEffect, useState } from "react";
 import { FaArrowUp, FaTooth, FaPhoneAlt } from "react-icons/fa";
-import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
-import { useLocaleRouter } from "@/app/[locale]/utils/navigation";
+
+const BOOK_APPOINTMENT_URL = "https://patientviewer.com/?RSID=3437333638&CID=30&C=1359&TCP=.1a3678";
 
 export default function FloatingButtons() {
   const [showTop, setShowTop] = useState(false);
 
-  const pathname = usePathname();
-  const { navigate } = useLocaleRouter();
   const tfb = useTranslations("floating");
 
   useEffect(() => {
@@ -24,21 +22,6 @@ export default function FloatingButtons() {
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  const scrollToContact = () => {
-    if (!pathname.includes("/#contact")) {
-      navigate("/");
-      setTimeout(() => {
-        document
-          .getElementById("contact")
-          ?.scrollIntoView({ behavior: "smooth" });
-      }, 300);
-    } else {
-      document
-        .getElementById("contact")
-        ?.scrollIntoView({ behavior: "smooth" });
-    }
   };
 
   return (
@@ -69,16 +52,19 @@ export default function FloatingButtons() {
       </a>
 
       {/* Book Appointment */}
-      <button
-        onClick={scrollToContact}
+      <a
+        href={BOOK_APPOINTMENT_URL}
+        target="_blank"
+        rel="noopener noreferrer"
         className="flex items-center gap-2 px-5 py-3 
                    rounded-full bg-[#0A2540] text-white 
                    font-semibold shadow-lg 
                    hover:scale-105 transition"
+        aria-label={tfb("book")}
       >
         <FaTooth size={18} />
         {tfb("book")}
-      </button>
+      </a>
 
     </div>
   );

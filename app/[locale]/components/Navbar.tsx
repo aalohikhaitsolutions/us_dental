@@ -34,6 +34,7 @@ import {
 } from "react-icons/fa";
 import { useLocaleRouter } from "../utils/navigation";
 
+const BOOK_APPOINTMENT_URL = "https://patientviewer.com/?RSID=3437333638&CID=30&C=1359&TCP=.1a3678";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -351,12 +352,14 @@ export default function Navbar() {
               {t("contact")}
             </button>
 
-            <button
-              onClick={() => scrollToSection("contact")}
+            <a
+              href={BOOK_APPOINTMENT_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#0A2540] hover:bg-[#163a63] text-white px-6 py-2 rounded-full font-semibold transition"
             >
               {t("book")}
-            </button>
+            </a>
 
           </nav>
 
