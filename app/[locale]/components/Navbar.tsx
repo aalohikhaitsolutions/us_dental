@@ -46,7 +46,10 @@ export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
   const { switchLocale, navigate, getLocale } = useLocaleRouter();
-  const locale = getLocale();
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+    setIsMobileServicesOpen(false);
+  };
 
   const scrollToSection = (id: string) => {
     navigate("");
@@ -85,12 +88,6 @@ export default function Navbar() {
     return () => {
       document.body.style.overflow = "auto";
     };
-  }, [isMobileMenuOpen]);
-
-  useEffect(() => {
-    if (!isMobileMenuOpen) {
-      setIsMobileServicesOpen(false);
-    }
   }, [isMobileMenuOpen]);
 
   const handleNavClick = (id: string) => {
@@ -420,8 +417,7 @@ export default function Navbar() {
                     key={service.name}
                     href={`/${getLocale()}${service.path}`}
                     onClick={() => {
-                      setIsMobileMenuOpen(false);
-                      setIsMobileServicesOpen(false);
+                      closeMobileMenu();
                     }}
                     className="block text-gray-700 hover:text-blue-600"
                   >

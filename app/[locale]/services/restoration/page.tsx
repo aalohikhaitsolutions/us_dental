@@ -39,8 +39,8 @@ export default function RestorationPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero2.jpeg"   // ✅ FIXED
-              alt="Dental Restoration"
+              src="/download-1.jpeg"
+              alt="Patient examining their smile after dental care"
               fill
               className="rounded-3xl shadow-xl object-cover"
               priority
@@ -57,8 +57,8 @@ export default function RestorationPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero3.jpeg"   // ✅ FIXED
-              alt="Dental restoration procedure"
+              src="/hero-3.png"
+              alt="Couple smiling with healthy-looking teeth"
               fill
               className="rounded-3xl shadow-lg object-cover"
             />

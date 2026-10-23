@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { FaHeart, FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 import logo from "../../../public/dentallogo.png";
 import { MapPinIcon, PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
@@ -9,16 +9,10 @@ import { useTranslations } from "next-intl";
 import { useLocaleRouter } from "../utils/navigation";
 
 export default function Footer() {
-  const [isVisible, setIsVisible] = useState(false);
-  const { navigate, getLocale } = useLocaleRouter();
+  const [isVisible] = useState(true);
+  const { navigate } = useLocaleRouter();
   const t = useTranslations("navbar");
   const ft = useTranslations("footer");
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
-
-  const locale = getLocale();
 
   const scrollToSection = (id: string) => {
     navigate("");

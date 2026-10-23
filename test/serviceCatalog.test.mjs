@@ -1,6 +1,6 @@
-const test = require("node:test");
-const assert = require("node:assert/strict");
-const { getMoreServices } = require("../app/services/serviceCatalog.js");
+import test from "node:test";
+import assert from "node:assert/strict";
+import { getMoreServices } from "../app/services/serviceCatalog.js";
 
 test("getMoreServices excludes the current service and includes all others", () => {
   const services = getMoreServices("braces");

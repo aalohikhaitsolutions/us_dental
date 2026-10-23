@@ -46,7 +46,7 @@ export default function InvisalignPage() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
           <div className="relative h-[420px] rounded-3xl overflow-hidden">
-            <Image src="/kids.png" alt="" fill className="object-cover"/>
+            <Image src="/kids.png" alt="Children smiling with clear aligners" fill className="object-cover"/>
           </div>
 
           <div>
@@ -113,7 +113,7 @@ export default function InvisalignPage() {
           </div>
 
           <div className="relative h-[420px] rounded-3xl overflow-hidden">
-            <Image src="/teenagers1.png" alt="" fill className="object-cover"/>
+            <Image src="/teenagers1.png" alt="Teenagers showing their clear aligners" fill className="object-cover"/>
           </div>
 
         </div>
@@ -144,7 +144,7 @@ export default function InvisalignPage() {
           </div>
 
           <div className="relative h-[420px] rounded-3xl overflow-hidden">
-            <Image src="/dentalbraces11.jpg" alt="" fill className="object-cover"/>
+            <Image src="/hero-4.jpg" alt="Clear aligner being fitted over teeth" fill className="object-cover"/>
           </div>
 
         </div>
@@ -192,7 +192,7 @@ export default function InvisalignPage() {
           </div>
 
           <div className="relative h-[350px] rounded-xl overflow-hidden">
-            <Image src="/payment.png" alt="" fill className="object-cover"/>
+            <Image src="/payment.png" alt="Flexible payment options for Invisalign treatment" fill className="object-cover"/>
           </div>
 
         </div>
@@ -203,7 +203,7 @@ export default function InvisalignPage() {
         <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto px-6">
 
           <div className="relative h-[350px] rounded-xl overflow-hidden">
-            <Image src="/cherry2.png" alt="" fill className="object-cover"/>
+            <Image src="/cherry2.png" alt="Patient smiling after orthodontic treatment" fill className="object-cover"/>
           </div>
 
           <div>

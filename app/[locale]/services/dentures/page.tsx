@@ -39,8 +39,8 @@ export default function DenturesPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero3.jpeg"   // ✅ FIXED
-              alt="Dentures"
+              src="/hero-2.jpg"
+              alt="Older patient speaking with a healthcare professional"
               fill
               className="rounded-3xl shadow-xl object-cover"
               priority
@@ -57,8 +57,8 @@ export default function DenturesPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero2.jpeg"   // ✅ FIXED
-              alt="Patient with dentures"
+              src="/hero-222.jpg"
+              alt="Smiling couple"
               fill
               className="rounded-3xl shadow-lg object-cover"
             />

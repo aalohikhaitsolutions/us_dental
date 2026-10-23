@@ -39,8 +39,8 @@ export default function TeethCleaningPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero2.jpeg"   // ✅ FIXED (safe path)
-              alt="Professional Teeth Cleaning"
+              src="/service-dental-smile.jpg"
+              alt="Close-up of a healthy smile"
               fill
               className="rounded-3xl shadow-xl object-cover"
               priority
@@ -57,8 +57,8 @@ export default function TeethCleaningPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero3.jpeg"   // ✅ FIXED
-              alt="Dental cleaning procedure"
+              src="/hero-333.jpg"
+              alt="Patient visiting a dentist"
               fill
               className="rounded-3xl shadow-lg object-cover"
             />

@@ -39,8 +39,8 @@ export default function ExtractionsPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero2.jpeg"
-              alt="Tooth extraction"
+              src="/service-dental-exam.jpg"
+              alt="Dentist discussing treatment options with a patient"
               fill
               className="rounded-3xl shadow-xl object-cover"
               priority
@@ -57,8 +57,8 @@ export default function ExtractionsPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero3.jpeg"
-              alt="Dental extraction procedure"
+              src="/download-3.jpeg"
+              alt="Dentist examining a patient's teeth before treatment"
               fill
               className="rounded-3xl shadow-lg object-cover"
             />

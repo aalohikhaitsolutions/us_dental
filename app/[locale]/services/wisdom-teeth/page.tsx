@@ -39,8 +39,8 @@ export default function WisdomTeethPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero4.jpeg"
-              alt="Wisdom Teeth"
+              src="/service-dental-xray.jpg"
+              alt="Dentist reviewing a dental X-ray with a patient"
               fill
               className="rounded-3xl shadow-xl object-cover"
               priority
@@ -57,8 +57,8 @@ export default function WisdomTeethPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero1.jpeg"
-              alt="Wisdom teeth procedure"
+              src="/hero-1.png"
+              alt="Patient discussing care with a healthcare professional"
               fill
               className="rounded-3xl shadow-lg object-cover"
             />

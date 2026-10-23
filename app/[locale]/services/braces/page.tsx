@@ -34,8 +34,8 @@ export default function BracesPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero3.jpeg"
-              alt="Affordable Braces in Dallas"
+              src="/hero4.jpeg"
+              alt="Child smiling with braces during a dental visit"
               fill
               className="rounded-3xl shadow-xl object-cover"
               priority
@@ -52,8 +52,8 @@ export default function BracesPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero2.jpeg"
-              alt="Teen wearing braces"
+              src="/dentalbraces11.jpg"
+              alt="Close-up of a smile with traditional braces"
               fill
               className="rounded-3xl shadow-lg object-cover"
             />

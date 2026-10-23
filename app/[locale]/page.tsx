@@ -25,8 +25,8 @@ export default function HomeHero() {
   const tc = useTranslations("home.contact");
   const tConsultation = useTranslations("home.consultation");
   const { navigate } = useLocaleRouter();
-  const services = ts.raw("list");
-  const logos = tin.raw("logos");
+  const services = ts.raw("list") as Service[];
+  const logos = tin.raw("logos") as Logo[];
 
   interface Service {
   title: string;
@@ -115,6 +115,13 @@ export default function HomeHero() {
 //     link: "/services/dentures",
 //   },
 // ];
+
+interface Service {
+  title: string;
+  desc: string;
+  icon: string;
+  link: string;
+}
 
 interface Logo {
   src: string;
@@ -574,7 +581,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
     {/* Grid */}
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-      {services.map((service: any, index: number) => (
+      {services.map((service, index) => (
         <div
           key={index}
           className="
@@ -687,7 +694,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
           hover:[animation-play-state:paused]
         "
       >
-        {[...logos, ...logos].map((logo: any, index: number) => (
+        {[...logos, ...logos].map((logo, index) => (
           <div
             key={index}
             className="

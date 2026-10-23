@@ -39,8 +39,8 @@ export default function DeepCleaningPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero2.jpeg"   // ✅ FIXED
-              alt="Deep Teeth Cleaning"
+              src="/service-dental-cleaning.jpg"
+              alt="Dentist examining a patient's teeth"
               fill
               className="rounded-3xl shadow-xl object-cover"
               priority
@@ -57,8 +57,8 @@ export default function DeepCleaningPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/comprehensive-gum-care.jpg"
-              alt="Comprehensive gum care and deep dental cleaning"
+              src="/happy_family_final.png"
+              alt="Family smiling after dental care"
               fill
               className="rounded-3xl shadow-lg object-cover"
             />

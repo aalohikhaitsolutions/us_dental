@@ -39,8 +39,8 @@ export default function RootCanalPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
   <Image
-    src="/hero1.jpeg"   // ✅ FIXED
-    alt="Root Canal Treatment in Dallas"
+    src="/dentist_image.jpg"
+    alt="Dentist examining a patient's teeth"
     fill
     className="rounded-3xl shadow-xl object-cover"
     priority
@@ -57,8 +57,8 @@ export default function RootCanalPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
   <Image
-    src="/hero3.jpeg"   // ✅ FIXED
-    alt="Root canal procedure"
+    src="/download3.jpeg"
+    alt="Close-up dental examination"
     fill
     className="rounded-3xl shadow-lg object-cover"
   />

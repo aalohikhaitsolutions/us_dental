@@ -39,8 +39,8 @@ export default function CrownsPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero1.jpeg"
-              alt="Dental crowns"
+              src="/service-crown-shade-guide.jpg"
+              alt="Dentist matching a patient's tooth shade"
               fill
               className="rounded-3xl shadow-xl object-cover"
               priority
@@ -57,8 +57,8 @@ export default function CrownsPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero3.jpeg"
-              alt="Dental crown patient"
+              src="/hero1.jpeg"
+              alt="Dentist presenting a dental model"
               fill
               className="rounded-3xl shadow-lg object-cover"
             />

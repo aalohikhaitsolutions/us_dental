@@ -39,8 +39,8 @@ export default function GingivectomyPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero2.jpeg"   // ✅ FIXED
-              alt="Gingivectomy Treatment"
+              src="/comprehensive-gum-care.jpg"
+              alt="Comprehensive gum care"
               fill
               className="rounded-3xl shadow-xl object-cover"
               priority
@@ -57,8 +57,8 @@ export default function GingivectomyPage() {
           {/* Image */}
           <div className="relative w-full aspect-[4/3]">
             <Image
-              src="/hero3.jpeg"   // ✅ FIXED
-              alt="Gingivectomy procedure"
+              src="/hero2.jpeg"
+              alt="Patient smiling after dental care"
               fill
               className="rounded-3xl shadow-lg object-cover"
             />
