@@ -33,6 +33,7 @@ export default function HeroSlider() {
   fill
   priority={index === 0}
   sizes="100vw"
+  referrerPolicy="no-referrer"
   className={`
     absolute inset-0
     object-cover

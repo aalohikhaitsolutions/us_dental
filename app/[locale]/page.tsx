@@ -285,6 +285,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
     alt="Cherry Financing"
     width={40}
     height={40}
+    referrerPolicy="no-referrer"
   />
   {t("cta3")}
   </button>
@@ -377,6 +378,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
           alt="Dr. Sandeep Bariki"
           fill
           priority
+          referrerPolicy="no-referrer"
           className="rounded-3xl shadow-xl object-cover"
         />
       </div>
@@ -401,6 +403,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
             alt="Dental Consultation"
             fill
             priority
+            referrerPolicy="no-referrer"
             className="object-cover rounded-3xl transition-transform duration-300 hover:scale-105"
           />
         </div>
@@ -410,6 +413,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
             src="/download-2.jpeg"
             alt="Dental Care"
             fill
+            referrerPolicy="no-referrer"
             className="object-cover rounded-3xl transition-transform duration-300 hover:scale-105"
           />
         </div>
@@ -423,6 +427,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
             src="/download-3.jpeg"
             alt="Dental Chair"
             fill
+            referrerPolicy="no-referrer"
             className="object-cover rounded-3xl transition-transform duration-300 hover:scale-105"
           />
         </div>
@@ -534,12 +539,13 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
       </div>
 
       {/* RIGHT IMAGE */}
-      <div className="relative w-full h-[320px] md:h-[380px] overflow-hidden">
+      <div className="relative w-full h-[320px] md:h-[380px] overflow-hidden flex items-center justify-center">
         <Image
-          src="/invisalign.webp"
-          alt="Invisalign Clear Aligners"
+          src="/invisalign-provider-logo.png"
+          alt="Invisalign Provider"
           fill
           priority
+          referrerPolicy="no-referrer"
           className="object-contain"
         />
       </div>
@@ -597,6 +603,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
                 src={service.icon}
                 alt={service.title}
                 fill
+                referrerPolicy="no-referrer"
                 className="object-contain"
               />
             </div>
@@ -702,6 +709,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
                 src={logo.src}
                 alt="Insurance Partner"
                 fill
+                referrerPolicy="no-referrer"
                 className="object-contain"
               />
             </div>
@@ -724,9 +732,10 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
 
         <div className="relative z-10 w-full aspect-[4/3]">
           <Image
-            src="/whychooseus.png"
-            alt="Happy family"
+            src="/assets/aistudio/image_805346a2.png"
+            alt="Multi-generational family smiling with healthy teeth"
             fill
+            referrerPolicy="no-referrer"
             className="rounded-3xl shadow-xl object-cover"
           />
         </div>
