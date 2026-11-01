@@ -37,176 +37,208 @@
       "cta": "Read More"
     },
     "about": {
-  "tag": "About Us",
-  "title1": "Professionals and",
-  "title2": "Personalized Dental",
-  "title3": "Excellence",
-  "desc": "We offer high-quality dental care tailored for the whole family. From routine checkups to advanced treatments, our compassionate team ensures your smile stays healthy and confident.",
-  "features": [
-    "Personalized Treatment Plans",
-    "State-of-the-Art Technology",
-    "Gentle Care for Kids and Adults",
-    "Flexible Appointment Scheduling"
-  ],
-  "cta": "Book Appointment"
-},
-"invisalign": {
-  "tag": "Invisalign Provider",
-  "title": "Straighten Your Smile with Invisalign",
-  "desc1": "At <b>Dallas Smiles</b> Dental & Orthodontics, <b>Dr. Sandeep Bariki</b> is an official <b>Invisalign® Provider</b> offering advanced clear aligner treatments designed to straighten teeth comfortably and discreetly.",
-  "desc2": "Invisalign aligners are custom-made, removable, and nearly invisible. They gradually move your teeth into perfect alignment without the need for traditional metal braces.",
-  "cta": "Learn More"
-},
-"services": {
-  "tag": "Our Services",
-  "title": "Complete Care for Every Smile",
-  "desc": "From routine cleanings to advanced procedures, we provide personalized dental care for all ages.",
-  "cta": "Learn More",
-  "list": [
-    {
-      "title": "Invisalign",
-      "desc": "Invisalign & braces treatments are coming soon. Stay tuned for smile alignment solutions.",
-      "icon": "/orthodontics.gif",
-      "link": "/services/invisalign"
+      "tag": "About Us",
+      "title1": "Professionals and",
+      "title2": "Personalized Dental",
+      "title3": "Excellence",
+      "desc": "We offer high-quality dental care tailored for the whole family. From routine checkups to advanced treatments, our compassionate team ensures your smile stays healthy and confident.",
+      "features": [
+        "Personalized Treatment Plans",
+        "State-of-the-Art Technology",
+        "Gentle Care for Kids and Adults",
+        "Flexible Appointment Scheduling"
+      ],
+      "cta": "Book Appointment"
     },
-    {
-      "title": "Dental Crowns",
-      "desc": "Protect and strengthen weak teeth with custom-made dental crowns.",
-      "icon": "/2.gif",
-      "link": "/services/crowns"
+    "invisalign": {
+      "tag": "Invisalign Provider",
+      "title": "Straighten Your Smile with Invisalign",
+      "desc1": "At <b>Dallas Smiles</b> Dental & Orthodontics, <b>Dr. Sandeep Bariki</b> is an official <b>Invisalign® Provider</b> offering advanced clear aligner treatments designed to straighten teeth comfortably and discreetly.",
+      "desc2": "Invisalign aligners are custom-made, removable, and nearly invisible. They gradually move your teeth into perfect alignment without the need for traditional metal braces.",
+      "cta": "Learn More"
     },
-    {
-      "title": "Tooth Extractions",
-      "desc": "Safe extractions to relieve pain and prevent future dental problems.",
-      "icon": "/3.gif",
-      "link": "/services/extractions"
+    "services": {
+      "tag": "Comprehensive Dental Services in Dallas, TX",
+      "title": "Advanced Dental Care Tailored to Every Smile",
+      "desc": "From preventive cleanings and pediatric exams to restorative root canals, Hiossen® dental implants, and modern orthodontics, Dr. Sandeep Bariki and our compassionate team provide high-quality, personalized dentistry using state-of-the-art technology.",
+      "cta": "Explore Treatment Details",
+      "list": [
+        {
+          "title": "Invisalign® Clear Aligners",
+          "desc": "Discreet, custom-molded clear aligners by certified Invisalign providers in Dallas. Straighten crowded teeth, gaps, and bite issues comfortably without metal brackets.",
+          "icon": "/orthodontics.gif",
+          "link": "/services/invisalign"
+        },
+        {
+          "title": "Dental Braces",
+          "desc": "Comprehensive orthodontic braces for kids, teens, and adults. Correct severe misalignment, bite balance, and spacing with low monthly financing.",
+          "icon": "/1.gif",
+          "link": "/services/braces"
+        },
+        {
+          "title": "Dental Crowns",
+          "desc": "Custom porcelain and zirconia crowns that reinforce fractured, severely decayed, or root-canal-treated teeth with natural tooth-matched beauty.",
+          "icon": "/2.gif",
+          "link": "/services/crowns"
+        },
+        {
+          "title": "Gentle Tooth Extractions",
+          "desc": "Comfort-first simple and surgical extractions to relieve acute toothaches, remove non-restorable decay, and safeguard your smile with fast healing protocols.",
+          "icon": "/3.gif",
+          "link": "/services/extractions"
+        },
+        {
+          "title": "Wisdom Teeth Removal",
+          "desc": "Safe, low-stress extraction for impacted and painful third molars. Detailed 3D CBCT imaging and gentle sedation options ensure rapid, smooth recovery.",
+          "icon": "/4.gif",
+          "link": "/services/wisdom-teeth"
+        },
+        {
+          "title": "Root Canal Therapy",
+          "desc": "Gentle, pain-relieving endodontic therapy designed to eradicate deep nerve infections, halt severe tooth pain, and save your natural tooth from extraction.",
+          "icon": "/design8.gif",
+          "link": "/services/root-canal"
+        },
+        {
+          "title": "Preventive Teeth Cleaning",
+          "desc": "Professional prophylaxis dental cleanings, ultrasonic plaque scaling, polishing, and oral cancer exams to protect enamel and keep your breath fresh.",
+          "icon": "/6666.gif",
+          "link": "/services/teeth-cleaning"
+        },
+        {
+          "title": "Deep Cleaning (Scaling & Root Planing)",
+          "desc": "Specialized periodontal therapy beneath the gumline to eliminate harmful bacterial tartar, stop gum bleeding, and reverse early-to-moderate gum disease.",
+          "icon": "/deepcleaning.gif",
+          "link": "/services/deep-cleaning"
+        },
+        {
+          "title": "Composite Dental Fillings",
+          "desc": "Durable, tooth-colored composite resin restorations that invisibly repair cavities, replace worn silver amalgam, and seal teeth against recurrent decay.",
+          "icon": "/design7.gif",
+          "link": "/services/fillings"
+        },
+        {
+          "title": "Hiossen® Dental Implants",
+          "desc": "Permanent titanium implant posts and custom porcelain crowns that replace missing teeth from root to tip, preventing bone loss with a lifetime lifespan.",
+          "icon": "/9.gif",
+          "link": "/services/implants"
+        },
+        {
+          "title": "Full-Mouth Dental Restoration",
+          "desc": "Individualized restorative dentistry reconstructing damaged, worn, or broken teeth through coordinated crowns, onlays, bridges, and bonding.",
+          "icon": "/design6.gif",
+          "link": "/services/restoration"
+        },
+        {
+          "title": "Gingivectomy & Gum Contouring",
+          "desc": "Gentle soft-tissue gum reshaping to reduce deep periodontal pockets, resolve gummy smiles, and achieve a balanced, healthy gumline.",
+          "icon": "/design11.gif",
+          "link": "/services/gingivectomy"
+        },
+        {
+          "title": "Custom Full & Partial Dentures",
+          "desc": "Lifelike, comfortable complete, partial, and implant-stabilized dentures crafted for reliable chewing power, speech clarity, and youthful facial support.",
+          "icon": "/dentures7.gif",
+          "link": "/services/dentures"
+        }
+      ]
     },
-    {
-      "title": "Wisdom Teeth",
-      "desc": "Safe and stress-free wisdom tooth removal with minimal recovery time.",
-      "icon": "/4.gif",
-      "link": "/services/wisdom-teeth"
+    "insurance": {
+      "title": "Insurance Partners",
+      "desc": "We proudly accept most major dental insurance plans",
+      "logos": [
+        {
+          "src": "/insurance1.png"
+        },
+        {
+          "src": "/insurance2.jpg"
+        },
+        {
+          "src": "/insurance3.png"
+        },
+        {
+          "src": "/insurance4.png"
+        },
+        {
+          "src": "/insurance5.png"
+        },
+        {
+          "src": "/insurance6.png"
+        },
+        {
+          "src": "/insurance7.png"
+        },
+        {
+          "src": "/insurance8.png"
+        },
+        {
+          "src": "/insurance9.png"
+        },
+        {
+          "src": "/insurance10.jpg"
+        },
+        {
+          "src": "/insurance11.jpg"
+        },
+        {
+          "src": "/insurance12.webp"
+        },
+        {
+          "src": "/insurance13.jpg"
+        },
+        {
+          "src": "/insurance14.png"
+        },
+        {
+          "src": "/insurance16.png"
+        }
+      ]
     },
-    {
-      "title": "Root Canal",
-      "desc": "Painless root canals to treat infection and preserve your natural smile.",
-      "icon": "/design8.gif",
-      "link": "/services/root-canal"
+    "why": {
+      "tag": "Why Choose Us",
+      "title1": "Your Trusted Partner for",
+      "title2": "Lifelong Dental Health",
+      "desc": "At Dallas Smiles Dental & Orthodontics, we believe everyone deserves a beautiful, healthy smile. Our dedicated team combines advanced technology with compassionate care to deliver exceptional results in a comfortable, welcoming environment.",
+      "features": [
+        "State-of-the-art technology & equipment",
+        "Flexible payment & financing options",
+        "Experienced, board-certified dentists",
+        "Comfortable, spa-like environment",
+        "Emergency same-day appointments",
+        "Warm, caring team focused on you"
+      ],
+      "cta": "Meet Our Team"
     },
-    {
-      "title": "Teeth Cleaning",
-      "desc": "Remove plaque and stains with a quick and affordable teeth cleaning.",
-      "icon": "/6666.gif",
-      "link": "/services/teeth-cleaning"
+    "faq": {
+      "tag": "Frequently Asked Questions",
+      "title": "Answers to common questions",
+      "q1": "What makes your dental practice different?",
+      "a1": "We offer personalized dental care with advanced technology, gentle treatment, and bilingual support to make every visit comfortable.",
+      "q2": "Do you accept new patients?",
+      "a2": "Yes, we welcome new patients of all ages and provide care for families, children, and adults.",
+      "q3": "How do I schedule an appointment?",
+      "a3": "You can schedule an appointment online, by phone, or by using our contact form in the section below.",
+      "q4": "Do you offer financing options?",
+      "a4": "Yes, we work with Cherry and other financing partners to make dental care more affordable.",
+      "q5": "Do you provide emergency dental care?",
+      "a5": "Yes, we offer prompt care for tooth pain, broken teeth, and other urgent dental concerns."
     },
-    {
-      "title": "Deep Teeth Cleaning",
-      "desc": "Stop gum issues early with thorough and effective deep cleanings.",
-      "icon": "/deepcleaning.gif",
-      "link": "/services/deep-cleaning"
-    },
-    {
-      "title": "Simple Filling",
-      "desc": "Restore small tooth damage with quick, painless dental fillings.",
-      "icon": "/design7.gif",
-      "link": "/services/fillings"
-    },
-    {
-      "title": "Dental Implants",
-      "desc": "Restore missing teeth with durable solutions that look completely natural.",
-      "icon": "/9.gif",
-      "link": "/services/implants"
-    },
-    {
-      "title": "Dental Restoration",
-      "desc": "Durable, natural-looking options for broken or lost teeth.",
-      "icon": "/design6.gif",
-      "link": "/services/restoration"
-    },
-    {
-      "title": "Gingivectomy",
-      "desc": "Reshape your gum line for a healthier, more even smile.",
-      "icon": "/design11.gif",
-      "link": "/services/gingivectomy"
-    },
-    {
-      "title": "Dentures",
-      "desc": "Replace missing teeth with comfortable, natural-looking dentures.",
-      "icon": "/dentures7.gif",
-      "link": "/services/dentures"
+    "contact": {
+      "tag": "Book Appointment",
+      "title": "Care at Dallas Smiles",
+      "subtitle": "Dental & Orthodontics",
+      "desc": "Experience gentle, personalized dental care in a welcoming environment where your comfort and smile come first.",
+      "name": "Name",
+      "mobile": "Mobile Number",
+      "message": "Message",
+      "namePlaceholder": "Enter your name...",
+      "mobilePlaceholder": "Your mobile number...",
+      "messagePlaceholder": "Enter your message...",
+      "call": "Call us",
+      "cta": "Send Message",
+      "sending": "Sending...",
+      "success": "Appointment request sent successfully!"
     }
-  ]
-},
-"insurance": {
-  "title": "Insurance Partners",
-  "desc": "We proudly accept most major dental insurance plans",
-  "logos": [
-    { "src": "/insurance1.png" },
-    { "src": "/insurance2.jpg" },
-    { "src": "/insurance3.png" },
-    { "src": "/insurance4.png" },
-    { "src": "/insurance5.png" },
-    { "src": "/insurance6.png" },
-    { "src": "/insurance7.png" },
-    { "src": "/insurance8.png" },
-    { "src": "/insurance9.png" },
-    { "src": "/insurance10.jpg" },
-    { "src": "/insurance11.jpg" },
-    { "src": "/insurance12.webp" },
-    { "src": "/insurance13.jpg" },
-    { "src": "/insurance14.png" },
-    { "src": "/insurance16.png" }
-  ]
-},
-"why": {
-  "tag": "Why Choose Us",
-  "title1": "Your Trusted Partner for",
-  "title2": "Lifelong Dental Health",
-  "desc": "At Dallas Smiles Dental & Orthodontics, we believe everyone deserves a beautiful, healthy smile. Our dedicated team combines advanced technology with compassionate care to deliver exceptional results in a comfortable, welcoming environment.",
-  "features": [
-    "State-of-the-art technology & equipment",
-    "Flexible payment & financing options",
-    "Experienced, board-certified dentists",
-    "Comfortable, spa-like environment",
-    "Emergency same-day appointments",
-    "Warm, caring team focused on you"
-  ],
-  "cta": "Meet Our Team"
-},
-"faq": {
-  "tag": "Frequently Asked Questions",
-  "title": "Answers to common questions",
-  "q1": "What makes your dental practice different?",
-  "a1": "We offer personalized dental care with advanced technology, gentle treatment, and bilingual support to make every visit comfortable.",
-  "q2": "Do you accept new patients?",
-  "a2": "Yes, we welcome new patients of all ages and provide care for families, children, and adults.",
-  "q3": "How do I schedule an appointment?",
-  "a3": "You can schedule an appointment online, by phone, or by using our contact form in the section below.",
-  "q4": "Do you offer financing options?",
-  "a4": "Yes, we work with Cherry and other financing partners to make dental care more affordable.",
-  "q5": "Do you provide emergency dental care?",
-  "a5": "Yes, we offer prompt care for tooth pain, broken teeth, and other urgent dental concerns."
-},
-"contact": {
-  "tag": "Book Appointment",
-  "title": "Care at Dallas Smiles",
-  "subtitle": "Dental & Orthodontics",
-  "desc": "Experience gentle, personalized dental care in a welcoming environment where your comfort and smile come first.",
-
-  "name": "Name",
-  "mobile": "Mobile Number",
-  "message": "Message",
-
-  "namePlaceholder": "Enter your name...",
-  "mobilePlaceholder": "Your mobile number...",
-  "messagePlaceholder": "Enter your message...",
-
-  "call": "Call us",
-
-  "cta": "Send Message",
-  "sending": "Sending...",
-  "success": "Appointment request sent successfully!"
-}
   },
   "navbar": {
     "home": "Home",
@@ -222,609 +254,1507 @@
     "tagline": "Creating healthy smiles with care & trust"
   },
   "floating": {
-  "book": "Book Appointment",
-  "call": "Call",
-  "top": "Scroll to top"
-},
-"careers": {
-  "tag": "Careers",
-  "title": "Join Our Team",
-  "desc": "We are looking for talented and experienced people to join our team at",
-  "company": "Dallas Smiles Dental & Orthodontics",
-  "roles": [
-    "Registered Dental Assistant",
-    "Front Desk & Treatment Coordinator"
-  ],
-  "apply": "To apply, please send your resume to:"
-},
-"aboutFounder": {
-  "badge": "About the Founder",
-  "title": "Meet Dr. Sandeep Bariki",
-  "subtitle": "Personalized, compassionate dental care built around trust, comfort, and long-term oral health.",
-
-  "p1": "At our private practice, Dr. Sandeep Bariki is committed to delivering truly personalized dental care built around each patient’s unique needs, comfort, and long-term oral health. With over a decade of clinical experience practicing in the United States and a strong international educational foundation, Dr. Bariki combines advanced clinical expertise with a compassionate, patient-centered philosophy.",
-
-  "p2": "Dr. Bariki began his dental journey by earning his Bachelor of Dental Surgery (BDS) degree in India before pursuing advanced education in the United States. He completed a Master’s degree in Health Informatics from Saint Louis University and later earned his Doctor of Dental Surgery (DDS) degree from the University of Southern California (USC) in 2016.",
-
-  "p3": "In his private practice, Dr. Bariki focuses on comprehensive oral health — from preventive care and routine checkups to advanced restorative and implant dentistry. By offering a full spectrum of services under one roof, he strives to make dental care convenient, complete, and comfortable for every patient.",
-
-  "p4": "Known for his gentle approach and calm chairside manner, Dr. Bariki prioritizes patient comfort and clear communication. His goal is to build lasting relationships based on trust, education, and exceptional care.",
-
-  "welcomeTitle": "A Personal Welcome from Dr. Sandeep Bariki",
-
-  "w1": "Welcome, and thank you for choosing our dental family. As the owner and dentist of this practice, my goal is simple — to create a place where patients feel genuinely cared for, respected, and confident about their oral health.",
-
-  "w2": "Dentistry is not just about treating teeth; it’s about building lasting relationships with the families and individuals we serve here in our Dallas community.",
-
-  "w3": "Whether you’re visiting for a routine checkup, restorative treatment, or a complete smile transformation, my team and I are committed to delivering high-quality care in a friendly, welcoming environment.",
-
-  "sign": "Warm regards,"
-},
-"financing": {
-  "title": "Flexible Financing with Cherry",
-  "description": "We’ve partnered with Cherry to make dental care more affordable. Get approved in seconds and split your treatment cost into easy monthly payments — with no financial stress.",
-
-  "points": {
-    "p1": "Instant approval (soft credit check)",
-    "p2": "0% APR options available",
-    "p3": "No hard credit impact",
-    "p4": "Flexible monthly payments"
+    "book": "Book Appointment",
+    "call": "Call",
+    "top": "Scroll to top"
   },
-
-  "learnTitle": "Learn More About Our Financing Partner Cherry",
-
-  "learnText1": "Dallas Smiles Dental & Orthodontics proudly partners with Cherry to make dental treatments more accessible and affordable for our patients. Cherry allows you to split your treatment cost into manageable monthly payments so you can receive the care you need without financial stress.",
-
-  "learnText2": "With a quick application process, fast approvals, and flexible payment options, Cherry helps patients move forward with their treatment confidently.",
-
-  "cta": "Learn More About Cherry"
-},
-"invisalign": {
-  "hero": {
-    "title": "Why Choose Invisalign®",
-    "p1": "A confident smile should feel natural — not forced, not hidden, and not uncomfortable. At Dallas Smiles Dental & Orthodontics, we offer Invisalign® as a modern orthodontic solution designed for people who want straighter teeth without disrupting their lifestyle.",
-    "p2": "Unlike traditional braces, Invisalign uses a series of custom-made, clear aligners that gradually guide your teeth into their ideal position. These aligners are virtually invisible, comfortable to wear, and removable — giving you the flexibility that metal braces simply cannot offer.",
-    "cta": "Book Free Consultation"
+  "careers": {
+    "tag": "Careers",
+    "title": "Join Our Team",
+    "desc": "We are looking for talented and experienced people to join our team at",
+    "company": "Dallas Smiles Dental & Orthodontics",
+    "roles": [
+      "Registered Dental Assistant",
+      "Front Desk & Treatment Coordinator"
+    ],
+    "apply": "To apply, please send your resume to:"
   },
-
-  "doctor": {
-    "title": "Personalized Invisalign Treatment",
-    "p1": "Dr. Sandeep Bariki carefully evaluates each patient’s bite, alignment, and facial harmony to create a personalized digital treatment plan.",
-    "p2": "Using advanced 3D imaging technology, you can even preview how your smile is expected to look before treatment begins."
+  "aboutFounder": {
+    "badge": "About the Founder",
+    "title": "Meet Dr. Sandeep Bariki",
+    "subtitle": "Personalized, compassionate dental care built around trust, comfort, and long-term oral health.",
+    "p1": "At our private practice, Dr. Sandeep Bariki is committed to delivering truly personalized dental care built around each patient’s unique needs, comfort, and long-term oral health. With over a decade of clinical experience practicing in the United States and a strong international educational foundation, Dr. Bariki combines advanced clinical expertise with a compassionate, patient-centered philosophy.",
+    "p2": "Dr. Bariki began his dental journey by earning his Bachelor of Dental Surgery (BDS) degree in India before pursuing advanced education in the United States. He completed a Master’s degree in Health Informatics from Saint Louis University and later earned his Doctor of Dental Surgery (DDS) degree from the University of Southern California (USC) in 2016.",
+    "p3": "In his private practice, Dr. Bariki focuses on comprehensive oral health — from preventive care and routine checkups to advanced restorative and implant dentistry. By offering a full spectrum of services under one roof, he strives to make dental care convenient, complete, and comfortable for every patient.",
+    "p4": "Known for his gentle approach and calm chairside manner, Dr. Bariki prioritizes patient comfort and clear communication. His goal is to build lasting relationships based on trust, education, and exceptional care.",
+    "welcomeTitle": "A Personal Welcome from Dr. Sandeep Bariki",
+    "w1": "Welcome, and thank you for choosing our dental family. As the owner and dentist of this practice, my goal is simple — to create a place where patients feel genuinely cared for, respected, and confident about their oral health.",
+    "w2": "Dentistry is not just about treating teeth; it’s about building lasting relationships with the families and individuals we serve here in our Dallas community.",
+    "w3": "Whether you’re visiting for a routine checkup, restorative treatment, or a complete smile transformation, my team and I are committed to delivering high-quality care in a friendly, welcoming environment.",
+    "sign": "Warm regards,"
   },
-
-  "conditions": {
-    "title": "Invisalign Can Treat",
-    "subtitle": "Invisalign aligners are designed to treat many common orthodontic problems comfortably and discreetly.",
-    "bottom": "Whether you're a busy professional, a teen involved in activities, or an adult who never had braces growing up, Invisalign allows you to improve your smile discreetly and comfortably.",
-
-    "c1": {
-      "title": "Crowded Teeth",
-      "desc": "Teeth overlap because there isn't enough room in the jaw."
+  "financing": {
+    "title": "Flexible Financing with Cherry",
+    "description": "We’ve partnered with Cherry to make dental care more affordable. Get approved in seconds and split your treatment cost into easy monthly payments — with no financial stress.",
+    "points": {
+      "p1": "Instant approval (soft credit check)",
+      "p2": "0% APR options available",
+      "p3": "No hard credit impact",
+      "p4": "Flexible monthly payments"
     },
-    "c2": {
-      "title": "Spacing Issues",
-      "desc": "Gaps between teeth caused by missing teeth or jaw size."
+    "learnTitle": "Learn More About Our Financing Partner Cherry",
+    "learnText1": "Dallas Smiles Dental & Orthodontics proudly partners with Cherry to make dental treatments more accessible and affordable for our patients. Cherry allows you to split your treatment cost into manageable monthly payments so you can receive the care you need without financial stress.",
+    "learnText2": "With a quick application process, fast approvals, and flexible payment options, Cherry helps patients move forward with their treatment confidently.",
+    "cta": "Learn More About Cherry"
+  },
+  "invisalign": {
+    "hero": {
+      "title": "Why Choose Invisalign®",
+      "p1": "A confident smile should feel natural — not forced, not hidden, and not uncomfortable. At Dallas Smiles Dental & Orthodontics, we offer Invisalign® as a modern orthodontic solution designed for people who want straighter teeth without disrupting their lifestyle.",
+      "p2": "Unlike traditional braces, Invisalign uses a series of custom-made, clear aligners that gradually guide your teeth into their ideal position. These aligners are virtually invisible, comfortable to wear, and removable — giving you the flexibility that metal braces simply cannot offer.",
+      "cta": "Book Free Consultation"
     },
-    "c3": {
-      "title": "Overbite",
-      "desc": "Upper teeth overlap too much over the lower teeth."
+    "doctor": {
+      "title": "Personalized Invisalign Treatment",
+      "p1": "Dr. Sandeep Bariki carefully evaluates each patient’s bite, alignment, and facial harmony to create a personalized digital treatment plan.",
+      "p2": "Using advanced 3D imaging technology, you can even preview how your smile is expected to look before treatment begins."
     },
-    "c4": {
-      "title": "Underbite",
-      "desc": "Lower teeth extend past the upper teeth when biting."
+    "conditions": {
+      "title": "Invisalign Can Treat",
+      "subtitle": "Invisalign aligners are designed to treat many common orthodontic problems comfortably and discreetly.",
+      "bottom": "Whether you're a busy professional, a teen involved in activities, or an adult who never had braces growing up, Invisalign allows you to improve your smile discreetly and comfortably.",
+      "c1": {
+        "title": "Crowded Teeth",
+        "desc": "Teeth overlap because there isn't enough room in the jaw."
+      },
+      "c2": {
+        "title": "Spacing Issues",
+        "desc": "Gaps between teeth caused by missing teeth or jaw size."
+      },
+      "c3": {
+        "title": "Overbite",
+        "desc": "Upper teeth overlap too much over the lower teeth."
+      },
+      "c4": {
+        "title": "Underbite",
+        "desc": "Lower teeth extend past the upper teeth when biting."
+      },
+      "c5": {
+        "title": "Crossbite",
+        "desc": "Some upper teeth sit inside the lower teeth instead of outside."
+      },
+      "c6": {
+        "title": "Alignment Concerns",
+        "desc": "Invisalign can treat mild to moderate alignment issues."
+      }
     },
-    "c5": {
-      "title": "Crossbite",
-      "desc": "Some upper teeth sit inside the lower teeth instead of outside."
+    "kids": {
+      "title": "Invisalign for Kids & Teenagers",
+      "p1": "Invisalign is a great orthodontic option for kids and teenagers who want a comfortable and nearly invisible way to straighten their teeth. Unlike traditional braces, Invisalign aligners are made from clear, smooth plastic that fits comfortably over the teeth and gradually moves them into proper alignment.",
+      "p2": "Because the aligners are removable, kids and teens can easily take them out while eating, brushing, and flossing. This helps maintain better oral hygiene and allows them to continue enjoying their favorite foods without restrictions.",
+      "p3": "Invisalign is especially popular among teenagers because it allows them to straighten their teeth discreetly while staying confident in school, sports, and social activities."
     },
-    "c6": {
-      "title": "Alignment Concerns",
-      "desc": "Invisalign can treat mild to moderate alignment issues."
+    "braces": {
+      "title": "Advanced Dental Braces for a Perfect Smile",
+      "p1": "Dental braces are a highly effective solution for correcting misaligned teeth, bite issues, and overcrowding. Our customized orthodontic treatments are designed to gradually move your teeth into the ideal position for a healthier and more confident smile.",
+      "p2": "We offer modern braces options that are comfortable, efficient, and suitable for both teens and adults. Our expert team ensures precise adjustments and continuous monitoring throughout your treatment journey.",
+      "b1": "Corrects crooked and crowded teeth",
+      "b2": "Improves bite alignment",
+      "b3": "Enhances facial aesthetics",
+      "b4": "Long-lasting results",
+      "cta": "Book Consultation"
+    },
+    "benefits": {
+      "title": "Benefits of Invisalign",
+      "b1": {
+        "title": "Nearly Invisible Appearance",
+        "desc": "Clear aligners blend naturally with your teeth so most people won’t notice treatment."
+      },
+      "b2": {
+        "title": "Comfortable Fit",
+        "desc": "Smooth BPA-free plastic aligners eliminate irritation from wires and brackets."
+      },
+      "b3": {
+        "title": "Removable Aligners",
+        "desc": "Remove aligners while eating, brushing, and flossing for better oral hygiene."
+      },
+      "b4": {
+        "title": "Fewer Office Visits",
+        "desc": "Appointments are shorter and less frequent compared to traditional braces."
+      },
+      "b5": {
+        "title": "Predictable Digital Planning",
+        "desc": "Advanced digital scanning allows you to preview your future smile."
+      },
+      "b6": {
+        "title": "Confidence During Treatment",
+        "desc": "Discreet aligners let you smile confidently during treatment."
+      },
+      "b7": {
+        "title": "Customized Treatment",
+        "desc": "Every Invisalign plan is tailored to your facial structure and dental health."
+      }
+    },
+    "trust": {
+      "title": "Why Patients Trust Dallas Smiles",
+      "p1": "At Dallas Smiles Dental & Orthodontics, Invisalign is not a one-size-fits-all treatment. Dr. Bariki combines over a decade of clinical experience with advanced continuing education to ensure your treatment is efficient, precise, and stable long-term.",
+      "p2": "We focus not only on straight teeth — but on balanced bites, healthy gums, and a smile that enhances your overall facial aesthetics."
+    },
+    "payment": {
+      "title": "Flexible Monthly Payment Plans",
+      "p1": "We understand that every patient’s financial situation is different. Our team will review your treatment plan with full transparency and help you choose a payment structure that works best for you.",
+      "p2": "Whether you prefer a lower upfront cost or manageable monthly installments, we will customize an option that aligns with your needs."
+    },
+    "cherry": {
+      "title": "Cherry – Our Official Financing Partner",
+      "p1": "To make Invisalign even more affordable, we proudly partner with Cherry, our official patient financing provider.",
+      "b1": "Fast, simple application process",
+      "b2": "Quick approval decisions",
+      "b3": "Flexible monthly payment plans",
+      "b4": "Options for qualifying patients, including promotional plans",
+      "p2": "The application process is straightforward and can often be completed in just minutes. Our team will guide you through every step to ensure a smooth experience.",
+      "cta": "Apply for Cherry Financing"
+    },
+    "final": {
+      "title": "Affordable Invisalign with Flexible Financing",
+      "p1": "A straighter smile should be accessible — not stressful. That’s why Dallas Smiles offers flexible payment plans designed to fit comfortably within your budget.",
+      "p2": "We proudly partner with Cherry, our official patient financing provider, offering fast applications, quick approval decisions, and convenient monthly payment plans.",
+      "cta": "Schedule Free Consultation"
+    },
+    "metaTitle": "Invisalign® Clear Aligners in Dallas, TX | Certified Invisalign Provider",
+    "metaDescription": "Straighten teeth discreetly with Invisalign clear aligners in Dallas, TX. Certified provider Dr. Sandeep Bariki offers 3D smile previews & 0% APR financing."
+  },
+  "crowns": {
+    "metaTitle": "Dental Crowns in Dallas, TX | Custom Porcelain & Zirconia Caps",
+    "metaDescription": "Restore cracked, decayed, or broken teeth with natural-looking dental crowns in Dallas, TX. Same-week appointments, PPO insurances accepted, and 0% financing.",
+    "hero": {
+      "tag": "Restorative Dentistry in Dallas, TX",
+      "title1": "Custom Dental Crowns That Restore",
+      "title2": "Strength, Function & Confidence",
+      "desc": "Protect compromised teeth, eliminate chewing discomfort, and revitalize your smile with precision-crafted, natural-looking porcelain and zirconia crowns by Dr. Sandeep Bariki at Dallas Smiles Dental & Orthodontics.",
+      "cta": "Book Crown Consultation",
+      "phone": "Call (972) 484-5400"
+    },
+    "what": {
+      "tag": "What Is a Dental Crown?",
+      "title": "A Durable, Custom-Fitted Protective Tooth Cap",
+      "desc": "A dental crown is a custom-fabricated, tooth-shaped cap placed completely over a damaged, fractured, or root-canal-treated tooth. Custom-shaded to seamlessly match your surrounding natural enamel, crowns restore structural integrity, normal bite force, and aesthetic harmony for decades of reliable daily chewing."
+    },
+    "benefits": {
+      "tag": "Benefits of Crowns",
+      "title": "Why Dental Crowns Are the Gold Standard for Tooth Preservation",
+      "desc": "Modern restorative crowns protect compromised natural teeth while revitalizing your oral health:",
+      "l1": "Reinforces severely fractured, cracked, or heavily decayed teeth",
+      "l2": "Seals and shields fragile teeth following root canal therapy",
+      "l3": "Color-matched to blend invisibly with your natural smile",
+      "l4": "Restores full biting and chewing capabilities without discomfort",
+      "l5": "Prevents catastrophic tooth fractures that would necessitate extractions",
+      "l6": "Replaces old, failing, or unsightly dark metal fillings",
+      "l7": "Engineered from ultra-durable zirconia and biocompatible porcelain",
+      "l8": "Long-lasting oral health investment lasting 10 to 15+ years with proper care"
+    },
+    "candidate": {
+      "tag": "Who Needs a Crown?",
+      "title": "Common Indications for Dental Crown Placement",
+      "desc": "You may be an ideal candidate for a dental crown if you experience:",
+      "l1": "A tooth with extensive decay exceeding what a standard filling can support",
+      "l2": "Deep tooth cracks, fractures, or craze lines causing chewing sensitivity",
+      "l3": "A tooth that has undergone root canal therapy and requires coronal protection",
+      "l4": "Severely worn enamel from chronic bruxism (nighttime teeth grinding)",
+      "l5": "A misshapen, discolored, or cosmetically compromised tooth in your smile zone"
+    },
+    "process": {
+      "tag": "Treatment Journey",
+      "title": "Your Dental Crown Procedure Step-by-Step",
+      "step1": {
+        "title": "1. Comprehensive Exam & Digital X-rays",
+        "desc": "Dr. Bariki examines tooth vitality, root integrity, and surrounding bone with high-resolution digital imaging to design the ideal treatment approach."
+      },
+      "step2": {
+        "title": "2. Tooth Preparation & Gentle Shaping",
+        "desc": "Under gentle local anesthesia, the tooth is cleaned of decay and precisely contoured so the custom crown fits snugly over the natural tooth structure."
+      },
+      "step3": {
+        "title": "3. High-Definition Digital Impressions",
+        "desc": "We capture accurate 3D impressions of your tooth and bite without messy putty, selecting the exact shade that matches your smile."
+      },
+      "step4": {
+        "title": "4. Comfortable Temporary Crown",
+        "desc": "A temporary crown is bonded in place to protect your prepared tooth and preserve comfortable eating and speaking while your permanent restoration is crafted."
+      },
+      "step5": {
+        "title": "5. Permanent Crown Bonding & Polish",
+        "desc": "Once your custom porcelain or zirconia crown arrives from our premier dental laboratory, Dr. Bariki verifies fit, contacts, and bite harmony before permanently cementing it."
+      }
+    },
+    "technology": {
+      "tag": "Advanced Materials",
+      "title": "Premium Zirconia & Aesthetic Porcelain Crowns",
+      "desc": "We avoid outdated metal alloys with dark margins at the gumline. Our dental crowns are manufactured with state-of-the-art solid zirconia and high-translucency porcelain, delivering maximum fracture resistance, biocompatibility, and lifelike light reflection."
+    },
+    "affordability": {
+      "tag": "Accessible Restorative Care",
+      "title": "Affordable Options for Every Dallas Family",
+      "desc": "Restoring your tooth should never cause financial stress.",
+      "insuranceTitle": "Maximize Your Dental Insurance",
+      "insuranceDesc": "Most PPO dental insurance plans cover 50% to 80% of dental crown treatments because they are medically necessary restorative procedures. Our insurance coordinators submit all pre-authorizations and claims directly.",
+      "financingTitle": "0% APR Financing & Flexible Terms",
+      "financingDesc": "Spread your out-of-pocket costs into low monthly payments through Cherry financing and in-house payment options with instant approval and no hard credit inquiry."
+    },
+    "faq": {
+      "tag": "Crown FAQs",
+      "title": "Frequently Asked Questions About Dental Crowns",
+      "q1": "How long does a dental crown last?",
+      "a1": "With regular daily brushing, flossing, and semi-annual dental cleanings, a high-quality porcelain or zirconia crown typically lasts between 10 and 15 years, and often much longer.",
+      "q2": "Does getting a crown hurt?",
+      "a2": "Not at all. We administer local anesthesia to completely numb the area during tooth preparation. Most patients report no discomfort during the visit and only minimal mild sensitivity for 24-48 hours afterwards.",
+      "q3": "What is the difference between a filling and a crown?",
+      "a3": "A filling restores a small-to-moderate cavity within the walls of a tooth. When a tooth is compromised by large decay, fractures, or after a root canal, a crown covers the entire visible tooth to prevent the tooth from splitting under bite pressure.",
+      "q4": "How do I take care of my new dental crown?",
+      "a4": "Care for your crown just like your natural teeth: brush twice a day with fluoride toothpaste, floss daily around the margin to protect the underlying tooth, and avoid chewing on ice or hard non-food objects.",
+      "q5": "Can a crown fall off or become loose?",
+      "a5": "Permanent crowns are bonded with strong dental cement and rarely loosen. If your crown feels loose or dislodges due to sticky foods or trauma, keep the crown in a safe baggie and call our Dallas office immediately at (972) 484-5400 for prompt re-cementation."
+    },
+    "cta": {
+      "tag": "Restore Your Tooth Today",
+      "title": "Schedule Your Dental Crown Consultation in Dallas",
+      "desc": "Do not let a cracked or decayed tooth worsen into an emergency. Contact Dallas Smiles Dental & Orthodontics today to schedule your evaluation.",
+      "action": "Call (972) 484-5400 or book online with Dr. Sandeep Bariki on Forest Lane.",
+      "items": [
+        "Comprehensive oral exam & digital X-rays",
+        "Porcelain and zirconia tooth-colored options",
+        "Same-week appointments for cracked or painful teeth",
+        "PPO insurance verification and claim filing",
+        "0% APR monthly financing with Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
     }
   },
-
-  "kids": {
-    "title": "Invisalign for Kids & Teenagers",
-    "p1": "Invisalign is a great orthodontic option for kids and teenagers who want a comfortable and nearly invisible way to straighten their teeth. Unlike traditional braces, Invisalign aligners are made from clear, smooth plastic that fits comfortably over the teeth and gradually moves them into proper alignment.",
-    "p2": "Because the aligners are removable, kids and teens can easily take them out while eating, brushing, and flossing. This helps maintain better oral hygiene and allows them to continue enjoying their favorite foods without restrictions.",
-    "p3": "Invisalign is especially popular among teenagers because it allows them to straighten their teeth discreetly while staying confident in school, sports, and social activities."
+  "extractions": {
+    "metaTitle": "Gentle Tooth Extractions in Dallas, TX | Emergency Tooth Removal",
+    "metaDescription": "Safe, painless tooth extractions in Dallas, TX. Same-day emergency appointments, local sedation, and fast healing protocols with Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Oral Surgery & Emergency Dental Care",
+      "title1": "Gentle, Pain-Free Tooth Extractions",
+      "title2": "with Compassionate Dallas Dentists",
+      "desc": "When a tooth is severely broken, badly infected, or causing excruciating pain, a safe extraction can immediately eliminate discomfort and protect your overall oral health. At Dallas Smiles, Dr. Sandeep Bariki performs gentle simple and surgical extractions with advanced numbing techniques.",
+      "cta": "Schedule an Extraction Consultation",
+      "phone": "Call (972) 484-5400"
+    },
+    "what": {
+      "tag": "What Is a Tooth Extraction?",
+      "title": "Relieving Pain and Safeguarding Oral Health",
+      "desc": "A tooth extraction is the gentle removal of a tooth from its bone socket. While our primary philosophy is always conservative dentistry and saving your natural teeth, extraction becomes essential when a tooth has suffered unrepairable fracture, advanced root decay, severe periodontal bone loss, or threatens neighboring teeth with infection."
+    },
+    "benefits": {
+      "tag": "Benefits of Safe Extractions",
+      "title": "Immediate Pain Relief & Infection Control",
+      "desc": "Prompt dental extraction prevents serious systemic and dental complications:",
+      "l1": "Provides fast relief from acute toothache and pulsating nerve pain",
+      "l2": "Stops bacterial infections from spreading into your jawbone or bloodstream",
+      "l3": "Eliminates non-restorable decay that threatens adjacent healthy teeth",
+      "l4": "Creates necessary space for orthodontic alignment or complete dentures",
+      "l5": "Removes severely fractured teeth that cause chronic mouth ulcers",
+      "l6": "Prepares your jaw for modern tooth replacement like permanent dental implants",
+      "l7": "Advanced local anesthesia ensures a calm, comfortable procedure",
+      "l8": "Comprehensive aftercare guidelines minimize downtime and risk of dry socket"
+    },
+    "candidate": {
+      "tag": "When Is an Extraction Necessary?",
+      "title": "Common Reasons for Dental Extraction",
+      "desc": "You may need a tooth extracted if you experience:",
+      "l1": "Intense, throbbing tooth pain that does not subside with medication",
+      "l2": "A tooth cracked below the gumline that cannot support a crown",
+      "l3": "Severe gum disease causing extreme tooth mobility or bone loss",
+      "l4": "Deep dental abscess that cannot be saved by root canal therapy",
+      "l5": "Crowding requiring strategic extractions prior to braces or clear aligners"
+    },
+    "process": {
+      "tag": "What to Expect",
+      "title": "The Extraction Procedure at Dallas Smiles",
+      "step1": {
+        "title": "1. Examination & Diagnostic Imaging",
+        "desc": "We take digital X-rays to visualize root curvature, bone density, and proximity to nerves."
+      },
+      "step2": {
+        "title": "2. Deep Local Anesthesia",
+        "desc": "We administer potent local anesthesia so the tooth and surrounding tissues are entirely numb."
+      },
+      "step3": {
+        "title": "3. Gentle, Controlled Removal",
+        "desc": "Dr. Bariki carefully expands the tooth socket and removes the tooth with minimal force to preserve bone."
+      },
+      "step4": {
+        "title": "4. Socket Disinfection & Hemostasis",
+        "desc": "The socket is thoroughly cleansed, disinfected, and packed with sterile gauze to foster a natural blood clot."
+      },
+      "step5": {
+        "title": "5. Recovery Guidance & Replacement Options",
+        "desc": "You receive detailed post-op instructions, pain relief guidance, and consultations for future implant replacement."
+      }
+    },
+    "technology": {
+      "tag": "Surgical Precision",
+      "title": "Modern Tools for Atraumatic Tooth Removal",
+      "desc": "We use modern atraumatic extraction instruments that preserve the surrounding alveolar bone ridges, making future dental implant placement much easier and faster."
+    },
+    "affordability": {
+      "tag": "Insurance & Payment",
+      "title": "Affordable Extractions with Same-Day Relief",
+      "desc": "We coordinate with dental insurance and offer emergency payment flexibility.",
+      "insuranceTitle": "PPO Dental Insurance Coverage",
+      "insuranceDesc": "Most dental insurance plans cover tooth extractions at 70% to 80% under basic or major dental services. We verify benefits immediately upon arrival.",
+      "financingTitle": "Emergency Financing with Cherry",
+      "financingDesc": "Don't delay urgent pain relief due to finances. Cherry financing allows you to split treatment into small monthly payments with instant digital approvals."
+    },
+    "faq": {
+      "tag": "Extraction FAQs",
+      "title": "Frequently Asked Questions About Tooth Extractions",
+      "q1": "Will I feel pain during a tooth extraction?",
+      "a1": "No. With our profound local anesthesia, you will only feel slight pressure, never sharp pain. If you feel any discomfort, we immediately stop and administer more numbing.",
+      "q2": "How long is the recovery time after an extraction?",
+      "a2": "Initial recovery takes 2 to 3 days. Most patients return to school or work within 24 to 48 hours following our simple aftercare instructions.",
+      "q3": "What can I eat after getting a tooth pulled?",
+      "a3": "Stick to soft, cool foods for the first 48 hours: yogurt, smoothies (eaten with a spoon, never a straw!), applesauce, mashed potatoes, and warm soups.",
+      "q4": "How can I prevent dry socket?",
+      "a4": "Do NOT use a straw, do NOT smoke or vape, avoid vigorous spitting, and refrain from strenuous exercise for at least 72 hours to protect the healing blood clot.",
+      "q5": "Should I replace the extracted tooth?",
+      "a5": "Yes, unless it is a wisdom tooth. Replacing missing teeth with dental implants or bridges prevents neighboring teeth from shifting and preserves your jawbone."
+    },
+    "cta": {
+      "tag": "Relieve Tooth Pain Now",
+      "title": "Emergency & Gentle Tooth Extractions in Dallas",
+      "desc": "Suffering from a severe toothache? We offer prompt emergency consultations to get you out of pain today.",
+      "action": "Call our Dallas office directly at (972) 484-5400 for emergency care.",
+      "items": [
+        "Same-day emergency availability",
+        "Gentle numbing & anxiety-free care",
+        "Preservation of jawbone for future implants",
+        "Direct PPO insurance billing",
+        "Clear aftercare instructions & follow-up"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
+    }
   },
-
+  "wisdom": {
+    "metaTitle": "Wisdom Teeth Removal in Dallas, TX | Impacted Third Molar Extraction",
+    "metaDescription": "Safe, comfortable wisdom teeth removal in Dallas, TX. 3D CBCT imaging, sedation options, and gentle third molar extractions with Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Oral Surgery in Dallas, TX",
+      "title1": "Safe, Comfortable Wisdom Teeth Removal",
+      "title2": "with Minimal Recovery Time",
+      "desc": "Wisdom teeth (third molars) frequently become impacted, painful, or misaligned due to limited jaw space. At Dallas Smiles Dental & Orthodontics, Dr. Sandeep Bariki utilizes 3D digital CBCT imaging and gentle sedation techniques to remove wisdom teeth safely and comfortably.",
+      "cta": "Book Wisdom Teeth Evaluation",
+      "phone": "Call (972) 484-5400"
+    },
+    "what": {
+      "tag": "What Are Wisdom Teeth?",
+      "title": "Understanding Third Molar Extraction",
+      "desc": "Wisdom teeth are the last set of molars to emerge, typically between ages 17 and 25. Because the modern human jaw rarely has sufficient room to accommodate them, wisdom teeth often grow sideways, remain trapped beneath the bone (impacted), or partially erupt, creating bacterial breeding grounds."
+    },
+    "benefits": {
+      "tag": "Why Remove Wisdom Teeth?",
+      "title": "Protecting Your Surrounding Smile",
+      "desc": "Proactive wisdom tooth removal prevents serious and painful dental issues:",
+      "l1": "Stops severe pain, jaw swelling, and stiffness in the back of the mouth",
+      "l2": "Prevents damage, root resorption, and decay in neighboring second molars",
+      "l3": "Avoids orthodontic crowding and shifting of previously straightened teeth",
+      "l4": "Eliminates recurrent pericoronitis (painful bacterial gum infections around partial teeth)",
+      "l5": "Prevents fluid-filled dentigerous cysts and tumors from forming around impacted teeth",
+      "l6": "Alleviates persistent pressure headaches and sinus congestion caused by upper molars",
+      "l7": "Advanced 3D CBCT imaging ensures exact mapping away from the mandibular nerve",
+      "l8": "Smooth, rapid recovery supported by specialized post-operative care"
+    },
+    "candidate": {
+      "tag": "Do You Need Wisdom Teeth Out?",
+      "title": "Signs Your Wisdom Teeth Are Causing Problems",
+      "desc": "You should schedule an evaluation if you or your teenager notice:",
+      "l1": "Throbbing pain or pressure in the back corners of your upper or lower jaw",
+      "l2": "Swollen, tender, or bleeding gums around emerging molar tips",
+      "l3": "Difficulty opening your mouth fully or pain while chewing",
+      "l4": "Persistent bad breath or an unpleasant taste from trapped food and bacteria",
+      "l5": "X-ray evidence showing impacted molars pushing into adjacent teeth"
+    },
+    "process": {
+      "tag": "The Procedure",
+      "title": "Your Wisdom Teeth Extraction Journey",
+      "step1": {
+        "title": "1. 3D Digital Consultation",
+        "desc": "We perform a comprehensive 3D scan to view exact tooth angles and distance from vital nerve pathways."
+      },
+      "step2": {
+        "title": "2. Local Anesthesia & Sedation",
+        "desc": "We ensure you are completely relaxed and thoroughly numb before any work begins."
+      },
+      "step3": {
+        "title": "3. Precise Third Molar Removal",
+        "desc": "Dr. Bariki gently accesses and removes the molar with minimal bone disruption."
+      },
+      "step4": {
+        "title": "4. Suturing & Disinfection",
+        "desc": "Dissolvable sutures are placed if needed, and the surgical site is cleaned to promote rapid clotting."
+      },
+      "step5": {
+        "title": "5. Guided Recovery Support",
+        "desc": "We provide cold packs, medication instructions, and follow-up support to ensure smooth healing."
+      }
+    },
+    "technology": {
+      "tag": "3D CBCT Technology",
+      "title": "Precision 3D Mapping for Complete Safety",
+      "desc": "Our Dallas practice features advanced CBCT 3D X-rays that generate high-resolution cross-sectional views. This allows Dr. Bariki to navigate tooth roots safely around the inferior alveolar nerve, virtually eliminating risks of nerve irritation."
+    },
+    "affordability": {
+      "tag": "Payment & Insurance",
+      "title": "Affordable Wisdom Teeth Surgery with Cherry Financing",
+      "desc": "We offer clear, transparent pricing and assist with all insurance claims.",
+      "insuranceTitle": "Dental & Medical Insurance",
+      "insuranceDesc": "Many dental PPO plans cover wisdom teeth extractions as oral surgery. We file pre-authorizations to determine your exact benefits beforehand.",
+      "financingTitle": "0% APR Financing with Cherry",
+      "financingDesc": "Spread wisdom teeth costs over easy monthly payments with flexible financing through Cherry, featuring 0% promotional interest for qualified patients."
+    },
+    "faq": {
+      "tag": "Wisdom Teeth FAQs",
+      "title": "Frequently Asked Questions About Wisdom Teeth",
+      "q1": "When is the ideal age to remove wisdom teeth?",
+      "a1": "Between ages 16 and 22 is ideal. At this stage, roots are not fully formed and surrounding bone is softer, resulting in easier removal and faster healing.",
+      "q2": "Can I have all four wisdom teeth removed at once?",
+      "a2": "Yes! In fact, removing all four during a single appointment is the most common approach because it requires only one recovery period.",
+      "q3": "How long does it take to recover from wisdom teeth surgery?",
+      "a3": "Most swelling and tenderness peaks on day 2 or 3 and subsides by day 4 or 5. Most patients return to school or normal routines within 3 to 4 days.",
+      "q4": "What should I eat after wisdom tooth removal?",
+      "a4": "Enjoy soft foods like smoothies (no straw!), lukewarm soups, pudding, yogurt, oatmeal, and scrambled eggs for the first few days.",
+      "q5": "What if my wisdom teeth aren't hurting?",
+      "a5": "Even painless wisdom teeth can cause silent damage, including bone loss, cyst formation, and hidden cavities between molars. Regular 3D scans determine if removal is warranted."
+    },
+    "cta": {
+      "tag": "Protect Your Smile",
+      "title": "Schedule Your Wisdom Teeth Exam in Dallas",
+      "desc": "Avoid sudden infections and orthodontic crowding with a proactive consultation.",
+      "action": "Call (972) 484-5400 or reserve online at Dallas Smiles Dental & Orthodontics on Forest Lane.",
+      "items": [
+        "High-precision 3D CBCT scans",
+        "Gentle local anesthesia & sedation options",
+        "All four wisdom teeth removed in one visit",
+        "Direct PPO insurance verification",
+        "0% APR monthly financing plans via Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
+    }
+  },
+  "rootcanal": {
+    "metaTitle": "Painless Root Canal in Dallas, TX | Emergency Endodontics",
+    "metaDescription": "Save your natural tooth and eliminate acute tooth pain with gentle root canal therapy in Dallas, TX. Same-day emergency appointments with Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Endodontic Care in Dallas, TX",
+      "title1": "Gentle, Pain-Relieving Root Canal Therapy",
+      "title2": "to Save Your Natural Smile",
+      "desc": "A severe toothache, lingering temperature sensitivity, or swelling doesn't have to mean losing your tooth. At Dallas Smiles Dental & Orthodontics, Dr. Sandeep Bariki performs gentle, modern root canal treatments that eliminate infection, relieve pain immediately, and preserve your natural tooth structure for life.",
+      "cta": "Schedule Root Canal Treatment",
+      "phone": "Call (972) 484-5400"
+    },
+    "what": {
+      "tag": "What Is a Root Canal?",
+      "title": "Saving Damaged Teeth from the Inside Out",
+      "desc": "Root canal therapy (endodontic treatment) treats infection within the pulp chamber of the tooth, where nerves, blood vessels, and connective tissue reside. When deep decay, trauma, or repeated procedures introduce bacteria into the pulp, the nerve becomes inflamed and infected. Dr. Bariki gently removes the diseased tissue, disinfects the microscopic canals, and seals them with biocompatible gutta-percha."
+    },
+    "benefits": {
+      "tag": "Benefits of Root Canals",
+      "title": "Why Saving Your Natural Tooth Matters",
+      "desc": "Root canal therapy is one of the most effective ways to preserve your oral health:",
+      "l1": "Instantly relieves severe, throbbing tooth pain and sensitivity",
+      "l2": "Saves your natural tooth root so no costly implant or bridge is needed",
+      "l3": "Prevents bacteria and abscesses from spreading into the jawbone and blood",
+      "l4": "Restores normal biting and chewing efficiency without discomfort",
+      "l5": "Maintains natural smile aesthetics and proper jaw alignment",
+      "l6": "Protects neighboring teeth from excessive wear and shifting",
+      "l7": "Modern rotary endodontics makes the procedure virtually pain-free",
+      "l8": "Finished with a durable porcelain crown for a lifetime of strength"
+    },
+    "candidate": {
+      "tag": "Recognize the Symptoms",
+      "title": "Signs You May Need a Root Canal",
+      "desc": "Contact us immediately if you experience any of these endodontic symptoms:",
+      "l1": "Persistent, spontaneous tooth pain that wakes you up at night",
+      "l2": "Lingering pain when drinking hot coffee or cold beverages (lasting > 10 seconds)",
+      "l3": "Sharp pain or tenderness when chewing or tapping on the tooth",
+      "l4": "Pimple-like bump (fistula) on the gums releasing discharge or foul taste",
+      "l5": "Dark discoloration of a tooth following trauma or deep decay"
+    },
+    "process": {
+      "tag": "Step-by-Step Treatment",
+      "title": "How Root Canals Are Performed at Dallas Smiles",
+      "step1": {
+        "title": "1. Precise Digital Diagnosis",
+        "desc": "Digital X-rays evaluate the number of root canals, depth of infection, and bone health."
+      },
+      "step2": {
+        "title": "2. Complete Local Numbing",
+        "desc": "Profound local anesthesia is applied so you feel completely comfortable throughout the procedure."
+      },
+      "step3": {
+        "title": "3. Gentle Pulp Removal & Disinfection",
+        "desc": "Using flexible rotary nickel-titanium instruments, Dr. Bariki cleans and disinfects the root canals."
+      },
+      "step4": {
+        "title": "4. Biocompatible Sealing",
+        "desc": "The sanitized canals are sealed with gutta-percha and antimicrobial sealer to prevent reinfection."
+      },
+      "step5": {
+        "title": "5. Protective Crown Placement",
+        "desc": "The tooth is reinforced with a custom tooth-colored dental crown to restore full chewing strength."
+      }
+    },
+    "technology": {
+      "tag": "Advanced Endodontics",
+      "title": "Rotary Instruments & Electronic Apex Locators",
+      "desc": "Gone are the days of uncomfortable root canals. We use ultra-quiet electric rotary files and digital apex locators that pinpoint canal depths with sub-millimeter precision, making your appointment fast, smooth, and gentle."
+    },
+    "affordability": {
+      "tag": "Insurance & Financing",
+      "title": "Affordable Endodontic Care in Dallas",
+      "desc": "We coordinate with dental insurance and provide easy payment plans.",
+      "insuranceTitle": "PPO Insurance Coverage",
+      "insuranceDesc": "Most dental insurance plans cover root canals under basic or major services at 50% to 80%. We handle all claims on your behalf.",
+      "financingTitle": "0% APR Monthly Plans with Cherry",
+      "financingDesc": "Never postpone emergency infection treatment. Cherry financing allows you to split treatment costs with zero interest promotional options."
+    },
+    "faq": {
+      "tag": "Root Canal FAQs",
+      "title": "Frequently Asked Questions About Root Canals",
+      "q1": "Is a root canal painful?",
+      "a1": "No! A root canal does not cause pain—it relieves pain. With modern anesthesia and rotary tools, the procedure feels similar to getting a standard filling.",
+      "q2": "How long does a root canal appointment take?",
+      "a2": "Most root canals are completed in a single 60 to 90 minute visit, allowing you to return to normal activities right away.",
+      "q3": "Why not just extract the tooth instead?",
+      "a3": "Nothing matches the strength and feel of your natural tooth. Extracting a tooth requires a dental implant or bridge to prevent shifting, which is often more expensive and complex.",
+      "q4": "Will I need a crown after a root canal?",
+      "a4": "Yes, in almost all cases. Removing the internal nerve leaves the tooth more brittle over time. A custom crown shields the tooth from cracking under chewing pressure.",
+      "q5": "What is recovery like after a root canal?",
+      "a5": "You may feel mild tenderness in the surrounding gum for 1 to 3 days, easily managed with ibuprofen or acetaminophen. You can eat normally once numbing wears off."
+    },
+    "cta": {
+      "tag": "End Tooth Pain Today",
+      "title": "Emergency Root Canal Therapy in Dallas, TX",
+      "desc": "Stop living with tooth pain. Our caring Dallas dental team is ready to save your tooth today.",
+      "action": "Call (972) 484-5400 for immediate scheduling at 3234 Forest Lane, Dallas.",
+      "items": [
+        "Same-day emergency pain relief",
+        "Gentle rotary endodontic technique",
+        "High-strength porcelain crown restoration",
+        "PPO insurance accepted & filed directly",
+        "0% financing available with Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
+    }
+  },
+  "cleaning": {
+    "metaTitle": "Professional Teeth Cleaning in Dallas, TX | Dental Exams & Prevention",
+    "metaDescription": "Keep your smile healthy and bright with gentle teeth cleanings and dental exams in Dallas, TX. Plaque removal, fluoride, and digital checkups with Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Preventive Dentistry in Dallas, TX",
+      "title1": "Gentle Professional Teeth Cleanings",
+      "title2": "and Comprehensive Dental Exams",
+      "desc": "Routine dental cleanings are the foundation of a bright smile and lifelong oral health. At Dallas Smiles Dental & Orthodontics, our skilled dental hygienists and Dr. Sandeep Bariki provide meticulous, gentle cleanings that eliminate stubborn plaque and tartar while screening for early cavities and gum disease.",
+      "cta": "Schedule Your Cleaning & Exam",
+      "phone": "Call (972) 484-5400"
+    },
+    "what": {
+      "tag": "What Is a Preventive Cleaning?",
+      "title": "More Than Just Brushing: Professional Prophylaxis",
+      "desc": "Even with diligent daily brushing and flossing, mineralized bacterial deposits known as calculus (tartar) harden in hard-to-reach areas around teeth and under the gumline. Professional dental prophylaxis uses specialized ultrasonic and hand instruments to safely dislodge tartar, polish away surface stains, and deliver protective fluoride therapy."
+    },
+    "benefits": {
+      "tag": "Benefits of Regular Cleanings",
+      "title": "Why Twice-Yearly Cleanings Are Essential",
+      "desc": "Regular professional cleanings offer immediate and long-term health advantages:",
+      "l1": "Removes hardened calculus and plaque that cause cavities and enamel breakdown",
+      "l2": "Prevents gingivitis and early gum swelling, redness, and bleeding",
+      "l3": "Eliminates chronic bad breath (halitosis) by eradicating deep bacterial pockets",
+      "l4": "Polishes away coffee, tea, wine, and tobacco surface stains for a whiter smile",
+      "l5": "Includes a comprehensive oral cancer screening and soft tissue evaluation",
+      "l6": "Identifies cracked fillings, worn enamel, or emerging decay before they cause pain",
+      "l7": "Saves money by avoiding expensive emergency and restorative dental procedures",
+      "l8": "Supports whole-body health, reducing systemic risks linked to gum inflammation"
+    },
+    "candidate": {
+      "tag": "Who Needs a Cleaning?",
+      "title": "When Was Your Last Dental Cleaning?",
+      "desc": "The American Dental Association recommends a cleaning every six months. Schedule today if you have:",
+      "l1": "Not had a dental cleaning or exam in the past 6 months",
+      "l2": "Bleeding, tender, or swollen gums when brushing or flossing",
+      "l3": "Visible yellow or brown tartar buildup along the gumline",
+      "l4": "Persistent bad breath or an unpleasant taste in your mouth",
+      "l5": "Teeth stained from coffee, tea, or everyday meals"
+    },
+    "process": {
+      "tag": "What to Expect",
+      "title": "Your Routine Dental Cleaning Visit",
+      "step1": {
+        "title": "1. Diagnostic Digital X-Rays & Oral Exam",
+        "desc": "Low-radiation digital X-rays reveal hidden decay between teeth and assess bone levels."
+      },
+      "step2": {
+        "title": "2. Ultrasonic Plaque & Tartar Scaling",
+        "desc": "Gentle ultrasonic vibrations safely dislodge hardened calculus from tooth surfaces."
+      },
+      "step3": {
+        "title": "3. Prophylaxis Polishing",
+        "desc": "A gentle polishing paste removes surface stains and leaves enamel silky smooth."
+      },
+      "step4": {
+        "title": "4. Flossing & Enamel Fluoride",
+        "desc": "Deep flossing cleans contact points, followed by remineralizing fluoride varnish."
+      },
+      "step5": {
+        "title": "5. Doctor Consultation & Prevention Tips",
+        "desc": "Dr. Bariki examines your teeth, discusses findings, and offers customized home-care advice."
+      }
+    },
+    "technology": {
+      "tag": "Comfortable Hygiene Technology",
+      "title": "Gentle Ultrasonic Scalers & Digital Imaging",
+      "desc": "We use piezoelectric ultrasonic scalers that use cool water spray to dissolve tartar gently with minimal scraping, ensuring a relaxing, painless hygiene appointment for patients of all ages."
+    },
+    "affordability": {
+      "tag": "Preventive Coverage",
+      "title": "100% Covered Cleanings by Most PPO Plans",
+      "desc": "Preventive dental care is fully supported by almost all major dental insurances.",
+      "insuranceTitle": "100% Preventive Insurance Coverage",
+      "insuranceDesc": "Most PPO dental plans cover two routine cleanings and exams per year at 100% with zero out-of-pocket copay. We verify your insurance benefits upon booking.",
+      "financingTitle": "Affordable Self-Pay Rates & Cherry Plans",
+      "financingDesc": "No insurance? We offer transparent, budget-friendly preventive packages so your entire family can maintain healthy smiles without financial worries."
+    },
+    "faq": {
+      "tag": "Teeth Cleaning FAQs",
+      "title": "Frequently Asked Questions About Teeth Cleanings",
+      "q1": "How often should I get my teeth cleaned?",
+      "a1": "Most patients require a professional cleaning every 6 months. Patients with a history of gum disease may benefit from cleanings every 3 to 4 months.",
+      "q2": "Does a routine teeth cleaning hurt?",
+      "a2": "Routine cleanings are generally comfortable and pain-free. If you have sensitive teeth or tender gums, let our hygienist know—we can apply topical numbing gel for complete comfort.",
+      "q3": "What is the difference between a regular cleaning and a deep cleaning?",
+      "a3": "A regular cleaning (prophylaxis) cleans the crown of the tooth above the gumline for patients with healthy gums. A deep cleaning (scaling and root planing) cleans beneath the gumline to treat active periodontal disease.",
+      "q4": "Will a dental cleaning whiten my teeth?",
+      "a4": "Yes! Cleaning removes external coffee, tea, and food stains, restoring your teeth's natural brightness.",
+      "q5": "Are dental X-rays safe during a cleaning?",
+      "a5": "Yes, our modern digital X-rays emit up to 90% less radiation than conventional film X-rays and provide instantaneous high-definition diagnostic views."
+    },
+    "cta": {
+      "tag": "Keep Your Smile Sparkling",
+      "title": "Book Your Family Dental Cleaning in Dallas Today",
+      "desc": "Experience gentle, thorough preventive care in a welcoming, comfortable environment.",
+      "action": "Call (972) 484-5400 or reserve online at Dallas Smiles on Forest Lane.",
+      "items": [
+        "Comprehensive dental exam & oral cancer screening",
+        "Ultrasonic tartar removal & stain polishing",
+        "Low-radiation digital X-rays included",
+        "100% coverage with most PPO insurance plans",
+        "Appointments available for adults and children"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
+    }
+  },
+  "deepcleaning": {
+    "metaTitle": "Periodontal Deep Cleaning in Dallas, TX | Scaling & Root Planing",
+    "metaDescription": "Halt gum disease, stop bleeding, and protect your teeth with periodontal deep cleanings (scaling and root planing) in Dallas, TX with Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Periodontal Care in Dallas, TX",
+      "title1": "Periodontal Deep Cleaning",
+      "title2": "to Stop Gum Disease & Protect Teeth",
+      "desc": "Bleeding gums, persistent bad breath, or gum recession are warning signs of periodontal disease. At Dallas Smiles Dental & Orthodontics, Dr. Sandeep Bariki provides gentle, thorough scaling and root planing (deep cleaning) to remove bacterial toxins below the gumline and help your gums heal securely.",
+      "cta": "Schedule a Periodontal Evaluation",
+      "phone": "Call (972) 484-5400"
+    },
+    "what": {
+      "tag": "What Is a Deep Cleaning?",
+      "title": "Scaling & Root Planing for Gum Health",
+      "desc": "Unlike a regular cleaning that addresses the tooth above the gumline, a periodontal deep cleaning goes below the gumline into infected periodontal pockets. Ultrasonic scaling gently eliminates calculus, plaque, and bacterial colonies from root surfaces, while root planing smooths rough root areas so healthy gums can firmly reattach."
+    },
+    "benefits": {
+      "tag": "Benefits of Deep Cleaning",
+      "title": "Halting Gum Disease Before Tooth Loss",
+      "desc": "Scaling and root planing is the gold standard for non-surgical gum disease treatment:",
+      "l1": "Stops active bleeding, tenderness, and inflammation in the gums",
+      "l2": "Significantly reduces deep periodontal pocket depths around teeth",
+      "l3": "Prevents irreversible jawbone loss that causes loose, shifting teeth",
+      "l4": "Eliminates chronic bad breath caused by subgingival bacterial infections",
+      "l5": "Smooths tooth roots to prevent new plaque and calculus from adhering easily",
+      "l6": "Avoids costly, invasive periodontal surgery down the road",
+      "l7": "Improves systemic health by reducing bodily inflammation connected to diabetes and heart disease",
+      "l8": "Performed with gentle local numbing for a painless, comfortable experience"
+    },
+    "candidate": {
+      "tag": "Who Needs a Deep Cleaning?",
+      "title": "Signs You May Have Periodontal Disease",
+      "desc": "A deep cleaning is recommended when periodontal pockets measure 4mm or deeper with signs of:",
+      "l1": "Gums that bleed consistently when brushing, flossing, or eating",
+      "l2": "Red, swollen, or tender gums pulling away from teeth (recession)",
+      "l3": "Chronic bad breath or an unpleasant taste that mouthwash can't fix",
+      "l4": "Teeth that feel loose or slight changes in your bite alignment",
+      "l5": "Hardened dark tartar buildup visible beneath the gum margins on X-rays"
+    },
+    "process": {
+      "tag": "The Procedure",
+      "title": "Your Scaling & Root Planing Journey",
+      "step1": {
+        "title": "1. Periodontal Pocket Charting",
+        "desc": "We gently measure pocket depths around each tooth with a periodontal probe to map infection."
+      },
+      "step2": {
+        "title": "2. Gentle Local Numbing",
+        "desc": "Targeted local anesthesia or numbing gel ensures you feel zero discomfort throughout the treatment."
+      },
+      "step3": {
+        "title": "3. Ultrasonic Subgingival Scaling",
+        "desc": "Specialized ultrasonic scalers dislodge bacterial plaque and hardened tartar deep beneath the gumline."
+      },
+      "step4": {
+        "title": "4. Root Planing & Smoothing",
+        "desc": "Root surfaces are smoothed to remove rough bacterial toxins and encourage firm gum reattachment."
+      },
+      "step5": {
+        "title": "5. Antimicrobial Irrigation & Follow-Up",
+        "desc": "An antimicrobial rinse flushes the pockets. A 4 to 6-week follow-up monitors healing and pocket shrinkage."
+      }
+    },
+    "technology": {
+      "tag": "Advanced Periodontics",
+      "title": "Ultrasonic Instruments & Targeted Antimicrobials",
+      "desc": "We utilize gentle magnetostrictive and piezoelectric ultrasonic scalers that flush bacterial toxins with medicated irrigation, maximizing pocket sterilization while keeping soft tissue trauma to an absolute minimum."
+    },
+    "affordability": {
+      "tag": "Insurance & Financing",
+      "title": "Insurance-Covered Periodontal Care",
+      "desc": "We help you maximize insurance coverage and offer flexible monthly payment options.",
+      "insuranceTitle": "PPO Insurance Benefits for Periodontics",
+      "insuranceDesc": "Most dental PPO plans cover periodontal scaling and root planing at 50% to 80%. Our front office calculates your exact coverage before beginning.",
+      "financingTitle": "0% APR Monthly Plans with Cherry",
+      "financingDesc": "Never let finances stop you from halting gum disease. With Cherry financing, you can break down out-of-pocket costs into manageable monthly installments."
+    },
+    "faq": {
+      "tag": "Deep Cleaning FAQs",
+      "title": "Frequently Asked Questions About Deep Cleanings",
+      "q1": "Is a deep cleaning painful?",
+      "a1": "No. We administer local anesthesia to numb your gums and tooth roots thoroughly before starting. You will only feel slight vibrations and water spray.",
+      "q2": "Can gum disease be cured with a deep cleaning?",
+      "a2": "Gingivitis (early gum disease) can be completely reversed. Periodontitis (advanced gum disease with bone loss) cannot regrow lost bone, but a deep cleaning halts its progression and allows gums to heal firmly around teeth.",
+      "q3": "How many visits does a deep cleaning take?",
+      "a3": "Depending on your needs, a deep cleaning is typically performed over one or two appointments (often treating one half or quadrant of the mouth at a time).",
+      "q4": "What is recovery like after a deep cleaning?",
+      "a4": "You may experience mild gum soreness or tooth temperature sensitivity for 24 to 48 hours. Warm saltwater rinses and gentle brushing provide fast relief.",
+      "q5": "How do I maintain my results after a deep cleaning?",
+      "a5": "Brush twice daily, floss every day, and schedule Periodontal Maintenance cleanings every 3 to 4 months to keep bacteria from returning into the healing pockets."
+    },
+    "cta": {
+      "tag": "Save Your Gums and Teeth",
+      "title": "Schedule Your Periodontal Exam in Dallas Today",
+      "desc": "Stop bleeding gums and protect your smile before irreversible bone loss occurs.",
+      "action": "Call (972) 484-5400 or book your visit online at Dallas Smiles on Forest Lane.",
+      "items": [
+        "Comprehensive periodontal pocket charting",
+        "Painless ultrasonic scaling and root planing",
+        "Direct PPO dental insurance claims filing",
+        "0% APR monthly financing plans via Cherry",
+        "Personalized gum recovery & maintenance plan"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
+    }
+  },
+  "fillings": {
+    "metaTitle": "Tooth-Colored Dental Fillings in Dallas, TX | Composite Resin Restorations",
+    "metaDescription": "Fix cavities seamlessly with durable, tooth-colored composite resin fillings in Dallas, TX. Mercury-free, conservative tooth repairs with Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Restorative Dentistry in Dallas, TX",
+      "title1": "Tooth-Colored Composite Fillings",
+      "title2": "for Strong, Natural Smile Restorations",
+      "desc": "A cavity doesn't have to compromise your smile. At Dallas Smiles Dental & Orthodontics, Dr. Sandeep Bariki provides modern, tooth-colored composite resin fillings that blend seamlessly with natural enamel while protecting teeth from recurrent decay and fractures.",
+      "cta": "Schedule a Dental Filling Exam",
+      "phone": "Call (972) 484-5400"
+    },
+    "what": {
+      "tag": "What Are Composite Fillings?",
+      "title": "Mercury-Free, Tooth-Matched Cavity Treatment",
+      "desc": "Composite resin fillings are crafted from a specialized blend of microscopic glass particles and biocompatible acrylic resin. Unlike old dark silver amalgam fillings that require heavy drilling and contain mercury, composite fillings bond chemically to natural enamel, allowing Dr. Bariki to preserve maximum healthy tooth structure."
+    },
+    "benefits": {
+      "tag": "Benefits of Composite Fillings",
+      "title": "Why Patients Choose Tooth-Colored Restorations",
+      "desc": "Composite fillings provide clinical strength and natural aesthetics:",
+      "l1": "Custom-shaded to match your exact natural enamel tone invisibly",
+      "l2": "100% mercury-free and metal-free biocompatible formulation",
+      "l3": "Direct chemical bonding reinforces and strengthens weak tooth walls",
+      "l4": "Conservative preparation preserves maximum healthy natural tooth structure",
+      "l5": "Cured instantly with a dental LED light—eat normally right after your visit",
+      "l6": "Resistant to thermal expansion and contraction, preventing cracked teeth",
+      "l7": "Ideal for repairing chipped edges, worn enamel, and small fractures",
+      "l8": "Smooth, polished finish feels completely natural against tongue and cheeks"
+    },
+    "candidate": {
+      "tag": "Signs You Need a Filling",
+      "title": "When to Get a Dental Filling Evaluation",
+      "desc": "You may need a composite dental filling if you notice:",
+      "l1": "Sharp sensitivity to sweet foods, cold beverages, or hot liquids",
+      "l2": "A visible dark pit, brown spot, or hole on any tooth surface",
+      "l3": "Pain or sudden discomfort when biting down on food",
+      "l4": "Rough edges that catch your tongue or shred dental floss",
+      "l5": "An older silver filling that feels loose, cracked, or discolored"
+    },
+    "process": {
+      "tag": "The Procedure",
+      "title": "Getting a Dental Filling at Dallas Smiles",
+      "step1": {
+        "title": "1. Examination & Digital X-Rays",
+        "desc": "Digital diagnostics determine the precise depth and boundaries of the cavity."
+      },
+      "step2": {
+        "title": "2. Gentle Local Numbing",
+        "desc": "Targeted anesthesia ensures you feel zero discomfort during the tooth preparation."
+      },
+      "step3": {
+        "title": "3. Conservative Decay Removal",
+        "desc": "Dr. Bariki carefully eliminates bacteria while preserving sound enamel and dentin."
+      },
+      "step4": {
+        "title": "4. Composite Layering & Light Curing",
+        "desc": "Color-matched resin is applied in layers and instantly hardened with a curing light."
+      },
+      "step5": {
+        "title": "5. Shaping, Bite Check & Polish",
+        "desc": "The filling is sculpted to your natural bite anatomy and polished to a lifelike luster."
+      }
+    },
+    "technology": {
+      "tag": "Advanced Adhesion",
+      "title": "Nano-Hybrid Composite Technology",
+      "desc": "We use high-polish nano-hybrid composite materials that offer exceptional compressive strength and lifelike light translucency, mimicking natural enamel wear patterns without staining."
+    },
+    "affordability": {
+      "tag": "Insurance & Payments",
+      "title": "Affordable Cavity Treatment in Dallas",
+      "desc": "We work with dental insurance and offer easy payment options.",
+      "insuranceTitle": "PPO Insurance Coverage for Fillings",
+      "insuranceDesc": "Dental fillings are considered basic restorative care and are covered at 70% to 80% by most PPO insurance plans. We file all paperwork for you.",
+      "financingTitle": "0% APR Monthly Plans with Cherry",
+      "financingDesc": "Split treatment costs into low monthly payments through Cherry financing, featuring instant digital approvals with zero hard credit impact."
+    },
+    "faq": {
+      "tag": "Dental Fillings FAQs",
+      "title": "Frequently Asked Questions About Dental Fillings",
+      "q1": "How long does a composite filling last?",
+      "a1": "With good oral hygiene and regular dental checkups, tooth-colored composite fillings typically last between 7 to 10 years or longer.",
+      "q2": "Is getting a filling painful?",
+      "a2": "Not at all! We administer gentle local anesthesia to numb the tooth and surrounding gums completely. Most fillings take less than 30 to 45 minutes.",
+      "q3": "Can I replace my old silver amalgam fillings with composite?",
+      "a3": "Yes! Many patients choose to replace old, dark silver fillings with natural-looking composite to eliminate grey stains and reinforce aging teeth.",
+      "q4": "Can I eat immediately after getting a composite filling?",
+      "a4": "Yes! Because composite resin is cured completely under our dental light, you can eat right away. However, we recommend waiting until local numbing wears off so you don't bite your cheek or tongue.",
+      "q5": "What causes a cavity beneath an old filling?",
+      "a5": "Over years of chewing, old fillings can develop micro-leakage around the margins where bacteria enter. Routine checkups catch this early before nerve damage occurs."
+    },
+    "cta": {
+      "tag": "Stop Cavity Progression",
+      "title": "Schedule Your Dental Filling in Dallas Today",
+      "desc": "Treat tooth decay early with gentle, natural-looking tooth restorations.",
+      "action": "Call (972) 484-5400 or reserve online at Dallas Smiles on Forest Lane.",
+      "items": [
+        "Natural-looking, tooth-colored composite resin",
+        "Mercury-free, metal-free biocompatible materials",
+        "Fast, single-visit comfortable procedure",
+        "Direct PPO insurance billing (up to 80% coverage)",
+        "0% APR monthly financing plans with Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
+    }
+  },
+  "implants": {
+    "hero": {
+      "tag": "Dental Implants",
+      "title1": "Restore Your Smile",
+      "title2": "with Strength, Function, and Confidence",
+      "desc": "Missing teeth can affect more than just your smile—they can impact your ability to chew, speak, and feel confident in everyday life. At Dallas Smiles Dental & Orthodontics, we offer advanced dental implant solutions designed to replace missing teeth with natural-looking, long-lasting results. Whether you're replacing a single tooth or restoring your entire smile, our team is committed to providing personalized care using proven techniques and premium implant systems.",
+      "imageAlt": "Patient receiving dental care"
+    },
+    "what": {
+      "tag": "What Are Dental Implants?",
+      "title": "What Are Dental Implants?",
+      "desc": "Dental implants are the gold standard for replacing missing teeth. They consist of a small titanium implant that is placed into the jawbone, where it functions as an artificial tooth root. Once the implant has integrated with the bone, a custom-made crown, bridge, or denture is securely attached, creating a restoration that looks, feels, and functions like a natural tooth. Unlike removable dentures, dental implants are fixed in place, providing exceptional stability and helping preserve the health of your jawbone.",
+      "imageAlt": "Dental implant consultation"
+    },
+    "benefits": {
+      "tag": "Benefits of Dental Implants",
+      "title": "Benefits of Dental Implants",
+      "desc": "Dental implants offer numerous advantages over traditional tooth replacement options:",
+      "l1": "Natural appearance and feel",
+      "l2": "Restore normal chewing and speaking ability",
+      "l3": "Prevent jawbone loss after tooth extraction",
+      "l4": "Preserve neighboring healthy teeth",
+      "l5": "Improve facial support and appearance",
+      "l6": "Stable and secure—no slipping or movement",
+      "l7": "Long-lasting solution with proper care",
+      "l8": "Easy to maintain like natural teeth"
+    },
+    "solutions": {
+      "tag": "Implant Solutions We Offer",
+      "title": "Implant Solutions We Offer",
+      "single": {
+        "title": "Single Tooth Implants",
+        "desc": "Replace one missing tooth with a custom implant and crown without affecting neighboring teeth."
+      },
+      "bridge": {
+        "title": "Implant Bridges",
+        "desc": "Replace several missing teeth using strategically placed implants instead of relying on natural teeth for support."
+      },
+      "denture": {
+        "title": "Implant-Supported Dentures",
+        "desc": "Enjoy a more stable, comfortable alternative to traditional dentures. Implant-supported dentures reduce movement while improving chewing efficiency and confidence."
+      },
+      "fullArch": {
+        "title": "Full-Arch Implant Restorations",
+        "desc": "For patients missing most or all of their teeth, full-arch implant solutions can restore an entire smile using a limited number of strategically placed implants."
+      }
+    },
+    "process": {
+      "tag": "Our Implant Process",
+      "title": "Our Implant Process",
+      "imageAlt": "Dental implant treatment planning",
+      "step1": {
+        "title": "Comprehensive Consultation",
+        "desc": "We begin with a thorough examination, digital X-rays, and a CBCT 3D scan to evaluate your bone structure and determine whether implants are the right solution for you."
+      },
+      "step2": {
+        "title": "Personalized Treatment Planning",
+        "desc": "Every smile is unique. We create a customized treatment plan based on your oral health, goals, and budget."
+      },
+      "step3": {
+        "title": "Implant Placement",
+        "desc": "The titanium implant is carefully placed into the jawbone using precise surgical techniques for optimal positioning and long-term stability."
+      },
+      "step4": {
+        "title": "Healing & Integration",
+        "desc": "Over the next few months, the implant naturally fuses with the jawbone through a process called osseointegration."
+      },
+      "step5": {
+        "title": "Final Restoration",
+        "desc": "Once healing is complete, we place your custom-designed crown, bridge, or denture, restoring your smile with beautiful, functional results."
+      }
+    },
+    "candidate": {
+      "tag": "Are You a Candidate for Dental Implants?",
+      "title": "Are You a Candidate for Dental Implants?",
+      "desc": "You may be a good candidate if you:",
+      "l1": "Have one or more missing teeth",
+      "l2": "Want a permanent tooth replacement option",
+      "l3": "Have healthy gums",
+      "l4": "Have sufficient jawbone (or are a candidate for bone grafting)",
+      "l5": "Are in good overall health"
+    },
+    "technology": {
+      "tag": "Advanced Technology for Predictable Results",
+      "title": "Advanced Technology for Predictable Results",
+      "desc": "At Dallas Smiles Dental & Orthodontics, we utilize modern digital technology to improve precision and treatment outcomes. Advanced diagnostics and 3D imaging allow us to carefully evaluate bone anatomy, plan implant placement, and create personalized treatment plans tailored to each patient's needs. Our commitment to continuing education and modern techniques helps ensure every implant procedure is performed with accuracy, efficiency, and patient comfort in mind."
+    },
+    "affordability": {
+      "tag": "Affordable Dental Implants with Flexible Financing",
+      "title": "Affordable Dental Implants with Flexible Financing",
+      "desc": "At Dallas Smiles Dental & Orthodontics, we believe everyone deserves access to high-quality tooth replacement. We strive to make dental implants as affordable and accessible as possible.",
+      "insuranceTitle": "We Work with Your Insurance",
+      "insuranceDesc": "Our knowledgeable team works with most major dental insurance plans and will help determine whether your plan includes implant benefits. For patients who qualify for coverage, we'll maximize your insurance benefits and explain your estimated out-of-pocket costs before treatment begins—so there are no surprises.",
+      "financingTitle": "Flexible Payment Options",
+      "financingDesc": "For patients without insurance or those seeking additional payment flexibility, we offer affordable pricing along with convenient financing options through our trusted financial partners. Qualified patients may be eligible for 0% APR financing (subject to approval and the financing partner's terms and conditions), allowing you to spread the cost of treatment into manageable monthly payments. Our goal is to help you receive the care you need without unnecessary financial stress."
+    },
+    "faq": {
+      "tag": "Frequently Asked Questions",
+      "title": "Frequently Asked Questions",
+      "q1": "How long do dental implants last?",
+      "a1": "With proper home care and regular dental visits, dental implants can last for decades and often a lifetime.",
+      "q2": "Is implant placement painful?",
+      "a2": "Most patients report minimal discomfort. Local anesthesia is used during the procedure, and many patients return to normal activities within a day or two.",
+      "q3": "How long does the entire process take?",
+      "a3": "Treatment time varies depending on healing and individual needs, but most implant cases are completed over several months.",
+      "q4": "Can implants replace multiple missing teeth?",
+      "a4": "Yes. Implants can support individual crowns, bridges, or full-arch restorations depending on your needs.",
+      "q5": "Will my implant look natural?",
+      "a5": "Absolutely. Your restoration is custom-made to match the color, shape, and size of your surrounding teeth for a seamless appearance."
+    },
+    "whyChoose": {
+      "tag": "Why Choose Dallas Smiles Dental & Orthodontics?",
+      "title": "Why Choose Dallas Smiles Dental & Orthodontics?",
+      "desc": "At Dallas Smiles Dental & Orthodontics, we believe every patient deserves high-quality care backed by trusted technology and clinical experience.",
+      "partnerTitle": "Partnered with Hiossen Implants",
+      "partnerDesc": "We proudly partner with Hiossen Implants, one of the world's leading dental implant manufacturers known for precision engineering, outstanding clinical research, and long-term reliability. Using premium implant components allows us to deliver predictable outcomes and lasting results for our patients.",
+      "providerTitle": "Experienced Implant Provider",
+      "providerDesc": "Dr. Sandeep Bariki has completed advanced implant training through the renowned Implant Pathway education program. With more than two years of experience placing and restoring dental implants, Dr. Bariki combines continuing education, modern technology, and meticulous treatment planning to provide patients with dependable, high-quality implant care.",
+      "focus": "Our focus is on delivering treatment that is safe, comfortable, and designed for long-term success.",
+      "l1": "Advanced training through Implant Pathway",
+      "l2": "More than two years of dental implant experience by Dr. Sandeep Bariki",
+      "l3": "Premium Hiossen Implant System for dependable, long-lasting results",
+      "l4": "Personalized treatment plans using advanced digital technology",
+      "l5": "Insurance-friendly office that helps maximize eligible benefits",
+      "l6": "Affordable pricing with flexible financing, including 0% APR options for qualified patients",
+      "l7": "FREE dental implant consultation for new implant patients",
+      "imageAlt": "Dental implant care at Dallas Smiles"
+    },
+    "cta": {
+      "tag": "Free Dental Implant Consultation",
+      "title": "Schedule Your FREE Dental Implant Consultation",
+      "desc": "If you're ready to replace missing teeth with a solution that looks natural, feels secure, and is built to last, our team at Dallas Smiles Dental & Orthodontics is here to help.",
+      "action": "Call Dallas Smiles Dental & Orthodontics today to schedule your free dental implant consultation and discover whether dental implants are right for you!",
+      "body": "With advanced training, premium Hiossen Implant technology, personalized treatment planning, and a commitment to exceptional patient care, we're proud to help patients restore healthy, confident smiles that last for years to come.",
+      "items": {
+        "1": "Evaluate your smile and oral health",
+        "2": "Discuss your goals and treatment options",
+        "3": "Determine if you're a candidate for dental implants",
+        "4": "Review your CBCT imaging (if needed)",
+        "5": "Explain the implant process step-by-step",
+        "6": "Verify your insurance benefits when applicable",
+        "7": "Provide a personalized treatment plan and transparent cost estimate",
+        "8": "Review financing and payment options available to you"
+      }
+    },
+    "sidebar": {
+      "title": "More Services",
+      "braces": "Braces",
+      "crowns": "Dental Crowns",
+      "rootcanal": "Root Canal",
+      "cleaning": "Teeth Cleaning"
+    },
+    "metaTitle": "Dental Implants in Dallas, TX | Hiossen® Permanent Tooth Replacement",
+    "metaDescription": "Replace missing teeth with permanent Hiossen dental implants in Dallas, TX. 3D CBCT imaging, PPO insurance & 0% financing with Dr. Sandeep Bariki."
+  },
+  "restoration": {
+    "metaTitle": "Dental Restoration in Dallas, TX | Full Mouth Reconstruction",
+    "metaDescription": "Rebuild damaged, cracked, or missing teeth with comprehensive dental restoration in Dallas, TX. Advanced restorative dentistry with Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Comprehensive Restorative Dentistry in Dallas, TX",
+      "title1": "Complete Dental Restoration Services",
+      "title2": "to Rebuild Your Bite, Strength & Confidence",
+      "desc": "Years of wear, broken teeth, failing silver fillings, or multiple missing teeth can make eating difficult and take a toll on your smile. At Dallas Smiles Dental & Orthodontics, Dr. Sandeep Bariki provides comprehensive dental restorations—combining tooth-colored fillings, onlays, crowns, bridges, and implants into a cohesive treatment plan.",
+      "cta": "Schedule Restorative Consultation",
+      "phone": "Call (972) 484-5400"
+    },
+    "what": {
+      "tag": "What Is Dental Restoration?",
+      "title": "Rebuilding Health, Function & Aesthetics",
+      "desc": "Restorative dentistry encompasses the clinical diagnosis and comprehensive repair of damaged, decaying, worn, or missing teeth. Whether you need a single cracked molar repaired or a full-mouth rehabilitation, our goal is conservative: preserve healthy natural tooth structure while rebuilding a durable, comfortable chewing bite."
+    },
+    "benefits": {
+      "tag": "Benefits of Restorative Dentistry",
+      "title": "Transforming How You Eat, Speak & Smile",
+      "desc": "Restorative care resolves pain and protects your smile for years to come:",
+      "l1": "Restores comfortable, pain-free chewing so you can enjoy all foods",
+      "l2": "Repairs cracked, worn, or chipped teeth before fractures reach the nerve",
+      "l3": "Replaces missing teeth to prevent jawbone deterioration and shifting",
+      "l4": "Eliminates jaw joint pain (TMJ) by re-establishing a balanced bite height",
+      "l5": "Uses metal-free composite resins, porcelain, and zirconia for natural beauty",
+      "l6": "Replaces old, leaking mercury amalgam fillings with healthy bonded materials",
+      "l7": "Stops recurrent decay from spreading deeper into the jaw and bloodstream",
+      "l8": "Customized phased treatment plans designed to fit your schedule and budget"
+    },
+    "candidate": {
+      "tag": "Do You Need Restorative Care?",
+      "title": "Common Indications for Dental Restoration",
+      "desc": "You may benefit from a restorative smile consultation if you have:",
+      "l1": "Multiple broken, worn down, or heavily cracked teeth",
+      "l2": "Large silver fillings that are dark, leaking, or causing tooth fractures",
+      "l3": "Missing teeth creating gaps that make chewing uncomfortable",
+      "l4": "Chronic tooth sensitivity to hot, cold, or chewing pressure",
+      "l5": "Difficulty chewing food properly due to missing or uneven teeth"
+    },
+    "process": {
+      "tag": "Treatment Approach",
+      "title": "Our Comprehensive Restoration Process",
+      "step1": {
+        "title": "1. Complete Oral Assessment & 3D Scans",
+        "desc": "We perform a thorough evaluation including digital X-rays and bite analysis to identify all underlying dental issues."
+      },
+      "step2": {
+        "title": "2. Personalized Master Treatment Plan",
+        "desc": "Dr. Bariki designs a prioritized, phased roadmap addressing urgent infections first, followed by structural reconstruction."
+      },
+      "step3": {
+        "title": "3. Conservative Tooth Preparation",
+        "desc": "Decay and damaged filling materials are gently removed while preserving maximum healthy enamel and dentin."
+      },
+      "step4": {
+        "title": "4. Precision Placement & Bonding",
+        "desc": "Custom crowns, onlays, bridges, or tooth-colored fillings are placed and bonded with medical-grade resin cements."
+      },
+      "step5": {
+        "title": "5. Bite Harmony Check & Maintenance",
+        "desc": "We balance your occlusion to ensure zero high spots and establish an easy home hygiene plan to protect your investment."
+      }
+    },
+    "technology": {
+      "tag": "Modern Restorative Materials",
+      "title": "Zirconia, Lithium Disilicate & Nano-Composites",
+      "desc": "We utilize modern bio-compatible restorative materials that bond directly with natural tooth structure. High-strength zirconia and aesthetic ceramics mimic natural light refraction and withstand heavy masticatory forces without chipping."
+    },
+    "affordability": {
+      "tag": "Insurance & Financing",
+      "title": "Insurance-Friendly Phased Restorations",
+      "desc": "We structure treatment to maximize insurance benefits across plan years.",
+      "insuranceTitle": "Maximizing Your PPO Benefits",
+      "insuranceDesc": "Restorative procedures are covered by most dental PPO insurances at 50% to 80%. We help phase your treatment to optimize annual maximums.",
+      "financingTitle": "0% APR Monthly Plans with Cherry",
+      "financingDesc": "Split your restoration into affordable monthly payments with Cherry financing, making high-quality dental rehabilitation stress-free."
+    },
+    "faq": {
+      "tag": "Restoration FAQs",
+      "title": "Frequently Asked Questions About Dental Restoration",
+      "q1": "What is the difference between cosmetic and restorative dentistry?",
+      "a1": "Restorative dentistry focuses primarily on repairing function, eliminating pain, and restoring strength to damaged teeth. However, because we use tooth-colored porcelain and composite, our restorative care is inherently beautiful and cosmetic as well!",
+      "q2": "Can I replace my old silver amalgam fillings?",
+      "a2": "Yes! Many patients choose to replace old silver amalgam fillings with tooth-colored composite resin to eliminate dark spots and seal micro-fractures in the tooth.",
+      "q3": "How long do dental restorations last?",
+      "a3": "Composite fillings typically last 7 to 10 years, while porcelain and zirconia crowns and bridges often last 15 years or longer with proper oral hygiene and regular cleanings.",
+      "q4": "Is full mouth reconstruction painful?",
+      "a4": "No. All procedures are performed under profound local anesthesia. We also phase treatments into comfortable appointments so you never feel overwhelmed.",
+      "q5": "How do I take care of restored teeth?",
+      "a5": "Treat them like natural teeth! Brush twice daily, floss daily, avoid chewing ice or hard non-food objects, and visit us every 6 months for checkups."
+    },
+    "cta": {
+      "tag": "Rebuild Your Smile",
+      "title": "Schedule Your Restorative Smile Consultation in Dallas",
+      "desc": "Restore your chewing comfort, smile beauty, and dental health with personalized care.",
+      "action": "Call (972) 484-5400 or book online at Dallas Smiles on Forest Lane.",
+      "items": [
+        "Comprehensive digital bite and smile evaluation",
+        "Prioritized, phased treatment roadmap",
+        "Tooth-colored, metal-free restorations",
+        "Direct PPO insurance billing to maximize benefits",
+        "0% APR monthly financing plans via Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
+    }
+  },
+  "gingivectomy": {
+    "metaTitle": "Gingivectomy & Gum Contouring in Dallas, TX | Cosmetic Gum Lift",
+    "metaDescription": "Reshape uneven gums, treat periodontal pockets, and eliminate gummy smiles with gentle gingivectomy in Dallas, TX with Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Periodontal & Cosmetic Dentistry in Dallas, TX",
+      "title1": "Precision Gingivectomy & Gum Contouring",
+      "title2": "for Healthier Gums & a Balanced Smile",
+      "desc": "Whether you're concerned about an uneven 'gummy smile' or need to eliminate deep periodontal pockets where bacteria hide, gingivectomy and soft-tissue gum contouring provide a precise, minimally invasive solution. At Dallas Smiles, Dr. Sandeep Bariki sculpts healthy, symmetrical gumlines that enhance both oral health and aesthetics.",
+      "cta": "Schedule Gum Contouring Consultation",
+      "phone": "Call (972) 484-5400"
+    },
+    "what": {
+      "tag": "What Is a Gingivectomy?",
+      "title": "Gentle Soft-Tissue Reshaping",
+      "desc": "A gingivectomy is a dental procedure that carefully removes and reshapes excess or diseased gum tissue. Clinically, it reduces deep pockets caused by periodontal disease that brushing and flossing cannot reach. Cosmetically, it reveals more of your natural tooth enamel, turning a short-toothed gummy smile into a balanced, camera-ready smile."
+    },
+    "benefits": {
+      "tag": "Benefits of Gum Contouring",
+      "title": "Healthier Gums and Elevated Smile Confidence",
+      "desc": "Soft-tissue contouring delivers clinical and aesthetic improvements:",
+      "l1": "Eliminates deep bacterial pockets to prevent chronic gum disease recurrence",
+      "l2": "Removes overgrown, fibrous gum tissue caused by certain medications or braces",
+      "l3": "Corrects a 'gummy smile' by exposing naturally proportioned tooth crowns",
+      "l4": "Creates an even, symmetrical gumline across front teeth",
+      "l5": "Makes daily brushing and interdental flossing significantly easier",
+      "l6": "Improves fit and visibility before placing dental crowns or veneers",
+      "l7": "Minimally invasive with local numbing and fast soft-tissue healing",
+      "l8": "Permanent aesthetic results that immediately elevate your smile"
+    },
+    "candidate": {
+      "tag": "Are You a Candidate?",
+      "title": "Who Benefits from Gingivectomy Treatment?",
+      "desc": "You may be a great candidate for gum reshaping if you have:",
+      "l1": "Excess gum tissue covering too much of your front teeth when you smile",
+      "l2": "An uneven, jagged gumline that makes teeth appear crooked or mismatched",
+      "l3": "Enlarged gums following orthodontic braces treatment",
+      "l4": "Persistent periodontal pockets deeper than 5mm that harbor chronic infection",
+      "l5": "Swollen gum overgrowth linked to blood pressure or seizure medications"
+    },
+    "process": {
+      "tag": "The Procedure",
+      "title": "What to Expect During Your Gingivectomy",
+      "step1": {
+        "title": "1. Smile Analysis & Periodontal Exam",
+        "desc": "Dr. Bariki analyzes your gum architecture, tooth lengths, and periodontal pocket depths."
+      },
+      "step2": {
+        "title": "2. Gentle Local Anesthesia",
+        "desc": "Targeted numbing ensures your gums are completely comfortable with zero sensation of pain."
+      },
+      "step3": {
+        "title": "3. Micro-Precision Tissue Reshaping",
+        "desc": "Excess tissue is sculpted with gentle precision instruments to create an even, scalloped gumline."
+      },
+      "step4": {
+        "title": "4. Hemostasis & Disinfection",
+        "desc": "The surgical margins are cleansed with antibacterial solutions to encourage fast tissue sealing."
+      },
+      "step5": {
+        "title": "5. Healing & Aftercare Guidance",
+        "desc": "You receive gentle recovery instructions; gums typically heal and settle within a week."
+      }
+    },
+    "technology": {
+      "tag": "Micro-Surgical Precision",
+      "title": "Minimally Invasive Soft-Tissue Sculpting",
+      "desc": "We employ precision micro-surgical instruments that seal capillaries as they contour, resulting in negligible bleeding, minimal swelling, and an easy recovery."
+    },
+    "affordability": {
+      "tag": "Insurance & Financing",
+      "title": "Affordable Care with Flexible Payments",
+      "desc": "We assist with insurance when medically necessary and provide zero-interest financing.",
+      "insuranceTitle": "Periodontal Insurance Coverage",
+      "insuranceDesc": "When performed to treat periodontal disease or deep pocketing, gingivectomies are frequently covered under PPO periodontal surgery benefits.",
+      "financingTitle": "0% APR Financing with Cherry",
+      "financingDesc": "For cosmetic gum contouring or out-of-pocket costs, Cherry financing lets you split payments into comfortable monthly installments."
+    },
+    "faq": {
+      "tag": "Gingivectomy FAQs",
+      "title": "Frequently Asked Questions About Gum Contouring",
+      "q1": "Does a gingivectomy hurt?",
+      "a1": "No. Your gums are thoroughly numbed with local anesthesia before the procedure. Afterwards, you may experience mild tenderness similar to a minor scrape for 2 to 3 days.",
+      "q2": "How long does it take for gums to heal?",
+      "a2": "Superficial healing occurs within 48 to 72 hours. Your gums will look completely natural and fully settled within 1 to 2 weeks.",
+      "q3": "Will the excess gum tissue grow back?",
+      "a3": "In most cases, gingivectomy results are permanent. As long as you maintain good oral hygiene and do not take medications causing gum hyperplasia, the tissue will not regrow.",
+      "q4": "What foods should I eat after gum contouring?",
+      "a4": "Eat soft, mild foods like smoothies, yogurt, eggs, pasta, and mashed potatoes. Avoid spicy, acidic, or sharp crunchy foods for 3 to 5 days.",
+      "q5": "Can gingivectomy be combined with veneers or crowns?",
+      "a5": "Yes! In fact, sculpting the gumline first ensures your new crowns or veneers have ideal tooth proportions and symmetrical margins."
+    },
+    "cta": {
+      "tag": "Reveal Your Full Smile",
+      "title": "Schedule Your Gum Contouring Consultation in Dallas",
+      "desc": "Enhance your gum health and smile symmetry with expert periodontal care.",
+      "action": "Call (972) 484-5400 or book online at Dallas Smiles on Forest Lane.",
+      "items": [
+        "Custom cosmetic & periodontal gum analysis",
+        "Minimally invasive, comfortable procedure",
+        "Immediate visible smile improvement",
+        "Insurance verification for medical necessity",
+        "0% APR monthly financing plans via Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
+    }
+  },
+  "dentures": {
+    "metaTitle": "Custom Dentures in Dallas, TX | Full, Partial & Implant Dentures",
+    "metaDescription": "Restore your smile, chewing power, and confidence with natural-looking full, partial, and implant-supported dentures in Dallas, TX with Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Prosthodontics in Dallas, TX",
+      "title1": "Comfortable, Lifelike Dentures That",
+      "title2": "Restore Your Confident Smile & Bite",
+      "desc": "Living with multiple missing teeth impacts your diet, speech clarity, and self-esteem. At Dallas Smiles Dental & Orthodontics, Dr. Sandeep Bariki creates custom full, partial, and implant-secured dentures engineered for natural beauty, secure suction, and everyday eating comfort.",
+      "cta": "Schedule a Denture Consultation",
+      "phone": "Call (972) 484-5400"
+    },
+    "what": {
+      "tag": "What Are Modern Dentures?",
+      "title": "Natural-Looking Solutions for Tooth Loss",
+      "desc": "Modern dentures are precision-crafted oral prosthetics designed to replace missing teeth and surrounding gum tissue. Gone are the days of fake-looking, loose false teeth. We utilize high-impact acrylics, flexible biocompatible resins, and lifelike porcelain-like teeth color-customized to complement your facial structure and skin tone."
+    },
+    "benefits": {
+      "tag": "Benefits of Quality Dentures",
+      "title": "Enjoy Food, Clear Speech, and a Full Smile",
+      "desc": "Custom dentures deliver dramatic functional and aesthetic improvements:",
+      "l1": "Restores normal chewing ability so you can enjoy nutritious, solid foods again",
+      "l2": "Supports facial muscles, preventing the sunken, prematurely aged look caused by tooth loss",
+      "l3": "Improves pronunciation and speech clarity compromised by missing teeth",
+      "l4": "Custom gum shading and individualized tooth sizing look completely natural",
+      "l5": "Full dentures replace an entire arch of missing upper or lower teeth",
+      "l6": "Partial dentures fill gaps while clasping securely to remaining natural teeth",
+      "l7": "Implant-supported options snap firmly onto implants with zero slippage or messy glue",
+      "l8": "Affordable tooth replacement option covered by most dental insurances"
+    },
+    "candidate": {
+      "tag": "Are Dentures Right for You?",
+      "title": "Who Can Benefit from Custom Dentures",
+      "desc": "Dentures are an excellent choice if you:",
+      "l1": "Are missing multiple teeth in an upper or lower dental arch",
+      "l2": "Have severely failing, loose, or non-restorable teeth due to decay or gum disease",
+      "l3": "Currently wear an old, loose, or cracked denture that slips during meals",
+      "l4": "Want a reliable, cost-effective full-mouth replacement solution",
+      "l5": "Want to combine dentures with dental implants for rock-solid stability"
+    },
+    "process": {
+      "tag": "The Crafting Process",
+      "title": "Creating Your Custom Denture Step-by-Step",
+      "step1": {
+        "title": "1. Consultation & Detailed Impressions",
+        "desc": "We examine your jaw ridge and take high-accuracy dental impressions to map your mouth's exact contours."
+      },
+      "step2": {
+        "title": "2. Bite Registration & Alignment",
+        "desc": "We measure your jaw relationship, lip support, and bite height to ensure proper chewing and speech dynamics."
+      },
+      "step3": {
+        "title": "3. Wax Try-In Appointment",
+        "desc": "You preview a wax mockup of your denture in your mouth to approve tooth shape, shade, and overall smile look."
+      },
+      "step4": {
+        "title": "4. Precision Laboratory Fabrication",
+        "desc": "Your approved design is cured into durable, high-density resin and polished to a lifelike gloss."
+      },
+      "step5": {
+        "title": "5. Final Fitting & Follow-Up Adjustments",
+        "desc": "We insert your custom denture, fine-tune the bite, and provide ongoing comfort adjustments as your mouth adapts."
+      }
+    },
+    "technology": {
+      "tag": "Modern Prosthetics",
+      "title": "Flexible Partials & Implant Overdentures",
+      "desc": "We offer lightweight, metal-free flexible partial dentures that disappear in the mouth, as well as implant-retained overdentures that snap directly onto Hiossen® dental implants for unmatched confidence with no adhesives needed."
+    },
+    "affordability": {
+      "tag": "Insurance & Payments",
+      "title": "Affordable Dentures with Cherry 0% Financing",
+      "desc": "We help make full-mouth tooth replacement manageable for every budget.",
+      "insuranceTitle": "PPO Insurance Coverage for Dentures",
+      "insuranceDesc": "Most dental insurance plans cover dentures under major restorative services at 50%. Our team files all claims on your behalf.",
+      "financingTitle": "Flexible Monthly Payment Plans",
+      "financingDesc": "Through Cherry financing, you can split your denture costs into low monthly payments with 0% promotional interest and fast approvals."
+    },
+    "faq": {
+      "tag": "Dentures FAQs",
+      "title": "Frequently Asked Questions About Dentures",
+      "q1": "How do modern dentures feel?",
+      "a1": "Modern dentures are custom-molded to your ridge and feel far more comfortable than older styles. It takes 1 to 2 weeks for your mouth muscles and tongue to fully adapt.",
+      "q2": "Can I sleep in my dentures?",
+      "a2": "It is strongly recommended to remove dentures at night. This allows your gum tissues to rest and breathe, preventing fungal irritation and bacterial buildup.",
+      "q3": "How long do dentures last?",
+      "a3": "Quality dentures typically last 5 to 10 years. Because the jawbone naturally shifts over time, dentures periodically need relining to maintain a snug fit.",
+      "q4": "What is an implant-supported denture?",
+      "a4": "An implant denture snaps securely onto 2 to 4 dental implants placed in the jawbone. It eliminates movement, removes the palate-covering plastic on uppers, and gives maximum chewing power.",
+      "q5": "How do I care for and clean my dentures?",
+      "a5": "Rinse them after meals, brush them daily with a non-abrasive denture cleanser and soft brush, and soak them in cool water with a cleansing tablet overnight."
+    },
+    "cta": {
+      "tag": "Rediscover Your Smile",
+      "title": "Schedule Your Custom Denture Fitting in Dallas",
+      "desc": "Eat your favorite foods again and smile with complete confidence.",
+      "action": "Call (972) 484-5400 or reserve online at Dallas Smiles on Forest Lane.",
+      "items": [
+        "Custom full, partial & implant denture consultations",
+        "Wax try-in preview before final fabrication",
+        "Metal-free lightweight flexible partial options",
+        "Direct insurance claims filing",
+        "0% APR monthly financing plans with Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
+    }
+  },
   "braces": {
-    "title": "Advanced Dental Braces for a Perfect Smile",
-    "p1": "Dental braces are a highly effective solution for correcting misaligned teeth, bite issues, and overcrowding. Our customized orthodontic treatments are designed to gradually move your teeth into the ideal position for a healthier and more confident smile.",
-    "p2": "We offer modern braces options that are comfortable, efficient, and suitable for both teens and adults. Our expert team ensures precise adjustments and continuous monitoring throughout your treatment journey.",
-
-    "b1": "Corrects crooked and crowded teeth",
-    "b2": "Improves bite alignment",
-    "b3": "Enhances facial aesthetics",
-    "b4": "Long-lasting results",
-
-    "cta": "Book Consultation"
-  },
-
-  "benefits": {
-    "title": "Benefits of Invisalign",
-
-    "b1": {
-      "title": "Nearly Invisible Appearance",
-      "desc": "Clear aligners blend naturally with your teeth so most people won’t notice treatment."
+    "metaTitle": "Affordable Braces in Dallas, TX | Orthodontics for Kids & Adults",
+    "metaDescription": "Get straight teeth and a confident smile with affordable dental braces in Dallas, TX. Flexible payment plans, no insurance required, and low down payments.",
+    "hero": {
+      "tag": "Orthodontics in Dallas, TX",
+      "title1": "Braces That Fit Your Smile",
+      "title2": "and Your Monthly Budget",
+      "desc": "Achieve the aligned, confident smile you've always wanted. At Dallas Smiles Dental & Orthodontics, Dr. Sandeep Bariki provides modern orthodontic braces for children, teens, and adults with personalized care and transparent financing.",
+      "cta": "Book Orthodontic Consultation",
+      "phone": "Call (972) 484-5400"
     },
-    "b2": {
-      "title": "Comfortable Fit",
-      "desc": "Smooth BPA-free plastic aligners eliminate irritation from wires and brackets."
+    "what": {
+      "tag": "What Are Dental Braces?",
+      "title": "Proven Orthodontic Care for Lifelong Alignment",
+      "desc": "Dental braces are the time-tested standard for correcting crooked teeth, complex bite problems, and jaw misalignments. By utilizing biocompatible brackets and high-tech archwires, braces exert controlled, gentle pressure that shifts teeth into their harmonious aesthetic and functional positions."
     },
-    "b3": {
-      "title": "Removable Aligners",
-      "desc": "Remove aligners while eating, brushing, and flossing for better oral hygiene."
+    "benefits": {
+      "tag": "Benefits of Braces",
+      "title": "Why Straightening Your Teeth Matters",
+      "desc": "Orthodontic treatment offers transformative health, functional, and cosmetic advantages:",
+      "l1": "Straighter teeth make brushing and flossing significantly easier",
+      "l2": "Corrects painful overbites, underbites, crossbites, and open bites",
+      "l3": "Reduces abnormal enamel wear and stress on the temporomandibular joint (TMJ)",
+      "l4": "Lowers your risk of dental decay, tartar accumulation, and gum disease",
+      "l5": "Improves chewing efficiency, speech clarity, and digestion",
+      "l6": "Enhances facial symmetry and smile aesthetics",
+      "l7": "Suitable for complex tooth movements that clear aligners cannot achieve alone",
+      "l8": "Permanent, stable orthodontic results with post-treatment retainers"
     },
-    "b4": {
-      "title": "Fewer Office Visits",
-      "desc": "Appointments are shorter and less frequent compared to traditional braces."
+    "candidate": {
+      "tag": "Who Needs Braces?",
+      "title": "Common Signs You Could Benefit from Braces",
+      "desc": "Braces are suitable for patients of all ages experiencing:",
+      "l1": "Overcrowded or overlapping teeth that trap food easily",
+      "l2": "Noticeable gaps and irregular spacing between teeth",
+      "l3": "Upper teeth extending significantly past the lower teeth (overbite)",
+      "l4": "Lower jaw jutting forward past upper teeth (underbite)",
+      "l5": "Difficulty biting into or chewing certain foods comfortably"
     },
-    "b5": {
-      "title": "Predictable Digital Planning",
-      "desc": "Advanced digital scanning allows you to preview your future smile."
+    "process": {
+      "tag": "Treatment Journey",
+      "title": "Your Orthodontic Experience Step-by-Step",
+      "step1": {
+        "title": "1. Comprehensive Exam & Digital X-rays",
+        "desc": "We perform a detailed orthodontic assessment with panoramic imaging to evaluate tooth roots, jaw structure, and facial aesthetics."
+      },
+      "step2": {
+        "title": "2. Customized Orthodontic Plan",
+        "desc": "Dr. Bariki maps out the exact movement trajectory, estimated treatment duration, and clear financial breakdown."
+      },
+      "step3": {
+        "title": "3. Gentle Placement Appointment",
+        "desc": "Brackets are bonded meticulously to the surface of each tooth, connected with a flexible archwire that activates gentle alignment."
+      },
+      "step4": {
+        "title": "4. Regular Progress Checkups",
+        "desc": "Quick, comfortable visits every 4 to 8 weeks allow Dr. Bariki to adjust wires, monitor progress, and change colorful elastic ligatures."
+      },
+      "step5": {
+        "title": "5. Debonding & Custom Retainer",
+        "desc": "Braces are removed to reveal your radiant smile! A custom retainer is fitted to ensure your straight teeth remain locked in place."
+      }
     },
-    "b6": {
-      "title": "Confidence During Treatment",
-      "desc": "Discreet aligners let you smile confidently during treatment."
+    "technology": {
+      "tag": "Modern Orthodontic Options",
+      "title": "Low-Profile Metal and Discreet Ceramic Brackets",
+      "desc": "Modern braces are lighter, sleeker, and far more comfortable than older designs. We offer traditional stainless-steel brackets as well as tooth-colored ceramic brackets that blend subtly with your natural enamel."
     },
-    "b7": {
-      "title": "Customized Treatment",
-      "desc": "Every Invisalign plan is tailored to your facial structure and dental health."
+    "affordability": {
+      "tag": "Accessible Orthodontics",
+      "title": "Flexible Payment Options — No Insurance Needed",
+      "desc": "We believe quality orthodontic care should be accessible to every Dallas family.",
+      "insuranceTitle": "Insurance & Orthodontic Benefits",
+      "insuranceDesc": "Many dental insurance policies include lifetime orthodontic coverage for children and adults. We file your claims directly to help maximize every eligible dollar.",
+      "financingTitle": "Low Down Payments & 0% Financing",
+      "financingDesc": "Take advantage of manageable monthly payments through Cherry financing and in-house payment options. Get approved in seconds with no hard credit impact."
+    },
+    "faq": {
+      "tag": "Braces FAQs",
+      "title": "Frequently Asked Questions About Dental Braces",
+      "q1": "What is the best age to get braces?",
+      "a1": "The American Association of Orthodontists recommends a first orthodontic screening around age 7. However, braces are highly effective for teens and adults of any age!",
+      "q2": "How long will I need to wear braces?",
+      "a2": "Treatment typically ranges from 12 to 24 months, depending on the severity of your crowding or bite imbalance.",
+      "q3": "Do braces hurt?",
+      "a3": "Placing the braces is completely painless. You may feel mild soreness or pressure for a few days after adjustments, which is easily managed with over-the-counter pain relievers and orthodontic wax.",
+      "q4": "Can I still play sports and musical instruments with braces?",
+      "a4": "Yes! For contact sports, we recommend an orthodontic mouthguard to protect your lips and brackets.",
+      "q5": "How do I clean my teeth with braces?",
+      "a5": "Brush after every meal with a soft-bristled toothbrush, use floss threaders or water flossers daily, and avoid sticky or overly crunchy candies."
+    },
+    "cta": {
+      "tag": "Start Your Smile Transformation",
+      "title": "Schedule Your Dallas Orthodontic Consultation Today",
+      "desc": "Discover how affordable and life-changing a straighter smile can be. Our friendly team is ready to welcome you.",
+      "action": "Call (972) 484-5400 or book online at Dallas Smiles Dental & Orthodontics on Forest Lane.",
+      "items": [
+        "Personalized bite and smile evaluation",
+        "Digital panoramic X-rays included",
+        "Low down payment and zero-interest plans",
+        "Options for children, teens, and adults",
+        "PPO insurance verification assistance"
+      ]
+    },
+    "sidebar": {
+      "title": "More Dental Services"
     }
-  },
-
-  "trust": {
-    "title": "Why Patients Trust Dallas Smiles",
-    "p1": "At Dallas Smiles Dental & Orthodontics, Invisalign is not a one-size-fits-all treatment. Dr. Bariki combines over a decade of clinical experience with advanced continuing education to ensure your treatment is efficient, precise, and stable long-term.",
-    "p2": "We focus not only on straight teeth — but on balanced bites, healthy gums, and a smile that enhances your overall facial aesthetics."
-  },
-
-  "payment": {
-    "title": "Flexible Monthly Payment Plans",
-    "p1": "We understand that every patient’s financial situation is different. Our team will review your treatment plan with full transparency and help you choose a payment structure that works best for you.",
-    "p2": "Whether you prefer a lower upfront cost or manageable monthly installments, we will customize an option that aligns with your needs."
-  },
-
-  "cherry": {
-    "title": "Cherry – Our Official Financing Partner",
-    "p1": "To make Invisalign even more affordable, we proudly partner with Cherry, our official patient financing provider.",
-
-    "b1": "Fast, simple application process",
-    "b2": "Quick approval decisions",
-    "b3": "Flexible monthly payment plans",
-    "b4": "Options for qualifying patients, including promotional plans",
-
-    "p2": "The application process is straightforward and can often be completed in just minutes. Our team will guide you through every step to ensure a smooth experience."
-  },
-
-  "final": {
-    "title": "Affordable Invisalign with Flexible Financing",
-    "p1": "A straighter smile should be accessible — not stressful. That’s why Dallas Smiles offers flexible payment plans designed to fit comfortably within your budget.",
-    "p2": "We proudly partner with Cherry, our official patient financing provider, offering fast applications, quick approval decisions, and convenient monthly payment plans.",
-    "cta": "Schedule Free Consultation"
   }
-},
-"crowns": {
-  "hero": {
-    "tag": "Restorative Dentistry",
-    "title1": "Dental Crowns That Restore",
-    "title2": "Strength & Confidence",
-    "desc": "Protect damaged teeth and restore your smile with durable, natural-looking dental crowns in Dallas."
-  },
-
-  "section2": {
-    "tag": "We’re Here in Dallas",
-    "title": "Dental Crowns That Look Natural and Last",
-    "desc": "Our dental crowns are custom-made to match your natural teeth while restoring strength and function.",
-    "b1": "Custom color-matched crowns",
-    "b2": "Long-lasting protection",
-    "b3": "Restore chewing and comfort"
-  },
-
-  "section3": {
-    "tag": "Benefits of Dental Crowns",
-    "title": "Stronger Teeth, Healthier Smiles",
-    "desc": "Dental crowns do more than restore damaged teeth — they protect, strengthen, and enhance your smile.",
-    "l1": "Protect cracked or weakened teeth",
-    "l2": "Restore natural tooth shape",
-    "l3": "Improve bite alignment",
-    "l4": "Prevent further decay or damage",
-    "l5": "Boost smile confidence"
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "braces": "Braces",
-    "current": "Dental Crowns",
-    "rootcanal": "Root Canal",
-    "cleaning": "Teeth Cleaning"
-  }
-},
-"extractions": {
-  "hero": {
-    "tag": "Tooth Extractions",
-    "title1": "Safe & Comfortable",
-    "title2": "Tooth Extractions",
-    "desc": "Expert extractions with minimal discomfort — from simple to surgical, we’re here to care for your smile safely."
-  },
-
-  "section2": {
-    "tag": "Quick, Safe Procedures",
-    "title": "Gentle Tooth Extractions with Expert Care",
-    "desc": "Whether your extraction is simple or surgical, our experienced team ensures maximum comfort and safety throughout your visit.",
-    "b1": "Simple & surgical extractions",
-    "b2": "Minimal discomfort techniques",
-    "b3": "Fast recovery guidance"
-  },
-
-  "section3": {
-    "tag": "Why Choose Our Extractions",
-    "title": "Gentle Care, Strong Results",
-    "desc": "Extractions can be stressful — but with us, you’re in expert hands. We minimize discomfort and help your smile heal quickly.",
-    "l1": "Experienced dental surgeons",
-    "l2": "Comfort-first anesthesia techniques",
-    "l3": "After-care comfort instructions",
-    "l4": "Emergency extraction available"
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "braces": "Braces",
-    "crowns": "Dental Crowns",
-    "rootcanal": "Root Canal",
-    "cleaning": "Teeth Cleaning"
-  }
-},
-"wisdom": {
-  "hero": {
-    "tag": "Wisdom Teeth Extraction",
-    "title1": "Safe & Comfortable",
-    "title2": "Wisdom Teeth Removal",
-    "desc": "Expert wisdom teeth extraction for peace of mind, comfort, and fast recovery."
-  },
-
-  "section2": {
-    "tag": "Gentle & Expert Care",
-    "title": "Comfortable Wisdom Tooth Removal",
-    "desc": "Wisdom teeth can cause pain and alignment issues — our team ensures a smooth and comfortable extraction experience.",
-    "b1": "Quick consultations and evaluations",
-    "b2": "Modern, comfortable extraction techniques",
-    "b3": "Recovery support and guidance"
-  },
-
-  "section3": {
-    "tag": "Why Choose Us for Wisdom Teeth",
-    "title": "Fast, Safe Recovery, Minimal Discomfort",
-    "desc": "Wisdom tooth removal doesn’t have to be stressful. Our experienced dentists focus on your comfort and recovery.",
-    "l1": "Expert evaluations and personalized treatment plans",
-    "l2": "Local anesthesia and sedation options",
-    "l3": "After-care instructions for faster healing",
-    "l4": "Friendly and supportive dental team"
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "braces": "Braces",
-    "crowns": "Dental Crowns",
-    "rootcanal": "Root Canal",
-    "cleaning": "Teeth Cleaning"
-  }
-},
-"rootcanal": {
-  "hero": {
-    "tag": "Endodontic Care",
-    "title1": "Pain-Relieving",
-    "title2": "Root Canal Treatment",
-    "desc": "Gentle, effective root canal treatment to save your natural tooth and eliminate pain."
-  },
-
-  "section2": {
-    "tag": "Comfortable & Effective",
-    "title": "Save Your Tooth — Relieve the Pain",
-    "desc": "A root canal removes infected tissue inside the tooth while preserving the natural structure. Modern techniques make the procedure comfortable and stress-free.",
-    "b1": "Advanced pain-free techniques",
-    "b2": "No extraction needed",
-    "b3": "Protects your natural smile"
-  },
-
-  "section3": {
-    "tag": "Benefits of Root Canal Treatment",
-    "title": "Long-Term Relief & Oral Health",
-    "desc": "Root canals stop infection, prevent further damage, and allow you to keep your natural tooth for years to come.",
-    "l1": "Eliminates severe tooth pain",
-    "l2": "Prevents infection from spreading",
-    "l3": "Preserves your natural tooth",
-    "l4": "Improves chewing comfort",
-    "l5": "Restores normal oral function"
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "braces": "Braces",
-    "crowns": "Dental Crowns",
-    "wisdom": "Wisdom Teeth",
-    "cleaning": "Teeth Cleaning"
-  }
-},
-"cleaning": {
-  "hero": {
-    "tag": "Preventive Dentistry",
-    "title1": "Professional",
-    "title2": "Teeth Cleaning in Dallas",
-    "desc": "Keep your smile healthy and bright with regular professional teeth cleanings."
-  },
-
-  "section2": {
-    "tag": "Gentle & Effective Care",
-    "title": "A Healthier Smile Starts with Clean Teeth",
-    "desc": "Professional teeth cleanings remove plaque and tartar that brushing alone can’t reach, helping prevent cavities and gum disease.",
-    "b1": "Removes plaque and tartar buildup",
-    "b2": "Helps prevent cavities and gum disease",
-    "b3": "Leaves your smile fresh and bright"
-  },
-
-  "section3": {
-    "tag": "Benefits of Teeth Cleaning",
-    "title": "Simple Care with Long-Term Benefits",
-    "desc": "Routine dental cleanings are one of the easiest ways to maintain long-term oral health and avoid costly dental treatments.",
-    "l1": "Prevents cavities and tooth decay",
-    "l2": "Reduces risk of gum disease",
-    "l3": "Improves breath freshness",
-    "l4": "Helps maintain natural tooth color",
-    "l5": "Supports overall oral health"
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "braces": "Braces",
-    "crowns": "Dental Crowns",
-    "rootcanal": "Root Canal",
-    "wisdom": "Wisdom Teeth"
-  }
-},
-"deepcleaning": {
-  "hero": {
-    "tag": "Periodontal Care",
-    "title1": "Deep",
-    "title2": "Teeth Cleaning",
-    "desc": "Thorough cleaning below the gumline for healthier gums and lasting oral health."
-  },
-
-  "section2": {
-    "tag": "Comprehensive Gum Care",
-    "title": "A Cleaner Mouth from Gums to Teeth",
-    "desc": "Deep cleaning treatments remove plaque and tartar buildup below the gumline to protect your gums and improve overall oral health.",
-    "b1": "Removes built-up plaque & tartar",
-    "b2": "Helps fight gum disease",
-    "b3": "Promotes long-term oral health"
-  },
-
-  "section3": {
-    "tag": "Benefits of Deep Cleaning",
-    "title": "Protect Your Gums and Prevent Disease",
-    "desc": "Deep cleanings help reduce gum inflammation and prevent the progression of periodontal disease.",
-    "l1": "Reduces gum swelling and bleeding",
-    "l2": "Helps stop periodontal disease progression",
-    "l3": "Freshens breath",
-    "l4": "Improves oral health",
-    "l5": "Supports strong healthy gums"
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "braces": "Braces",
-    "crowns": "Dental Crowns",
-    "rootcanal": "Root Canal",
-    "wisdom": "Wisdom Teeth"
-  }
-},
-"fillings": {
-  "hero": {
-    "tag": "Restorative Dentistry",
-    "title1": "Quick & Comfortable",
-    "title2": "Dental Fillings",
-    "desc": "Restore minor tooth damage quickly and comfortably with dental fillings that stop decay and strengthen your smile."
-  },
-
-  "section2": {
-    "tag": "Fast & Effective",
-    "title": "Strong Protection for Your Teeth",
-    "desc": "Dental fillings halt the progression of cavities and protect your tooth structure from further decay.",
-    "b1": "Durable composite or porcelain materials",
-    "b2": "Natural-looking restorations",
-    "b3": "Quick, painless procedure"
-  },
-
-  "section3": {
-    "tag": "Benefits of Dental Fillings",
-    "title": "Prevent Pain & Future Damage",
-    "desc": "Fillings treat cavities and help protect your teeth from future damage.",
-    "l1": "Stops decay from spreading",
-    "l2": "Restores biting surfaces",
-    "l3": "Improves oral health"
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "braces": "Braces",
-    "crowns": "Dental Crowns",
-    "rootcanal": "Root Canal",
-    "cleaning": "Teeth Cleaning"
-  }
-},
-"implants": {
-  "hero": {
-    "tag": "Dental Implants",
-    "title1": "Restore Your Smile",
-    "title2": "with Strength, Function, and Confidence",
-    "desc": "Missing teeth can affect more than just your smile—they can impact your ability to chew, speak, and feel confident in everyday life. At Dallas Smiles Dental & Orthodontics, we offer advanced dental implant solutions designed to replace missing teeth with natural-looking, long-lasting results. Whether you're replacing a single tooth or restoring your entire smile, our team is committed to providing personalized care using proven techniques and premium implant systems.",
-    "imageAlt": "Patient receiving dental care"
-  },
-
-  "what": { "tag": "What Are Dental Implants?", "title": "What Are Dental Implants?", "desc": "Dental implants are the gold standard for replacing missing teeth. They consist of a small titanium implant that is placed into the jawbone, where it functions as an artificial tooth root. Once the implant has integrated with the bone, a custom-made crown, bridge, or denture is securely attached, creating a restoration that looks, feels, and functions like a natural tooth. Unlike removable dentures, dental implants are fixed in place, providing exceptional stability and helping preserve the health of your jawbone.", "imageAlt": "Dental implant consultation" },
-  "benefits": { "tag": "Benefits of Dental Implants", "title": "Benefits of Dental Implants", "desc": "Dental implants offer numerous advantages over traditional tooth replacement options:", "l1": "Natural appearance and feel", "l2": "Restore normal chewing and speaking ability", "l3": "Prevent jawbone loss after tooth extraction", "l4": "Preserve neighboring healthy teeth", "l5": "Improve facial support and appearance", "l6": "Stable and secure—no slipping or movement", "l7": "Long-lasting solution with proper care", "l8": "Easy to maintain like natural teeth" },
-  "solutions": { "tag": "Implant Solutions We Offer", "title": "Implant Solutions We Offer", "single": { "title": "Single Tooth Implants", "desc": "Replace one missing tooth with a custom implant and crown without affecting neighboring teeth." }, "bridge": { "title": "Implant Bridges", "desc": "Replace several missing teeth using strategically placed implants instead of relying on natural teeth for support." }, "denture": { "title": "Implant-Supported Dentures", "desc": "Enjoy a more stable, comfortable alternative to traditional dentures. Implant-supported dentures reduce movement while improving chewing efficiency and confidence." }, "fullArch": { "title": "Full-Arch Implant Restorations", "desc": "For patients missing most or all of their teeth, full-arch implant solutions can restore an entire smile using a limited number of strategically placed implants." } },
-  "process": { "tag": "Our Implant Process", "title": "Our Implant Process", "imageAlt": "Dental implant treatment planning", "step1": { "title": "Comprehensive Consultation", "desc": "We begin with a thorough examination, digital X-rays, and a CBCT 3D scan to evaluate your bone structure and determine whether implants are the right solution for you." }, "step2": { "title": "Personalized Treatment Planning", "desc": "Every smile is unique. We create a customized treatment plan based on your oral health, goals, and budget." }, "step3": { "title": "Implant Placement", "desc": "The titanium implant is carefully placed into the jawbone using precise surgical techniques for optimal positioning and long-term stability." }, "step4": { "title": "Healing & Integration", "desc": "Over the next few months, the implant naturally fuses with the jawbone through a process called osseointegration." }, "step5": { "title": "Final Restoration", "desc": "Once healing is complete, we place your custom-designed crown, bridge, or denture, restoring your smile with beautiful, functional results." } },
-  "candidate": { "tag": "Are You a Candidate for Dental Implants?", "title": "Are You a Candidate for Dental Implants?", "desc": "You may be a good candidate if you:", "l1": "Have one or more missing teeth", "l2": "Want a permanent tooth replacement option", "l3": "Have healthy gums", "l4": "Have sufficient jawbone (or are a candidate for bone grafting)", "l5": "Are in good overall health" },
-  "technology": { "tag": "Advanced Technology for Predictable Results", "title": "Advanced Technology for Predictable Results", "desc": "At Dallas Smiles Dental & Orthodontics, we utilize modern digital technology to improve precision and treatment outcomes. Advanced diagnostics and 3D imaging allow us to carefully evaluate bone anatomy, plan implant placement, and create personalized treatment plans tailored to each patient's needs. Our commitment to continuing education and modern techniques helps ensure every implant procedure is performed with accuracy, efficiency, and patient comfort in mind." },
-  "affordability": { "tag": "Affordable Dental Implants with Flexible Financing", "title": "Affordable Dental Implants with Flexible Financing", "desc": "At Dallas Smiles Dental & Orthodontics, we believe everyone deserves access to high-quality tooth replacement. We strive to make dental implants as affordable and accessible as possible.", "insuranceTitle": "We Work with Your Insurance", "insuranceDesc": "Our knowledgeable team works with most major dental insurance plans and will help determine whether your plan includes implant benefits. For patients who qualify for coverage, we'll maximize your insurance benefits and explain your estimated out-of-pocket costs before treatment begins—so there are no surprises.", "financingTitle": "Flexible Payment Options", "financingDesc": "For patients without insurance or those seeking additional payment flexibility, we offer affordable pricing along with convenient financing options through our trusted financial partners. Qualified patients may be eligible for 0% APR financing (subject to approval and the financing partner's terms and conditions), allowing you to spread the cost of treatment into manageable monthly payments. Our goal is to help you receive the care you need without unnecessary financial stress." },
-  "faq": { "tag": "Frequently Asked Questions", "title": "Frequently Asked Questions", "q1": "How long do dental implants last?", "a1": "With proper home care and regular dental visits, dental implants can last for decades and often a lifetime.", "q2": "Is implant placement painful?", "a2": "Most patients report minimal discomfort. Local anesthesia is used during the procedure, and many patients return to normal activities within a day or two.", "q3": "How long does the entire process take?", "a3": "Treatment time varies depending on healing and individual needs, but most implant cases are completed over several months.", "q4": "Can implants replace multiple missing teeth?", "a4": "Yes. Implants can support individual crowns, bridges, or full-arch restorations depending on your needs.", "q5": "Will my implant look natural?", "a5": "Absolutely. Your restoration is custom-made to match the color, shape, and size of your surrounding teeth for a seamless appearance." },
-
-  "whyChoose": {
-    "tag": "Why Choose Dallas Smiles Dental & Orthodontics?",
-    "title": "Why Choose Dallas Smiles Dental & Orthodontics?",
-    "desc": "At Dallas Smiles Dental & Orthodontics, we believe every patient deserves high-quality care backed by trusted technology and clinical experience.",
-    "partnerTitle": "Partnered with Hiossen Implants",
-    "partnerDesc": "We proudly partner with Hiossen Implants, one of the world's leading dental implant manufacturers known for precision engineering, outstanding clinical research, and long-term reliability. Using premium implant components allows us to deliver predictable outcomes and lasting results for our patients.",
-    "providerTitle": "Experienced Implant Provider",
-    "providerDesc": "Dr. Sandeep Bariki has completed advanced implant training through the renowned Implant Pathway education program. With more than two years of experience placing and restoring dental implants, Dr. Bariki combines continuing education, modern technology, and meticulous treatment planning to provide patients with dependable, high-quality implant care.",
-    "focus": "Our focus is on delivering treatment that is safe, comfortable, and designed for long-term success.",
-    "l1": "Advanced training through Implant Pathway",
-    "l2": "More than two years of dental implant experience by Dr. Sandeep Bariki",
-    "l3": "Premium Hiossen Implant System for dependable, long-lasting results",
-    "l4": "Personalized treatment plans using advanced digital technology",
-    "l5": "Insurance-friendly office that helps maximize eligible benefits",
-    "l6": "Affordable pricing with flexible financing, including 0% APR options for qualified patients",
-    "l7": "FREE dental implant consultation for new implant patients",
-    "imageAlt": "Dental implant care at Dallas Smiles"
-  },
-
-  "cta": {
-    "tag": "Free Dental Implant Consultation",
-    "title": "Schedule Your FREE Dental Implant Consultation",
-    "desc": "If you're ready to replace missing teeth with a solution that looks natural, feels secure, and is built to last, our team at Dallas Smiles Dental & Orthodontics is here to help.",
-    "action": "Call Dallas Smiles Dental & Orthodontics today to schedule your free dental implant consultation and discover whether dental implants are right for you!",
-    "body": "With advanced training, premium Hiossen Implant technology, personalized treatment planning, and a commitment to exceptional patient care, we're proud to help patients restore healthy, confident smiles that last for years to come.",
-    "items": {
-      "1": "Evaluate your smile and oral health",
-      "2": "Discuss your goals and treatment options",
-      "3": "Determine if you're a candidate for dental implants",
-      "4": "Review your CBCT imaging (if needed)",
-      "5": "Explain the implant process step-by-step",
-      "6": "Verify your insurance benefits when applicable",
-      "7": "Provide a personalized treatment plan and transparent cost estimate",
-      "8": "Review financing and payment options available to you"
-    }
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "braces": "Braces",
-    "crowns": "Dental Crowns",
-    "rootcanal": "Root Canal",
-    "cleaning": "Teeth Cleaning"
-  }
-},
-"restoration": {
-  "hero": {
-    "tag": "Dental Restoration",
-    "title1": "Restore Function & Beauty",
-    "title2": "to Your Smile",
-    "desc": "Dental restoration brings back strength, appearance, and function to damaged or missing teeth."
-  },
-
-  "section2": {
-    "tag": "Comprehensive Care",
-    "title": "Customized Dental Restorations",
-    "desc": "Treatments like crowns, bridges, and fillings repair and strengthen teeth.",
-    "b1": "Restore chewing ability",
-    "b2": "Enhance appearance",
-    "b3": "Prevent further damage"
-  },
-
-  "section3": {
-    "tag": "Benefits of Restoration",
-    "title": "Comfort, Strength & Confidence",
-    "desc": "Restorative dentistry improves both health and appearance.",
-    "l1": "Strengthens damaged teeth",
-    "l2": "Replaces missing teeth",
-    "l3": "Improves chewing & speech",
-    "l4": "Enhances smile",
-    "l5": "Prevents future issues"
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "braces": "Braces",
-    "crowns": "Dental Crowns",
-    "rootcanal": "Root Canal",
-    "cleaning": "Teeth Cleaning"
-  }
-},
-"gingivectomy": {
-  "hero": {
-    "tag": "Periodontal Surgery",
-    "title1": "Soft Tissue",
-    "title2": "Gingivectomy",
-    "desc": "Advanced treatment to reshape gums and improve health, comfort, and aesthetics."
-  },
-
-  "section2": {
-    "tag": "Healthy Gum Focus",
-    "title": "Precision Gum Treatment",
-    "desc": "Gingivectomy removes excess gum tissue to reduce pockets and improve gum health.",
-    "b1": "Reduces gum pockets",
-    "b2": "Prevents infection",
-    "b3": "Improves oral hygiene"
-  },
-
-  "section3": {
-    "tag": "Benefits of Gingivectomy",
-    "title": "Healthier Gums & Better Comfort",
-    "desc": "Removes diseased tissue and enhances overall gum health and smile aesthetics.",
-    "l1": "Reduces inflammation and pain",
-    "l2": "Minimizes deep pockets",
-    "l3": "Improves cleaning ability",
-    "l4": "Enhances gum health",
-    "l5": "Boosts smile confidence"
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "braces": "Braces",
-    "crowns": "Dental Crowns",
-    "rootcanal": "Root Canal",
-    "cleaning": "Teeth Cleaning"
-  }
-},
-"dentures": {
-  "hero": {
-    "tag": "Restorative Dentistry",
-    "title1": "Comfortable Dentures That",
-    "title2": "Restore Your Smile",
-    "desc": "High-quality dentures designed to restore confidence, improve chewing, and give you a natural smile."
-  },
-
-  "section2": {
-    "tag": "Trusted Dental Care",
-    "title": "Restore Function and Confidence",
-    "desc": "Custom dentures provide a reliable solution for replacing missing teeth with comfort and durability.",
-    "b1": "Custom fit for comfort",
-    "b2": "Natural appearance",
-    "b3": "Affordable options"
-  },
-
-  "section3": {
-    "tag": "Benefits of Dentures",
-    "title": "Designed for Everyday Comfort",
-    "desc": "Dentures restore your ability to eat, speak, and smile confidently.",
-    "l1": "Replace missing teeth",
-    "l2": "Restore facial structure",
-    "l3": "Improve speech",
-    "l4": "Boost confidence",
-    "l5": "Affordable solution"
-  },
-
-  "sidebar": {
-    "title": "More Services",
-    "current": "Dentures",
-    "crowns": "Dental Crowns",
-    "rootcanal": "Root Canal",
-    "cleaning": "Teeth Cleaning"
-  }
-}
 }

@@ -10,7 +10,7 @@
       "cta2": "Explorar servicios",
       "cta3": "Socio financiero - Cherry"
     },
-     "consultation": {
+    "consultation": {
       "tag": "Consulta Gratis",
       "title": "Programa tu Consulta Gratuita para Implantes Dentales",
       "desc": "Si estás listo para reemplazar dientes perdidos con una solución que se vea natural, se sienta segura y esté diseñada para durar, nuestro equipo en Dallas Smiles Dental & Orthodontics está aquí para ayudarte.",
@@ -30,183 +30,215 @@
       }
     },
     "founder": {
-    "tag": "Sobre el fundador",
-    "title": "Conoce al Dr. Sandeep Bariki",
-    "desc1": "En nuestra clínica privada, el Dr. Sandeep Bariki se compromete a brindar atención dental personalizada adaptada a las necesidades únicas de cada paciente.",
-    "desc2": "Con más de una década de experiencia clínica en los Estados Unidos y una sólida formación internacional, combina experiencia avanzada con un enfoque centrado en el paciente.",
-    "cta": "Leer más"
-  },
-  "about": {
-  "tag": "Sobre Nosotros",
-  "title1": "Profesionales y",
-  "title2": "Excelencia Dental",
-  "title3": "Personalizada",
-  "desc": "Ofrecemos atención dental de alta calidad para toda la familia. Desde chequeos rutinarios hasta tratamientos avanzados, nuestro equipo garantiza sonrisas saludables y seguras.",
-  "features": [
-    "Planes de tratamiento personalizados",
-    "Tecnología avanzada",
-    "Atención suave para niños y adultos",
-    "Horarios flexibles"
-  ],
-  "cta": "Reservar Cita"
-},
-"invisalign": {
-  "tag": "Proveedor de Invisalign",
-  "title": "Endereza tu sonrisa con Invisalign",
-  "desc1": "En <b>Dallas Smiles</b> Dental & Orthodontics, el <b>Dr. Sandeep Bariki</b> es un proveedor oficial de <b>Invisalign®</b> que ofrece tratamientos avanzados con alineadores transparentes.",
-  "desc2": "Los alineadores Invisalign son personalizados, removibles y casi invisibles. Mueven gradualmente tus dientes sin necesidad de brackets metálicos.",
-  "cta": "Más Información"
-},
-"services": {
-  "tag": "Servicios",
-  "title": "Cuidado completo para cada sonrisa",
-  "desc": "Desde limpiezas hasta procedimientos avanzados, ofrecemos atención dental personalizada.",
-  "cta": "Más Información",
-  "list": [
-    {
-      "title": "Invisalign",
-      "desc": "Los tratamientos de Invisalign y brackets estarán disponibles pronto.",
-      "icon": "/orthodontics.gif",
-      "link": "/services/invisalign"
+      "tag": "Sobre el fundador",
+      "title": "Conoce al Dr. Sandeep Bariki",
+      "desc1": "En nuestra clínica privada, el Dr. Sandeep Bariki se compromete a brindar atención dental personalizada adaptada a las necesidades únicas de cada paciente.",
+      "desc2": "Con más de una década de experiencia clínica en los Estados Unidos y una sólida formación internacional, combina experiencia avanzada con un enfoque centrado en el paciente.",
+      "cta": "Leer más"
     },
-    {
-      "title": "Coronas Dentales",
-      "desc": "Protege y fortalece dientes débiles con coronas personalizadas.",
-      "icon": "/2.gif",
-      "link": "/services/crowns"
+    "about": {
+      "tag": "Sobre Nosotros",
+      "title1": "Profesionales y",
+      "title2": "Excelencia Dental",
+      "title3": "Personalizada",
+      "desc": "Ofrecemos atención dental de alta calidad para toda la familia. Desde chequeos rutinarios hasta tratamientos avanzados, nuestro equipo garantiza sonrisas saludables y seguras.",
+      "features": [
+        "Planes de tratamiento personalizados",
+        "Tecnología avanzada",
+        "Atención suave para niños y adultos",
+        "Horarios flexibles"
+      ],
+      "cta": "Reservar Cita"
     },
-    {
-      "title": "Extracciones Dentales",
-      "desc": "Extracciones seguras para aliviar el dolor y prevenir problemas futuros.",
-      "icon": "/3.gif",
-      "link": "/services/extractions"
+    "invisalign": {
+      "tag": "Proveedor de Invisalign",
+      "title": "Endereza tu sonrisa con Invisalign",
+      "desc1": "En <b>Dallas Smiles</b> Dental & Orthodontics, el <b>Dr. Sandeep Bariki</b> es un proveedor oficial de <b>Invisalign®</b> que ofrece tratamientos avanzados con alineadores transparentes.",
+      "desc2": "Los alineadores Invisalign son personalizados, removibles y casi invisibles. Mueven gradualmente tus dientes sin necesidad de brackets metálicos.",
+      "cta": "Más Información"
     },
-    {
-      "title": "Muelas del Juicio",
-      "desc": "Extracción segura y sin estrés con recuperación rápida.",
-      "icon": "/4.gif",
-      "link": "/services/wisdom-teeth"
+    "services": {
+      "tag": "Servicios Dentales Integrales en Dallas, TX",
+      "title": "Atención Dental Avanzada Adaptada a Cada Sonrisa",
+      "desc": "Desde limpiezas preventivas y exámenes familiares hasta endodoncias, implantes dentales Hiossen® y ortodoncia moderna, el Dr. Sandeep Bariki y nuestro equipo brindan atención de primera calidad con tecnología de última generación.",
+      "cta": "Conoce Más Detalles",
+      "list": [
+        {
+          "title": "Alineadores Invisibles Invisalign®",
+          "desc": "Alineadores transparentes y personalizados por proveedores certificados en Dallas. Endereza dientes apiñados y espacios sin alambres metálicos.",
+          "icon": "/orthodontics.gif",
+          "link": "/services/invisalign"
+        },
+        {
+          "title": "Frenos Dentales (Brackets)",
+          "desc": "Ortodoncia completa para niños, jóvenes y adultos. Corrige desalineaciones severas y mordidas con cómodos pagos mensuales.",
+          "icon": "/1.gif",
+          "link": "/services/braces"
+        },
+        {
+          "title": "Coronas Dentales",
+          "desc": "Coronas de porcelana y circonio personalizadas que refuerzan dientes fracturados o tratados con endodoncia con aspecto 100% natural.",
+          "icon": "/2.gif",
+          "link": "/services/crowns"
+        },
+        {
+          "title": "Extracciones Dentales Suaves",
+          "desc": "Extracciones simples y quirúrgicas enfocadas en tu comodidad para aliviar dolores intensos y proteger tu salud bucal con rápida recuperación.",
+          "icon": "/3.gif",
+          "link": "/services/extractions"
+        },
+        {
+          "title": "Extracción de Muelas del Juicio",
+          "desc": "Procedimiento seguro y sin estrés para terceros molares impactados o dolorosos con radiografías 3D CBCT y opciones de sedación.",
+          "icon": "/4.gif",
+          "link": "/services/wisdom-teeth"
+        },
+        {
+          "title": "Tratamiento de Endodoncia",
+          "desc": "Terapia de conducto radicular sin dolor para erradicar infecciones profundas del nervio dental y salvar tu diente natural de la extracción.",
+          "icon": "/design8.gif",
+          "link": "/services/root-canal"
+        },
+        {
+          "title": "Limpieza Dental Preventiva",
+          "desc": "Limpiezas dentales profesionales, raspado ultrasónico de placa, pulido y examen bucal para prevenir caries y refrescar tu aliento.",
+          "icon": "/6666.gif",
+          "link": "/services/teeth-cleaning"
+        },
+        {
+          "title": "Limpieza Profunda (Raspado y Alisado)",
+          "desc": "Terapia periodontal debajo de las encías para eliminar sarro bacteriano, detener el sangrado gingival y frenar la periodontitis.",
+          "icon": "/deepcleaning.gif",
+          "link": "/services/deep-cleaning"
+        },
+        {
+          "title": "Empastes Dentales de Resina",
+          "desc": "Restauraciones duraderas del color de tus dientes que reparan caries sin mercurio, devolviendo la fuerza y estética a tu sonrisa.",
+          "icon": "/design7.gif",
+          "link": "/services/fillings"
+        },
+        {
+          "title": "Implantes Dentales Hiossen®",
+          "desc": "Postes de titanio permanentes con coronas de porcelana que reemplazan dientes perdidos desde la raíz, previniendo la pérdida ósea.",
+          "icon": "/9.gif",
+          "link": "/services/implants"
+        },
+        {
+          "title": "Restauración Dental Completa",
+          "desc": "Rehabilitación integral para dientes rotos o desgastados mediante coronas, incrustaciones y reconstrucciones dentales avanzadas.",
+          "icon": "/design6.gif",
+          "link": "/services/restoration"
+        },
+        {
+          "title": "Gingivectomía y Contorno Gingival",
+          "desc": "Remodelación suave de tejido gingival para reducir bolsas periodontales, eliminar sonrisas gingivales y mejorar la salud de las encías.",
+          "icon": "/design11.gif",
+          "link": "/services/gingivectomy"
+        },
+        {
+          "title": "Dentaduras Completas y Parciales",
+          "desc": "Prótesis dentales cómodas, estéticas y estables diseñadas para devolver la función masticatoria, el habla clara y la confianza al sonreír.",
+          "icon": "/dentures7.gif",
+          "link": "/services/dentures"
+        }
+      ]
     },
-    {
-      "title": "Endodoncia",
-      "desc": "Tratamientos sin dolor para salvar tu diente natural.",
-      "icon": "/design8.gif",
-      "link": "/services/root-canal"
+    "insurance": {
+      "title": "Socios de Seguros",
+      "desc": "Aceptamos la mayoría de los planes dentales principales",
+      "logos": [
+        {
+          "src": "/insurance1.png"
+        },
+        {
+          "src": "/insurance2.jpg"
+        },
+        {
+          "src": "/insurance3.png"
+        },
+        {
+          "src": "/insurance4.png"
+        },
+        {
+          "src": "/insurance5.png"
+        },
+        {
+          "src": "/insurance6.png"
+        },
+        {
+          "src": "/insurance7.png"
+        },
+        {
+          "src": "/insurance8.png"
+        },
+        {
+          "src": "/insurance9.png"
+        },
+        {
+          "src": "/insurance10.jpg"
+        },
+        {
+          "src": "/insurance11.jpg"
+        },
+        {
+          "src": "/insurance12.webp"
+        },
+        {
+          "src": "/insurance13.jpg"
+        },
+        {
+          "src": "/insurance14.png"
+        },
+        {
+          "src": "/insurance16.png"
+        }
+      ]
     },
-    {
-      "title": "Limpieza Dental",
-      "desc": "Elimina placa y manchas con limpieza profesional.",
-      "icon": "/6666.gif",
-      "link": "/services/teeth-cleaning"
+    "why": {
+      "tag": "Por Qué Elegirnos",
+      "title1": "Tu socio confiable para",
+      "title2": "la salud dental de por vida",
+      "desc": "En Dallas Smiles Dental & Orthodontics, creemos que todos merecen una sonrisa saludable. Nuestro equipo combina tecnología avanzada con atención compasiva.",
+      "features": [
+        "Tecnología avanzada",
+        "Opciones de pago flexibles",
+        "Dentistas certificados",
+        "Ambiente cómodo y relajante",
+        "Citas de emergencia el mismo día",
+        "Equipo cálido y atento"
+      ],
+      "cta": "Conoce a Nuestro Equipo"
     },
-    {
-      "title": "Limpieza Profunda",
-      "desc": "Previene problemas de encías con limpieza profunda.",
-      "icon": "/deepcleaning.gif",
-      "link": "/services/deep-cleaning"
+    "faq": {
+      "tag": "Preguntas frecuentes",
+      "title": "Respuestas a preguntas comunes",
+      "q1": "¿Qué hace diferente a su clínica dental?",
+      "a1": "Ofrecemos atención dental personalizada con tecnología avanzada, tratamiento suave y soporte bilingüe para que cada visita sea cómoda.",
+      "q2": "¿Aceptan nuevos pacientes?",
+      "a2": "Sí, damos la bienvenida a nuevos pacientes de todas las edades y brindamos atención para familias, niños y adultos.",
+      "q3": "¿Cómo agendo una cita?",
+      "a3": "Puedes agendar una cita en línea, por teléfono o usando nuestro formulario de contacto en la sección de abajo.",
+      "q4": "¿Ofrecen opciones de financiamiento?",
+      "a4": "Sí, trabajamos con Cherry y otros socios de financiamiento para hacer la atención dental más accesible.",
+      "q5": "¿Ofrecen atención dental de emergencia?",
+      "a5": "Sí, brindamos atención rápida para dolor de muelas, dientes rotos y otras urgencias dentales."
     },
-    {
-      "title": "Empastes",
-      "desc": "Restaura daños leves con rellenos dentales rápidos.",
-      "icon": "/design7.gif",
-      "link": "/services/fillings"
-    },
-    {
-      "title": "Implantes Dentales",
-      "desc": "Solución duradera para dientes perdidos.",
-      "icon": "/9.gif",
-      "link": "/services/implants"
-    },
-    {
-      "title": "Restauración Dental",
-      "desc": "Opciones naturales para dientes dañados o perdidos.",
-      "icon": "/design6.gif",
-      "link": "/services/restoration"
-    },
-    {
-      "title": "Gingivectomía",
-      "desc": "Mejora la línea de las encías para una sonrisa uniforme.",
-      "icon": "/design11.gif",
-      "link": "/services/gingivectomy"
-    },
-    {
-      "title": "Dentaduras",
-      "desc": "Reemplaza dientes con prótesis cómodas y naturales.",
-      "icon": "/dentures7.gif",
-      "link": "/services/dentures"
+    "contact": {
+      "tag": "Reservar Cita",
+      "title": "Cuidado en Dallas Smiles",
+      "subtitle": "Dental y Ortodoncia",
+      "desc": "Experimenta atención dental personalizada en un ambiente cómodo y acogedor.",
+      "name": "Nombre",
+      "mobile": "Número de teléfono",
+      "message": "Mensaje",
+      "namePlaceholder": "Ingresa tu nombre...",
+      "mobilePlaceholder": "Tu número...",
+      "messagePlaceholder": "Escribe tu mensaje...",
+      "call": "Llámanos",
+      "cta": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Solicitud enviada con éxito!"
     }
-  ]
-},
-"insurance": {
-  "title": "Socios de Seguros",
-  "desc": "Aceptamos la mayoría de los planes dentales principales",
-  "logos": [
-    { "src": "/insurance1.png" },
-    { "src": "/insurance2.jpg" },
-    { "src": "/insurance3.png" },
-    { "src": "/insurance4.png" },
-    { "src": "/insurance5.png" },
-    { "src": "/insurance6.png" },
-    { "src": "/insurance7.png" },
-    { "src": "/insurance8.png" },
-    { "src": "/insurance9.png" },
-    { "src": "/insurance10.jpg" },
-    { "src": "/insurance11.jpg" },
-    { "src": "/insurance12.webp" },
-    { "src": "/insurance13.jpg" },
-    { "src": "/insurance14.png" },
-    { "src": "/insurance16.png" }
-  ]
-},
-"why": {
-  "tag": "Por Qué Elegirnos",
-  "title1": "Tu socio confiable para",
-  "title2": "la salud dental de por vida",
-  "desc": "En Dallas Smiles Dental & Orthodontics, creemos que todos merecen una sonrisa saludable. Nuestro equipo combina tecnología avanzada con atención compasiva.",
-  "features": [
-    "Tecnología avanzada",
-    "Opciones de pago flexibles",
-    "Dentistas certificados",
-    "Ambiente cómodo y relajante",
-    "Citas de emergencia el mismo día",
-    "Equipo cálido y atento"
-  ],
-  "cta": "Conoce a Nuestro Equipo"
-},
-"faq": {
-  "tag": "Preguntas frecuentes",
-  "title": "Respuestas a preguntas comunes",
-  "q1": "¿Qué hace diferente a su clínica dental?",
-  "a1": "Ofrecemos atención dental personalizada con tecnología avanzada, tratamiento suave y soporte bilingüe para que cada visita sea cómoda.",
-  "q2": "¿Aceptan nuevos pacientes?",
-  "a2": "Sí, damos la bienvenida a nuevos pacientes de todas las edades y brindamos atención para familias, niños y adultos.",
-  "q3": "¿Cómo agendo una cita?",
-  "a3": "Puedes agendar una cita en línea, por teléfono o usando nuestro formulario de contacto en la sección de abajo.",
-  "q4": "¿Ofrecen opciones de financiamiento?",
-  "a4": "Sí, trabajamos con Cherry y otros socios de financiamiento para hacer la atención dental más accesible.",
-  "q5": "¿Ofrecen atención dental de emergencia?",
-  "a5": "Sí, brindamos atención rápida para dolor de muelas, dientes rotos y otras urgencias dentales."
-},
-"contact": {
-  "tag": "Reservar Cita",
-  "title": "Cuidado en Dallas Smiles",
-  "subtitle": "Dental y Ortodoncia",
-  "desc": "Experimenta atención dental personalizada en un ambiente cómodo y acogedor.",
-
-  "name": "Nombre",
-  "mobile": "Número de teléfono",
-  "message": "Mensaje",
-
-  "namePlaceholder": "Ingresa tu nombre...",
-  "mobilePlaceholder": "Tu número...",
-  "messagePlaceholder": "Escribe tu mensaje...",
-
-  "call": "Llámanos",
-
-  "cta": "Enviar Mensaje",
-  "sending": "Enviando...",
-  "success": "¡Solicitud enviada con éxito!"
-}
   },
   "navbar": {
     "home": "Inicio",
@@ -222,630 +254,1526 @@
     "tagline": "Creando sonrisas saludables con cuidado y confianza"
   },
   "floating": {
-  "book": "Reservar Cita",
-  "call": "Llamar",
-  "top": "Ir arriba"
-},
-"careers": {
-  "tag": "Carreras",
-  "title": "Únete a Nuestro Equipo",
-  "desc": "Estamos buscando personas talentosas y con experiencia para unirse a nuestro equipo en",
-  "company": "Dallas Smiles Dental & Orthodontics",
-  "roles": [
-    "Asistente Dental Registrado",
-    "Recepción y Coordinador de Tratamiento"
-  ],
-  "apply": "Para aplicar, envía tu currículum a:"
-},
-"aboutFounder": {
-  "badge": "Sobre el Fundador",
-  "title": "Conoce al Dr. Sandeep Bariki",
-  "subtitle": "Atención dental personalizada y compasiva basada en la confianza, la comodidad y la salud oral a largo plazo.",
-
-  "p1": "En nuestra clínica privada, el Dr. Sandeep Bariki se compromete a brindar una atención dental verdaderamente personalizada, basada en las necesidades únicas, la comodidad y la salud oral a largo plazo de cada paciente. Con más de una década de experiencia clínica en los Estados Unidos y una sólida formación educativa internacional, el Dr. Bariki combina experiencia clínica avanzada con una filosofía centrada en el paciente y llena de compasión.",
-
-  "p2": "El Dr. Bariki inició su trayectoria en la odontología obteniendo su título de Licenciatura en Cirugía Dental (BDS) en la India antes de continuar su educación avanzada en los Estados Unidos. Completó una Maestría en Informática de la Salud en la Universidad de Saint Louis y posteriormente obtuvo su título de Doctor en Cirugía Dental (DDS) de la Universidad del Sur de California (USC) en 2016.",
-
-  "p3": "En su práctica privada, el Dr. Bariki se enfoca en la salud oral integral, desde la atención preventiva y chequeos rutinarios hasta la odontología restaurativa avanzada e implantes. Al ofrecer una gama completa de servicios en un solo lugar, busca hacer que el cuidado dental sea conveniente, completo y cómodo para cada paciente.",
-
-  "p4": "Reconocido por su enfoque suave y su trato calmado con los pacientes, el Dr. Bariki prioriza la comodidad del paciente y una comunicación clara. Su objetivo es construir relaciones duraderas basadas en la confianza, la educación y una atención excepcional.",
-
-  "welcomeTitle": "Un Mensaje del Dr. Sandeep Bariki",
-
-  "w1": "Bienvenido y gracias por elegir nuestra familia dental. Como propietario y dentista de esta clínica, mi objetivo es simple: crear un lugar donde los pacientes se sientan verdaderamente atendidos, respetados y seguros de su salud oral.",
-
-  "w2": "La odontología no se trata solo de tratar dientes; se trata de construir relaciones duraderas con las familias y personas a las que servimos aquí en nuestra comunidad de Dallas.",
-
-  "w3": "Ya sea que nos visites para un chequeo de rutina, un tratamiento restaurativo o una transformación completa de tu sonrisa, mi equipo y yo estamos comprometidos a brindar atención de alta calidad en un ambiente amigable y acogedor.",
-
-  "sign": "Saludos cordiales,"
-},
-"financing": {
-  "title": "Financiamiento Flexible con Cherry",
-  "description": "Nos hemos asociado con Cherry para hacer que la atención dental sea más accesible. Obtén aprobación en segundos y divide el costo de tu tratamiento en pagos mensuales fáciles, sin estrés financiero.",
-
-  "points": {
-    "p1": "Aprobación instantánea (verificación de crédito suave)",
-    "p2": "Opciones disponibles con 0% APR",
-    "p3": "Sin impacto en tu historial crediticio",
-    "p4": "Pagos mensuales flexibles"
+    "book": "Reservar Cita",
+    "call": "Llamar",
+    "top": "Ir arriba"
   },
-
-  "learnTitle": "Conoce Más Sobre Nuestro Socio Financiero Cherry",
-
-  "learnText1": "Dallas Smiles Dental & Orthodontics se enorgullece de asociarse con Cherry para hacer que los tratamientos dentales sean más accesibles y asequibles para nuestros pacientes. Cherry te permite dividir el costo de tu tratamiento en pagos mensuales manejables para que puedas recibir la atención que necesitas sin estrés financiero.",
-
-  "learnText2": "Con un proceso de solicitud rápido, aprobaciones ágiles y opciones de pago flexibles, Cherry ayuda a los pacientes a continuar con su tratamiento con confianza.",
-
-  "cta": "Conoce Más Sobre Cherry"
-},
-"invisalign": {
-  "hero": {
-    "title": "¿Por qué elegir Invisalign®?",
-    "p1": "Una sonrisa segura debe sentirse natural — no forzada, ni oculta, ni incómoda. En Dallas Smiles Dental & Orthodontics ofrecemos Invisalign® como una solución moderna diseñada para quienes desean alinear sus dientes sin afectar su estilo de vida.",
-    "p2": "A diferencia de los brackets tradicionales, Invisalign utiliza una serie de alineadores transparentes hechos a medida que mueven gradualmente tus dientes a su posición ideal. Son prácticamente invisibles, cómodos y removibles, brindándote una flexibilidad que los brackets metálicos no pueden ofrecer.",
-    "cta": "Reservar Consulta Gratis"
+  "careers": {
+    "tag": "Carreras",
+    "title": "Únete a Nuestro Equipo",
+    "desc": "Estamos buscando personas talentosas y con experiencia para unirse a nuestro equipo en",
+    "company": "Dallas Smiles Dental & Orthodontics",
+    "roles": [
+      "Asistente Dental Registrado",
+      "Recepción y Coordinador de Tratamiento"
+    ],
+    "apply": "Para aplicar, envía tu currículum a:"
   },
-
-  "doctor": {
-    "title": "Tratamiento Personalizado con Invisalign",
-    "p1": "El Dr. Sandeep Bariki evalúa cuidadosamente la mordida, alineación y armonía facial de cada paciente para crear un plan de tratamiento digital personalizado.",
-    "p2": "Gracias a la tecnología avanzada de imágenes 3D, incluso puedes visualizar cómo se verá tu sonrisa antes de comenzar el tratamiento."
+  "aboutFounder": {
+    "badge": "Sobre el Fundador",
+    "title": "Conoce al Dr. Sandeep Bariki",
+    "subtitle": "Atención dental personalizada y compasiva basada en la confianza, la comodidad y la salud oral a largo plazo.",
+    "p1": "En nuestra clínica privada, el Dr. Sandeep Bariki se compromete a brindar una atención dental verdaderamente personalizada, basada en las necesidades únicas, la comodidad y la salud oral a largo plazo de cada paciente. Con más de una década de experiencia clínica en los Estados Unidos y una sólida formación educativa internacional, el Dr. Bariki combina experiencia clínica avanzada con una filosofía centrada en el paciente y llena de compasión.",
+    "p2": "El Dr. Bariki inició su trayectoria en la odontología obteniendo su título de Licenciatura en Cirugía Dental (BDS) en la India antes de continuar su educación avanzada en los Estados Unidos. Completó una Maestría en Informática de la Salud en la Universidad de Saint Louis y posteriormente obtuvo su título de Doctor en Cirugía Dental (DDS) de la Universidad del Sur de California (USC) en 2016.",
+    "p3": "En su práctica privada, el Dr. Bariki se enfoca en la salud oral integral, desde la atención preventiva y chequeos rutinarios hasta la odontología restaurativa avanzada e implantes. Al ofrecer una gama completa de servicios en un solo lugar, busca hacer que el cuidado dental sea conveniente, completo y cómodo para cada paciente.",
+    "p4": "Reconocido por su enfoque suave y su trato calmado con los pacientes, el Dr. Bariki prioriza la comodidad del paciente y una comunicación clara. Su objetivo es construir relaciones duraderas basadas en la confianza, la educación y una atención excepcional.",
+    "welcomeTitle": "Un Mensaje del Dr. Sandeep Bariki",
+    "w1": "Bienvenido y gracias por elegir nuestra familia dental. Como propietario y dentista de esta clínica, mi objetivo es simple: crear un lugar donde los pacientes se sientan verdaderamente atendidos, respetados y seguros de su salud oral.",
+    "w2": "La odontología no se trata solo de tratar dientes; se trata de construir relaciones duraderas con las familias y personas a las que servimos aquí en nuestra comunidad de Dallas.",
+    "w3": "Ya sea que nos visites para un chequeo de rutina, un tratamiento restaurativo o una transformación completa de tu sonrisa, mi equipo y yo estamos comprometidos a brindar atención de alta calidad en un ambiente amigable y acogedor.",
+    "sign": "Saludos cordiales,"
   },
-
-  "conditions": {
-    "title": "Invisalign Puede Tratar",
-    "subtitle": "Los alineadores Invisalign están diseñados para tratar muchos problemas ortodónticos de manera cómoda y discreta.",
-    "bottom": "Ya seas un profesional ocupado, un adolescente activo o un adulto que nunca usó brackets, Invisalign te permite mejorar tu sonrisa de forma discreta y cómoda.",
-
-    "c1": {
-      "title": "Dientes Apiñados",
-      "desc": "Los dientes se superponen porque no hay suficiente espacio en la mandíbula."
-    },
-    "c2": {
-      "title": "Espacios entre Dientes",
-      "desc": "Huecos entre dientes causados por tamaño de mandíbula o dientes faltantes."
-    },
-    "c3": {
-      "title": "Sobremordida",
-      "desc": "Los dientes superiores cubren demasiado a los inferiores."
-    },
-    "c4": {
-      "title": "Mordida Invertida",
-      "desc": "Los dientes inferiores sobresalen más que los superiores."
-    },
-    "c5": {
-      "title": "Mordida Cruzada",
-      "desc": "Algunos dientes superiores quedan por dentro de los inferiores."
-    },
-    "c6": {
-      "title": "Problemas de Alineación",
-      "desc": "Corrige problemas leves a moderados de alineación."
-    }
-  },
-
-  "kids": {
-    "title": "Invisalign para Niños y Adolescentes",
-    "p1": "Invisalign es una excelente opción ortodóntica para niños y adolescentes que desean una forma cómoda y casi invisible de alinear sus dientes. A diferencia de los brackets tradicionales, los alineadores están hechos de plástico transparente y suave que se ajusta cómodamente a los dientes.",
-    "p2": "Como son removibles, los niños y adolescentes pueden quitarlos fácilmente para comer, cepillarse y usar hilo dental, manteniendo una mejor higiene bucal y disfrutando de sus comidas favoritas sin restricciones.",
-    "p3": "Es especialmente popular entre los adolescentes porque les permite alinear sus dientes de manera discreta mientras mantienen la confianza en la escuela, deportes y actividades sociales."
-  },
-
-  "braces": {
-    "title": "Brackets Dentales Avanzados para una Sonrisa Perfecta",
-    "p1": "Los brackets dentales son una solución altamente efectiva para corregir dientes desalineados, problemas de mordida y apiñamiento. Nuestros tratamientos personalizados están diseñados para mover gradualmente los dientes a su posición ideal.",
-    "p2": "Ofrecemos opciones modernas de brackets que son cómodas, eficientes y adecuadas tanto para adolescentes como adultos. Nuestro equipo garantiza ajustes precisos y seguimiento continuo durante todo el tratamiento.",
-
-    "b1": "Corrige dientes torcidos y apiñados",
-    "b2": "Mejora la alineación de la mordida",
-    "b3": "Mejora la estética facial",
-    "b4": "Resultados duraderos",
-
-    "cta": "Reservar Consulta"
-  },
-
-  "benefits": {
-    "title": "Beneficios de Invisalign",
-
-    "b1": {
-      "title": "Apariencia Invisible",
-      "desc": "Los alineadores transparentes se mezclan con tus dientes y casi no se notan."
-    },
-    "b2": {
-      "title": "Comodidad",
-      "desc": "El plástico suave sin BPA evita la irritación."
-    },
-    "b3": {
-      "title": "Removibles",
-      "desc": "Puedes quitarlos para comer, cepillarte y usar hilo dental."
-    },
-    "b4": {
-      "title": "Menos Visitas",
-      "desc": "Requiere menos visitas al dentista que los brackets tradicionales."
-    },
-    "b5": {
-      "title": "Planificación Digital",
-      "desc": "Puedes ver tu sonrisa futura antes de empezar."
-    },
-    "b6": {
-      "title": "Confianza",
-      "desc": "Sonríe con seguridad durante todo el tratamiento."
-    },
-    "b7": {
-      "title": "Tratamiento Personalizado",
-      "desc": "Diseñado específicamente para tu estructura dental."
-    }
-  },
-
-  "trust": {
-    "title": "Por Qué los Pacientes Confían en Dallas Smiles",
-    "p1": "En Dallas Smiles Dental & Orthodontics, Invisalign no es un tratamiento genérico. El Dr. Bariki combina más de una década de experiencia clínica con formación avanzada para garantizar resultados precisos y duraderos.",
-    "p2": "Nos enfocamos no solo en dientes rectos, sino en mordidas equilibradas, encías saludables y una sonrisa que mejora tu estética facial."
-  },
-
-  "payment": {
-    "title": "Planes de Pago Flexibles",
-    "p1": "Entendemos que cada paciente tiene una situación financiera diferente. Nuestro equipo revisará tu plan de tratamiento con total transparencia y te ayudará a elegir la mejor opción de pago.",
-    "p2": "Ya sea que prefieras un pago inicial bajo o cuotas mensuales accesibles, adaptamos el plan a tus necesidades."
-  },
-
-  "cherry": {
-    "title": "Cherry – Nuestro Socio Oficial de Financiamiento",
-    "p1": "Para hacer Invisalign más accesible, nos asociamos con Cherry, nuestro proveedor oficial de financiamiento.",
-
-    "b1": "Proceso de solicitud rápido y sencillo",
-    "b2": "Aprobaciones rápidas",
-    "b3": "Pagos mensuales flexibles",
-    "b4": "Opciones promocionales para pacientes elegibles",
-
-    "p2": "El proceso es simple y puede completarse en minutos. Nuestro equipo te guiará en cada paso."
-  },
-
-  "final": {
-    "title": "Invisalign Accesible con Financiamiento Flexible",
-    "p1": "Una sonrisa alineada debe ser accesible, no estresante. Por eso ofrecemos planes de pago diseñados para ajustarse a tu presupuesto.",
-    "p2": "Trabajamos con Cherry para ofrecer aplicaciones rápidas, aprobaciones ágiles y pagos mensuales cómodos.",
-    "cta": "Agendar Consulta Gratis"
-  }
-},
-"crowns": {
-  "hero": {
-    "tag": "Odontología Restauradora",
-    "title1": "Coronas Dentales que Restauran",
-    "title2": "Fuerza y Confianza",
-    "desc": "Protege dientes dañados y recupera tu sonrisa con coronas dentales duraderas y de aspecto natural en Dallas."
-  },
-
-  "section2": {
-    "tag": "Estamos en Dallas",
-    "title": "Coronas Dentales Naturales y Duraderas",
-    "desc": "Nuestras coronas dentales están hechas a medida para combinar con tus dientes naturales mientras restauran fuerza y funcionalidad.",
-    "b1": "Coronas personalizadas del color natural",
-    "b2": "Protección duradera",
-    "b3": "Recupera la función al masticar"
-  },
-
-  "section3": {
-    "tag": "Beneficios de las Coronas Dentales",
-    "title": "Dientes Más Fuertes, Sonrisas Más Saludables",
-    "desc": "Las coronas dentales no solo restauran dientes dañados — también protegen, fortalecen y mejoran tu sonrisa.",
-    "l1": "Protegen dientes debilitados o agrietados",
-    "l2": "Restauran la forma natural del diente",
-    "l3": "Mejoran la alineación de la mordida",
-    "l4": "Previenen daños o caries futuras",
-    "l5": "Aumentan la confianza al sonreír"
-  },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "braces": "Brackets",
-    "current": "Coronas Dentales",
-    "rootcanal": "Endodoncia",
-    "cleaning": "Limpieza Dental"
-  }
-},
-"extractions": {
-  "hero": {
-    "tag": "Extracciones Dentales",
-    "title1": "Extracciones Seguras y",
-    "title2": "Cómodas",
-    "desc": "Extracciones realizadas por expertos con mínima incomodidad — desde simples hasta quirúrgicas, cuidamos tu sonrisa de forma segura."
-  },
-
-  "section2": {
-    "tag": "Procedimientos Seguros y Rápidos",
-    "title": "Extracciones Dentales Suaves con Cuidado Experto",
-    "desc": "Ya sea una extracción simple o quirúrgica, nuestro equipo garantiza máxima comodidad y seguridad durante todo el procedimiento.",
-    "b1": "Extracciones simples y quirúrgicas",
-    "b2": "Técnicas de mínima incomodidad",
-    "b3": "Guía para recuperación rápida"
-  },
-
-  "section3": {
-    "tag": "Por Qué Elegirnos",
-    "title": "Cuidado Suave, Resultados Seguros",
-    "desc": "Las extracciones pueden ser estresantes — pero con nosotros estás en manos expertas. Minimizamos molestias y ayudamos a una recuperación rápida.",
-    "l1": "Dentistas con experiencia",
-    "l2": "Anestesia enfocada en comodidad",
-    "l3": "Instrucciones claras post-tratamiento",
-    "l4": "Extracciones de emergencia disponibles"
-  },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "braces": "Brackets",
-    "crowns": "Coronas Dentales",
-    "rootcanal": "Endodoncia",
-    "cleaning": "Limpieza Dental"
-  }
-},
-"wisdom": {
-  "hero": {
-    "tag": "Extracción de Muelas del Juicio",
-    "title1": "Extracción Segura y",
-    "title2": "Cómoda",
-    "desc": "Extracción de muelas del juicio realizada por expertos para mayor tranquilidad, comodidad y recuperación rápida."
-  },
-
-  "section2": {
-    "tag": "Cuidado Experto y Suave",
-    "title": "Extracción Cómoda de Muelas del Juicio",
-    "desc": "Las muelas del juicio pueden causar dolor y problemas de alineación — nuestro equipo garantiza un procedimiento cómodo y seguro.",
-    "b1": "Consultas y evaluaciones rápidas",
-    "b2": "Técnicas modernas y cómodas",
-    "b3": "Soporte y guía de recuperación"
-  },
-
-  "section3": {
-    "tag": "Por Qué Elegirnos",
-    "title": "Recuperación Rápida y Segura",
-    "desc": "La extracción de muelas del juicio no tiene que ser estresante. Nuestros dentistas priorizan tu comodidad y recuperación.",
-    "l1": "Evaluaciones expertas y planes personalizados",
-    "l2": "Opciones de anestesia y sedación",
-    "l3": "Instrucciones para una recuperación rápida",
-    "l4": "Equipo dental amable y profesional"
-  },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "braces": "Brackets",
-    "crowns": "Coronas Dentales",
-    "rootcanal": "Endodoncia",
-    "cleaning": "Limpieza Dental"
-  }
-},
-"rootcanal": {
-  "hero": {
-    "tag": "Tratamiento Endodóntico",
-    "title1": "Tratamiento de Conducto",
-    "title2": "Sin Dolor",
-    "desc": "Tratamiento de conducto suave y efectivo para salvar tu diente natural y eliminar el dolor."
-  },
-
-  "section2": {
-    "tag": "Cómodo y Efectivo",
-    "title": "Salva tu Diente — Elimina el Dolor",
-    "desc": "El tratamiento de conducto elimina el tejido infectado dentro del diente mientras conserva su estructura natural.",
-    "b1": "Técnicas modernas sin dolor",
-    "b2": "Evita la extracción",
-    "b3": "Protege tu sonrisa natural"
-  },
-
-  "section3": {
-    "tag": "Beneficios del Tratamiento",
-    "title": "Alivio Duradero y Salud Oral",
-    "desc": "El tratamiento de conducto elimina la infección y permite conservar tu diente natural.",
-    "l1": "Elimina el dolor severo",
-    "l2": "Previene la propagación de infección",
-    "l3": "Preserva el diente natural",
-    "l4": "Mejora la masticación",
-    "l5": "Restaura la función oral"
-  },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "braces": "Brackets",
-    "crowns": "Coronas Dentales",
-    "wisdom": "Muelas del Juicio",
-    "cleaning": "Limpieza Dental"
-  }
-},
-"cleaning": {
-  "hero": {
-    "tag": "Odontología Preventiva",
-    "title1": "Limpieza Dental",
-    "title2": "Profesional en Dallas",
-    "desc": "Mantén tu sonrisa saludable y brillante con limpiezas dentales profesionales regulares."
-  },
-
-  "section2": {
-    "tag": "Cuidado Suave y Efectivo",
-    "title": "Una Sonrisa Saludable Comienza con Dientes Limpios",
-    "desc": "Las limpiezas profesionales eliminan placa y sarro que el cepillado no puede alcanzar.",
-    "b1": "Elimina placa y sarro",
-    "b2": "Previene caries y enfermedades de las encías",
-    "b3": "Deja tu sonrisa fresca y brillante"
-  },
-
-  "section3": {
-    "tag": "Beneficios de la Limpieza",
-    "title": "Cuidado Simple con Beneficios a Largo Plazo",
-    "desc": "Las limpiezas dentales ayudan a mantener la salud oral y evitar tratamientos costosos.",
-    "l1": "Previene caries",
-    "l2": "Reduce enfermedades de las encías",
-    "l3": "Mejora el aliento",
-    "l4": "Mantiene el color natural",
-    "l5": "Apoya la salud oral"
-  },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "braces": "Brackets",
-    "crowns": "Coronas Dentales",
-    "rootcanal": "Endodoncia",
-    "wisdom": "Muelas del Juicio"
-  }
-},
-"deepcleaning": {
-  "hero": {
-    "tag": "Cuidado Periodontal",
-    "title1": "Limpieza",
-    "title2": "Dental Profunda",
-    "desc": "Limpieza profunda debajo de las encías para una mejor salud oral."
-  },
-
-  "section2": {
-    "tag": "Cuidado Completo de Encías",
-    "title": "Una Limpieza Completa de Encías y Dientes",
-    "desc": "La limpieza profunda elimina placa y sarro debajo de la línea de las encías.",
-    "b1": "Elimina placa y sarro acumulado",
-    "b2": "Combate enfermedades de las encías",
-    "b3": "Promueve salud oral a largo plazo"
-  },
-
-  "section3": {
-    "tag": "Beneficios de la Limpieza Profunda",
-    "title": "Protege tus Encías y Previene Enfermedades",
-    "desc": "Las limpiezas profundas ayudan a reducir la inflamación y prevenir enfermedades.",
-    "l1": "Reduce inflamación y sangrado",
-    "l2": "Detiene enfermedad periodontal",
-    "l3": "Mejora el aliento",
-    "l4": "Mejora la salud oral",
-    "l5": "Fortalece las encías"
-  },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "braces": "Brackets",
-    "crowns": "Coronas Dentales",
-    "rootcanal": "Endodoncia",
-    "wisdom": "Muelas del Juicio"
-  }
-},
-"fillings": {
-  "hero": {
-    "tag": "Odontología Restauradora",
-    "title1": "Rellenos Dentales",
-    "title2": "Rápidos y Cómodos",
-    "desc": "Restaura daños menores rápidamente con rellenos dentales cómodos y duraderos."
-  },
-
-  "section2": {
-    "tag": "Rápido y Efectivo",
-    "title": "Protección Fuerte para tus Dientes",
-    "desc": "Los rellenos dentales detienen las caries y protegen la estructura dental.",
-    "b1": "Materiales duraderos",
-    "b2": "Apariencia natural",
-    "b3": "Procedimiento rápido y sin dolor"
-  },
-
-  "section3": {
-    "tag": "Beneficios de los Rellenos",
-    "title": "Previene Dolor y Daños Futuros",
-    "desc": "Los rellenos ayudan a proteger los dientes y evitar daños futuros.",
-    "l1": "Detiene la caries",
-    "l2": "Restaura la mordida",
-    "l3": "Mejora la salud oral"
-  },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "braces": "Brackets",
-    "crowns": "Coronas Dentales",
-    "rootcanal": "Endodoncia",
-    "cleaning": "Limpieza Dental"
-  }
-},
-"implants": {
-  "hero": {
-    "tag": "Implantes Dentales",
-    "title": "Restaura tu sonrisa con fuerza, función y confianza",
-    "title1": "Restaura tu sonrisa con",
-    "title2": "fuerza y confianza",
-    "desc": "Reemplaza dientes perdidos con implantes duraderos y de aspecto natural, planificados según tu salud, objetivos y presupuesto.",
-    "imageAlt": "Paciente recibiendo atención dental"
-  },
-
-  "what": { "tag": "¿Qué son los implantes dentales?", "title": "Una base segura para una sonrisa completa", "desc": "Los implantes dentales son pequeños postes de titanio que se colocan en el hueso maxilar para funcionar como raíces artificiales. Después de integrarse con el hueso, se fija una corona, puente o dentadura personalizada que se ve, se siente y funciona como un diente natural. A diferencia de las dentaduras removibles, los implantes permanecen fijos y ayudan a conservar el hueso maxilar.", "imageAlt": "Profesional dental consultando con un paciente" },
-  "benefits": { "tag": "Beneficios de los Implantes", "title": "Más que un diente de reemplazo", "desc": "Los implantes están diseñados para recuperar la función diaria y mantener una sonrisa natural.", "l1": "Aspecto y sensación naturales", "l2": "Recuperan la capacidad de masticar y hablar", "l3": "Ayudan a prevenir la pérdida ósea", "l4": "Preservan los dientes sanos cercanos", "l5": "Mejoran el soporte y la apariencia facial", "l6": "Son estables y no se mueven", "l7": "Duran mucho tiempo con buenos cuidados", "l8": "Se cuidan como los dientes naturales" },
-  "solutions": { "tag": "Soluciones de Implantes", "title": "Tratamientos según tus necesidades", "single": { "title": "Implante de un Solo Diente", "desc": "Reemplaza un diente perdido con un implante y corona personalizados sin afectar los dientes vecinos." }, "bridge": { "title": "Puentes sobre Implantes", "desc": "Reemplaza varios dientes perdidos con implantes estratégicamente colocados en lugar de usar dientes naturales como soporte." }, "denture": { "title": "Dentaduras con Implantes", "desc": "Disfruta una alternativa más estable a las dentaduras tradicionales, con mejor comodidad al masticar y más confianza." }, "fullArch": { "title": "Restauraciones de Arcada Completa", "desc": "Restaura la mayoría o todos los dientes perdidos con una sonrisa completa sostenida por implantes estratégicos." } },
-  "process": { "tag": "Nuestro Proceso", "title": "Un plan claro desde la consulta hasta tu nueva sonrisa", "imageAlt": "Consulta dental y planificación del tratamiento", "step1": { "title": "Consulta Integral", "desc": "Examinamos tu sonrisa y usamos radiografías digitales e imágenes CBCT 3D para evaluar tu estructura ósea." }, "step2": { "title": "Plan Personalizado", "desc": "Creamos un plan basado en tu salud oral, objetivos, tiempo y presupuesto." }, "step3": { "title": "Colocación del Implante", "desc": "El implante de titanio se coloca cuidadosamente con técnicas quirúrgicas precisas." }, "step4": { "title": "Cicatrización e Integración", "desc": "Durante los meses siguientes, el implante se fusiona naturalmente con el hueso mediante la osteointegración." }, "step5": { "title": "Restauración Final", "desc": "Cuando la cicatrización termina, colocamos tu corona, puente o dentadura personalizada." } },
-  "candidate": { "tag": "¿Eres Candidato?", "title": "Los implantes pueden ser adecuados para ti si", "desc": "Una consulta es la mejor manera de conocer tus opciones. Un injerto óseo puede ayudar a quienes necesitan soporte adicional.", "l1": "Tienes uno o más dientes perdidos", "l2": "Quieres un reemplazo permanente", "l3": "Tienes encías saludables", "l4": "Tienes suficiente hueso o puedes recibir un injerto", "l5": "Gozas de buena salud general" },
-  "technology": { "tag": "Tecnología Avanzada", "title": "Precisión basada en tu anatomía", "desc": "Los diagnósticos digitales y las imágenes 3D nos ayudan a evaluar el hueso, planificar la colocación y adaptar el tratamiento para mayor precisión, eficiencia y comodidad." },
-  "affordability": { "tag": "Atención Accesible", "title": "Financiamiento flexible para tu nueva sonrisa", "desc": "Creemos que el reemplazo dental de alta calidad debe ser accesible. Explicamos los costos con claridad y trabajamos contigo en un plan realista.", "insuranceTitle": "Trabajamos con tu seguro", "insuranceDesc": "Trabajamos con la mayoría de los planes dentales, ayudamos a determinar si aplican beneficios para implantes y maximizamos la cobertura elegible.", "financingTitle": "Opciones de pago flexibles", "financingDesc": "Los pacientes calificados pueden ser elegibles para financiamiento con 0% APR a través de socios confiables, sujeto a aprobación y términos del prestamista." },
-  "faq": { "tag": "Preguntas Frecuentes", "title": "Respuestas sobre implantes dentales", "q1": "¿Cuánto duran los implantes?", "a1": "Con buenos cuidados en casa y visitas dentales regulares, pueden durar décadas y muchas veces toda la vida.", "q2": "¿Duele colocar un implante?", "a2": "La mayoría de los pacientes reporta molestias mínimas. Se usa anestesia local y muchos vuelven a sus actividades en uno o dos días.", "q3": "¿Cuánto dura todo el proceso?", "a3": "El tiempo varía, pero la mayoría de los casos se completa en varios meses debido al tiempo de cicatrización.", "q4": "¿Pueden reemplazar varios dientes?", "a4": "Sí. Los implantes pueden sostener coronas individuales, puentes, dentaduras o restauraciones de arcada completa.", "q5": "¿Mi implante se verá natural?", "a5": "Sí. La restauración se fabrica a medida para combinar con el color, forma y tamaño de tus dientes cercanos." },
-
-  "intro": {
-    "tag": "Cuidado Asequible",
-    "title": "Implantes Dentales Asequibles con Financiamiento Flexible",
-    "desc": "En Dallas Smiles Dental & Orthodontics creemos que todos merecen acceso a reemplazos dentales de alta calidad. Nos esforzamos por hacer que los implantes dentales sean lo más asequibles y accesibles posible.",
-    "l1": "Implantes de alta calidad con aspecto natural",
-    "l2": "Orientación clara y transparente sobre los costos",
-    "l3": "Atención personalizada desde la planificación hasta la restauración",
-    "l4": "Opciones de financiamiento que reducen el estrés financiero"
-  },
-
-  "insurance": {
-    "tag": "Apoyo con el Seguro",
-    "title": "Trabajamos con tu Seguro",
-    "desc": "Nuestro equipo trabaja con la mayoría de los planes dentales y te ayudará a determinar si tu plan incluye beneficios para implantes. Para los pacientes que califican, maximizaremos tus beneficios y te explicaremos los costos de bolsillo estimados antes de comenzar el tratamiento, sin sorpresas.",
-    "l1": "Ayuda con la mayoría de los planes dentales",
-    "l2": "Determinar si el seguro cubre implantes",
-    "l3": "Maximizar la cobertura elegible",
-    "l4": "Costos claros antes de comenzar el tratamiento"
-  },
-
   "financing": {
-    "tag": "Opciones de Pago",
-    "title": "Financiamiento Flexible",
-    "desc": "Para pacientes sin seguro o que buscan mayor flexibilidad, ofrecemos precios accesibles junto con opciones de financiamiento convenientes a través de nuestros socios financieros. Los pacientes calificados pueden ser elegibles para financiamiento con 0% APR (según aprobación y términos), lo que permite distribuir el costo en pagos mensuales manejables.",
-    "l1": "Planes de pago accesibles para pacientes calificados",
-    "l2": "0% APR disponible con aprobación",
-    "l3": "Pagos mensuales adaptados a tu presupuesto"
+    "title": "Financiamiento Flexible con Cherry",
+    "description": "Nos hemos asociado con Cherry para hacer que la atención dental sea más accesible. Obtén aprobación en segundos y divide el costo de tu tratamiento en pagos mensuales fáciles, sin estrés financiero.",
+    "points": {
+      "p1": "Aprobación instantánea (verificación de crédito suave)",
+      "p2": "Opciones disponibles con 0% APR",
+      "p3": "Sin impacto en tu historial crediticio",
+      "p4": "Pagos mensuales flexibles"
+    },
+    "learnTitle": "Conoce Más Sobre Nuestro Socio Financiero Cherry",
+    "learnText1": "Dallas Smiles Dental & Orthodontics se enorgullece de asociarse con Cherry para hacer que los tratamientos dentales sean más accesibles y asequibles para nuestros pacientes. Cherry te permite dividir el costo de tu tratamiento en pagos mensuales manejables para que puedas recibir la atención que necesitas sin estrés financiero.",
+    "learnText2": "Con un proceso de solicitud rápido, aprobaciones ágiles y opciones de pago flexibles, Cherry ayuda a los pacientes a continuar con su tratamiento con confianza.",
+    "cta": "Conoce Más Sobre Cherry"
   },
-
-  "whyChoose": {
-    "tag": "¿Por qué elegir Dallas Smiles Dental & Orthodontics?",
-    "title": "Cuidado de implantes confiable con un enfoque centrado en el paciente",
-    "desc": "En Dallas Smiles Dental & Orthodontics, creemos que cada paciente merece atención de alta calidad respaldada por tecnología confiable y experiencia clínica.",
-    "partnerTitle": "Asociados con Hiossen Implants",
-    "partnerDesc": "Nos asociamos orgullosamente con Hiossen Implants, uno de los principales fabricantes de implantes dentales del mundo, reconocido por su ingeniería de precisión, investigación clínica y confiabilidad a largo plazo.",
-    "providerTitle": "Proveedor de Implantes con Experiencia",
-    "providerDesc": "El Dr. Sandeep Bariki completó capacitación avanzada en implantes a través del reconocido programa educativo Implant Pathway. Cuenta con más de dos años de experiencia colocando y restaurando implantes dentales.",
-    "focus": "Nuestro enfoque es brindar tratamientos seguros, cómodos y diseñados para el éxito a largo plazo.",
-    "l1": "Capacitación avanzada a través de Implant Pathway",
-    "l2": "Más de dos años de experiencia en implantes dentales con el Dr. Sandeep Bariki",
-    "l3": "Sistema de implantes Hiossen Premium para resultados duraderos",
-    "l4": "Planes de tratamiento personalizados con tecnología digital avanzada",
-    "l5": "Oficina compatible con seguros que ayuda a maximizar beneficios elegibles",
-    "l6": "Precios asequibles con financiamiento flexible, incluyendo opciones 0% APR para pacientes calificados",
-    "l7": "CONSULTA de implantes dentales GRATUITA para nuevos pacientes",
-    "imageAlt": "Atención de implantes dentales en Dallas Smiles"
+  "invisalign": {
+    "hero": {
+      "title": "¿Por qué elegir Invisalign®?",
+      "p1": "Una sonrisa segura debe sentirse natural — no forzada, ni oculta, ni incómoda. En Dallas Smiles Dental & Orthodontics ofrecemos Invisalign® como una solución moderna diseñada para quienes desean alinear sus dientes sin afectar su estilo de vida.",
+      "p2": "A diferencia de los brackets tradicionales, Invisalign utiliza una serie de alineadores transparentes hechos a medida que mueven gradualmente tus dientes a su posición ideal. Son prácticamente invisibles, cómodos y removibles, brindándote una flexibilidad que los brackets metálicos no pueden ofrecer.",
+      "cta": "Reservar Consulta Gratis"
+    },
+    "doctor": {
+      "title": "Tratamiento Personalizado con Invisalign",
+      "p1": "El Dr. Sandeep Bariki evalúa cuidadosamente la mordida, alineación y armonía facial de cada paciente para crear un plan de tratamiento digital personalizado.",
+      "p2": "Gracias a la tecnología avanzada de imágenes 3D, incluso puedes visualizar cómo se verá tu sonrisa antes de comenzar el tratamiento."
+    },
+    "conditions": {
+      "title": "Invisalign Puede Tratar",
+      "subtitle": "Los alineadores Invisalign están diseñados para tratar muchos problemas ortodónticos de manera cómoda y discreta.",
+      "bottom": "Ya seas un profesional ocupado, un adolescente activo o un adulto que nunca usó brackets, Invisalign te permite mejorar tu sonrisa de forma discreta y cómoda.",
+      "c1": {
+        "title": "Dientes Apiñados",
+        "desc": "Los dientes se superponen porque no hay suficiente espacio en la mandíbula."
+      },
+      "c2": {
+        "title": "Espacios entre Dientes",
+        "desc": "Huecos entre dientes causados por tamaño de mandíbula o dientes faltantes."
+      },
+      "c3": {
+        "title": "Sobremordida",
+        "desc": "Los dientes superiores cubren demasiado a los inferiores."
+      },
+      "c4": {
+        "title": "Mordida Invertida",
+        "desc": "Los dientes inferiores sobresalen más que los superiores."
+      },
+      "c5": {
+        "title": "Mordida Cruzada",
+        "desc": "Algunos dientes superiores quedan por dentro de los inferiores."
+      },
+      "c6": {
+        "title": "Problemas de Alineación",
+        "desc": "Corrige problemas leves a moderados de alineación."
+      }
+    },
+    "kids": {
+      "title": "Invisalign para Niños y Adolescentes",
+      "p1": "Invisalign es una excelente opción ortodóntica para niños y adolescentes que desean una forma cómoda y casi invisible de alinear sus dientes. A diferencia de los brackets tradicionales, los alineadores están hechos de plástico transparente y suave que se ajusta cómodamente a los dientes.",
+      "p2": "Como son removibles, los niños y adolescentes pueden quitarlos fácilmente para comer, cepillarse y usar hilo dental, manteniendo una mejor higiene bucal y disfrutando de sus comidas favoritas sin restricciones.",
+      "p3": "Es especialmente popular entre los adolescentes porque les permite alinear sus dientes de manera discreta mientras mantienen la confianza en la escuela, deportes y actividades sociales."
+    },
+    "braces": {
+      "title": "Brackets Dentales Avanzados para una Sonrisa Perfecta",
+      "p1": "Los brackets dentales son una solución altamente efectiva para corregir dientes desalineados, problemas de mordida y apiñamiento. Nuestros tratamientos personalizados están diseñados para mover gradualmente los dientes a su posición ideal.",
+      "p2": "Ofrecemos opciones modernas de brackets que son cómodas, eficientes y adecuadas tanto para adolescentes como adultos. Nuestro equipo garantiza ajustes precisos y seguimiento continuo durante todo el tratamiento.",
+      "b1": "Corrige dientes torcidos y apiñados",
+      "b2": "Mejora la alineación de la mordida",
+      "b3": "Mejora la estética facial",
+      "b4": "Resultados duraderos",
+      "cta": "Reservar Consulta"
+    },
+    "benefits": {
+      "title": "Beneficios de Invisalign",
+      "b1": {
+        "title": "Apariencia Invisible",
+        "desc": "Los alineadores transparentes se mezclan con tus dientes y casi no se notan."
+      },
+      "b2": {
+        "title": "Comodidad",
+        "desc": "El plástico suave sin BPA evita la irritación."
+      },
+      "b3": {
+        "title": "Removibles",
+        "desc": "Puedes quitarlos para comer, cepillarte y usar hilo dental."
+      },
+      "b4": {
+        "title": "Menos Visitas",
+        "desc": "Requiere menos visitas al dentista que los brackets tradicionales."
+      },
+      "b5": {
+        "title": "Planificación Digital",
+        "desc": "Puedes ver tu sonrisa futura antes de empezar."
+      },
+      "b6": {
+        "title": "Confianza",
+        "desc": "Sonríe con seguridad durante todo el tratamiento."
+      },
+      "b7": {
+        "title": "Tratamiento Personalizado",
+        "desc": "Diseñado específicamente para tu estructura dental."
+      }
+    },
+    "trust": {
+      "title": "Por Qué los Pacientes Confían en Dallas Smiles",
+      "p1": "En Dallas Smiles Dental & Orthodontics, Invisalign no es un tratamiento genérico. El Dr. Bariki combina más de una década de experiencia clínica con formación avanzada para garantizar resultados precisos y duraderos.",
+      "p2": "Nos enfocamos no solo en dientes rectos, sino en mordidas equilibradas, encías saludables y una sonrisa que mejora tu estética facial."
+    },
+    "payment": {
+      "title": "Planes de Pago Flexibles",
+      "p1": "Entendemos que cada paciente tiene una situación financiera diferente. Nuestro equipo revisará tu plan de tratamiento con total transparencia y te ayudará a elegir la mejor opción de pago.",
+      "p2": "Ya sea que prefieras un pago inicial bajo o cuotas mensuales accesibles, adaptamos el plan a tus necesidades."
+    },
+    "cherry": {
+      "title": "Cherry – Nuestro Socio Oficial de Financiamiento",
+      "p1": "Para hacer Invisalign más accesible, nos asociamos con Cherry, nuestro proveedor oficial de financiamiento.",
+      "b1": "Proceso de solicitud rápido y sencillo",
+      "b2": "Aprobaciones rápidas",
+      "b3": "Pagos mensuales flexibles",
+      "b4": "Opciones promocionales para pacientes elegibles",
+      "p2": "El proceso es simple y puede completarse en minutos. Nuestro equipo te guiará en cada paso.",
+      "cta": "Solicitar Financiamiento con Cherry"
+    },
+    "final": {
+      "title": "Invisalign Accesible con Financiamiento Flexible",
+      "p1": "Una sonrisa alineada debe ser accesible, no estresante. Por eso ofrecemos planes de pago diseñados para ajustarse a tu presupuesto.",
+      "p2": "Trabajamos con Cherry para ofrecer aplicaciones rápidas, aprobaciones ágiles y pagos mensuales cómodos.",
+      "cta": "Agendar Consulta Gratis"
+    },
+    "metaTitle": "Alineadores Invisalign® en Dallas, TX | Proveedor Certificado",
+    "metaDescription": "Endereza tus dientes con alineadores transparentes Invisalign en Dallas, TX. Proveedor certificado Dr. Sandeep Bariki, vista previa 3D y financiamiento al 0%."
   },
-
-  "cta": {
-    "tag": "Consulta Gratuita de Implantes Dentales",
-    "title": "Programa tu Consulta Gratuita para Implantes Dentales",
-    "desc": "Si estás listo para reemplazar dientes perdidos con una solución que se vea natural, se sienta segura y esté diseñada para durar, nuestro equipo en Dallas Smiles Dental & Orthodontics está aquí para ayudarte.",
-    "body": "Con formación avanzada, tecnología premium de Hiossen, planificación personalizada y un compromiso con la atención excepcional, estamos orgullosos de ayudar a pacientes a recuperar sonrisas saludables y seguras que duran por muchos años.",
-    "action": "Llama hoy a Dallas Smiles Dental & Orthodontics para programar tu consulta gratuita de implantes dentales y descubre si son adecuados para ti!",
-    "items": { "1": "Evaluaremos tu sonrisa y salud oral", "2": "Discutiremos tus metas y opciones de tratamiento", "3": "Determinaremos si eres candidato para implantes dentales", "4": "Revisaremos tus imágenes CBCT (si es necesario)", "5": "Explicaremos el proceso de implantes paso a paso", "6": "Verificaremos tus beneficios de seguro cuando aplique", "7": "Proporcionaremos un plan de tratamiento personalizado y un estimado de costos transparente", "8": "Revisaremos opciones de financiamiento y pago disponibles para ti" }
+  "crowns": {
+    "metaTitle": "Coronas Dentales en Dallas, TX | Porcelana y Zirconia Personalizadas",
+    "metaDescription": "Restaura dientes agrietados o desgastados con coronas dentales de aspecto natural en Dallas, TX. Citas en la misma semana, seguros PPO y financiamiento al 0% de interés.",
+    "hero": {
+      "tag": "Odontología Restauradora en Dallas, TX",
+      "title1": "Coronas Dentales Personalizadas que Restauran",
+      "title2": "Fuerza, Función y Confianza",
+      "desc": "Protege dientes dañados, elimina el dolor al masticar y revitaliza tu sonrisa con coronas de porcelana y zirconia de ajuste preciso, diseñadas por el Dr. Sandeep Bariki en Dallas Smiles Dental & Orthodontics.",
+      "cta": "Agendar Consulta de Coronas",
+      "phone": "Llamar al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué es una Corona Dental?",
+      "title": "Una Cubierta Protectora Duradera Hecha a la Medida",
+      "desc": "Una corona dental es una funda con la forma exacta del diente que se coloca sobre una pieza dental debilitada, fracturada o tratada con endodoncia. Diseñada al color exacto de tu esmalte natural, devuelve la resistencia estructural, la fuerza de mordida y la estética para que sonrías y comas con total comodidad."
+    },
+    "benefits": {
+      "tag": "Beneficios de las Coronas",
+      "title": "Por Qué las Coronas Dentales Salvan Dientes Comprometidos",
+      "desc": "Las coronas restauradoras modernas protegen tus piezas naturales y revitalizan tu salud bucal:",
+      "l1": "Refuerza dientes con fracturas severas o caries extensas",
+      "l2": "Sella y protege dientes frágiles tras un tratamiento de conducto (endodoncia)",
+      "l3": "Color personalizado para fundirse de forma invisible con tus dientes naturales",
+      "l4": "Restaura la capacidad completa de masticar y morder sin molestias",
+      "l5": "Previene fracturas catastróficas que requerirían la extracción del diente",
+      "l6": "Reemplaza empastes oscuros antiguos, metálicos o deteriorados",
+      "l7": "Fabricadas con zirconia y porcelana biocompatible de alta resistencia",
+      "l8": "Inversión duradera que puede mantenerse entre 10 y 15+ años con buen cuidado"
+    },
+    "candidate": {
+      "tag": "¿Quién Necesita una Corona?",
+      "title": "Indicaciones Frecuentes para Colocar una Corona Dental",
+      "desc": "Puedes ser candidato ideal para una corona si presentas:",
+      "l1": "Un diente con caries profunda mayor a lo que un empaste normal puede soportar",
+      "l2": "Fisuras o fracturas dentales que causan dolor o sensibilidad al masticar",
+      "l3": "Un diente que ha recibido endodoncia y necesita protección coronal",
+      "l4": "Esmalte severamente desgastado a causa del bruxismo (rechinar nocturno)",
+      "l5": "Un diente deformado, manchado o con defectos estéticos en la zona visible"
+    },
+    "process": {
+      "tag": "El Proceso de Tratamiento",
+      "title": "Tu Procedimiento de Corona Paso a Paso",
+      "step1": {
+        "title": "1. Examen Completo y Radiografías Digitales",
+        "desc": "El Dr. Bariki evalúa la vitalidad del diente, la raíz y el hueso con imágenes digitales de alta resolución para diseñar el plan de tratamiento óptimo."
+      },
+      "step2": {
+        "title": "2. Preparación y Moldeado Suave del Diente",
+        "desc": "Con anestesia local suave y sin dolor, se remueve la caries y se moldea con precisión la estructura dental para que la corona se asiente perfectamente."
+      },
+      "step3": {
+        "title": "3. Impresiones Digitales de Alta Precisión",
+        "desc": "Capturamos un modelo 3D exacto de tu mordida sin pastas incómodas y seleccionamos el matiz de color que mejor combine con tus dientes."
+      },
+      "step4": {
+        "title": "4. Corona Temporal Cómoda",
+        "desc": "Colocamos una corona provisional para proteger el diente y permitirte comer y hablar con tranquilidad mientras el laboratorio elabora la pieza definitiva."
+      },
+      "step5": {
+        "title": "5. Cementado y Pulido de la Corona Definitiva",
+        "desc": "Una vez recibida la corona de porcelana o zirconia, el Dr. Bariki verifica el ajuste, contactos y oclusión antes de cementarla firmemente."
+      }
+    },
+    "technology": {
+      "tag": "Materiales Avanzados",
+      "title": "Coronas de Zirconia y Porcelana de Alta Estética",
+      "desc": "Evitamos aleaciones metálicas antiguas que dejan bordes oscuros en la encía. Nuestras coronas se confeccionan con zirconia de última generación y porcelana translúcida, brindando la máxima resistencia a fracturas, biocompatibilidad y un brillo natural idéntico al esmalte."
+    },
+    "affordability": {
+      "tag": "Atención Restauradora Accesible",
+      "title": "Opciones Accesibles para Toda la Familia en Dallas",
+      "desc": "Cuidar de tu sonrisa y salud dental no debería causarte estrés económico.",
+      "insuranceTitle": "Aprovecha al Máximo tu Seguro Dental",
+      "insuranceDesc": "La mayoría de los seguros PPO cubren entre el 50% y el 80% de los tratamientos de coronas al ser procedimientos restauradores necesarios. Tramitamos tus reclamos directamente.",
+      "financingTitle": "Financiamiento al 0% de Interés con Cherry",
+      "financingDesc": "Divide tus costos en cómodas cuotas mensuales con Cherry y planes internos, con aprobación en segundos y sin impacto en tu historial crediticio."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Preguntas Habituales Sobre las Coronas Dentales",
+      "q1": "¿Cuánto tiempo dura una corona dental?",
+      "a1": "Con un buen cepillado diario, hilo dental y limpiezas profesionales regulares cada seis meses, una corona de zirconia o porcelana suele durar entre 10 y 15 años o más.",
+      "q2": "¿Duele ponerse una corona dental?",
+      "a2": "En absoluto. Se utiliza anestesia local de acción suave para dormir por completo la zona. La mayoría de los pacientes no siente dolor durante la cita y solo una ligera sensibilidad pasajera.",
+      "q3": "¿Cuál es la diferencia entre un empaste y una corona?",
+      "a3": "Un empaste rellena una cavidad pequeña o moderada. Cuando la pérdida de estructura es grande o tras un tratamiento de conducto, la corona cubre por completo el diente para evitar que se fracture con la masticación.",
+      "q4": "¿Cómo debo cuidar mi nueva corona?",
+      "a4": "Se cuida igual que tus dientes naturales: cepillado dos veces al día con pasta fluorada, uso de hilo dental alrededor del margen para proteger la encía y evitar masticar hielo o elementos duros.",
+      "q5": "¿Se puede caer o aflojar una corona?",
+      "a5": "Las coronas definitivas se fijan con cemento odontológico de alta adhesión y rara vez se sueltan. Si por algún golpe o alimento pegajoso se desajusta, guárdala y llama de inmediato a nuestra clínica en Dallas al (972) 484-5400 para volver a cementarla."
+    },
+    "cta": {
+      "tag": "Restaura tu Diente Hoy Mismo",
+      "title": "Agenda tu Consulta de Coronas Dentales en Dallas",
+      "desc": "No permitas que un diente fracturado empeore y requiera extracción. Contáctanos hoy para programar tu revisión con el Dr. Sandeep Bariki.",
+      "action": "Llama al (972) 484-5400 o reserva en línea en Dallas Smiles Dental & Orthodontics.",
+      "items": [
+        "Evaluación oral completa y radiografías digitales",
+        "Opciones en porcelana y zirconia del color de tus dientes",
+        "Citas en la misma semana para dientes agrietados o dolor",
+        "Verificación de cobertura con seguros PPO",
+        "Planes de financiamiento al 0% de interés con Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
   },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "braces": "Brackets",
-    "crowns": "Coronas Dentales",
-    "rootcanal": "Endodoncia",
-    "cleaning": "Limpieza Dental"
+  "extractions": {
+    "metaTitle": "Extracciones Dentales en Dallas, TX | Extracción de Dientes sin Dolor",
+    "metaDescription": "Extracciones dentales seguras y sin dolor en Dallas, TX. Citas de emergencia el mismo día, anestesia suave y rápida recuperación con el Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Cirugía Oral y Urgencias Dentales",
+      "title1": "Extracciones Dentales Suaves y sin Dolor",
+      "title2": "con Dentistas Expertos en Dallas",
+      "desc": "Cuando un diente está severamente quebrado o con infección profunda, una extracción a tiempo elimina el dolor de inmediato y protege tu boca. En Dallas Smiles, el Dr. Sandeep Bariki realiza extracciones con anestesia de última generación.",
+      "cta": "Consulta de Extracción Dental",
+      "phone": "Llama al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué es una Extracción Dental?",
+      "title": "Alivio del Dolor y Protección de tu Salud Oral",
+      "desc": "Es la remoción cuidadosa de un diente de su alvéolo óseo. Aunque siempre priorizamos salvar tus dientes naturales, la extracción es necesaria cuando hay fracturas profundas, caries irreparables o infecciones que amenazan el resto de tu boca."
+    },
+    "benefits": {
+      "tag": "Beneficios de una Extracción Segura",
+      "title": "Alivio Inmediato del Dolor y Control Infeccioso",
+      "desc": "Previene complicaciones mayores en tu salud bucal y general:",
+      "l1": "Alivio inmediato del dolor punzante y agudo de muelas",
+      "l2": "Detiene la propagación de bacterias a la mandíbula o sangre",
+      "l3": "Elimina caries que no pueden ser restauradas",
+      "l4": "Genera espacio necesario para ortodoncia o prótesis completas",
+      "l5": "Remueve dientes astillados que lesionan la lengua o mejillas",
+      "l6": "Prepara la zona para un implante dental permanente",
+      "l7": "Anestesia local profunda para un procedimiento tranquilo",
+      "l8": "Guía completa de cuidados para evitar complicaciones como la alveolitis"
+    },
+    "candidate": {
+      "tag": "¿Cuándo es Necesaria?",
+      "title": "Motivos Principales para Extraer un Diente",
+      "desc": "Podrías necesitar una extracción si presentas:",
+      "l1": "Dolor dental insoportable que no cede con analgésicos",
+      "l2": "Diente quebrado por debajo del nivel de la encía",
+      "l3": "Enfermedad periodontal avanzada con dientes flojos",
+      "l4": "Absceso severo donde la endodoncia ya no es viable",
+      "l5": "Apiñamiento severo antes de colocar brackets"
+    },
+    "process": {
+      "tag": "Procedimiento",
+      "title": "Tu Extracción en Dallas Smiles Paso a Paso",
+      "step1": {
+        "title": "1. Radiografía Digital y Diagnóstico",
+        "desc": "Revisamos la anatomía radicular y la proximidad con nervios para planificar la extracción."
+      },
+      "step2": {
+        "title": "2. Anestesia Local Completa",
+        "desc": "Adormecemos la muela y encía por completo para garantizar cero dolor."
+      },
+      "step3": {
+        "title": "3. Extracción Atraumática Suave",
+        "desc": "El Dr. Bariki retira el diente suavemente preservando el hueso circundante."
+      },
+      "step4": {
+        "title": "4. Limpieza del Alvéolo y Gasa",
+        "desc": "Desinfectamos la zona y colocamos gasa esterilizada para formar el coágulo protector."
+      },
+      "step5": {
+        "title": "5. Cuidados Posteriores y Opciones de Reemplazo",
+        "desc": "Te entregamos indicaciones claras y opciones para colocar un implante en el futuro."
+      }
+    },
+    "technology": {
+      "tag": "Precisión Quirúrgica",
+      "title": "Técnicas Atraumáticas que Cuidan el Hueso",
+      "desc": "Utilizamos instrumental moderno que respeta las paredes óseas, facilitando que más adelante puedas colocarte un implante dental de forma rápida y exitosa."
+    },
+    "affordability": {
+      "tag": "Costos y Seguros",
+      "title": "Extracciones Accesibles con Alivio el Mismo Día",
+      "desc": "Coordinamos con tu seguro PPO y ofrecemos financiamiento inmediato.",
+      "insuranceTitle": "Cobertura con Seguros Dentales",
+      "insuranceDesc": "La mayoría de seguros dentales cubren del 70% al 80% de las extracciones necesarias.",
+      "financingTitle": "Financiamiento de Emergencia con Cherry",
+      "financingDesc": "No dejes pasar el dolor por falta de dinero. Divide el costo en pagos mensuales sin estrés financiero."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Dudas Habituales sobre Extracciones Dentales",
+      "q1": "¿Sentiré dolor durante la extracción?",
+      "a1": "No. Gracias a la anestesia local profunda solo sentirás una leve presión, nunca dolor punzante.",
+      "q2": "¿Cuánto dura la recuperación?",
+      "a2": "La molestia inicial pasa en 48 horas. Siguiendo las instrucciones podrás volver a tu rutina rápidamente.",
+      "q3": "¿Qué puedo comer después de que me saquen una muela?",
+      "a3": "Alimentos blandos y fríos los primeros dos días: yogur, puré de papas, caldos tibios y gelatinas. ¡Nunca uses popote ni pajilla!",
+      "q4": "¿Cómo evito la alveolitis seca (dry socket)?",
+      "a4": "No fumes, no uses popotes, no escupas con fuerza y no hagas ejercicio pesado durante las primeras 72 horas.",
+      "q5": "¿Debo reemplazar el diente extraído?",
+      "a5": "Sí, se recomienda un implante o puente para evitar que los demás dientes se enchuequen o se pierda hueso."
+    },
+    "cta": {
+      "tag": "Alivia el Dolor Hoy",
+      "title": "Extracciones de Emergencia en Dallas",
+      "desc": "¿Dolor de muela severo? Atendemos emergencias de inmediato para devolverte el alivio.",
+      "action": "Llama al (972) 484-5400 para atención dental urgente en 3234 Forest Lane, Dallas.",
+      "items": [
+        "Atención de emergencias el mismo día",
+        "Anestesia suave y trato compasivo",
+        "Aceptamos seguros PPO y efectivo",
+        "Financiamiento mensual disponible con Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
+  },
+  "wisdom": {
+    "metaTitle": "Extracción de Muelas del Juicio en Dallas, TX | Cirugía de Terceros Molares",
+    "metaDescription": "Extracción segura y sin dolor de muelas del juicio en Dallas, TX. Radiografías 3D CBCT, opciones de sedación y rápida recuperación con el Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Cirugía Oral en Dallas, TX",
+      "title1": "Extracción Segura de Muelas del Juicio",
+      "title2": "con Mínimo Tiempo de Recuperación",
+      "desc": "Las muelas del juicio suelen quedar impactadas, dolorosas o torcidas por falta de espacio en la mandíbula. En Dallas Smiles Dental & Orthodontics, el Dr. Sandeep Bariki utiliza imágenes 3D CBCT y técnicas suaves para una extracción cómoda.",
+      "cta": "Agenda tu Evaluación de Muelas del Juicio",
+      "phone": "Llama al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué son las Muelas del Juicio?",
+      "title": "Extracción de Terceros Molares",
+      "desc": "Son los últimos dientes en salir, habitualmente entre los 17 y 25 años. Rara vez la mandíbula tiene suficiente espacio, por lo que crecen retenidas bajo el hueso o inclinadas, dañando las muelas vecinas."
+    },
+    "benefits": {
+      "tag": "Beneficios de la Extracción",
+      "title": "¿Por Qué Remover las Muelas del Juicio?",
+      "desc": "Extraerlas a tiempo previene emergencias y dolores severos:",
+      "l1": "Elimina el dolor intenso y la hinchazón en la parte trasera de la mandíbula",
+      "l2": "Protege las muelas vecinas contra caries profundas y reabsorción",
+      "l3": "Previene que los dientes rectos vuelvan a apiñarse",
+      "l4": "Evita la pericoronaritis (infección bacteriana en la encía)",
+      "l5": "Previene quistes dentígeros en el hueso mandibular",
+      "l6": "Alivia dolores de cabeza y presión en los senos paranasales",
+      "l7": "Uso de tomografía 3D CBCT para proteger los nervios faciales",
+      "l8": "Recuperación rápida con instrucciones claras y seguimiento"
+    },
+    "candidate": {
+      "tag": "¿Cuándo se Extraen?",
+      "title": "Síntomas Comunes de Problemas con las Cordales",
+      "desc": "Debes evaluarte si presentas:",
+      "l1": "Dolor punzante o presión al fondo de la boca",
+      "l2": "Encías inflamadas, rojas o que sangran alrededor de la muela",
+      "l3": "Dificultad para abrir la boca o masticar",
+      "l4": "Mal aliento constante por acumulación de bacterias",
+      "l5": "Radiografías que muestran dientes impactados empujando a los demás"
+    },
+    "process": {
+      "tag": "El Procedimiento",
+      "title": "Tu Cirugía en Dallas Smiles",
+      "step1": {
+        "title": "1. Consulta con Tomografía 3D",
+        "desc": "Visualizamos la posición exacta de las raíces y su cercanía con el nervio dentario."
+      },
+      "step2": {
+        "title": "2. Anestesia Local y Sedación",
+        "desc": "Garantizamos que estés totalmente relajado y sin dolor durante todo el proceso."
+      },
+      "step3": {
+        "title": "3. Extracción Quirúrgica Precisa",
+        "desc": "El Dr. Bariki extrae los molares con técnica mínimamente invasiva."
+      },
+      "step4": {
+        "title": "4. Suturas Reabsorbibles y Desinfección",
+        "desc": "Colocamos puntos que se caen solos y dejamos la zona limpia y protegida."
+      },
+      "step5": {
+        "title": "5. Plan de Recuperación en Casa",
+        "desc": "Te entregamos medicamentos, compresas frías y consejos para sanar en pocos días."
+      }
+    },
+    "technology": {
+      "tag": "Tecnología 3D CBCT",
+      "title": "Mapeo Tridimensional para Máxima Seguridad",
+      "desc": "Nuestra clínica cuenta con tomografía computarizada 3D que permite ver con total claridad la posición del nervio, reduciendo a cero cualquier riesgo quirúrgico."
+    },
+    "affordability": {
+      "tag": "Financiamiento y Seguros",
+      "title": "Cirugía Accesible con Cuotas al 0% con Cherry",
+      "desc": "Precios claros y asistencia con tu póliza dental.",
+      "insuranceTitle": "Cobertura de Seguros Dentales",
+      "insuranceDesc": "La mayoría de seguros PPO cubren la extracción de muelas del juicio como cirugía oral.",
+      "financingTitle": "Financiamiento con Cherry",
+      "financingDesc": "Paga en cómodas cuotas mensuales con 0% de interés para pacientes calificados."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Dudas Habituales sobre Muelas del Juicio",
+      "q1": "¿A qué edad es mejor extraerlas?",
+      "a1": "Entre los 16 y 22 años, cuando las raíces no han terminado de formarse y la recuperación es mucho más rápida.",
+      "q2": "¿Se pueden sacar las cuatro muelas en una sola cita?",
+      "a2": "¡Sí! Es lo más recomendado, ya que solo pasas por un único periodo de recuperación.",
+      "q3": "¿Cuánto tarda la recuperación?",
+      "a3": "La hinchazón disminuye a partir del tercer día. La mayoría de pacientes retoman sus actividades en 3 a 4 días.",
+      "q4": "¿Qué puedo comer después de la cirugía?",
+      "a4": "Alimentos suaves y frescos: licuados sin popote, puré de papas, sopas tibias y yogur.",
+      "q5": "¿Qué pasa si no me duelen?",
+      "a5": "Incluso sin dolor pueden formar quistes o caries ocultas en las muelas contiguas. Una radiografía 3D determinará si es seguro dejarlas."
+    },
+    "cta": {
+      "tag": "Protege tu Salud Dental",
+      "title": "Agenda tu Evaluación de Cordales en Dallas",
+      "desc": "Evita dolores repentinos y apiñamiento dental con una cita preventiva.",
+      "action": "Llama al (972) 484-5400 o reserva en 3234 Forest Lane, Dallas, TX.",
+      "items": [
+        "Tomografía 3D de alta definición",
+        "Anestesia suave y segura",
+        "Las 4 muelas en una sola cita",
+        "Aceptamos seguros PPO y planes de pago con Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
+  },
+  "rootcanal": {
+    "metaTitle": "Endodoncia en Dallas, TX | Tratamiento de Conducto sin Dolor",
+    "metaDescription": "Salva tu diente natural y alivia el dolor de muelas con endodoncia suave en Dallas, TX. Citas de emergencia el mismo día con el Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Endodoncia en Dallas, TX",
+      "title1": "Endodoncia Suave que Alivia el Dolor",
+      "title2": "y Salva tu Diente Natural",
+      "desc": "Un dolor intenso de muela o sensibilidad extrema no significa que debas perder tu diente. En Dallas Smiles Dental & Orthodontics, el Dr. Sandeep Bariki realiza tratamientos de conducto modernos que eliminan la infección y alivian el dolor de inmediato.",
+      "cta": "Agenda tu Tratamiento de Endodoncia",
+      "phone": "Llama al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué es una Endodoncia?",
+      "title": "Salvar el Diente desde el Interior",
+      "desc": "El tratamiento de conducto trata la pulpa infectada en el interior del diente. Cuando las bacterias penetran debido a una caries profunda o golpe, el nervio se inflama. Limpiamos y desinfectamos los conductos y los sellamos con material biocompatible."
+    },
+    "benefits": {
+      "tag": "Beneficios de la Endodoncia",
+      "title": "¿Por Qué Salvar tu Diente Natural?",
+      "desc": "Es el procedimiento ideal para conservar tu propia dentadura:",
+      "l1": "Alivia de inmediato el dolor punzante y la sensibilidad",
+      "l2": "Conserva la raíz natural, evitando implantes o puentes más costosos",
+      "l3": "Elimina la infección bacteriana antes de que dañe el hueso",
+      "l4": "Restaura la masticación normal sin molestias",
+      "l5": "Mantiene la estética y alineación de tu sonrisa",
+      "l6": "Evita que los dientes vecinos se muevan de lugar",
+      "l7": "Uso de instrumentos rotatorios que garantizan un proceso sin dolor",
+      "l8": "Se finaliza con una corona de porcelana resistente"
+    },
+    "candidate": {
+      "tag": "Síntomas Clave",
+      "title": "Señales de que Necesitas una Endodoncia",
+      "desc": "Comunícate con nosotros si experimentas:",
+      "l1": "Dolor constante o punzante que empeora por la noche",
+      "l2": "Sensibilidad prolongada al frío o caliente (más de 10 segundos)",
+      "l3": "Dolor al masticar o tocar la muela afectada",
+      "l4": "Un bulto o grano en la encía que supura o sabe mal",
+      "l5": "Oscurecimiento o cambio de color en un diente golpeado"
+    },
+    "process": {
+      "tag": "El Tratamiento",
+      "title": "Tu Endodoncia en Dallas Smiles",
+      "step1": {
+        "title": "1. Diagnóstico Radiográfico Digital",
+        "desc": "Evaluamos la anatomía de los conductos y la extensión de la infección con rayos X digitales."
+      },
+      "step2": {
+        "title": "2. Anestesia Local Completa",
+        "desc": "Garantizamos que el área esté 100% adormecida para que no sientas dolor alguno."
+      },
+      "step3": {
+        "title": "3. Limpieza y Desinfección Rotatoria",
+        "desc": "Limpiamos y desinfectamos los conductos con limas rotatorias de níquel-titanio."
+      },
+      "step4": {
+        "title": "4. Sellado Biocompatible",
+        "desc": "Sellamos los conductos con gutapercha para evitar futuras entradas de bacterias."
+      },
+      "step5": {
+        "title": "5. Colocación de Corona Protectora",
+        "desc": "Protegemos el diente con una corona a medida que le devuelve su fuerza masticatoria."
+      }
+    },
+    "technology": {
+      "tag": "Endodoncia Avanzada",
+      "title": "Localizadores de Ápice y Limas Rotatorias",
+      "desc": "Los tratamientos de conducto actuales son rápidos y cómodos gracias a nuestros localizadores electrónicos de longitud y motores rotatorios silenciosos."
+    },
+    "affordability": {
+      "tag": "Seguros y Pagos",
+      "title": "Endodoncia Accesible en Dallas",
+      "desc": "Aceptamos la mayoría de seguros PPO y ofrecemos cuotas accesibles.",
+      "insuranceTitle": "Cobertura de Seguros Dentales",
+      "insuranceDesc": "Los seguros cubren normalmente del 50% al 80% del tratamiento de conducto.",
+      "financingTitle": "Financiamiento al 0% con Cherry",
+      "financingDesc": "No postergues una infección dental. Divide el pago en cuotas mensuales con Cherry."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Dudas Habituales sobre Endodoncia",
+      "q1": "¿Duele una endodoncia?",
+      "a1": "No. La endodoncia alivia el dolor, no lo causa. Con la anestesia moderna se siente igual que ponerse un empaste.",
+      "q2": "¿Cuánto tiempo dura la cita?",
+      "a2": "La mayoría se completan en una sola sesión de 60 a 90 minutos.",
+      "q3": "¿No es mejor sacarse la muela?",
+      "a3": "Nada supera a tu propio diente natural. Extraerlo obliga a colocar un implante o puente para que los demás dientes no se muevan.",
+      "q4": "¿Necesitaré una corona después de la endodoncia?",
+      "a4": "Sí. Al retirar el nervio el diente se vuelve más frágil; la corona lo protege de quebrarse al masticar.",
+      "q5": "¿Cómo es la recuperación?",
+      "a5": "Es posible sentir una ligera sensibilidad durante 1 o 2 días que se alivia fácilmente con ibuprofeno."
+    },
+    "cta": {
+      "tag": "Detén el Dolor Hoy",
+      "title": "Endodoncia de Emergencia en Dallas, TX",
+      "desc": "No vivas con dolor de muelas. Estamos listos para salvar tu diente hoy mismo.",
+      "action": "Llama al (972) 484-5400 para una cita inmediata en 3234 Forest Lane, Dallas.",
+      "items": [
+        "Atención de dolor de muela el mismo día",
+        "Tecnología rotatoria suave y sin dolor",
+        "Corona de porcelana de alta resistencia",
+        "Aceptamos seguros PPO y planes Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
+  },
+  "cleaning": {
+    "metaTitle": "Limpieza Dental en Dallas, TX | Exámenes y Prevención de Caries",
+    "metaDescription": "Mantén tu sonrisa sana y brillante con limpiezas dentales profesionales en Dallas, TX. Eliminación de sarro, pulido y revisión completa con el Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Odontología Preventiva en Dallas, TX",
+      "title1": "Limpiezas Dentales Profesionales y Suaves",
+      "title2": "con Exámenes Completos en Dallas",
+      "desc": "Las limpiezas regulares son la clave para una sonrisa sana de por vida. En Dallas Smiles Dental & Orthodontics, nuestros higienistas y el Dr. Sandeep Bariki eliminan el sarro acumulado y previenen caries y problemas de encías con delicadeza.",
+      "cta": "Agenda tu Limpieza Dental",
+      "phone": "Llama al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué es una Limpieza Preventiva?",
+      "title": "Eliminación Profesional de Sarro y Manchas",
+      "desc": "Incluso con un buen cepillado, los minerales de la saliva endurecen la placa formando sarro que no se quita en casa. La profilaxis dental utiliza ultrasonido y pastas especiales para desprender el sarro sin dañar el esmalte."
+    },
+    "benefits": {
+      "tag": "Beneficios de las Limpiezas",
+      "title": "¿Por Qué Hacerse una Limpieza Cada 6 Meses?",
+      "desc": "Cuidar tus dientes periódicamente previene tratamientos costosos:",
+      "l1": "Elimina el sarro endurecido que causa caries entre los dientes",
+      "l2": "Previene la gingivitis, encías rojas y sangrado al cepillarte",
+      "l3": "Elimina el mal aliento persistente causado por bacterias",
+      "l4": "Pule manchas superficiales de café, té y comida",
+      "l5": "Incluye revisión oral completa y detección preventiva",
+      "l6": "Detecta caries pequeñas antes de que causen dolor",
+      "l7": "Ahorra dinero al prevenir tratamientos complejos",
+      "l8": "Mejora la salud general del cuerpo y el corazón"
+    },
+    "candidate": {
+      "tag": "¿Cuándo la Necesitas?",
+      "title": "¿Cuánto Hace que no Vas al Dentista?",
+      "desc": "Se recomienda una limpieza cada 6 meses. Agenda tu cita si:",
+      "l1": "Han pasado más de 6 meses desde tu última visita dental",
+      "l2": "Tus encías sangran o duelen al usar hilo dental",
+      "l3": "Notas acumulación amarillenta o marrón cerca de las encías",
+      "l4": "Sientes mal aliento o sabor desagradable en la boca",
+      "l5": "Tienes manchas por café o alimentos"
+    },
+    "process": {
+      "tag": "Tu Visita",
+      "title": "El Proceso de Limpieza en Dallas Smiles",
+      "step1": {
+        "title": "1. Radiografías Digitales y Examen",
+        "desc": "Revisamos caries ocultas entre dientes con radiografías de mínima radiación."
+      },
+      "step2": {
+        "title": "2. Raspado Ultrasónico de Sarro",
+        "desc": "Vibraciones ultrasónicas con agua tibia desprenden el sarro sin raspar bruscamente."
+      },
+      "step3": {
+        "title": "3. Pulido y Eliminación de Manchas",
+        "desc": "Una pasta profiláctica suave deja tus dientes lisos, brillantes y limpios."
+      },
+      "step4": {
+        "title": "4. Hilo Dental y Flúor Protector",
+        "desc": "Limpiamos los contactos interdentales y aplicamos flúor para fortalecer el esmalte."
+      },
+      "step5": {
+        "title": "5. Revisión con el Dr. Bariki",
+        "desc": "El doctor revisa tu boca, resuelve dudas y te aconseja sobre el cuidado en casa."
+      }
+    },
+    "technology": {
+      "tag": "Higiene Cómoda",
+      "title": "Ultrasonido Suave y Radiografía Digital",
+      "desc": "Utilizamos puntas ultrasónicas que limpian eficazmente con agua tibia, garantizando una experiencia relajada y sin molestias para niños y adultos."
+    },
+    "affordability": {
+      "tag": "Cobertura al 100%",
+      "title": "Cubierto al 100% por la Mayoría de Seguros PPO",
+      "desc": "La odontología preventiva es una prioridad para todos los seguros.",
+      "insuranceTitle": "Sin Copago con Seguro Dental",
+      "insuranceDesc": "Casi todos los seguros PPO cubren dos limpiezas al año al 100%. Verificamos tu cobertura al momento.",
+      "financingTitle": "Precios Accesibles para Quienes no Tienen Seguro",
+      "financingDesc": "Ofrecemos paquetes preventivos accesibles para que toda la familia mantenga su sonrisa sana."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Dudas Habituales sobre Limpiezas Dentales",
+      "q1": "¿Cada cuánto debo hacerme una limpieza dental?",
+      "a1": "La recomendación general es cada 6 meses. Personas con problemas periodontales pueden requerir visitas cada 3 a 4 meses.",
+      "q2": "¿Duele una limpieza dental regular?",
+      "a2": "No, es un procedimiento suave y cómodo. Si tienes encías sensibles podemos aplicar gel anestésico para tu confort.",
+      "q3": "¿Qué diferencia hay con una limpieza profunda?",
+      "a3": "La limpieza regular limpia la corona del diente sobre la encía. La limpieza profunda limpia debajo de la encía para frenar la periodontitis.",
+      "q4": "¿La limpieza blanquea los dientes?",
+      "a4": "Remueve las manchas superficiales, devolviéndole a tus dientes su tono natural más blanco y limpio.",
+      "q5": "¿Son seguras las radiografías dentales?",
+      "a5": "Totalmente. Nuestras radiografías digitales emiten hasta 90% menos radiación que las tradicionales."
+    },
+    "cta": {
+      "tag": "Sonrisa Saludable",
+      "title": "Agenda tu Limpieza Familiar en Dallas Smiles",
+      "desc": "Atención preventiva de calidad en un ambiente cálido y profesional.",
+      "action": "Llama al (972) 484-5400 o reserva tu cita en 3234 Forest Lane, Dallas.",
+      "items": [
+        "Examen dental completo y revisión oral",
+        "Limpieza ultrasónica sin dolor y pulido",
+        "Radiografías digitales de baja radiación",
+        "Cobertura al 100% con seguros PPO",
+        "Citas para toda la familia"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
+  },
+  "deepcleaning": {
+    "metaTitle": "Limpieza Profunda en Dallas, TX | Raspado y Alisado Radicular",
+    "metaDescription": "Frena la periodontitis y el sangrado de encías con una limpieza profunda en Dallas, TX. Tratamiento periodontal suave con el Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Cuidado Periodontal en Dallas, TX",
+      "title1": "Limpieza Dental Profunda",
+      "title2": "para Detener la Enfermedad de las Encías",
+      "desc": "El sangrado de encías, mal aliento persistente o encías retraídas son signos de periodontitis. En Dallas Smiles, el Dr. Sandeep Bariki realiza raspado y alisado radicular para remover bacterias debajo de la encía y permitir que sane firmemente.",
+      "cta": "Agenda tu Evaluación Periodontal",
+      "phone": "Llama al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué es una Limpieza Profunda?",
+      "title": "Raspado y Alisado Radicular",
+      "desc": "A diferencia de la limpieza regular, la limpieza profunda limpia debajo de la encía en bolsas periodontales infectadas. Se remueve el sarro y se alisa la raíz del diente para que la encía vuelva a adherirse con firmeza."
+    },
+    "benefits": {
+      "tag": "Beneficios de la Limpieza Profunda",
+      "title": "Detener la Pérdida de Dientes a Tiempo",
+      "desc": "Es el tratamiento no quirúrgico más efectivo para la salud periodontal:",
+      "l1": "Detiene el sangrado e inflamación en las encías",
+      "l2": "Reduce la profundidad de las bolsas periodontales",
+      "l3": "Previene la pérdida de hueso que afloja los dientes",
+      "l4": "Elimina el mal aliento provocado por bacterias bajo la encía",
+      "l5": "Alisa las raíces para evitar que el sarro vuelva a pegarse",
+      "l6": "Evita costosas cirugías periodontales en el futuro",
+      "l7": "Disminuye la inflamación sistémica en personas con diabetes o hipertensión",
+      "l8": "Procedimiento sin dolor con anestesia local suave"
+    },
+    "candidate": {
+      "tag": "¿Quién la Necesita?",
+      "title": "Señales de Enfermedad Periodontal",
+      "desc": "Se recomienda cuando las bolsas miden 4mm o más y hay:",
+      "l1": "Encías que sangran al cepillarte o usar hilo dental",
+      "l2": "Encías rojas, hinchadas o retraídas",
+      "l3": "Mal aliento constante que los enjuagues no quitan",
+      "l4": "Sensación de dientes flojos o que se separan",
+      "l5": "Sarro oscuro visible bajo la encía en radiografías"
+    },
+    "process": {
+      "tag": "El Procedimiento",
+      "title": "Tu Tratamiento Periodontal Paso a Paso",
+      "step1": {
+        "title": "1. Medición de Bolsas Periodontales",
+        "desc": "Medimos con delicadeza la profundidad de la encía alrededor de cada diente."
+      },
+      "step2": {
+        "title": "2. Anestesia Local Suave",
+        "desc": "Adormecemos la zona para que el procedimiento sea 100% cómodo."
+      },
+      "step3": {
+        "title": "3. Raspado Ultrasónico Subgingival",
+        "desc": "Eliminamos el sarro profundo con ultrasonido irrigado con agua antibacterial."
+      },
+      "step4": {
+        "title": "4. Alisado Radicular",
+        "desc": "Alisamos las raíces del diente para que las encías sanen y se peguen de nuevo."
+      },
+      "step5": {
+        "title": "5. Irrigación y Control a las 4 Semanas",
+        "desc": "Lavamos con antiséptico y programamos una revisión para comprobar el cierre de bolsas."
+      }
+    },
+    "technology": {
+      "tag": "Periodoncia Avanzada",
+      "title": "Ultrasonido con Irrigación Antibacteriana",
+      "desc": "Nuestros equipos ultrasónicos limpian a fondo con máxima suavidad, minimizando el sangrado y favoreciendo una pronta recuperación de los tejidos."
+    },
+    "affordability": {
+      "tag": "Seguros y Pagos",
+      "title": "Tratamiento Periodontal Accesible",
+      "desc": "Gestionamos tus beneficios con el seguro y ofrecemos pagos mensuales.",
+      "insuranceTitle": "Cobertura con Seguros PPO",
+      "insuranceDesc": "La mayoría de seguros dentales cubren del 50% al 80% de la limpieza profunda.",
+      "financingTitle": "Planes al 0% de Interés con Cherry",
+      "financingDesc": "No dejes que el costo detenga la salud de tus encías. Paga en cómodas cuotas con Cherry."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Dudas Habituales sobre Limpieza Profunda",
+      "q1": "¿Duele una limpieza profunda?",
+      "a1": "No. Aplicamos anestesia local antes de comenzar para que no sientas ninguna molestia.",
+      "q2": "¿Se cura la enfermedad de las encías?",
+      "a2": "La gingivitis se cura por completo. La periodontitis con pérdida de hueso se detiene y estabiliza para que no sigas perdiendo soporte.",
+      "q3": "¿Cuántas citas se necesitan?",
+      "a3": "Usualmente 1 o 2 sesiones, dividiendo la boca en cuadrantes para mayor comodidad.",
+      "q4": "¿Cómo es la recuperación?",
+      "a4": "Puede haber leve sensibilidad por 24 a 48 horas que mejora con enjuagues de agua tibia con sal.",
+      "q5": "¿Cómo mantengo los resultados?",
+      "a5": "Cepíllate dos veces al día, usa hilo dental y asiste a tus limpiezas de mantenimiento cada 3 a 4 meses."
+    },
+    "cta": {
+      "tag": "Salva tus Encías y Dientes",
+      "title": "Agenda tu Evaluación Periodontal en Dallas",
+      "desc": "Detén el sangrado y evita perder dientes con un tratamiento a tiempo.",
+      "action": "Llama al (972) 484-5400 o reserva tu cita en 3234 Forest Lane, Dallas.",
+      "items": [
+        "Medición completa de bolsas periodontales",
+        "Limpieza ultrasónica sin dolor",
+        "Aceptamos la mayoría de seguros PPO",
+        "Planes de pago flexibles con Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
+  },
+  "fillings": {
+    "metaTitle": "Empastes Dentales de Resina en Dallas, TX | Rellenos Estéticos sin Mercurio",
+    "metaDescription": "Repara caries de forma invisible con empastes de resina compuesta en Dallas, TX. Tratamiento suave, duradero y sin mercurio con el Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Odontología Restauradora en Dallas, TX",
+      "title1": "Empastes Dentales de Resina Compuesta",
+      "title2": "para una Sonrisa Fuerte y 100% Natural",
+      "desc": "Una caries no tiene por qué arruinar tu sonrisa. En Dallas Smiles Dental & Orthodontics, el Dr. Sandeep Bariki coloca empastes estéticos del color del diente que se fusionan con el esmalte natural y protegen tus piezas dentales contra fracturas y futuras caries.",
+      "cta": "Agenda tu Consulta de Empastes",
+      "phone": "Llama al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué son los Empastes de Resina?",
+      "title": "Tratamiento de Caries sin Mercurio ni Metales",
+      "desc": "Las resinas compuestas están hechas de partículas cerámicas y resina biocompatible. A diferencia de las amalgamas de plata oscuras que requerían desgastar mucho diente, la resina se adhiere químicamente al esmalte, conservando al máximo la estructura natural del diente."
+    },
+    "benefits": {
+      "tag": "Beneficios de las Resinas",
+      "title": "¿Por Qué Elegir Empastes Estéticos?",
+      "desc": "Aportan resistencia clínica y estética insuperable:",
+      "l1": "Igualados al tono exacto de tu diente para una apariencia invisible",
+      "l2": "100% libres de mercurio y metales pesados",
+      "l3": "Adhesión química que refuerza las paredes del diente",
+      "l4": "Preparación conservadora que cuida el esmalte sano",
+      "l5": "Endurecimiento instantáneo con luz LED dental",
+      "l6": "Resistentes a cambios de temperatura, evitando fracturas",
+      "l7": "Ideales para reparar bordes astillados y dientes desgastados",
+      "l8": "Sensación suave y natural al tacto de la lengua"
+    },
+    "candidate": {
+      "tag": "Señales de Caries",
+      "title": "¿Cuándo Necesitas un Empaste Dental?",
+      "desc": "Debes revisarte si presentas:",
+      "l1": "Sensibilidad al consumir alimentos dulces, fríos o calientes",
+      "l2": "Un punto negro, marrón o cavidad visible en el diente",
+      "l3": "Dolor o molestia repentina al morder alimentos",
+      "l4": "Bordes ásperos que rompen el hilo dental o raspan la lengua",
+      "l5": "Un empaste antiguo desajustado, roto o con filtración"
+    },
+    "process": {
+      "tag": "El Tratamiento",
+      "title": "Tu Empaste en Dallas Smiles Paso a Paso",
+      "step1": {
+        "title": "1. Examen y Radiografía Digital",
+        "desc": "Determinamos la profundidad exacta de la caries con radiografías digitales."
+      },
+      "step2": {
+        "title": "2. Anestesia Local Suave",
+        "desc": "Adormecemos la zona para que el procedimiento sea completamente indoloro."
+      },
+      "step3": {
+        "title": "3. Limpieza Conservadora de la Caries",
+        "desc": "Removemos las bacterias preservando todo el tejido dental sano posible."
+      },
+      "step4": {
+        "title": "4. Aplicación de Resina y Luz LED",
+        "desc": "Colocamos la resina por capas y la endurecemos al instante con luz azul especial."
+      },
+      "step5": {
+        "title": "5. Moldeado, Mordida y Pulido Final",
+        "desc": "Ajustamos la anatomía masticatoria y pulimos la resina para un acabado sedoso."
+      }
+    },
+    "technology": {
+      "tag": "Adhesión Avanzada",
+      "title": "Resinas Nanohíbridas de Última Generación",
+      "desc": "Utilizamos resinas nanohíbridas que ofrecen alta resistencia a la masticación y brillo duradero idéntico al esmalte dental natural."
+    },
+    "affordability": {
+      "tag": "Seguros y Pagos",
+      "title": "Tratamiento Accesible de Caries en Dallas",
+      "desc": "Aceptamos seguros dentales PPO y financiamiento mensual.",
+      "insuranceTitle": "Cobertura de Seguros Dentales",
+      "insuranceDesc": "Los empastes dentales están cubiertos al 70% u 80% por la mayoría de seguros PPO.",
+      "financingTitle": "Financiamiento al 0% con Cherry",
+      "financingDesc": "Paga tu tratamiento en cuotas mensuales cómodas a través de Cherry con aprobación instantánea."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Dudas Habituales sobre Empastes Dentales",
+      "q1": "¿Cuánto tiempo dura un empaste de resina?",
+      "a1": "Con buena higiene y revisiones periódicas, duran entre 7 y 10 años o más.",
+      "q2": "¿Duele ponerse un empaste?",
+      "a2": "No. Aplicamos anestesia local suave; la cita suele durar solo entre 30 y 45 minutos.",
+      "q3": "¿Puedo cambiar mis amalgamas plateadas por resina?",
+      "a3": "¡Sí! Muchos pacientes las reemplazan para mejorar la estética y sellar microfracturas en el diente.",
+      "q4": "¿Puedo comer inmediatamente después del empaste?",
+      "a4": "Sí, la resina endurece al instante con la luz LED. Solo recomendamos esperar a que pase el efecto anestésico para no morderte los labios.",
+      "q5": "¿Por qué se filtra un empaste viejo?",
+      "a5": "Con los años de masticación los empastes antiguos pueden desajustarse en los bordes permitiendo la entrada de bacterias."
+    },
+    "cta": {
+      "tag": "Detén la Caries a Tiempo",
+      "title": "Agenda tu Empaste Dental en Dallas, TX",
+      "desc": "Trata las caries temprano con restauraciones estéticas y duraderas.",
+      "action": "Llama al (972) 484-5400 o reserva tu cita en 3234 Forest Lane, Dallas.",
+      "items": [
+        "Resinas estéticas del color de tu diente",
+        "Libres de mercurio y metales",
+        "Procedimiento rápido en una sola cita",
+        "Aceptamos seguros PPO (hasta 80% de cobertura)",
+        "Financiamiento al 0% con Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
+  },
+  "implants": {
+    "hero": {
+      "tag": "Implantes Dentales",
+      "title": "Restaura tu sonrisa con fuerza, función y confianza",
+      "title1": "Restaura tu sonrisa con",
+      "title2": "fuerza y confianza",
+      "desc": "Reemplaza dientes perdidos con implantes duraderos y de aspecto natural, planificados según tu salud, objetivos y presupuesto.",
+      "imageAlt": "Paciente recibiendo atención dental"
+    },
+    "what": {
+      "tag": "¿Qué son los implantes dentales?",
+      "title": "Una base segura para una sonrisa completa",
+      "desc": "Los implantes dentales son pequeños postes de titanio que se colocan en el hueso maxilar para funcionar como raíces artificiales. Después de integrarse con el hueso, se fija una corona, puente o dentadura personalizada que se ve, se siente y funciona como un diente natural. A diferencia de las dentaduras removibles, los implantes permanecen fijos y ayudan a conservar el hueso maxilar.",
+      "imageAlt": "Profesional dental consultando con un paciente"
+    },
+    "benefits": {
+      "tag": "Beneficios de los Implantes",
+      "title": "Más que un diente de reemplazo",
+      "desc": "Los implantes están diseñados para recuperar la función diaria y mantener una sonrisa natural.",
+      "l1": "Aspecto y sensación naturales",
+      "l2": "Recuperan la capacidad de masticar y hablar",
+      "l3": "Ayudan a prevenir la pérdida ósea",
+      "l4": "Preservan los dientes sanos cercanos",
+      "l5": "Mejoran el soporte y la apariencia facial",
+      "l6": "Son estables y no se mueven",
+      "l7": "Duran mucho tiempo con buenos cuidados",
+      "l8": "Se cuidan como los dientes naturales"
+    },
+    "solutions": {
+      "tag": "Soluciones de Implantes",
+      "title": "Tratamientos según tus necesidades",
+      "single": {
+        "title": "Implante de un Solo Diente",
+        "desc": "Reemplaza un diente perdido con un implante y corona personalizados sin afectar los dientes vecinos."
+      },
+      "bridge": {
+        "title": "Puentes sobre Implantes",
+        "desc": "Reemplaza varios dientes perdidos con implantes estratégicamente colocados en lugar de usar dientes naturales como soporte."
+      },
+      "denture": {
+        "title": "Dentaduras con Implantes",
+        "desc": "Disfruta una alternativa más estable a las dentaduras tradicionales, con mejor comodidad al masticar y más confianza."
+      },
+      "fullArch": {
+        "title": "Restauraciones de Arcada Completa",
+        "desc": "Restaura la mayoría o todos los dientes perdidos con una sonrisa completa sostenida por implantes estratégicos."
+      }
+    },
+    "process": {
+      "tag": "Nuestro Proceso",
+      "title": "Un plan claro desde la consulta hasta tu nueva sonrisa",
+      "imageAlt": "Consulta dental y planificación del tratamiento",
+      "step1": {
+        "title": "Consulta Integral",
+        "desc": "Examinamos tu sonrisa y usamos radiografías digitales e imágenes CBCT 3D para evaluar tu estructura ósea."
+      },
+      "step2": {
+        "title": "Plan Personalizado",
+        "desc": "Creamos un plan basado en tu salud oral, objetivos, tiempo y presupuesto."
+      },
+      "step3": {
+        "title": "Colocación del Implante",
+        "desc": "El implante de titanio se coloca cuidadosamente con técnicas quirúrgicas precisas."
+      },
+      "step4": {
+        "title": "Cicatrización e Integración",
+        "desc": "Durante los meses siguientes, el implante se fusiona naturalmente con el hueso mediante la osteointegración."
+      },
+      "step5": {
+        "title": "Restauración Final",
+        "desc": "Cuando la cicatrización termina, colocamos tu corona, puente o dentadura personalizada."
+      }
+    },
+    "candidate": {
+      "tag": "¿Eres Candidato?",
+      "title": "Los implantes pueden ser adecuados para ti si",
+      "desc": "Una consulta es la mejor manera de conocer tus opciones. Un injerto óseo puede ayudar a quienes necesitan soporte adicional.",
+      "l1": "Tienes uno o más dientes perdidos",
+      "l2": "Quieres un reemplazo permanente",
+      "l3": "Tienes encías saludables",
+      "l4": "Tienes suficiente hueso o puedes recibir un injerto",
+      "l5": "Gozas de buena salud general"
+    },
+    "technology": {
+      "tag": "Tecnología Avanzada",
+      "title": "Precisión basada en tu anatomía",
+      "desc": "Los diagnósticos digitales y las imágenes 3D nos ayudan a evaluar el hueso, planificar la colocación y adaptar el tratamiento para mayor precisión, eficiencia y comodidad."
+    },
+    "affordability": {
+      "tag": "Atención Accesible",
+      "title": "Financiamiento flexible para tu nueva sonrisa",
+      "desc": "Creemos que el reemplazo dental de alta calidad debe ser accesible. Explicamos los costos con claridad y trabajamos contigo en un plan realista.",
+      "insuranceTitle": "Trabajamos con tu seguro",
+      "insuranceDesc": "Trabajamos con la mayoría de los planes dentales, ayudamos a determinar si aplican beneficios para implantes y maximizamos la cobertura elegible.",
+      "financingTitle": "Opciones de pago flexibles",
+      "financingDesc": "Los pacientes calificados pueden ser elegibles para financiamiento con 0% APR a través de socios confiables, sujeto a aprobación y términos del prestamista."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Respuestas sobre implantes dentales",
+      "q1": "¿Cuánto duran los implantes?",
+      "a1": "Con buenos cuidados en casa y visitas dentales regulares, pueden durar décadas y muchas veces toda la vida.",
+      "q2": "¿Duele colocar un implante?",
+      "a2": "La mayoría de los pacientes reporta molestias mínimas. Se usa anestesia local y muchos vuelven a sus actividades en uno o dos días.",
+      "q3": "¿Cuánto dura todo el proceso?",
+      "a3": "El tiempo varía, pero la mayoría de los casos se completa en varios meses debido al tiempo de cicatrización.",
+      "q4": "¿Pueden reemplazar varios dientes?",
+      "a4": "Sí. Los implantes pueden sostener coronas individuales, puentes, dentaduras o restauraciones de arcada completa.",
+      "q5": "¿Mi implante se verá natural?",
+      "a5": "Sí. La restauración se fabrica a medida para combinar con el color, forma y tamaño de tus dientes cercanos."
+    },
+    "intro": {
+      "tag": "Cuidado Asequible",
+      "title": "Implantes Dentales Asequibles con Financiamiento Flexible",
+      "desc": "En Dallas Smiles Dental & Orthodontics creemos que todos merecen acceso a reemplazos dentales de alta calidad. Nos esforzamos por hacer que los implantes dentales sean lo más asequibles y accesibles posible.",
+      "l1": "Implantes de alta calidad con aspecto natural",
+      "l2": "Orientación clara y transparente sobre los costos",
+      "l3": "Atención personalizada desde la planificación hasta la restauración",
+      "l4": "Opciones de financiamiento que reducen el estrés financiero"
+    },
+    "insurance": {
+      "tag": "Apoyo con el Seguro",
+      "title": "Trabajamos con tu Seguro",
+      "desc": "Nuestro equipo trabaja con la mayoría de los planes dentales y te ayudará a determinar si tu plan incluye beneficios para implantes. Para los pacientes que califican, maximizaremos tus beneficios y te explicaremos los costos de bolsillo estimados antes de comenzar el tratamiento, sin sorpresas.",
+      "l1": "Ayuda con la mayoría de los planes dentales",
+      "l2": "Determinar si el seguro cubre implantes",
+      "l3": "Maximizar la cobertura elegible",
+      "l4": "Costos claros antes de comenzar el tratamiento"
+    },
+    "financing": {
+      "tag": "Opciones de Pago",
+      "title": "Financiamiento Flexible",
+      "desc": "Para pacientes sin seguro o que buscan mayor flexibilidad, ofrecemos precios accesibles junto con opciones de financiamiento convenientes a través de nuestros socios financieros. Los pacientes calificados pueden ser elegibles para financiamiento con 0% APR (según aprobación y términos), lo que permite distribuir el costo en pagos mensuales manejables.",
+      "l1": "Planes de pago accesibles para pacientes calificados",
+      "l2": "0% APR disponible con aprobación",
+      "l3": "Pagos mensuales adaptados a tu presupuesto"
+    },
+    "whyChoose": {
+      "tag": "¿Por qué elegir Dallas Smiles Dental & Orthodontics?",
+      "title": "Cuidado de implantes confiable con un enfoque centrado en el paciente",
+      "desc": "En Dallas Smiles Dental & Orthodontics, creemos que cada paciente merece atención de alta calidad respaldada por tecnología confiable y experiencia clínica.",
+      "partnerTitle": "Asociados con Hiossen Implants",
+      "partnerDesc": "Nos asociamos orgullosamente con Hiossen Implants, uno de los principales fabricantes de implantes dentales del mundo, reconocido por su ingeniería de precisión, investigación clínica y confiabilidad a largo plazo.",
+      "providerTitle": "Proveedor de Implantes con Experiencia",
+      "providerDesc": "El Dr. Sandeep Bariki completó capacitación avanzada en implantes a través del reconocido programa educativo Implant Pathway. Cuenta con más de dos años de experiencia colocando y restaurando implantes dentales.",
+      "focus": "Nuestro enfoque es brindar tratamientos seguros, cómodos y diseñados para el éxito a largo plazo.",
+      "l1": "Capacitación avanzada a través de Implant Pathway",
+      "l2": "Más de dos años de experiencia en implantes dentales con el Dr. Sandeep Bariki",
+      "l3": "Sistema de implantes Hiossen Premium para resultados duraderos",
+      "l4": "Planes de tratamiento personalizados con tecnología digital avanzada",
+      "l5": "Oficina compatible con seguros que ayuda a maximizar beneficios elegibles",
+      "l6": "Precios asequibles con financiamiento flexible, incluyendo opciones 0% APR para pacientes calificados",
+      "l7": "CONSULTA de implantes dentales GRATUITA para nuevos pacientes",
+      "imageAlt": "Atención de implantes dentales en Dallas Smiles"
+    },
+    "cta": {
+      "tag": "Consulta Gratuita de Implantes Dentales",
+      "title": "Programa tu Consulta Gratuita para Implantes Dentales",
+      "desc": "Si estás listo para reemplazar dientes perdidos con una solución que se vea natural, se sienta segura y esté diseñada para durar, nuestro equipo en Dallas Smiles Dental & Orthodontics está aquí para ayudarte.",
+      "body": "Con formación avanzada, tecnología premium de Hiossen, planificación personalizada y un compromiso con la atención excepcional, estamos orgullosos de ayudar a pacientes a recuperar sonrisas saludables y seguras que duran por muchos años.",
+      "action": "Llama hoy a Dallas Smiles Dental & Orthodontics para programar tu consulta gratuita de implantes dentales y descubre si son adecuados para ti!",
+      "items": {
+        "1": "Evaluaremos tu sonrisa y salud oral",
+        "2": "Discutiremos tus metas y opciones de tratamiento",
+        "3": "Determinaremos si eres candidato para implantes dentales",
+        "4": "Revisaremos tus imágenes CBCT (si es necesario)",
+        "5": "Explicaremos el proceso de implantes paso a paso",
+        "6": "Verificaremos tus beneficios de seguro cuando aplique",
+        "7": "Proporcionaremos un plan de tratamiento personalizado y un estimado de costos transparente",
+        "8": "Revisaremos opciones de financiamiento y pago disponibles para ti"
+      }
+    },
+    "sidebar": {
+      "title": "Más Servicios",
+      "braces": "Brackets",
+      "crowns": "Coronas Dentales",
+      "rootcanal": "Endodoncia",
+      "cleaning": "Limpieza Dental"
+    },
+    "metaTitle": "Implantes Dentales en Dallas, TX | Reemplazo Dental Permanente Hiossen®",
+    "metaDescription": "Reemplaza dientes perdidos con implantes dentales Hiossen en Dallas, TX. Tomografía 3D CBCT, seguros PPO y financiamiento al 0% con el Dr. Sandeep Bariki."
+  },
+  "restoration": {
+    "metaTitle": "Restauración Dental en Dallas, TX | Reconstrucción Dental Completa",
+    "metaDescription": "Reconstruye dientes dañados, desgastados o perdidos con odontología restauradora en Dallas, TX. Coronas, puentes y resinas con el Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Odontología Restauradora en Dallas, TX",
+      "title1": "Servicios de Restauración Dental Completa",
+      "title2": "para Devolver Fuerza, Función y Estética",
+      "desc": "Dientes rotos, empastes de plata desgastados o piezas faltantes dificultan comer y afectan tu calidad de vida. En Dallas Smiles Dental & Orthodontics, el Dr. Sandeep Bariki combina empastes estéticos, incrustaciones, coronas y puentes en un plan integral.",
+      "cta": "Agenda tu Consulta de Restauración",
+      "phone": "Llama al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué es la Restauración Dental?",
+      "title": "Reconstruir la Salud, Función y Estética Dental",
+      "desc": "Abarca el diagnóstico y reparación de dientes cariados, fracturados o ausentes. Nuestro enfoque es conservador: cuidamos el esmalte natural sano mientras reconstruimos una mordida fuerte, cómoda y natural."
+    },
+    "benefits": {
+      "tag": "Beneficios de la Restauración",
+      "title": "Transforma tu Forma de Comer y Sonreír",
+      "desc": "Elimina dolores y protege tu dentadura a largo plazo:",
+      "l1": "Restaura la masticación sin dolor para comer con total libertad",
+      "l2": "Repara dientes astillados o fisurados antes de que se dañe el nervio",
+      "l3": "Reemplaza dientes perdidos evitando que los demás se enchuequen",
+      "l4": "Alivia el dolor en la articulación mandibular (ATM) al equilibrar la mordida",
+      "l5": "Materiales libres de metal: circonio y porcelana idénticos al diente",
+      "l6": "Reemplaza empastes viejos de amalgama por resinas blancas biocompatibles",
+      "l7": "Detiene la propagación de bacterias y caries",
+      "l8": "Planes por etapas diseñados para ajustarse a tu tiempo y presupuesto"
+    },
+    "candidate": {
+      "tag": "¿Quién la Necesita?",
+      "title": "Motivos para una Restauración Dental",
+      "desc": "Te beneficiarás de una evaluación restauradora si tienes:",
+      "l1": "Varios dientes quebrados, gastados o con fisuras",
+      "l2": "Empastes oscuros de plata que están filtrados o fracturados",
+      "l3": "Dientes faltantes que dificultan masticar",
+      "l4": "Sensibilidad dental constante al frío o al masticar",
+      "l5": "Dificultad para cerrar la mordida de manera equilibrada"
+    },
+    "process": {
+      "tag": "El Tratamiento",
+      "title": "Nuestro Proceso de Restauración Integral",
+      "step1": {
+        "title": "1. Evaluación y Radiografías 3D",
+        "desc": "Revisamos a fondo cada diente, encía y mordida con imágenes digitales."
+      },
+      "step2": {
+        "title": "2. Plan de Tratamiento por Etapas",
+        "desc": "El Dr. Bariki diseña un plan prioritario, tratando primero lo urgente."
+      },
+      "step3": {
+        "title": "3. Preparación Conservadora",
+        "desc": "Removemos caries y empastes viejos conservando la mayor cantidad de diente sano."
+      },
+      "step4": {
+        "title": "4. Colocación y Adhesión de Precisión",
+        "desc": "Fijamos coronas, incrustaciones o resinas con cementos adhesivos de máxima fuerza."
+      },
+      "step5": {
+        "title": "5. Ajuste de Mordida y Mantenimiento",
+        "desc": "Verificamos que no haya puntos altos y te enseñamos a proteger tus restauraciones."
+      }
+    },
+    "technology": {
+      "tag": "Materiales Modernos",
+      "title": "Circonio y Cerámicas Biocompatibles",
+      "desc": "Utilizamos cerámicas de circonio y resinas híbridas de alta resistencia que se adhieren químicamente al diente, soportando la fuerza masticatoria sin astillarse."
+    },
+    "affordability": {
+      "tag": "Seguros y Pagos",
+      "title": "Tratamiento Accesible Planificado por Etapas",
+      "desc": "Te ayudamos a maximizar tu seguro PPO y ofrecemos pagos mensuales cómodos.",
+      "insuranceTitle": "Cobertura de Seguros Dentales",
+      "insuranceDesc": "Los seguros cubren generalmente del 50% al 80% de los tratamientos restauradores.",
+      "financingTitle": "Financiamiento al 0% con Cherry",
+      "financingDesc": "Divide tu tratamiento en mensualidades accesibles sin intereses con Cherry."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Dudas Habituales sobre Restauración Dental",
+      "q1": "¿Cuál es la diferencia entre estética y restauración?",
+      "a1": "La restauración repara la salud y función del diente; sin embargo, al usar porcelana y resinas blancas, el resultado es 100% estético y natural.",
+      "q2": "¿Puedo cambiar mis empastes plateados viejos?",
+      "a2": "¡Sí! Muchos pacientes los reemplazan por resinas del color del diente para eliminar manchas oscuras y sellar grietas.",
+      "q3": "¿Cuánto duran las restauraciones?",
+      "a3": "Las resinas duran de 7 a 10 años, y las coronas de circonio 15 años o más con una buena higiene dental.",
+      "q4": "¿Duele el tratamiento de reconstrucción dental?",
+      "a4": "No. Todo se realiza con anestesia local suave. Además podemos planificar citas cortas y cómodas para tu tranquilidad.",
+      "q5": "¿Cómo se cuidan los dientes restaurados?",
+      "a5": "Cepillado regular, hilo dental y visitas de limpieza cada 6 meses en Dallas Smiles."
+    },
+    "cta": {
+      "tag": "Reconstruye tu Sonrisa",
+      "title": "Agenda tu Consulta Restauradora en Dallas",
+      "desc": "Vuelve a masticar con confianza y luce una dentadura sana y hermosa.",
+      "action": "Llama al (972) 484-5400 o reserva tu cita en 3234 Forest Lane, Dallas, TX.",
+      "items": [
+        "Evaluación completa de sonrisa y mordida",
+        "Plan de tratamiento organizado por etapas",
+        "Materiales sin metal del color de tus dientes",
+        "Aceptamos seguros PPO y financiamiento con Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
+  },
+  "gingivectomy": {
+    "metaTitle": "Gingivectomía en Dallas, TX | Contorno Gingival y Sonrisa Gingival",
+    "metaDescription": "Remodela encías desiguales, reduce bolsas periodontales y elimina la sonrisa gingival con gingivectomía en Dallas, TX con el Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Periodoncia y Estética Dental en Dallas, TX",
+      "title1": "Gingivectomía y Contorno Gingival de Precisión",
+      "title2": "para Encías Sanas y una Sonrisa Equilibrada",
+      "desc": "Ya sea que desees corregir una sonrisa gingival o eliminar bolsas periodontales donde se acumulan bacterias, la gingivectomía es un tratamiento suave y efectivo. En Dallas Smiles, el Dr. Sandeep Bariki moldea encías saludables que resaltan la belleza de tus dientes.",
+      "cta": "Agenda tu Consulta de Contorno Gingival",
+      "phone": "Llama al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué es una Gingivectomía?",
+      "title": "Remodelación Suave de Tejido Gingival",
+      "desc": "Es un procedimiento dental que retira y perfila el exceso de encía. Clínicamente reduce bolsas periodontales profundas difíciles de limpiar, y estéticamente descubre la porción natural del diente, convirtiendo una sonrisa con exceso de encía en una sonrisa armónica y luminosa."
+    },
+    "benefits": {
+      "tag": "Beneficios del Contorno de Encías",
+      "title": "Salud Periodontal y Mayor Confianza al Sonreír",
+      "desc": "Mejoras estéticas y clínicas inmediatas:",
+      "l1": "Elimina bolsas bacterianas previniendo la periodontitis",
+      "l2": "Remueve tejido gingival crecido por brackets o medicamentos",
+      "l3": "Corrige la sonrisa gingival mostrando dientes más largos y proporcionados",
+      "l4": "Crea una línea de encías simétrica y agradable a la vista",
+      "l5": "Facilita la limpieza diaria y el uso de hilo dental",
+      "l6": "Prepara la encía antes de colocar coronas o carillas",
+      "l7": "Mínimamente invasivo con anestesia local suave",
+      "l8": "Resultados estéticos permanentes de inmediato"
+    },
+    "candidate": {
+      "tag": "¿Quién es Candidato?",
+      "title": "¿Cuándo se Recomienda una Gingivectomía?",
+      "desc": "Eres un excelente candidato si presentas:",
+      "l1": "Encía que cubre demasiado los dientes frontales al sonreír",
+      "l2": "Encías desiguales que hacen ver unos dientes más cortos que otros",
+      "l3": "Tejido gingival engrosado tras el uso de brackets",
+      "l4": "Bolsas periodontales de más de 5mm con inflamación crónica",
+      "l5": "Crecimiento de encías por medicamentos de presión arterial"
+    },
+    "process": {
+      "tag": "El Tratamiento",
+      "title": "Tu Gingivectomía en Dallas Smiles",
+      "step1": {
+        "title": "1. Análisis de Sonrisa y Examen de Encías",
+        "desc": "Evaluamos las proporciones dentales y la profundidad de las bolsas periodontales."
+      },
+      "step2": {
+        "title": "2. Anestesia Local Suave",
+        "desc": "Adormecemos la encía completamente para que no sientas molestia alguna."
+      },
+      "step3": {
+        "title": "3. Modelado Preciso de la Encía",
+        "desc": "Esculpimos el contorno de la encía para lograr una forma festoneada y simétrica."
+      },
+      "step4": {
+        "title": "4. Limpieza y Desinfección",
+        "desc": "Desinfectamos la zona para favorecer una cicatrización limpia y rápida."
+      },
+      "step5": {
+        "title": "5. Instrucciones de Cuidado",
+        "desc": "Te entregamos indicaciones sencillas; el tejido cicatriza en pocos días."
+      }
+    },
+    "technology": {
+      "tag": "Precisión Microquirúrgica",
+      "title": "Procedimiento Mínimamente Invasivo",
+      "desc": "Utilizamos instrumentos microquirúrgicos que sellan el tejido a medida que se moldea, garantizando mínimo sangrado y una recuperación muy confortable."
+    },
+    "affordability": {
+      "tag": "Seguros y Pagos",
+      "title": "Atención Accesible y Financiamiento",
+      "desc": "Tramitamos tu seguro cuando es por salud y ofrecemos cuotas mensuales.",
+      "insuranceTitle": "Cobertura de Seguros Dentales",
+      "insuranceDesc": "Cuando se realiza por salud periodontal, muchos seguros PPO cubren la gingivectomía.",
+      "financingTitle": "Financiamiento con Cherry",
+      "financingDesc": "Paga tu tratamiento en cuotas mensuales con opciones al 0% de interés a través de Cherry."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Dudas Habituales sobre Gingivectomía",
+      "q1": "¿Duele una gingivectomía?",
+      "a1": "No. Aplicamos anestesia local antes de empezar. En los días posteriores solo sentirás una ligera molestia similar a un raspón en la encía.",
+      "q2": "¿Cuánto tarda en cicatrizar?",
+      "a2": "La recuperación inicial toma de 48 a 72 horas, y el aspecto definitivo se aprecia en 1 o 2 semanas.",
+      "q3": "¿Vuelve a crecer la encía?",
+      "a3": "Por lo general el resultado es permanente manteniendo una higiene dental adecuada.",
+      "q4": "¿Qué puedo comer tras el procedimiento?",
+      "a4": "Alimentos blandos como purés, yogur, huevos y pastas. Evita comidas picantes o crujientes durante 3 a 5 días.",
+      "q5": "¿Se puede combinar con carillas o coronas?",
+      "a5": "¡Sí! Armonizar la encía primero permite que las coronas o carillas luzcan mucho más proporcionadas."
+    },
+    "cta": {
+      "tag": "Muestra tu Mejor Sonrisa",
+      "title": "Agenda tu Consulta de Contorno Gingival en Dallas",
+      "desc": "Mejora la salud de tus encías y la armonía de tu sonrisa con nosotros.",
+      "action": "Llama al (972) 484-5400 o reserva tu cita en 3234 Forest Lane, Dallas, TX.",
+      "items": [
+        "Análisis estético y periodontal personalizado",
+        "Procedimiento suave y de rápida recuperación",
+        "Resultado visible inmediato",
+        "Aceptamos seguros PPO y financiamiento con Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
+  },
+  "dentures": {
+    "metaTitle": "Dentaduras Postizas en Dallas, TX | Prótesis Completas y Parciales",
+    "metaDescription": "Recupera tu sonrisa, masticación y confianza con dentaduras completas, parciales y sobre implantes en Dallas, TX con el Dr. Sandeep Bariki.",
+    "hero": {
+      "tag": "Prótesis Dental en Dallas, TX",
+      "title1": "Dentaduras Cómodas y Naturales que",
+      "title2": "Devuelven tu Sonrisa y Capacidad de Masticar",
+      "desc": "La pérdida de varios dientes afecta tu alimentación, pronunciación y autoestima. En Dallas Smiles, el Dr. Sandeep Bariki elabora dentaduras completas, parciales y fijadas sobre implantes que lucen naturales y brindan máxima comodidad al comer.",
+      "cta": "Agenda tu Consulta de Dentaduras",
+      "phone": "Llama al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué son las Dentaduras Modernas?",
+      "title": "Soluciones Estéticas para Dientes Perdidos",
+      "desc": "Son prótesis dentales diseñadas a medida para sustituir dientes perdidos y encías. Atrás quedaron las dentaduras postizas rígidas e incómodas; hoy utilizamos acrílicos de alta resistencia, resinas flexibles libres de metal y dientes que imitan tu tono natural."
+    },
+    "benefits": {
+      "tag": "Beneficios de las Dentaduras",
+      "title": "Come con Comodidad y Sonríe con Orgullo",
+      "desc": "Devuelven funcionalidad y estética a tu rostro:",
+      "l1": "Restaura la masticación para disfrutar carnes, frutas y verduras",
+      "l2": "Soporta los músculos de la cara evitando el aspecto envejecido",
+      "l3": "Mejora la pronunciación y claridad al hablar",
+      "l4": "Color de encía y dientes adaptados a tu tono de piel",
+      "l5": "Dentaduras completas para reponer toda la arcada dental",
+      "l6": "Dentaduras parciales que encajan con tus dientes naturales sanos",
+      "l7": "Opciones con implantes que se ajustan con broche sin pegamentos",
+      "l8": "Tratamiento accesible con cobertura en la mayoría de seguros"
+    },
+    "candidate": {
+      "tag": "¿Eres Candidato?",
+      "title": "¿Quién Puede Beneficiarse de una Dentadura?",
+      "desc": "Una dentadura es ideal si:",
+      "l1": "Te faltan varios o todos los dientes en el maxilar superior o inferior",
+      "l2": "Tienes dientes muy dañados o flojos por caries o periodontitis",
+      "l3": "Usas una dentadura vieja que se mueve o lastima al comer",
+      "l4": "Buscas una solución accesible para volver a sonreír",
+      "l5": "Deseas combinar tu prótesis con implantes para máxima fijación"
+    },
+    "process": {
+      "tag": "Elaboración",
+      "title": "Tu Dentadura Paso a Paso",
+      "step1": {
+        "title": "1. Consulta e Impresión de Alta Precisión",
+        "desc": "Evaluamos el reborde de tu encía y tomamos impresiones para captar cada detalle anatómico."
+      },
+      "step2": {
+        "title": "2. Registro de Mordida y Altura Facial",
+        "desc": "Determinamos la altura adecuada de tu mordida para masticar y hablar cómodamente."
+      },
+      "step3": {
+        "title": "3. Prueba en Cera (Try-In)",
+        "desc": "Te pruebas un modelo previo en boca para aprobar la forma, tamaño y color de los dientes."
+      },
+      "step4": {
+        "title": "4. Fabricación en Laboratorio Dental",
+        "desc": "Procesamos la dentadura en acrílico de alta densidad y la pulimos para un brillo natural."
+      },
+      "step5": {
+        "title": "5. Ajuste Final y Entrega",
+        "desc": "Colocamos tu dentadura definitiva y realizamos ajustes de mordida para evitar roces."
+      }
+    },
+    "technology": {
+      "tag": "Tecnología Protésica",
+      "title": "Parciales Flexibles y Sobredentaduras sobre Implantes",
+      "desc": "Ofrecemos prótesis parciales flexibles sin ganchos metálicos visibles, así como sobredentaduras que se abrochan firmemente a implantes Hiossen®, eliminando adhesivos para siempre."
+    },
+    "affordability": {
+      "tag": "Costos y Seguros",
+      "title": "Dentaduras Accesibles con Cuotas al 0% con Cherry",
+      "desc": "Facilitamos que puedas volver a sonreír sin afectar tu economía.",
+      "insuranceTitle": "Cobertura de Seguros Dentales PPO",
+      "insuranceDesc": "Los seguros cubren generalmente el 50% de las dentaduras. Tramitamos tu reclamo directamente.",
+      "financingTitle": "Planes de Pago Mensuales",
+      "financingDesc": "A través de Cherry, puedes pagar tu prótesis en cuotas mensuales con 0% de interés promocional."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Dudas Habituales sobre Dentaduras Postizas",
+      "q1": "¿Cómo se sienten las dentaduras modernas?",
+      "a1": "Se ajustan mucho mejor a la encía que los modelos antiguos. La adaptación toma usualmente de 1 a 2 semanas.",
+      "q2": "¿Puedo dormir con la dentadura puesta?",
+      "a2": "Se recomienda quitársela por la noche para que las encías descansen y se mantengan libres de bacterias.",
+      "q3": "¿Cuánto tiempo dura una dentadura?",
+      "a3": "Suelen durar de 5 a 10 años. Debido a los cambios naturales del hueso, pueden requerir reajustes periódicos.",
+      "q4": "¿Qué es una dentadura sobre implantes?",
+      "a4": "Es una prótesis que se engancha a 2 o 4 implantes en la mandíbula, logrando una firmeza total sin moverse al comer.",
+      "q5": "¿Cómo se limpian?",
+      "a5": "Enjuágalas después de comer, cepíllalas con un cepillo suave y déjalas en agua con pastillas limpiadoras por la noche."
+    },
+    "cta": {
+      "tag": "Vuelve a Sonreír",
+      "title": "Agenda tu Prueba de Dentadura en Dallas",
+      "desc": "Vuelve a comer tus platillos favoritos y sonríe con total seguridad.",
+      "action": "Llama al (972) 484-5400 o reserva tu cita en 3234 Forest Lane, Dallas, TX.",
+      "items": [
+        "Prótesis completas, parciales y sobre implantes",
+        "Prueba estética antes de la fabricación definitiva",
+        "Opciones flexibles sin metal visible",
+        "Aceptamos seguros PPO y financiamiento con Cherry"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
+  },
+  "braces": {
+    "metaTitle": "Frenos Dentales en Dallas, TX | Brackets para Niños y Adultos",
+    "metaDescription": "Consigue una sonrisa recta y saludable con brackets accesibles en Dallas, TX. Pagos mensuales flexibles, sin seguro requerido y bajo pago inicial.",
+    "hero": {
+      "tag": "Ortodoncia en Dallas, TX",
+      "title1": "Brackets que se Adaptan a tu Sonrisa",
+      "title2": "y a tu Presupuesto Familiar",
+      "desc": "Consigue la sonrisa alineada que siempre has soñado. En Dallas Smiles Dental & Orthodontics, el Dr. Sandeep Bariki ofrece ortodoncia moderna para niños, adolescentes y adultos con financiamiento transparente.",
+      "cta": "Agenda tu Consulta de Brackets",
+      "phone": "Llama al (972) 484-5400"
+    },
+    "what": {
+      "tag": "¿Qué son los Brackets Dentales?",
+      "title": "El Tratamiento Clásico Más Confiable para Enderezar Dientes",
+      "desc": "Los brackets dentales son la solución más efectiva para corregir dientes apiñados, espacios excesivos y mordidas desalineadas mediante fuerzas controladas y suaves que remodelan el hueso y alinean la dentadura."
+    },
+    "benefits": {
+      "tag": "Beneficios de los Brackets",
+      "title": "Ventajas de una Sonrisa Perfectamente Alineada",
+      "desc": "La ortodoncia brinda beneficios de salud bucal, funcionalidad y autoestima:",
+      "l1": "Dientes rectos que facilitan el cepillado y uso de hilo dental",
+      "l2": "Corrige sobremordidas, mordidas cruzadas y abiertas",
+      "l3": "Reduce el desgaste dental prematuro y el dolor en la mandíbula (ATM)",
+      "l4": "Disminuye el riesgo de caries ocultas y enfermedad en las encías",
+      "l5": "Mejora la masticación, digestión y claridad al hablar",
+      "l6": "Aumenta la armonía facial y la seguridad al sonreír",
+      "l7": "Corrige rotaciones complejas que otros métodos no logran",
+      "l8": "Resultados duraderos de por vida con retenedores de mantenimiento"
+    },
+    "candidate": {
+      "tag": "¿Quién los Necesita?",
+      "title": "Señales de que Podrías Necesitar Ortodoncia",
+      "desc": "Los brackets son ideales si experimentas:",
+      "l1": "Dientes encimados o apiñados que atrapan restos de comida",
+      "l2": "Espacios notorios o diastemas entre tus dientes",
+      "l3": "Dientes superiores muy salidos hacia adelante",
+      "l4": "Dientes inferiores que muerden por fuera de los superiores",
+      "l5": "Molestia o chasquidos al masticar"
+    },
+    "process": {
+      "tag": "Proceso del Tratamiento",
+      "title": "Tu Camino hacia una Sonrisa Recta",
+      "step1": {
+        "title": "1. Examen Clínico y Radiografía Panorámica",
+        "desc": "Evaluamos la mordida, las raíces y la estructura facial para diseñar un plan a medida."
+      },
+      "step2": {
+        "title": "2. Plan de Ortodoncia Personalizado",
+        "desc": "Definimos la duración estimada del tratamiento y las opciones de pago que mejor te convengan."
+      },
+      "step3": {
+        "title": "3. Colocación Cómoda de Brackets",
+        "desc": "Fijamos los brackets con resina adhesiva segura y colocamos el arco de alineación inicial."
+      },
+      "step4": {
+        "title": "4. Visitas Periódicas de Ajuste",
+        "desc": "Revisiones cada 4 a 8 semanas para cambiar ligas, ajustar la tensión y verificar el avance."
+      },
+      "step5": {
+        "title": "5. Retiro y Entrega de Retenedores",
+        "desc": "¡Retiramos los brackets y revelamos tu nueva sonrisa! Entregamos retenedores para mantener los resultados."
+      }
+    },
+    "technology": {
+      "tag": "Tecnología Moderna",
+      "title": "Brackets Metálicos y Cerámicos Estéticos",
+      "desc": "Los brackets actuales son mucho más pequeños y cómodos. Contamos con brackets metálicos tradicionales y opciones cerámicas del color del diente para mayor discreción."
+    },
+    "affordability": {
+      "tag": "Facilidades de Pago",
+      "title": "Pagos Mensuales Cómodos — Sin Seguro Necesario",
+      "desc": "Queremos que toda familia en Dallas pueda acceder a una excelente ortodoncia.",
+      "insuranceTitle": "Aceptamos Cobertura de Ortodoncia",
+      "insuranceDesc": "Muchos seguros PPO incluyen beneficios de ortodoncia. Gestionamos tu reclamo para aprovechar cada dólar de cobertura.",
+      "financingTitle": "Bajo Enganche y Planes al 0% con Cherry",
+      "financingDesc": "Aprovecha mensualidades accesibles a través de Cherry con aprobación instantánea sin verificación dura de crédito."
+    },
+    "faq": {
+      "tag": "Preguntas Frecuentes",
+      "title": "Dudas Habituales sobre Frenos Dentales",
+      "q1": "¿Cuál es la mejor edad para usar brackets?",
+      "a1": "Se recomienda una primera evaluación a los 7 años, pero los brackets son igual de efectivos para jóvenes y adultos a cualquier edad.",
+      "q2": "¿Cuánto tiempo dura el tratamiento?",
+      "a2": "La mayoría de los tratamientos duran entre 12 y 24 meses según la complejidad del caso.",
+      "q3": "¿Duele ponerse brackets?",
+      "a3": "La colocación no duele en absoluto. Puedes sentir una leve presión en los primeros días tras cada ajuste.",
+      "q4": "¿Puedo hacer deportes con brackets?",
+      "a4": "¡Sí! Recomendamos usar un protector bucal especial para ortodoncia durante deportes de contacto.",
+      "q5": "¿Cómo se limpian los dientes con brackets?",
+      "a5": "Cepilla tus dientes después de cada comida, usa enhebradores de hilo dental y evita alimentos muy pegajosos."
+    },
+    "cta": {
+      "tag": "Transforma tu Sonrisa",
+      "title": "Agenda tu Consulta de Ortodoncia en Dallas",
+      "desc": "Descubre lo fácil y accesible que es tener dientes derechos y saludables.",
+      "action": "Llama al (972) 484-5400 o reserva tu cita en 3234 Forest Lane, Dallas, TX.",
+      "items": [
+        "Evaluación completa de sonrisa y mordida",
+        "Radiografías panorámicas digitales",
+        "Planes con bajo enganche y cero interés",
+        "Atención bilingüe inglés y español"
+      ]
+    },
+    "sidebar": {
+      "title": "Más Servicios Dentales"
+    }
   }
-},
-"restoration": {
-  "hero": {
-    "tag": "Restauración Dental",
-    "title1": "Restaura Función y Belleza",
-    "title2": "de tu Sonrisa",
-    "desc": "La restauración dental devuelve fuerza, apariencia y función a tus dientes."
-  },
-
-  "section2": {
-    "tag": "Cuidado Integral",
-    "title": "Restauraciones Personalizadas",
-    "desc": "Tratamientos como coronas y rellenos reparan dientes dañados.",
-    "b1": "Restaura la masticación",
-    "b2": "Mejora la apariencia",
-    "b3": "Previene daños"
-  },
-
-  "section3": {
-    "tag": "Beneficios",
-    "title": "Comodidad y Confianza",
-    "desc": "Mejora la salud y apariencia dental.",
-    "l1": "Fortalece dientes",
-    "l2": "Reemplaza dientes perdidos",
-    "l3": "Mejora la función",
-    "l4": "Mejora la sonrisa",
-    "l5": "Previene problemas"
-  },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "braces": "Brackets",
-    "crowns": "Coronas Dentales",
-    "rootcanal": "Endodoncia",
-    "cleaning": "Limpieza Dental"
-  }
-},
-"gingivectomy": {
-  "hero": {
-    "tag": "Cirugía Periodontal",
-    "title1": "Gingivectomía",
-    "title2": "de Tejido Blando",
-    "desc": "Tratamiento avanzado para mejorar la salud y apariencia de las encías."
-  },
-
-  "section2": {
-    "tag": "Cuidado de Encías",
-    "title": "Tratamiento Preciso de Encías",
-    "desc": "La gingivectomía elimina tejido excesivo para mejorar la salud de las encías.",
-    "b1": "Reduce bolsas gingivales",
-    "b2": "Previene infecciones",
-    "b3": "Mejora higiene"
-  },
-
-  "section3": {
-    "tag": "Beneficios",
-    "title": "Encías Saludables y Mayor Comodidad",
-    "desc": "Elimina tejido enfermo y mejora la estética de la sonrisa.",
-    "l1": "Reduce inflamación",
-    "l2": "Disminuye bolsas profundas",
-    "l3": "Facilita limpieza",
-    "l4": "Mejora salud",
-    "l5": "Mejora la sonrisa"
-  },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "braces": "Brackets",
-    "crowns": "Coronas Dentales",
-    "rootcanal": "Endodoncia",
-    "cleaning": "Limpieza Dental"
-  }
-},
-"dentures": {
-  "hero": {
-    "tag": "Odontología Restauradora",
-    "title1": "Dentaduras Cómodas que",
-    "title2": "Restauran tu Sonrisa",
-    "desc": "Dentaduras de alta calidad diseñadas para mejorar la confianza y la función."
-  },
-
-  "section2": {
-    "tag": "Cuidado Dental",
-    "title": "Recupera Función y Confianza",
-    "desc": "Las dentaduras reemplazan dientes perdidos con comodidad y durabilidad.",
-    "b1": "Ajuste personalizado",
-    "b2": "Apariencia natural",
-    "b3": "Opciones accesibles"
-  },
-
-  "section3": {
-    "tag": "Beneficios",
-    "title": "Diseñadas para la Vida Diaria",
-    "desc": "Las dentaduras mejoran la capacidad de comer y hablar.",
-    "l1": "Reemplaza dientes",
-    "l2": "Mejora estructura facial",
-    "l3": "Mejora el habla",
-    "l4": "Más confianza",
-    "l5": "Solución económica"
-  },
-
-  "sidebar": {
-    "title": "Más Servicios",
-    "current": "Dentaduras",
-    "crowns": "Coronas Dentales",
-    "rootcanal": "Endodoncia",
-    "cleaning": "Limpieza Dental"
-  }
-}
 }

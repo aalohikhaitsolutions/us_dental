@@ -52,7 +52,7 @@ export default async function LocaleLayout({
 
   try {
     messages = (await import(`../messages/${locale}.json`)).default;
-  } catch (error) {
+  } catch {
     notFound();
   }
 

@@ -3,19 +3,19 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-export default function HeroSlider() {
-  const images: string[] = [
-    "/hero-5.png",
-    "/hero2.jpeg",
-    "/hero-333.jpg",
-    "/hero4.jpeg",
-  ];
+const IMAGES: string[] = [
+  "/hero-5.png",
+  "/hero2.jpeg",
+  "/hero-3.png",
+  "/hero4.jpeg",
+];
 
+export default function HeroSlider() {
   const [current, setCurrent] = useState<number>(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % images.length);
+      setCurrent((prev) => (prev + 1) % IMAGES.length);
     }, 5000);
 
     return () => clearInterval(interval);
@@ -25,7 +25,7 @@ export default function HeroSlider() {
     <div className="absolute inset-0 z-0 overflow-hidden">
       
       {/* Images */}
-      {images.map((img, index) => (
+      {IMAGES.map((img, index) => (
         <Image
   key={index}
   src={img}

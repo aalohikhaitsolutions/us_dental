@@ -1,24 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
-import { FaHeart, FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 import logo from "../../../public/dentallogo.png";
 import { MapPinIcon, PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 import { useTranslations } from "next-intl";
 import { useLocaleRouter } from "../utils/navigation";
 
 export default function Footer() {
-  const [isVisible, setIsVisible] = useState(false);
-  const { navigate, getLocale } = useLocaleRouter();
+  const { navigate } = useLocaleRouter();
   const t = useTranslations("navbar");
   const ft = useTranslations("footer");
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
-
-  const locale = getLocale();
 
   const scrollToSection = (id: string) => {
     navigate("");
@@ -37,7 +29,7 @@ export default function Footer() {
           {/* BRAND */}
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <Image src={logo} alt="Dallas Smiles" height={90} width={90} />
+              <Image src={logo} alt="Dallas Smiles" height={90} width={90} referrerPolicy="no-referrer" />
               <div>
                 <p className="text-2xl font-semibold">Dallas Smiles</p>
                 <p className="text-sm text-white/70">
@@ -132,12 +124,8 @@ export default function Footer() {
         </div>
 
         {/* BOTTOM BAR */}
-<div
-  className={`border-t border-white/10 mt-12 pt-6 transition-all duration-700 ${
-    isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
-  }`}
->
-  <div className="flex flex-col items-start gap-2">
+        <div className="border-t border-white/10 mt-12 pt-6">
+          <div className="flex flex-col items-start gap-2">
 
     {/* MAIN TEXT */}
     <p className="text-white/70 text-sm flex flex-wrap items-center gap-2">
@@ -146,8 +134,16 @@ export default function Footer() {
         Dallas Smiles Dental & Orthodontics
       </span>
       <span>|</span>
-      <span className="flex items-center gap-1">
-        {ft("made")} <FaHeart className="text-red-500" /> by Amplinovians
+      <span>
+        Developed and Maintained By{" "}
+        <a
+          href="https://aalohikhaitsolutions.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sky-300 hover:text-white underline underline-offset-2 transition-colors font-medium"
+        >
+          Aalohikha IT Solutions Pvt Ltd
+        </a>
       </span>
     </p>
 

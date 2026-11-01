@@ -46,7 +46,6 @@ export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
   const { switchLocale, navigate, getLocale } = useLocaleRouter();
-  const locale = getLocale();
 
   const scrollToSection = (id: string) => {
     navigate("");
@@ -55,13 +54,11 @@ export default function Navbar() {
     }, 100);
   };
 
-
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -87,12 +84,6 @@ export default function Navbar() {
     };
   }, [isMobileMenuOpen]);
 
-  useEffect(() => {
-    if (!isMobileMenuOpen) {
-      setIsMobileServicesOpen(false);
-    }
-  }, [isMobileMenuOpen]);
-
   const handleNavClick = (id: string) => {
     const locale = getLocale();
 
@@ -110,6 +101,7 @@ export default function Navbar() {
 
   const services = [
     { name: "Invisalign", path: "/services/invisalign" },
+    { name: "Braces", path: "/services/braces" },
     { name: "Crowns", path: "/services/crowns" },
     { name: "Deep Cleaning", path: "/services/deep-cleaning" },
     { name: "Extractions", path: "/services/extractions" },
