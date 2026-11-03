@@ -132,7 +132,7 @@ export default function CareersPage() {
 
           <a
             href="mailto:management@dallassmilesco.com"
-            className="inline-block bg-[#3B82F6] hover:bg-[#2563eb] text-white px-8 py-4 rounded-full text-lg font-semibold shadow-md transition hover:scale-105"
+            className="inline-block max-w-full break-all bg-[#3B82F6] hover:bg-[#2563eb] text-white px-5 sm:px-8 py-3 sm:py-4 rounded-full text-sm sm:text-lg font-semibold shadow-md transition hover:scale-105 text-center"
           >
             management@dallassmilesco.com
           </a>

@@ -20,8 +20,8 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-[#0A2540] text-white">
-      <div className="max-w-7xl mx-auto px-6 pt-16 pb-10">
+    <footer className="w-full max-w-full bg-[#0A2540] text-white overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-12 sm:pt-16 pb-10">
 
         {/* GRID */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
@@ -128,13 +128,15 @@ export default function Footer() {
           <div className="flex flex-col items-start gap-2">
 
     {/* MAIN TEXT */}
-    <p className="text-white/70 text-sm flex flex-wrap items-center gap-2">
-      © {new Date().getFullYear()}
-      <span className="font-semibold text-white">
-        Dallas Smiles Dental & Orthodontics
-      </span>
-      <span>|</span>
-      <span>
+    <div className="text-white/70 text-xs sm:text-sm flex flex-col sm:flex-row sm:items-center sm:flex-wrap gap-1 sm:gap-2">
+      <p>
+        © {new Date().getFullYear()}{" "}
+        <span className="font-semibold text-white">
+          Dallas Smiles Dental & Orthodontics
+        </span>
+      </p>
+      <span className="hidden sm:inline">|</span>
+      <p>
         Developed and Maintained By{" "}
         <a
           href="https://aalohikhaitsolutions.com/"
@@ -144,8 +146,8 @@ export default function Footer() {
         >
           Aalohikha IT Solutions Pvt Ltd
         </a>
-      </span>
-    </p>
+      </p>
+    </div>
 
     {/* TAGLINE BELOW (LEFT SIDE) */}
     <p className="text-white/50 text-xs">

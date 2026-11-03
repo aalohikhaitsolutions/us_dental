@@ -335,8 +335,8 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
 </section>
 
 {/* ================= FOUNDER INTRO ================= */}
-<section className="pt-10 pb-10 bg-white">
-  <div className="max-w-7xl mx-auto px-6 md:px-20 grid md:grid-cols-2 gap-12 items-center">
+<section className="pt-10 pb-10 bg-white overflow-hidden w-full max-w-full">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-20 grid md:grid-cols-2 gap-12 items-center">
 
     {/* LEFT CONTENT */}
     <div>
@@ -388,8 +388,8 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
 </section>
 
 {/* ================= ABOUT US SECTION ================= */}
-<section id="about" className="w-full bg-[#f1f6fd] pt-10 pb-10">
-  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<section id="about" className="w-full max-w-full bg-[#f1f6fd] pt-10 pb-10 overflow-hidden">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
     {/* LEFT SIDE - IMAGE GRID */}
     <div className="flex gap-6">
@@ -483,8 +483,8 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
 </section>
 
 {/* ================= INVISALIGN SECTION ================= */}
-<section className="w-full bg-white pt-10 pb-20 px-6">
-  <div className="max-w-7xl mx-auto px-6">
+<section className="w-full max-w-full bg-white pt-10 pb-20 px-4 sm:px-6 overflow-hidden">
+  <div className="max-w-7xl mx-auto px-2 sm:px-6">
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
@@ -556,8 +556,8 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
 </section>
 
 {/* ================= OUR SERVICES ================= */}
-<section id="services" className="pt-10 pb-20 bg-[#f1f6fd] relative z-40">
-  <div className="max-w-7xl mx-auto px-6">
+<section id="services" className="pt-10 pb-20 bg-[#f1f6fd] relative z-40 overflow-hidden w-full max-w-full">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
     {/* Header */}
     <div className="text-center mb-16">
@@ -669,7 +669,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
   {/* Overlay */}
   <div className="absolute inset-0 bg-black/20 z-0" />
 
-  <div className="relative z-10 w-full px-2">
+  <div className="relative z-10 w-full max-w-full px-2 overflow-hidden">
 
     {/* Heading */}
     <div className="text-center mb-10 sm:mb-14">
@@ -683,7 +683,7 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
     </div>
 
     {/* Marquee */}
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden w-full max-w-full">
       <div
         className="
           insurance-marquee
@@ -722,13 +722,13 @@ const sendEmail = async (e: FormEvent<HTMLFormElement>) => {
 </section>
 
 {/* ================= WHY CHOOSE US ================= */}
-<section id="why" className="bg-white py-16">
-  <div className="max-w-7xl mx-auto px-6">
+<section id="why" className="bg-white py-16 overflow-hidden">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6">
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
       {/* LEFT IMAGE */}
       <div className="relative">
-        <div className="absolute -top-6 -left-6 w-full h-full bg-blue-100 rounded-3xl"></div>
+        <div className="absolute -top-3 -left-3 sm:-top-6 sm:-left-6 w-full h-full bg-blue-100 rounded-3xl"></div>
 
         <div className="relative z-10 w-full aspect-[4/3]">
           <Image

@@ -77,10 +77,14 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = isMobileMenuOpen ? "hidden" : "auto";
+    if (isMobileMenuOpen) {
+      document.body.style.overflowY = "hidden";
+    } else {
+      document.body.style.overflowY = "";
+    }
 
     return () => {
-      document.body.style.overflow = "auto";
+      document.body.style.overflowY = "";
     };
   }, [isMobileMenuOpen]);
 
@@ -158,20 +162,20 @@ export default function Navbar() {
       {/* ================= TOP BAR ================= */}
       <div className="w-full bg-[#0A2540] text-white">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
-          <div className="flex items-center justify-between py-2 md:h-12 text-xs md:text-sm font-medium">
+          <div className="flex items-center justify-between py-2 md:h-12 text-xs md:text-sm font-medium gap-2">
 
             {/* Left: Address + Hours */}
-            <div className="flex items-center gap-4 md:gap-8">
+            <div className="flex items-center gap-2 md:gap-8 min-w-0 flex-1">
 
-              {/* Address (always visible) */}
+              {/* Address (always visible, gracefully truncates on mobile) */}
               <a
                 href="https://maps.app.goo.gl/c7LAa7PWotVtkvii7"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-sky-300 transition"
+                className="flex items-center gap-1.5 hover:text-sky-300 transition min-w-0 truncate"
               >
-                <MapPinIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
-                <span className="truncate">
+                <MapPinIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300 flex-shrink-0" />
+                <span className="truncate max-w-[130px] xs:max-w-[180px] sm:max-w-xs md:max-w-none">
                   3234 Forest Lane, Dallas, TX 75234
                 </span>
               </a>
@@ -186,32 +190,36 @@ export default function Navbar() {
 
             </div>
 
-            <div className="flex items-center gap-3 ml-4">
-              <button
-                onClick={() => switchLocale("en")}
-                className={`text-sm font-medium ${!pathname.startsWith("/es") ? "text-blue-400" : "text-white"
-                  }`}
-              >
-                EN
-              </button>
+            {/* Right: Language switch + Phone */}
+            <div className="flex items-center gap-2.5 sm:gap-4 flex-shrink-0">
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <button
+                  onClick={() => switchLocale("en")}
+                  className={`text-xs sm:text-sm font-medium px-1 py-0.5 rounded ${!pathname.startsWith("/es") ? "text-blue-400 font-bold" : "text-white/80"
+                    }`}
+                >
+                  EN
+                </button>
+                <span className="text-white/40">|</span>
+                <button
+                  onClick={() => switchLocale("es")}
+                  className={`text-xs sm:text-sm font-medium px-1 py-0.5 rounded ${pathname.startsWith("/es") ? "text-blue-400 font-bold" : "text-white/80"
+                    }`}
+                >
+                  ES
+                </button>
+              </div>
 
-              <button
-                onClick={() => switchLocale("es")}
-                className={`text-sm font-medium ${pathname.startsWith("/es") ? "text-blue-400" : "text-white"
-                  }`}
+              {/* Phone (always visible) */}
+              <a
+                href="tel:+19724845400"
+                className="flex items-center gap-1.5 font-semibold hover:text-sky-300 transition whitespace-nowrap"
               >
-                ES
-              </button>
+                <PhoneIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300 flex-shrink-0" />
+                <span className="hidden xs:inline sm:inline">(972) 484-5400</span>
+                <span className="xs:hidden sm:hidden">Call</span>
+              </a>
             </div>
-
-            {/* Phone (always visible) */}
-            <a
-              href="tel:+19724845400"
-              className="flex items-center gap-2 font-semibold hover:text-sky-300 transition whitespace-nowrap"
-            >
-              <PhoneIcon className="w-4 h-4 md:w-5 md:h-5 text-sky-300" />
-              <span>(972) 484-5400</span>
-            </a>
 
           </div>
         </div>
@@ -219,32 +227,39 @@ export default function Navbar() {
 
       {/* ================= MAIN NAV ================= */}
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex items-center h-24">
+        <div className="flex items-center justify-between h-20 md:h-24 gap-3">
 
           {/* LOGO */}
           <button
             onClick={() => navigate("")}
-            className="flex items-center gap-2"
+            className="flex items-center gap-2.5 min-w-0 text-left"
           >
-            <Image
-              src="/dentallogo.png"
-              alt="Dallas Smiles"
-              width={90}
-              height={90}
-            />
-            <div>
-              <h1 className="text-3xl font-semibold text-[#0A2540]">
+            <div className="relative w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 flex-shrink-0">
+              <Image
+                src="/dentallogo.png"
+                alt="Dallas Smiles"
+                fill
+                sizes="(max-width: 640px) 48px, (max-width: 768px) 64px, 80px"
+                className="object-contain"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+            <div className="min-w-0">
+              <h1 className="text-lg sm:text-2xl md:text-3xl font-semibold text-[#0A2540] truncate leading-tight">
                 Dallas Smiles
               </h1>
-              <p className="text-sm uppercase text-gray-500">
+              <p className="text-[10px] sm:text-xs md:text-sm uppercase text-gray-500 truncate tracking-wide">
                 Dental & Orthodontics
               </p>
             </div>
           </button>
 
-          <div className="ml-auto md:hidden text-gray-900">
-            <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-
+          <div className="ml-auto md:hidden text-gray-900 flex-shrink-0">
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="p-2 text-2xl focus:outline-none"
+              aria-label="Toggle navigation menu"
+            >
               ☰
             </button>
           </div>

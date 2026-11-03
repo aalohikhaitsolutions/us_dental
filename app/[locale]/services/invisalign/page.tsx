@@ -95,7 +95,7 @@ export default async function InvisalignPage({
   const procedureName = "Invisalign® Clear Aligners in Dallas, TX";
 
   return (
-    <div className="w-full bg-white">
+    <div className="w-full max-w-full bg-white overflow-x-hidden">
       <ServiceJsonLd
         procedureName={procedureName}
         description={t("hero.p1")}
@@ -105,7 +105,7 @@ export default async function InvisalignPage({
       />
 
       {/* ================= HERO ================= */}
-      <section className="relative py-24">
+      <section className="relative py-16 sm:py-24 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/invisalignhero.jpg')" }}

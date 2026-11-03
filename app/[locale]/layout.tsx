@@ -57,13 +57,13 @@ export default async function LocaleLayout({
   }
 
   return (
-  
-      <NextIntlClientProvider locale={locale} messages={messages}>
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      <div className="w-full max-w-full overflow-x-hidden min-h-screen flex flex-col">
         <Navbar />
-        {children}
+        <main className="w-full max-w-full flex-grow overflow-x-hidden">{children}</main>
         <Footer />
         <FloatingButtons /> 
-      </NextIntlClientProvider>
-    
-);
+      </div>
+    </NextIntlClientProvider>
+  );
 }

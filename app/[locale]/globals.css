@@ -89,11 +89,21 @@ body {
   }
 }
 
-/* Body reset */
+/* Body and HTML reset - prevent mobile horizontal scrollbar */
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   @apply bg-white text-gray-900 font-sans;
   margin: 0;
   padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
 }
 
 /* NAV LINKS */
